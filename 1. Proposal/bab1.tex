@@ -1,0 +1,43 @@
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+
+\chapter{PENDAHULUAN}
+
+\section{Latar Belakang}
+Komunikasi antar manusia dengan manusia merupakan cara penyampaian informasi yang efektif untuk saling terhubung dengan lingkungan sekitar. Cara berkomunikasi yang paling sering dilakukan oleh manusia adalah dengan menggunakan media suara atau ucapan, selain itu manusia juga memiliki media lainnya untuk berkomunikasi dengan menggunakan isyarat dan tulisan. Dengan adanya suara pula dapat membantu sejumlah besar orang yang memiliki keterbatasan penglihatan, sehingga sebagai pengganti indra penglihatan mereka mengandalkan atau mempertajam indra pendengaran mereka. Menurut \textit{World Health Organization} dalam laporannya, secara global setidaknya 2,2 miliar orang memiliki gangguan penglihatan atau kebutaan, di mana setidaknya 1 miliar di antaranya memiliki gangguan penglihatan yang dapat dicegah atau belum ditangani \citep{who2019}. Karena atas dasar kemudahan dalam berkomunikasi, teknologi yang berkaitan dengan suara telah banyak dikembangkan. Kemudahan yang dimaksudkan adalah kemudahan manusia dalam berkomunikasi dengan alat teknologi, jadi alat teknologi tersebut dapat mengerti ucapan yang dikeluarkan oleh manusia. Teknologi ini juga dapat membantu orang–orang dengan gangguan penglihatan dalam berbagai aspek kehidupannya.
+
+\par \textit{Speech recognition} merupakan salah satu dari bentuk \textit{Artificial Intelligence} atau AI. \textit{Speech recognition} atau \textit{Automatic Speech Recognition} (ASR) merupakan suatu pengembangan teknologi pada komputer agar dapat mengenali dan memahami kata dan frasa yang diucapkan oleh manusia. Kata dan frasa yang diucapkan tersebut akan didigitalisasikan dengan cara mengubah gelombang suara yang diterima menjadi suatu format yang dapat dibaca oleh alat teknologi. Alat teknologi yang berhasil membaca masukan kata dan frasa tersebut dapat mengidentifikasi serta memahami perintah yang diminta merupakan suatu konsep dari \textit{voice command}. Pengenalan ucapan memiliki perbedaan dengan sistem \textit{Text to Speech} (TTS), dimana pada TTS merupakan suatu sistem yang dapat mengubah suatu teks menjadi suara secara otomatis melalui transkripsi grafem-ke-fonem untuk kalimat yang diucapkan. Semakin berjalannya waktu, penelitian terkait dengan \textit{speech recognition} dan \textit{text to speech} semakin berkembang pula. Saat ini penerapan \textit{speech recognition} yang terkenal adalah \textit{Google Assistant} yang dikembangkan oleh perusahaan Google. 
+
+\par Ada dua fase yang dilibatkan dalam sistem ASR, yang pertama yaitu fase pelatihan dan yang kedua fase pengujian \citep{ouisaadane2020}. Untuk mendapatkan fitur-fitur yang berbeda seperti halnya konfigurasi kekuatan, nada dan saluran vokal dari sinyal suara. Informasi yang akurat dari sinyal ucapan yang direkam dan harus lebih menunjukkan kekuatan atau perbedaan terhadap \textit{noise} merupakan vektor fitur yang ideal \citep{dua2018}. Ekstraksi fitur dilakukan dengan berbagai teknik, namun para peneliti telah banyak menggunakan \textit{Mel Frequency Cepstrum Coefficients} (MFCC) sebagai metode yang stabil dan terbukti mengekstrak karakteristik yang berbeda dari sinyal suara masukan \citep{dua2018}. 
+
+\par Selain ekstraksi fitur, model akustik juga dilakukan untuk mengoptimalkan hasil dari \textit{speech recognition} tersebut. Model akustik merupakan model yang mewakili hubungan antara sinyal audio dan fonem atau unit linguistik yang membentuk ucapan. Model akustik dibuat dengan mengambil database suara yang besar atau yang disebut dengan \textit{speech corpus}. Model akustik juga menggunakan algoritma pelatihan khusus untuk membuat representasi statistik dari tiap fonem. \textit{Gaussian Mixture Models} (GMM) banyak digunakan untuk menentukan seberapa baik setiap status dari setiap \textit{Hidden Markov Model} (HMM) sesuai dengan bingkai atau jendela pendek bingkai koefisien yang mewakili masukan akustik \citep{hinton2012}. Namun \textit{Deep Neural Networks} (DNN) yang memiliki banyak \textit{hidden layers} dan telah dilatih dengan metode baru terbukti mengungguli GMM dalam berbagai macam tolak ukur pengenalan ucapan \citep{hinton2012}.
+
+\par  Hal-hal yang telah dijabarkan di atas kemudian melatar belakangi penelitian ini. Penelitian ini akan membangun sistem pengenalan suara dengan menggunakan MFCC sebagai ekstraksi fitur serta DNN sebagai model akustik yang akan dipasangkan pada aplikasi \textit{route guidance} untuk pengguna tuna netra berbasis \textit{Indoor Positioning System} (IPS). Sejak tahun 2019 Tim jurusan Informatika Universitas Syiah Kuala mengembangkan aplikasi berbasis IPS dengan menggunakan suatu teknologi yang memastikan bahwa pengguna berada di dalam ruangan menggunakan \textit{Bluetooth Low Energy} (BLE) \citep{puspitasari2020}. Sehingga aplikasi \textit{route guidance} yang akan dipasangkan sistem pengenalan suara ini merupakan pengembangan lebih lanjut dari penelitian \textit{Indoor Positioning System} menggunakan BLE. Pada proses implementasinya akan dilakukan di Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam yang nantinya akan dipasang alat transmisi BLE yang disebut \textit{Beacon}.
+
+\fancyhf{} 
+\fancyfoot[R]{\thepage}
+
+\section{Rumusan Masalah}
+Berdasarkan latar belakang yang telah dipaparkan sebelumnya, maka masalah yang akan dikaji pada penelitian ini adalah:
+\begin{enumerate}
+	\item Bagaimana membangun model sistem pengenalan suara yang dapat digunakan untuk aplikasi \textit{route guidance} berbasis \textit{indoor positioning}?
+	\item Bagaimana tingkat akurasi yang dihasilkan dari pembangunan model sistem pengenalan suara?
+\end{enumerate}
+
+\section{Tujuan Penelitian}
+Berdasarkan rumusan masalah yang telah disebutkan sebelumnya, maka dapat dipaparkan tujuan dari penelitian ini adalah sebagai berikut: 
+\begin{enumerate}
+	\item Membangun model sistem pengenalan suara untuk digunakan pada aplikasi \textit{route guidance} berbasis \textit{indoor positioning}.
+	\item Menganalisis tingkat akurasi yang dihasilkan dari pembangunan model sistem pengenalan suara.
+\end{enumerate}
+
+
+\section{Manfaat Penelitian}
+Setelah penelitian ini dilakukan, akan didapatkan hasil dari model \textit{speech to text} sistem pengenalan suara yang terbaik akan dipasangkan pada aplikasi \textit{route guidance} berbasis \textit{indoor positioning}.
+
+% Baris ini digunakan untuk membantu dalam melakukan sitasi
+% Karena diapit dengan comment, maka baris ini akan diabaikan
+% oleh compiler LaTeX.
+\begin{comment}
+\bibliography{daftar-pustaka}
+\end{comment}
