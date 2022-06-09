@@ -1,8 +1,8 @@
-PWD d:/proposal/Proposal-latex
+PWD d:/TA/Thesis-NavigationSystem/1. Proposal
 INPUT c:/texlive/2022/texmf.cnf
 INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/proposal/Proposal-latex/proposal.tex
+INPUT d:/TA/Thesis-NavigationSystem/1. Proposal/proposal.tex
 OUTPUT proposal.log
 INPUT ./jifproposal-yudaaditya.cls
 INPUT ./jifproposal-yudaaditya.cls
