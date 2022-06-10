@@ -1,0 +1,261 @@
+%
+% Template Laporan Tugas Akhir Jurusan Informatika Unsyiah 
+%
+% @author  Kurnia Saputra 
+% @version 1.0
+% @since 03.02.2016
+%
+% Template ini telah disesuaikan dengan aturan penulisan tugas akhir yang terdapat pada dokumen Panduan Tugas Akhir FMIPA Unsyiah tahun 2016.
+%
+
+
+% Template pembuatan naskah tugas akhir.
+\documentclass{jifproposal-yudaaditya}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%\usepackage[a4paper,left=14cm,right=3cm,top=3cm,bottom=5cm]{geometry}
+
+% Daftar pemenggalan suku kata dan istilah dalam LaTeX
+\include{hype.indonesia}
+
+%buat muter
+\usepackage{adjustbox}
+
+% untuk rumus
+\usepackage{amsmath}
+
+% Untuk prefiks pada daftar gambar dan tabel
+\usepackage[titles]{tocloft}
+\renewcommand\cftfigpresnum{Gambar\  }
+\renewcommand\cfttabpresnum{Tabel\   }
+
+\newcommand{\listappendicesname}{DAFTAR LAMPIRAN}
+\newlistof{appendices}{apc}{\listappendicesname}
+\newcommand{\appendices}[1]{\addcontentsline{apc}{appendices}{#1}}
+\newcommand{\newappendix}[1]{\section*{#1}\appendices{#1}}
+
+% Untuk hyperlink dan table of content
+\usepackage[hidelinks]{hyperref}
+\renewcommand\UrlFont{\rmfamily\itshape} %it's me!
+\newlength{\mylenf}
+\settowidth{\mylenf}{\cftfigpresnum}
+\setlength{\cftfignumwidth}{\dimexpr\mylenf+2em}
+\setlength{\cfttabnumwidth}{\dimexpr\mylenf+2em}
+
+% Agar ada tulisan BAB pada TOC
+\renewcommand\cftchappresnum{BAB } 
+  \cftsetindents{chapter}{0em}{4.5em} %indenting bab
+  \cftsetindents{section}{4.5em}{2em}
+  \cftsetindents{subsection}{6.5em}{3em}
+ 
+% Agar di TOC setiap angka bab/subbab diakhiri titik
+
+\renewcommand{\cftsecaftersnum}{.}
+\renewcommand{\cftsubsecaftersnum}{.}
+
+% Agar setiap angka bab/subbab diakhiri titik
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+
+% Agar disetiap caption table dan gambar diakhiri titik
+\usepackage[labelsep=period]{caption}
+
+% Untuk Bold Face pada Keterangan Gambar
+\usepackage[labelfont=bf]{caption}
+
+% Untuk caption dan subcaption
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+% Agar bisa menggunakan warna LaTeX
+\usepackage{color} %it's me!
+
+% Agar table yang panjang bisa cut ke next page    %byRennyAdr
+\usepackage{longtable}
+
+% Untuk page landscape        %byRennyAdr
+\usepackage{pdflscape}
+\usepackage{lscape}
+
+% Agar bisa bikin code snippet
+\usepackage{listings, lstautogobble} %it's me!
+
+% untuk shadow gambar     %tomy
+\usepackage{fancybox, graphicx}
+
+
+% Warna pada code snippet Java
+\definecolor{javared}{rgb}{0.6,0,0} % untuk strings
+\definecolor{javagreen}{rgb}{0.25,0.5,0.35} % untuk comments
+\definecolor{javapurple}{rgb}{0.5,0,0.35} % untuk keywords
+\definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % untuk javadoc
+
+% Warna pada code snippet C/C++
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mygreen}{rgb}{0,0.8,0.6}
+\definecolor{myorange}{rgb}{1.0,0.4,0}
+
+% menambah keyword pada Android XML - tomy
+\lstdefinelanguage[Android]{XML}[]{XML} {
+	morekeywords={
+		android:background,
+		android:clickable,
+		android:contentDescription,
+		android:iconifiedByDefault,
+		android:id,
+		android:layout_alignParentBottom,
+		android:layout_alignParentRight,
+		android:layout_height,
+		android:layout_marginBottom,
+		android:layout_marginLeft,
+		android:layout_marginRight,
+		android:layout_marginStart,
+		android:layout_weight,
+		android:layout_width,
+		android:layout_below,
+		android:listSelector,
+		android:orientation,
+		android:paddingLeft,
+		android:scaleType,
+		android:src,
+		android:text,
+		android:textAppearance,
+		android:textSize,
+		android:textStyle,
+		tools:context,
+		xmlns:android,
+		xmlns:tools,
+		xmlns:app,
+		android:layout_marginTop,
+		android:layout_centerHorizontal,
+		android:layout_centerVertical,
+		android:drawableLeft,
+		android:drawablePadding,
+		android:hint,
+		android:textColor,
+		android:inputType,		
+	}     
+}
+
+% warna code snippet Android XML - tomy
+\definecolor{AndroidXMLIdentifierstyle}{HTML}{ffba00}
+\definecolor{AndroidXMLComment}{HTML}{645FCA}
+\definecolor{AndroidXMLString}{HTML}{228b22}
+\definecolor{AndroidXMLKeyword}{HTML}{7F007F}
+
+% Sampul Depan
+\include{sampul-depan}
+
+% Awal dokumen
+\usepackage{fancyhdr}
+\usepackage{rotating}
+% Untuk prefiks pada Daftar Program   
+% byRennyAdr
+\makeatletter
+\begingroup\let\newcounter\@gobble\let\setcounter\@gobbletwo
+\globaldefs\@ne \let\c@loldepth\@ne
+\newlistof{listings}{lol}{\lstlistlistingname}
+\endgroup
+\let\l@lstlisting\l@listings
+\AtBeginDocument{\addtocontents{lol}{\protect\addvspace{10\p@}}}
+\makeatother
+\renewcommand{\lstlistoflistings}{\listoflistings}
+\renewcommand\cftlistingspresnum{Program~}
+\cftsetindents{listings}{1.5em}{7em}
+
+%tab didaftar pustaka -Indah
+\setlength{\bibhang}{30pt}
+
+%split rumus -Indah
+\usepackage{amsmath}
+
+\begin{document}
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+
+
+\cover
+
+\approvalpage
+
+%-----------------------------------------------------------------
+% Disini kata pengantar
+%-----------------------------------------------------------------
+%\include{abstrak-indonesia} %berikan comment jika proposal
+
+%\include{abstrak-english} %berikan comment jika proposal
+
+\include{kata-pengantar}
+
+
+
+%-----------------------------------------------------------------
+% TOC menggunakan single space
+%-----------------------------------------------------------------
+
+\begin{singlespace}
+	\tableofcontents
+\end{singlespace}
+
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+%\listoftables
+%\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+
+%\renewcommand{\lstlistlistingname}{DAFTAR PROGRAM}
+%\lstlistoflistings
+%\addcontentsline{toc}{chapter}{DAFTAR PROGRAM}
+
+%\listofappendices
+%\addcontentsline{toc}{chapter}{DAFTAR LAMPIRAN}
+
+%-----------------------------------------------------------------
+% Daftar Singkatan 
+%-----------------------------------------------------------------
+\include{daftar-singkatan}
+
+% Caption untuk code snippet. it's me!
+\renewcommand{\thelstlisting}{\arabic{chapter}.\arabic{lstlisting}}
+\renewcommand*\lstlistingname{Program}
+
+%-----------------------------------------------------------------
+% Disini awal masukan untuk Bab
+%-----------------------------------------------------------------
+\begin{onehalfspace}
+
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+\pagenumbering{arabic}
+
+
+\include{bab1}
+
+\include{bab2}
+
+\include{bab3}
+
+%\include{bab4}
+
+%\include{bab5}
+
+\begin{spacing}{1}
+\bibliography{daftar-pustaka}
+\end{spacing}
+\addcontentsline{toc}{chapter}{DAFTAR KEPUSTAKAAN}
+%-----------------------------------------------------------------
+% Disini akhir masukan Daftar Pustaka
+%-----------------------------------------------------------------
+
+%\include{markLampiran}
+\include{lampiran}
+\addcontentsline{toc}{chapter}{LAMPIRAN} %daftar lampiran
+
+\end{onehalfspace}
+
+\end{document}
