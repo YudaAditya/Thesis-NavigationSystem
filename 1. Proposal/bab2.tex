@@ -15,18 +15,99 @@
 
 \par Pada teknologi IPS memiliki beberapa pendekatan yaitu, menentukan posisi dengan berbasis WiFi (WPS), menentukan posisi berbasis \textit{Bluetooth Low Energy} (BLE), menentukan posisi berbasis Identifikasi Frekuensi Radio (RFID) dan menentukan posisi dengan menggunakan teknologi \textit{Ultra-Wide Band} (UWB) atau \textit{Visible Light Communication} (VLC) \citep{canton2017bluetooth}. IPS juga dapat dipadukan dengan kemampuan \textit{route guidance} atau pemandu rute serta didampingi dengan sistem pemandu dengan suara.
 
-\begin{figure}[H]
-\centering
-\shadowbox
-{\includegraphics [width = 10cm, height= 5cm]{gambar/sr_arsitektur}}
-\caption{Arsitektur ASR \citep{aggarwal2012}}.
-\label{sr_arsitektur}
-\end{figure}
 
 \section{\textit{Route Guidance System / Wayfinding and Navigation System}}
 Menurut \citep{karimi2015indoor}, \textit{Wayfinding and navigation system} memiliki 2 makna, yaitu merupakan perangkat khusus yang menyediakan solusi pencarian jalan dan navigasi tanpa memerlukan tautan komunikasi atau koneksi ke sistem lain dan tanpa penyedia pihak ketiga. Makna ke dua adalah referensi layanan melalui \textit{smartphone} yang menyediakan solusi pencarian arah dan navigasi hanya melalui tautan komunikasi kabel-nirkabel ke sistem jarak jauh yang didukung oleh penyedia pihak ketiga. Dari perspektif komputasi, \textit{Wayfinding and navigation system} adalah platform terpusat, terdistribusi, dan didistribusikan melalui klien (pada \textit{smartphone}) dan server yang dikelola oleh penyedia layanan.
 
+\section{Kalman Filter}
+Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komputasi yang efisien untuk memperkirakan keadaan suatu proses, dengan cara meminimalkan rata-rata kesalahan kuadrat. Filter ini sangat berguna dalam beberapa aspek: mendukung estimasi-estimasi keadaan lampau, sekarang dan masa depan, dan dapat melakukannya bahkan ketika sifat pasti dari sistem yang dimodelkan tidak diketahui(Welah, 2021). Kalman Filter sendiri merupakan algoritma yang menggunakan serangkaian data yang diamati dari waktu ke waktu, yang mengandung noise dan ketidakakuratan lainnya, untuk memperkirakan variabel yang tidak diketahui dengan lebih akurat. Ini diusulkan oleh R. E. Kalman pada tahun 1960, dan menjadi pendekatan standar untuk estimasi yang optimal. Karena memiliki keunggulan waktu secara realtime, cepat, efisien, dan anti-interferensi yang kuat, Kalman filter telah banyak diterapkan di bidang perhitungan orbit, pelacakan target dan navigasi (Qiang dkk., 2015).
 
+\section{\textit{Fingerprinting}}
+Fingerprinting adalah teknik untuk menentukan lokasi dengan pemanfaatan Radio Signal Strength (RSS) dari suatu Access Point (AP). Menurut Yudha dkk. (2018), metode ini memperhitungkan atenuasi karena kekuatan sinyal sering berubah-ubah. Setiap titik reverensi dikumpulkan yang mengintegrasikan adanya penghalang antara transmitter dan receiver.
+
+\par Transmitter untuk teknologi IPS yang ditunjukan untuk WLAN disebut dengan AP, sedangkan transmitter untuk teknologi IPS yang ditunjukan untuk Bluetooth Low Energy disebut dengan Beacon (Puspitasari, 2020). Metode fingerprinting berbasis IPS ini terdiri dari 2 tahap. Tahap pertama adalah tahap pembelajaran (offline), di mana lokasi fingerprints itu sendiri diperoleh dengan cara mengumpulkan RSSI dalam satuan desibel (dB) yang dipancarkan dari masing-masing AP. Kemudian gelombang radio yang dipancarkan AP yang diletakkan pada posisi yang telah ditentukan sebelumnya ditangkap oleh smartphone yang terintegrasi dengan WLAN ataupun Bluetooth.
+
+\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (online), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya (Subhan dkk., 2011). Menurut Yudha dkk. (2018), metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada Gambar x.x.
+
+\begin{figure}[H]
+\centering
+\shadowbox
+{\includegraphics [width = 10cm, height= 5cm]{gambar/sr_arsitektur}}
+\caption{Ilustrasi Metode \textit{Fingerprinting} \citep{aggarwal2012}}.
+\label{sr_arsitektur}
+\end{figure}
+
+\section{\textit{Received Signal Strength Indicator} (RSSI)}
+Received Signal Strength Indicator atau RSSI adalah metode pengukuran jarak yang memperoleh sinyal dari transmitter seperti Bluetooth untuk menentukan distance-loss model, dan kemudian memperkirakan posisi pengguna melalui beberapa algoritma (Li dkk, 2018). Menurut Puspitasari (2020) Positioning System menghasilkan data yang penting untuk menghitung lokasi pengguna. Time of Arrival (TOA), Time Difference of Arrival (TDOA), Angle of Arrival (AOA). RSSI memperkirakan jarak node yang belum diketahui ke referensi node dari beberapa kumpulan unit perhitungan dengan menggunakan atenuasi kekuatan sinyal (signal strength) yang dipancarkan oleh transmitter (Puspitasari, 2020).
+
+\par Nilai RSSI didefinisikan dengan bilangan negatif. Semakin tinggi bilangan negatifnya, maka kekuatan sinyal tersebut tergolong lemah. Namun apabila nilainya mendekati 0, maka sinyal tersebut tergolong kuat. RSSI dapat digolongkan menjadi 5 kategori kekuatan sinyal seperti pada Tabel x.x.
+
+
+\section{\textit{Bluetooth Low Energy)} (BLE)}
+Teknologi Bluetooth dikembangkan oleh Ericsson pada tahun 1994 dengan kegunaan sebagai standar komunikasi nirkabel untuk bertukar data dalam jarak dekat (Kaluža, Beg, dab Vukelić, 2017). Teknologi Bluetooth memiliki fitur utama yaitu memiliki biaya yang rendah, konsumsi daya rendah, jangkauan kecil, memiliki ketahanan dan penggunaan secara global. Kecepatan transfer data yang diberikan oleh Bluetooth sebesar 1 Mbit/s dan menggunakan pita frekuensi tanpa izin 2,4 hingga 2,485 GHz (Kaluža, Beg, dan Vukelić, 2017).
+
+\par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi Bluetooth 4.0, dimana meliputi : Bluetooth Klasik, Bluetooth dengan kecepatan tinggi, dan protokol Bluetooth hemat energi. Karakteristik dari Bluetooth Low Energy (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer (Kaluža, Beg, dan Vukelić, 2017).
+
+
+
+\section{\textit{Beacon}}
+BLE memancarkan sinyal dari alat transmitter yang beroperasi menggunakan baterai. Alat transmitter tersebut disebut dengan Beacon. Beacon merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan (Puspitasari, 2020). Setiap perangkat smartphone dan tablet yang mendeteksi sinyal dari Beacon, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. Beacon Bluetooth mengubah pengalaman menggunakan smartphone untuk bepergian, berbelanja, bekerja, dan bermain. (Kaluža, Beg, dan Vukelić, 2017)
+
+\section{\textit{Speech Recognition}}
+Speech Recognition adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai Automatic Speech Recognition (ASR) (Azizah, 2016). Speech Recognition merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti smart home appliances, personal assistants, atau smartphone. ASR Juga berguna untuk general transcription, contohnya untuk membuat captions secara otomatis untuk audio atau video (mentranskripsikan film atau video atau live discussions) (Daniel & James, 2020). Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang Automatic Speech Recognition. serta speech synthesis atau text-to-speech (TTS) (Daniel & James, 2020).
+
+\section{\textit{Text-to-Speech }(TTS)}
+Speech Syntesis atau text-to-speech merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS memilik berbagai macam aplikasi. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis, seperti mendiang Steven Hawking seorang ahli astrofisika berbicara dengan memanipulasi sistem TTS (Daniel & James, 2020).
+
+\section{KALDI \textit{Toolkit}}
+Kaldi adalah toolkit open-source untuk speech recognition, Kaldi ditulis dalam bahasa C++ dan di bawah lisensi Apache v2.0, Kaldi bergantung dengan library finite-state transducers (menggunakan OpenFst) serta library aljabar linier ekstensif menggunakan "Basic Linear Algebra Subroutines" (BLAS) dan "Linear Algebra PACKage" (LAPACK) (Povey dkk., 2011). Pada penelitian ini akan digunakan model yang dihasilkan oleh Kaldi untuk membangun model yang akan digunakan pada VOSK API.
+
+
+\section{VOSK API}
+Vosk api merupakan toolkit untuk speech recognition, di mana memiliki beberapa kelebihan, yaitu (Alpha Cephei, 2021):
+\begin{enumerate}
+\item Memiliki 19 lebih bahasa dan dialek yang didukung vosk.
+\item Vosk api merupakan toolkit speech recognition yang bisa digunakan secara offline, yang dapat digunakan pada Raspberry Pi, Android, iOS.
+\item Kemudahan untuk menginstalasi vosk dengan menggunakan pip3 install vosk.
+\item Model yang portabel pada masing-masing bahasa sebesar 50Mb, namun ada beberapa model server yang lebih besar pula.
+\item Menyediakan streaming API untuk pengalaman pengguna terbaik.
+\item Memiliki beberapa paket bahasa pemograman yang berbeda-beda, seperti java, csharp, javascript dll.
+\item Untuk akurasi terbaik dapat memungkinkan konfigurasi ulang kosakata dengan cepat.
+\item Mendukung identifikasi pembicara selain dengan speech recognition yang sederhana.
+
+\end{enumerate}
+
+\section{Android}
+Android merupakan suatu software (perangkat lunak) yang digunakan pada mobile device(perangkat berjalan)yang meliputi sistem operasi, middleware,dan aplikasi inti. Android Standart Development Kit (SDK) menyediakan alat dan Application Programming Interface(API) yang diperlukan untuk memulai pengembangan aplikasi pada platform Android menggunakan bahasa pemrograman Java, yaitu kode Java yang terkompilasi dengan data dan file resources yang dibutuhkan aplikasi dan digabungkan oleh app tools menjadi paket Android. File tersebut ditandai dengan ekstensi .apk. File inilah yang didistribusikan sebagai aplikasi dan dipasang pada perangkat mobile (Siddik, 2018).
+
+\par Menurut (Shaheen dkk., 2017). Ada 4 jenis komponen aplikasi. Setiap jenis memiliki tujuan yang berbeda dan memiliki siklus proses yang berbeda yang menentukan bagaimana komponen di create dan di destroy. Berikut adalah ke 4 jenis komponen tersebut:
+
+\begin{enumerate}
+\item Activities, merupakan sebuah activity merepresentasikan tampilan aplikasi kepada pengguna (user interface).
+\item Service, merupakan komponen yang berjalan pada background untuk menjalankan operasi atau proses yang tidak memiliki user interface.
+\item Content Providers, merupakan komponen yang menangani data antar aplikasi.
+\item Broadcast Receivers, merupakan komponen yang bertanggung jawab atas menerima serta menyampaikan informasi atau notifikasi.
+\end{enumerate}
+\section{Android Studio}
+Android Studio merupakan Integrated Development Environtment (IDE) untuk pengembangan platform Android. Android Studio diumumkan pada tanggal 16 Mei 2013 di Google I/O Conference. Android Studio dapat digunakan secara gratis di bawah pengawasan Apache License 2.0. Android Studio merupakan kolaborasi antara JetBrains dan Google. Android Studio mirip dengan Eclipse yang disertai dengan ADT Plugin (Android Development Tools)(Craig, 2015).
+
+\par Fitur-fitur Android Studio menurut (Puspitasari, 2020) adalah sebagian berikut:
+\begin{itemize}
+\item Proyek berbasis pada Gradle Build.
+\item Refactory dan perbaikan bug yang cepat.
+\item Tools baru yang bernama "Lint" diklaim dapat memonitor kecepatan, kegunaan, serta kompatibilitas aplikasi dengan cepat.
+\item Mendukung Proguard and App-signing untuk keamanan.
+\item Memiliki GUI aplikasi Android lebih mudah.
+\item Didukung oleh Google Cloud Platform, sehingga lebih mudah mengintegrasi Google Cloud Messaging and Application Engine untuk setiap aplikasi yang dikembangkan.
+
+\end{itemize}
+\section{SCRUM}
+
+\section{\textit{Black Box Testing}}
+
+\section{\textit{Usability Testing}}
+
+\section{\textit{System Usability Scale }(SUS)}
 
 \section{Ekstraksi Fitur}
 Salah satu bagian penting dalam proses pengenalan ucapan adalah ekstraksi fitur. Dengan adanya ekstraksi fitur, mesin pengenalan ucapan dapat membedakan antara satu ucapan dengan ucapan lainnya \citep{gupta2016}. Ekstraksi fitur memiliki fungsi untuk menghapus informasi yang berlebihan dan tidak diinginkan dengan cara mendeteksi sekumpulan variabel dari sinyal suara yang dikorelasikan secara akustik, variabel tersebut disebut dengan fitur \citep{dua2018}. Ekstraksi fitur yang paling sering digunakan untuk pengolahan suara adalah Metode \textit{Mel-Frequency Cepstral Coefficients} (MFCC), karena metode tersebut dapat mempresentasikan sinyal dengan baik \citep{umar2019}.
