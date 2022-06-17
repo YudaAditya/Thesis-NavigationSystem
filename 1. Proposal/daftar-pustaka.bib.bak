@@ -238,4 +238,34 @@
   year={2018},
   publisher={Multidisciplinary Digital Publishing Institute}
 }
+
+@article{zafari2019survey,
+  title={A survey of indoor localization systems and technologies},
+  author={Zafari, Faheem and Gkelias, Athanasios and Leung, Kin K},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={21},
+  number={3},
+  pages={2568--2599},
+  year={2019},
+  publisher={IEEE}
+}
+
+@article{canton2017bluetooth,
+  title={A bluetooth low energy indoor positioning system with channel diversity, weighted trilateration and kalman filtering},
+  author={Cant{\'o}n Paterna, Vicente and Calveras Auge, Anna and Paradells Aspas, Josep and Perez Bullones, Maria Alejandra},
+  journal={Sensors},
+  volume={17},
+  number={12},
+  pages={2927},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@book{karimi2015indoor,
+  title={Indoor wayfinding and navigation},
+  author={Karimi, Hassan A},
+  year={2015},
+  publisher={CRC Press}
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

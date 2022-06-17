@@ -1,0 +1,148 @@
+\begin{thebibliography}{}
+
+\bibitem[Aggarwal dan Dave, 2012]{aggarwal2012}
+Aggarwal, R.~K. dan Dave, M. (2012).
+\newblock Integration of multiple acoustic and language models for improved
+  hindi speech recognition system.
+\newblock {\em International Journal of Speech Technology}, 15(2):165--180.
+
+\bibitem[Brena dkk., 2017]{brena2017evolution}
+Brena, R.~F., Garc{\'\i}a-V{\'a}zquez, J.~P., Galv{\'a}n-Tejada, C.~E.,
+  Mu{\~n}oz-Rodriguez, D., Vargas-Rosales, C., dan Fangmeyer, J. (2017).
+\newblock Evolution of indoor positioning technologies: A survey.
+\newblock {\em Journal of Sensors}, 2017.
+
+\bibitem[Cant{\'o}n~Paterna dkk., 2017a]{canton2017bluetooth}
+Cant{\'o}n~Paterna, V., Calveras~Auge, A., Paradells~Aspas, J., dan
+  Perez~Bullones, M.~A. (2017a).
+\newblock A bluetooth low energy indoor positioning system with channel
+  diversity, weighted trilateration and kalman filtering.
+\newblock {\em Sensors}, 17(12):2927.
+
+\bibitem[Cant{\'o}n~Paterna dkk., 2017b]{canton2017}
+Cant{\'o}n~Paterna, V., Calveras~Auge, A., Paradells~Aspas, J., dan
+  Perez~Bullones, M.~A. (2017b).
+\newblock A bluetooth low energy indoor positioning system with channel
+  diversity, weighted trilateration and kalman filtering.
+\newblock {\em Sensors}, 17(12):2927.
+
+\bibitem[Dua dkk., 2018]{dua2018}
+Dua, M., Aggarwal, R.~K., dan Biswas, M. (2018).
+\newblock Performance evaluation of hindi speech recognition system using
+  optimized filterbanks.
+\newblock {\em Engineering Science and Technology, an International Journal},
+  21(3):389--398.
+
+\bibitem[Efendi, 2019]{efendi2019}
+Efendi, R. (2019).
+\newblock Automatic speech recognition bahasa indonesia menggunakan
+  bidirectional long short-term memory dan connectionist temporal
+  classification.
+
+\bibitem[Gupta dan Gupta, 2016]{gupta2016}
+Gupta, H. dan Gupta, D. (2016).
+\newblock Lpc and lpcc method of feature extraction in speech recognition
+  system.
+\newblock In {\em 2016 6th International Conference-Cloud System and Big Data
+  Engineering (Confluence)}, pages 498--502. IEEE.
+
+\bibitem[Heriyanto dkk., 2018]{heriyanto2018}
+Heriyanto, H., Hartati, S., dan Putra, A.~E. (2018).
+\newblock Ekstraksii ciri mel frequency ceptral coefficient (mfcc) dan rerata
+  coefficient untuk pengecekan bacaan al-qur'an.
+\newblock {\em Telematika: Jurnal Informatika dan Teknologi Informasi},
+  15(2):99--108.
+
+\bibitem[Herrera~Vargas, 2016]{herrera2016}
+Herrera~Vargas, M. (2016).
+\newblock Indoor navigation using bluetooth low energy (ble) beacons.
+
+\bibitem[Hinton dkk., 2012]{hinton2012}
+Hinton, G., Deng, L., Yu, D., Dahl, G.~E., Mohamed, A.-r., Jaitly, N., Senior,
+  A., Vanhoucke, V., Nguyen, P., Sainath, T.~N., dkk. (2012).
+\newblock Deep neural networks for acoustic modeling in speech recognition: The
+  shared views of four research groups.
+\newblock {\em IEEE Signal processing magazine}, 29(6):82--97.
+
+\bibitem[IndoorAtlas, 2020]{atlas2016}
+IndoorAtlas (accessed November 29, 2020).
+\newblock A 2016 global research report on the indoor positioning market.
+\newblock
+  \url{http://www.indooratlas.com/wp-content/uploads/2016/09/A-2016-Global-Research-Report-On-The-Indoor-Positioning-Market.pdf}.
+
+\bibitem[Karimi, 2015]{karimi2015indoor}
+Karimi, H.~A. (2015).
+\newblock {\em Indoor wayfinding and navigation}.
+\newblock CRC Press.
+
+\bibitem[Ko dan Kim, 2017]{ko2017vision}
+Ko, E. dan Kim, E.~Y. (2017).
+\newblock A vision-based wayfinding system for visually impaired people using
+  situation awareness and activity-based instructions.
+\newblock {\em Sensors}, 17(8):1882.
+
+\bibitem[Laksono dkk., 2018]{laksono2018}
+Laksono, T.~P. dkk. (2018).
+\newblock Speech to text untuk bahasa indonesia.
+
+\bibitem[Li dkk., 2018]{li2018indoor}
+Li, G., Geng, E., Ye, Z., Xu, Y., Lin, J., dan Pang, Y. (2018).
+\newblock Indoor positioning algorithm based on the improved rssi distance
+  model.
+\newblock {\em Sensors}, 18(9):2820.
+
+\bibitem[Lin dan Lin, 2018]{lin2018interactive}
+Lin, Y.-W. dan Lin, C.-Y. (2018).
+\newblock An interactive real-time locating system based on bluetooth
+  low-energy beacon network.
+\newblock {\em Sensors}, 18(5):1637.
+
+\bibitem[Misbullah dkk., 2020]{misbullah2020}
+Misbullah, A., Nazaruddin, N., Marzuki, M., dan Zulfan, Z. (2020).
+\newblock Penerapan time delay neural network pada model akustik untuk sistem
+  voice-to-text berbahasa sunda.
+\newblock {\em Journal of Data Analysis}, 2(2):61--70.
+
+\bibitem[Musiol, 2016]{musiol2016}
+Musiol, M. (2016).
+\newblock Speeding up deep learning.
+
+\bibitem[Povey dkk., 2011]{povey2011}
+Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N.,
+  Hannemann, M., Motlicek, P., Qian, Y., Schwarz, P., dkk. (2011).
+\newblock {The Kaldi speech recognition toolkit}.
+\newblock In {\em IEEE 2011 workshop on automatic speech recognition and
+  understanding}, number CONF. IEEE Signal Processing Society.
+
+\bibitem[Puspitasari, 2020]{puspitasari2020}
+Puspitasari, R. (2020).
+\newblock {Rancang Bangun Aplikasi Kehadiran Perkuliahan Berbasis Teknologi
+  Indoor Positioning System Menggunakan Bluetooth Low Energy dan Metode
+  Klasifikasi K-NN}.
+\newblock {\em ETD Unsyiah}.
+
+\bibitem[Umar dkk., 2019]{umar2019}
+Umar, R., Riadi, I., dan Hanif, A. (2019).
+\newblock Analisis bentuk pola suara menggunakan ekstraksi ciri mel-frequencey
+  cepstral coefficients (mfcc).
+\newblock {\em CogITo Smart Journal}, 4(2):294--304.
+
+\bibitem[Virrantaus dkk., 2001]{virrantaus2001developing}
+Virrantaus, K., Markkula, J., Garmash, A., Terziyan, V., Veijalainen, J.,
+  Katanosov, A., dan Tirri, H. (2001).
+\newblock Developing gis-supported location-based services.
+\newblock In {\em Proceedings of the Second International Conference on Web
+  Information Systems Engineering}, volume~2, pages 66--75. IEEE.
+
+\bibitem[WHO, 2020]{who2019}
+WHO (accessed Oktober 23, 2020).
+\newblock World report on vision.
+\newblock
+  \url{https://www.who.int/publications-detail-redirect/world-report-on-vision}.
+
+\bibitem[Zafari dkk., 2019]{zafari2019survey}
+Zafari, F., Gkelias, A., dan Leung, K.~K. (2019).
+\newblock A survey of indoor localization systems and technologies.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 21(3):2568--2599.
+
+\end{thebibliography}

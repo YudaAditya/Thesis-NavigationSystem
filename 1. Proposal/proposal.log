@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.6)  10 JUN 2022 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.6)  17 JUN 2022 07:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,7 +818,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
 (c:/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<gambar/logo_unsyiah.png, id=120, 264.99pt x 264.99pt>
+<gambar/logo_unsyiah.png, id=128, 264.99pt x 264.99pt>
 File: gambar/logo_unsyiah.png Graphic file (type png)
 <use gambar/logo_unsyiah.png>
 Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 182.
@@ -844,16 +844,7 @@ nsyiah.png>] [2
 
 
 
-] (./proposal.lof
-
-Package natbib Warning: Citation `aggarwal2012' on page v undefined on input li
-ne 5.
-
-
-Package natbib Warning: Citation `musiol2016' on page v undefined on input line
- 7.
-
-)
+] (./proposal.lof)
 \tf@lof=\write6
 \openout6 = `proposal.lof'.
 
@@ -862,296 +853,52 @@ Package natbib Warning: Citation `musiol2016' on page v undefined on input line
 ]
 \openout2 = `daftar-singkatan.aux'.
 
- (./daftar-singkatan.tex)
+
+(./daftar-singkatan.tex)
 \openout2 = `bab1.aux'.
 
  (./bab1.tex
 BAB I.
-
-Package natbib Warning: Citation `who2019' on page 1 undefined on input line 9.
-
-
-
-Package natbib Warning: Citation `ko2017vision' on page 1 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `brena2017evolution' on page 1 undefined on in
-put line 15.
-
-
-Package natbib Warning: Citation `virrantaus2001developing' on page 1 undefined
- on input line 15.
-
 [1
 
 
 
 
 
-]
-
-Package natbib Warning: Citation `puspitasari2020' on page 2 undefined on input
- line 21.
-
-
-Package natbib Warning: Citation `lin2018interactive' on page 2 undefined on in
-put line 21.
-
-
-Package natbib Warning: Citation `li2018indoor' on page 2 undefined on input li
-ne 21.
-
-[2]) [3]
+] [2]) [3]
 \openout2 = `bab2.aux'.
 
  (./bab2.tex
 BAB II.
-
-Package natbib Warning: Citation `azizah2015' on page 4 undefined on input line
- 12.
-
-
-Package natbib Warning: Citation `mustikarini2019' on page 4 undefined on input
- line 12.
-
-
-Package natbib Warning: Citation `widiyanto2015' on page 4 undefined on input l
-ine 12.
-
-
-Package natbib Warning: Citation `saksamudre2015' on page 4 undefined on input 
-line 14.
-
-<gambar/sr_arsitektur.png, id=218, 881.2925pt x 472.76625pt>
+<gambar/sr_arsitektur.png, id=267, 881.2925pt x 472.76625pt>
 File: gambar/sr_arsitektur.png Graphic file (type png)
 <use gambar/sr_arsitektur.png>
-Package pdftex.def Info: gambar/sr_arsitektur.png  used on input line 19.
+Package pdftex.def Info: gambar/sr_arsitektur.png  used on input line 21.
 (pdftex.def)             Requested size: 284.52058pt x 142.2638pt.
-
-Package natbib Warning: Citation `aggarwal2012' on page 4 undefined on input li
-ne 20.
-
-
-Package natbib Warning: Citation `aggarwal2012' on page 4 undefined on input li
-ne 20.
-
-
-Package natbib Warning: Citation `aggarwal2012' on page 4 undefined on input li
-ne 24.
-
-
-Package natbib Warning: Citation `saksamudre2015' on page 4 undefined on input 
-line 24.
-
 [4
 
 
 
 
- <./gambar/sr_arsitektur.png>]
-
-Package natbib Warning: Citation `gupta2016' on page 5 undefined on input line 
-27.
-
-
-Package natbib Warning: Citation `dua2018' on page 5 undefined on input line 27
-.
-
-
-Package natbib Warning: Citation `umar2019' on page 5 undefined on input line 2
-7.
-
-
-Package natbib Warning: Citation `dua2018' on page 5 undefined on input line 30
-.
-
-<gambar/alir_mfcc.png, id=223, 868.74562pt x 244.66406pt>
+] [5 <./gambar/sr_arsitektur.png>]
+<gambar/alir_mfcc.png, id=297, 868.74562pt x 244.66406pt>
 File: gambar/alir_mfcc.png Graphic file (type png)
 <use gambar/alir_mfcc.png>
-Package pdftex.def Info: gambar/alir_mfcc.png  used on input line 35.
+Package pdftex.def Info: gambar/alir_mfcc.png  used on input line 40.
 (pdftex.def)             Requested size: 398.34201pt x 142.26736pt.
 
-Overfull \hbox (2.26749pt too wide) in paragraph at lines 35--36
+Overfull \hbox (2.26749pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
-
-Package natbib Warning: Citation `heriyanto2018' on page 5 undefined on input l
-ine 42.
-
-
-Package natbib Warning: Citation `efendi2019' on page 5 undefined on input line
- 42.
-
-[5 <./gambar/alir_mfcc.png>]
-
-Package natbib Warning: Citation `heriyanto2018' on page 6 undefined on input l
-ine 52.
-
-
-Package natbib Warning: Citation `laksono2018' on page 6 undefined on input lin
-e 52.
-
-
-Package natbib Warning: Citation `laksono2018' on page 6 undefined on input lin
-e 52.
-
-
-Package natbib Warning: Citation `efendi2019' on page 6 undefined on input line
- 52.
-
-
-Package natbib Warning: Citation `efendi2019' on page 6 undefined on input line
- 54.
-
-
-Package natbib Warning: Citation `heriyanto2018' on page 6 undefined on input l
-ine 54.
-
-
-Package natbib Warning: Citation `laksono2018' on page 6 undefined on input lin
-e 54.
-
-
-Package natbib Warning: Citation `laksono2018' on page 6 undefined on input lin
-e 65.
-
-
-Package natbib Warning: Citation `laksono2018' on page 6 undefined on input lin
-e 65.
-
-[6]
-
-Package natbib Warning: Citation `dua2018' on page 7 undefined on input line 76
-.
-
-
-Package natbib Warning: Citation `laksono2018' on page 7 undefined on input lin
-e 76.
-
-
-Package natbib Warning: Citation `efendi2019' on page 7 undefined on input line
- 86.
-
-
-Package natbib Warning: Citation `laksono2018' on page 7 undefined on input lin
-e 86.
-
-
-Package natbib Warning: Citation `efendi2019' on page 7 undefined on input line
- 86.
-
-
-Package natbib Warning: Citation `laksono2018' on page 7 undefined on input lin
-e 89.
-
-
-Package natbib Warning: Citation `efendi2019' on page 7 undefined on input line
- 89.
-
-[7]
-
-Package natbib Warning: Citation `dua2018' on page 8 undefined on input line 99
-.
-
-
-Package natbib Warning: Citation `misbullah2020' on page 8 undefined on input l
-ine 104.
-
-
-Package natbib Warning: Citation `gupta2016' on page 8 undefined on input line 
-104.
-
-
-Package natbib Warning: Citation `hinton2012' on page 8 undefined on input line
- 104.
-
-
-Package natbib Warning: Citation `hinton2012' on page 8 undefined on input line
- 107.
-
-
-Package natbib Warning: Citation `laksono2018' on page 8 undefined on input lin
-e 107.
-
-
-Package natbib Warning: Citation `hinton2012' on page 8 undefined on input line
- 107.
-
-
-Package natbib Warning: Citation `misbullah2020' on page 8 undefined on input l
-ine 107.
-
-
-Package natbib Warning: Citation `hinton2012' on page 8 undefined on input line
- 107.
-
-
-Package natbib Warning: Citation `musiol2016' on page 8 undefined on input line
- 107.
-
-[8]
-<gambar/dnn_arsitektur.jpg, id=267, 642.4pt x 315.1775pt>
+[6 <./gambar/alir_mfcc.png>] [7] [8]
+<gambar/dnn_arsitektur.jpg, id=398, 642.4pt x 315.1775pt>
 File: gambar/dnn_arsitektur.jpg Graphic file (type jpg)
 <use gambar/dnn_arsitektur.jpg>
-Package pdftex.def Info: gambar/dnn_arsitektur.jpg  used on input line 112.
+Package pdftex.def Info: gambar/dnn_arsitektur.jpg  used on input line 117.
 (pdftex.def)             Requested size: 284.5291pt x 142.26138pt.
-
-
-Package natbib Warning: Citation `musiol2016' on page 9 undefined on input line
- 113.
-
-
-Package natbib Warning: Citation `musiol2016' on page 9 undefined on input line
- 113.
-
-
-Package natbib Warning: Citation `laksono2018' on page 9 undefined on input lin
-e 117.
-
-
-Package natbib Warning: Citation `laksono2018' on page 9 undefined on input lin
-e 117.
-
-
-Package natbib Warning: Citation `povey2011' on page 9 undefined on input line 
-120.
-
-
-Package natbib Warning: Citation `povey2011' on page 9 undefined on input line 
-120.
-
-
-Package natbib Warning: Citation `povey2011' on page 9 undefined on input line 
-120.
-
-
-Package natbib Warning: Citation `povey2011' on page 9 undefined on input line 
-120.
-
-[9 <./gambar/dnn_arsitektur.jpg>]
-
-Package natbib Warning: Citation `atlas2016' on page 10 undefined on input line
- 123.
-
-
-Package natbib Warning: Citation `canton2017' on page 10 undefined on input lin
-e 123.
-
-
-Package natbib Warning: Citation `atlas2016' on page 10 undefined on input line
- 125.
-
-
-Package natbib Warning: Citation `canton2017' on page 10 undefined on input lin
-e 125.
-
-
-Package natbib Warning: Citation `herrera2016' on page 10 undefined on input li
-ne 125.
-
-) [10]
+ [9] [10 <./gambar/dnn_arsitektur.jpg>])
+[11]
 \openout2 = `bab3.aux'.
 
  (./bab3.tex
@@ -1160,51 +907,51 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 6.
 (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [11
+) [12
 
 
 
 
 ]
-<gambar/rp_fase1.jpg, id=284, 2005.4925pt x 1033.8625pt>
+<gambar/rp_fase1.jpg, id=452, 2005.4925pt x 1033.8625pt>
 File: gambar/rp_fase1.jpg Graphic file (type jpg)
 <use gambar/rp_fase1.jpg>
 Package pdftex.def Info: gambar/rp_fase1.jpg  used on input line 36.
 (pdftex.def)             Requested size: 601.6524pt x 310.16115pt.
- [12]
-<gambar/rp_fase2.jpg, id=289, 2173.11874pt x 773.89125pt>
+ [13]
+<gambar/rp_fase2.jpg, id=457, 2173.11874pt x 773.89125pt>
 File: gambar/rp_fase2.jpg Graphic file (type jpg)
 <use gambar/rp_fase2.jpg>
 Package pdftex.def Info: gambar/rp_fase2.jpg  used on input line 47.
 (pdftex.def)             Requested size: 651.94066pt x 232.16916pt.
- [13 <./gambar/rp_fase1.jpg>]
-<gambar/sr_perancangan.png, id=295, 263.457pt x 308.79pt>
+ [14 <./gambar/rp_fase1.jpg>]
+<gambar/sr_perancangan.png, id=464, 263.457pt x 308.79pt>
 File: gambar/sr_perancangan.png Graphic file (type png)
 <use gambar/sr_perancangan.png>
 Package pdftex.def Info: gambar/sr_perancangan.png  used on input line 59.
 (pdftex.def)             Requested size: 398.36436pt x 455.25397pt.
- [14 <./gambar/rp_fase2.jpg>] [15 <./gambar/sr_perancangan.png>] [16] [17] [18]
-) [19]
-No file proposal.bbl.
+ [15 <./gambar/rp_fase2.jpg>] [16 <./gambar/sr_perancangan.png>] [17] [18] [19]
+) [20] (./proposal.bbl [21
+
+
+
+]) [22]
 \openout2 = `lampiran.aux'.
 
-(./lampiran.tex)
-
-Package natbib Warning: There were undefined citations.
-
+ (./lampiran.tex)
 (./proposal.aux (./kata-pengantar.aux) (./daftar-singkatan.aux) (./bab1.aux)
 (./bab2.aux) (./bab3.aux) (./lampiran.aux))
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 6ACF36A935BE3870CBFABCF3A9469CF6;4240.
+(rerunfilecheck)             Checksum: 078E853D0E64B967CB52DE0226B2ED52;4773.
  ) 
 Here is how much of TeX's memory you used:
- 17881 strings out of 478293
- 289008 string characters out of 5848966
- 606324 words of memory out of 5000000
- 35542 multiletter control sequences out of 15000+600000
+ 17993 strings out of 478293
+ 291072 string characters out of 5848966
+ 608069 words of memory out of 5000000
+ 35623 multiletter control sequences out of 15000+600000
  499275 words of font info for 63 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 72i,12n,117p,1731b,932s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,117p,1722b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1
@@ -1215,10 +962,10 @@ cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 exmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on proposal.pdf (24 pages, 3973275 bytes).
+Output written on proposal.pdf (27 pages, 3987378 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
