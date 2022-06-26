@@ -20,14 +20,14 @@
 Menurut \citep{karimi2015indoor}, \textit{Wayfinding and navigation system} memiliki 2 makna, yaitu merupakan perangkat khusus yang menyediakan solusi pencarian jalan dan navigasi tanpa memerlukan tautan komunikasi atau koneksi ke sistem lain dan tanpa penyedia pihak ketiga. Makna ke dua adalah referensi layanan melalui \textit{smartphone} yang menyediakan solusi pencarian arah dan navigasi hanya melalui tautan komunikasi kabel-nirkabel ke sistem jarak jauh yang didukung oleh penyedia pihak ketiga. Dari perspektif komputasi, \textit{Wayfinding and navigation system} adalah platform terpusat, terdistribusi, dan didistribusikan melalui klien (pada \textit{smartphone}) dan server yang dikelola oleh penyedia layanan.
 
 \section{Kalman Filter}
-Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komputasi yang efisien untuk memperkirakan keadaan suatu proses, dengan cara meminimalkan rata-rata kesalahan kuadrat. Filter ini sangat berguna dalam beberapa aspek: mendukung estimasi-estimasi keadaan lampau, sekarang dan masa depan, dan dapat melakukannya bahkan ketika sifat pasti dari sistem yang dimodelkan tidak diketahui(Welah, 2021). Kalman Filter sendiri merupakan algoritma yang menggunakan serangkaian data yang diamati dari waktu ke waktu, yang mengandung noise dan ketidakakuratan lainnya, untuk memperkirakan variabel yang tidak diketahui dengan lebih akurat. Ini diusulkan oleh R. E. Kalman pada tahun 1960, dan menjadi pendekatan standar untuk estimasi yang optimal. Karena memiliki keunggulan waktu secara realtime, cepat, efisien, dan anti-interferensi yang kuat, Kalman filter telah banyak diterapkan di bidang perhitungan orbit, pelacakan target dan navigasi (Qiang dkk., 2015).
+Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komputasi yang efisien untuk memperkirakan keadaan suatu proses, dengan cara meminimalkan rata-rata kesalahan kuadrat. Filter ini sangat berguna dalam beberapa aspek: mendukung estimasi-estimasi keadaan lampau, sekarang dan masa depan, dan dapat melakukannya bahkan ketika sifat pasti dari sistem yang dimodelkan tidak diketahui \cite{welch2020kalman}. Kalman Filter sendiri merupakan algoritma yang menggunakan serangkaian data yang diamati dari waktu ke waktu, yang mengandung \textit{noise} dan ketidakakuratan lainnya, untuk memperkirakan variabel yang tidak diketahui dengan lebih akurat. Ini diusulkan oleh R. E. Kalman pada tahun 1960, dan menjadi pendekatan standar untuk estimasi yang optimal. Karena memiliki keunggulan waktu secara \textit{realtime}, cepat, efisien, dan anti-interferensi yang kuat, Kalman filter telah banyak diterapkan di bidang perhitungan orbit, pelacakan target dan navigasi \cite{li2015kalman}.
 
 \section{\textit{Fingerprinting}}
-Fingerprinting adalah teknik untuk menentukan lokasi dengan pemanfaatan Radio Signal Strength (RSS) dari suatu Access Point (AP). Menurut Yudha dkk. (2018), metode ini memperhitungkan atenuasi karena kekuatan sinyal sering berubah-ubah. Setiap titik reverensi dikumpulkan yang mengintegrasikan adanya penghalang antara transmitter dan receiver.
+\textit{Fingerprinting} adalah teknik untuk menentukan lokasi dengan pemanfaatan \textit{Radio Signal Strength} (RSS) dari suatu \textit{Access Point }(AP). Menurut Yudha dkk. (2018) , metode ini memperhitungkan atenuasi karena kekuatan sinyal sering berubah-ubah. Setiap titik reverensi dikumpulkan yang mengintegrasikan adanya penghalang antara transmiter dan \textit{receiver}.
 
-\par Transmitter untuk teknologi IPS yang ditunjukan untuk WLAN disebut dengan AP, sedangkan transmitter untuk teknologi IPS yang ditunjukan untuk Bluetooth Low Energy disebut dengan Beacon (Puspitasari, 2020). Metode fingerprinting berbasis IPS ini terdiri dari 2 tahap. Tahap pertama adalah tahap pembelajaran (offline), di mana lokasi fingerprints itu sendiri diperoleh dengan cara mengumpulkan RSSI dalam satuan desibel (dB) yang dipancarkan dari masing-masing AP. Kemudian gelombang radio yang dipancarkan AP yang diletakkan pada posisi yang telah ditentukan sebelumnya ditangkap oleh smartphone yang terintegrasi dengan WLAN ataupun Bluetooth.
+\par Transmiter untuk teknologi IPS yang ditunjukan untuk WLAN disebut dengan AP, sedangkan transmiter untuk teknologi IPS yang ditunjukan untuk \textit{Bluetooth Low Energy} disebut dengan \textit{Beacon } \cite{puspitasari2020}. Metode fingerprinting berbasis IPS ini terdiri dari 2 tahap. Tahap pertama adalah tahap pembelajaran (offline), di mana lokasi fingerprints itu sendiri diperoleh dengan cara mengumpulkan RSSI dalam satuan desibel (dB) yang dipancarkan dari masing-masing AP. Kemudian gelombang radio yang dipancarkan AP yang diletakkan pada posisi yang telah ditentukan sebelumnya ditangkap oleh smartphone yang terintegrasi dengan WLAN ataupun \textit{Bluetooth}.
 
-\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (online), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya (Subhan dkk., 2011). Menurut Yudha dkk. (2018), metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada Gambar x.x.
+\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (\textit{online}), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya (\citep{subhan2011indoor}). Menurut \citep{yudha2018indoor}, metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada Gambar x.x.
 
 \begin{figure}[H]
 \centering
@@ -38,33 +38,46 @@ Fingerprinting adalah teknik untuk menentukan lokasi dengan pemanfaatan Radio Si
 \end{figure}
 
 \section{\textit{Received Signal Strength Indicator} (RSSI)}
-Received Signal Strength Indicator atau RSSI adalah metode pengukuran jarak yang memperoleh sinyal dari transmitter seperti Bluetooth untuk menentukan distance-loss model, dan kemudian memperkirakan posisi pengguna melalui beberapa algoritma (Li dkk, 2018). Menurut Puspitasari (2020) Positioning System menghasilkan data yang penting untuk menghitung lokasi pengguna. Time of Arrival (TOA), Time Difference of Arrival (TDOA), Angle of Arrival (AOA). RSSI memperkirakan jarak node yang belum diketahui ke referensi node dari beberapa kumpulan unit perhitungan dengan menggunakan atenuasi kekuatan sinyal (signal strength) yang dipancarkan oleh transmitter (Puspitasari, 2020).
+\textit{Received Signal Strength Indicator} atau RSSI adalah metode pengukuran jarak yang memperoleh sinyal dari transmiter seperti \textit{Bluetooth} untuk menentukan \textit{distance-loss} model, dan kemudian memperkirakan posisi pengguna melalui beberapa algoritma (\citep{li2018indoor}). Menurut \citep{puspitasari2020} \textit{Positioning System} menghasilkan data yang penting untuk menghitung lokasi pengguna. \textit{Time of Arrival} (TOA), \textit{Time Difference of Arrival} (TDOA), \textit{Angle of Arrival} (AOA). RSSI memperkirakan jarak \textit{node} yang belum diketahui ke referensi \textit{node} dari beberapa kumpulan unit perhitungan dengan menggunakan atenuasi kekuatan sinyal (\textit{signal strength}) yang dipancarkan oleh transmiter \citep{puspitasari2020}.
 
-\par Nilai RSSI didefinisikan dengan bilangan negatif. Semakin tinggi bilangan negatifnya, maka kekuatan sinyal tersebut tergolong lemah. Namun apabila nilainya mendekati 0, maka sinyal tersebut tergolong kuat. RSSI dapat digolongkan menjadi 5 kategori kekuatan sinyal seperti pada Tabel x.x.
+\par Nilai RSSI didefinisikan dengan bilangan negatif. Semakin tinggi bilangan negatifnya, maka kekuatan sinyal tersebut tergolong lemah. Namun apabila nilainya mendekati 0, maka sinyal tersebut tergolong kuat. RSSI dapat digolongkan menjadi 5 kategori kekuatan sinyal seperti pada \ref{tab:sinyal_rssi}
 
+\begin{table}[]
+\caption{Kekuatan sinyal RSSI \citep{sideeq2016smart}}
+\label{tab:sinyal_rssi}
+\begin{tabular}{|l|l|l|}
+\hline
+{\color[HTML]{000000} \textbf{No.}} & \textit{\textbf{Signal Noise Ratio }}(SNR) & \textbf{RSSI} \\ \hline
+1. & Kurang dari -40 dB   & Luar Biasa  \\ \hline
+2. & -40 dB hingga -55 dB & Sangat Baik \\ \hline
+3. & -55 dB hingga -70 dB & Baik        \\ \hline
+4. & -70 dB hingga -80 dB & Cukup Baik  \\ \hline
+5. & Lebih dari -80 dB    & Buruk       \\ \hline
+\end{tabular}
+\end{table}
 
 \section{\textit{Bluetooth Low Energy)} (BLE)}
-Teknologi Bluetooth dikembangkan oleh Ericsson pada tahun 1994 dengan kegunaan sebagai standar komunikasi nirkabel untuk bertukar data dalam jarak dekat (Kaluža, Beg, dab Vukelić, 2017). Teknologi Bluetooth memiliki fitur utama yaitu memiliki biaya yang rendah, konsumsi daya rendah, jangkauan kecil, memiliki ketahanan dan penggunaan secara global. Kecepatan transfer data yang diberikan oleh Bluetooth sebesar 1 Mbit/s dan menggunakan pita frekuensi tanpa izin 2,4 hingga 2,485 GHz (Kaluža, Beg, dan Vukelić, 2017).
+Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan kegunaan sebagai standar komunikasi nirkabel untuk bertukar data dalam jarak dekat \citep{kaluvza2017analysis}. Teknologi \textit{Bluetooth} memiliki fitur utama yaitu memiliki biaya yang rendah, konsumsi daya rendah, jangkauan kecil, memiliki ketahanan dan penggunaan secara global. Kecepatan transfer data yang diberikan oleh \textit{Bluetooth} sebesar 1 Mbit/s dan menggunakan pita frekuensi tanpa izin 2,4 hingga 2,485 GHz \citep{kaluvza2017analysis}.
 
-\par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi Bluetooth 4.0, dimana meliputi : Bluetooth Klasik, Bluetooth dengan kecepatan tinggi, dan protokol Bluetooth hemat energi. Karakteristik dari Bluetooth Low Energy (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer (Kaluža, Beg, dan Vukelić, 2017).
+\par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi \textit{Bluetooth} 4.0, dimana meliputi : \textit{Bluetooth} Klasik, \textit{Bluetooth} dengan kecepatan tinggi, dan protokol \textit{Bluetooth} hemat energi. Karakteristik dari \textit{Bluetooth Low Energy} (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer \citep{kaluvza2017analysis}.
 
 
 
 \section{\textit{Beacon}}
-BLE memancarkan sinyal dari alat transmitter yang beroperasi menggunakan baterai. Alat transmitter tersebut disebut dengan Beacon. Beacon merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan (Puspitasari, 2020). Setiap perangkat smartphone dan tablet yang mendeteksi sinyal dari Beacon, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. Beacon Bluetooth mengubah pengalaman menggunakan smartphone untuk bepergian, berbelanja, bekerja, dan bermain. (Kaluža, Beg, dan Vukelić, 2017)
+BLE memancarkan sinyal dari alat transmiter yang beroperasi menggunakan baterai. Alat transmiter tersebut disebut dengan \textit{Beacon}. \textit{Beacon} merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan \citep{puspitasari2020}. Setiap perangkat \textit{smartphone} dan tablet yang mendeteksi sinyal dari \textit{Beacon}, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. \textit{Beacon Bluetooth} mengubah pengalaman menggunakan \textit{smartphone} untuk bepergian, berbelanja, bekerja, dan bermain \citep{kaluvza2017analysis}.
 
 \section{\textit{Speech Recognition}}
-Speech Recognition adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai Automatic Speech Recognition (ASR) (Azizah, 2016). Speech Recognition merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti smart home appliances, personal assistants, atau smartphone. ASR Juga berguna untuk general transcription, contohnya untuk membuat captions secara otomatis untuk audio atau video (mentranskripsikan film atau video atau live discussions) (Daniel & James, 2020). Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang Automatic Speech Recognition. serta speech synthesis atau text-to-speech (TTS) (Daniel & James, 2020).
+\textit{Speech Recognition} adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai \textit{Automatic Speech Recognition} (ASR)\citep{jurafskyspeech2008}. \textit{Speech Recognition} merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti \textit{smart home appliances}, \textit{personal assistants}, atau \textit{smartphone}. ASR Juga berguna untuk \textit{general transcription}, contohnya untuk membuat \textit{captions} secara otomatis untuk audio atau video (mentranskripsikan film atau video atau \textit{live discussions}) (Daniel & James, 2020). Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang \textit{Automatic Speech Recognition}. serta \textit{speech synthesis} atau \textit{text-to-speech} (TTS) \citep{jurafskyspeech2008}.
 
 \section{\textit{Text-to-Speech }(TTS)}
-Speech Syntesis atau text-to-speech merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS memilik berbagai macam aplikasi. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis, seperti mendiang Steven Hawking seorang ahli astrofisika berbicara dengan memanipulasi sistem TTS (Daniel & James, 2020).
+Speech Syntesis atau text-to-speech merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS memilik berbagai macam aplikasi. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis, seperti mendiang Steven Hawking seorang ahli astrofisika berbicara dengan memanipulasi sistem TTS \citep{jurafskyspeech2008}.
 
 \section{KALDI \textit{Toolkit}}
-Kaldi adalah toolkit open-source untuk speech recognition, Kaldi ditulis dalam bahasa C++ dan di bawah lisensi Apache v2.0, Kaldi bergantung dengan library finite-state transducers (menggunakan OpenFst) serta library aljabar linier ekstensif menggunakan "Basic Linear Algebra Subroutines" (BLAS) dan "Linear Algebra PACKage" (LAPACK) (Povey dkk., 2011). Pada penelitian ini akan digunakan model yang dihasilkan oleh Kaldi untuk membangun model yang akan digunakan pada VOSK API.
+Kaldi adalah toolkit open-source untuk speech recognition, Kaldi ditulis dalam bahasa C++ dan di bawah lisensi Apache v2.0, Kaldi bergantung dengan library finite-state transducers (menggunakan OpenFst) serta library aljabar linier ekstensif menggunakan "Basic Linear Algebra Subroutines" (BLAS) dan "Linear Algebra PACKage" (LAPACK) \citep{povey2011}. Pada penelitian ini akan digunakan model yang dihasilkan oleh Kaldi untuk membangun model yang akan digunakan pada VOSK API.
 
 
 \section{VOSK API}
-Vosk api merupakan toolkit untuk speech recognition, di mana memiliki beberapa kelebihan, yaitu (Alpha Cephei, 2021):
+Vosk api merupakan toolkit untuk speech recognition, di mana memiliki beberapa kelebihan, yaitu \citep{cephei2019}:
 \begin{enumerate}
 \item Memiliki 19 lebih bahasa dan dialek yang didukung vosk.
 \item Vosk api merupakan toolkit speech recognition yang bisa digunakan secara offline, yang dapat digunakan pada Raspberry Pi, Android, iOS.
@@ -78,137 +91,91 @@ Vosk api merupakan toolkit untuk speech recognition, di mana memiliki beberapa k
 \end{enumerate}
 
 \section{Android}
-Android merupakan suatu software (perangkat lunak) yang digunakan pada mobile device(perangkat berjalan)yang meliputi sistem operasi, middleware,dan aplikasi inti. Android Standart Development Kit (SDK) menyediakan alat dan Application Programming Interface(API) yang diperlukan untuk memulai pengembangan aplikasi pada platform Android menggunakan bahasa pemrograman Java, yaitu kode Java yang terkompilasi dengan data dan file resources yang dibutuhkan aplikasi dan digabungkan oleh app tools menjadi paket Android. File tersebut ditandai dengan ekstensi .apk. File inilah yang didistribusikan sebagai aplikasi dan dipasang pada perangkat mobile (Siddik, 2018).
+Android merupakan suatu \textit{software} (perangkat lunak) yang digunakan pada \textit{mobile device}(perangkat berjalan)yang meliputi sistem operasi, \textit{middleware},dan aplikasi inti. Android \textit{Standart Development Kit} (SDK) menyediakan alat dan \textit{Application Programming Interface}(API) yang diperlukan untuk memulai pengembangan aplikasi pada platform Android menggunakan bahasa pemrograman Java, yaitu kode Java yang terkompilasi dengan data dan \textit{file resources} yang dibutuhkan aplikasi dan digabungkan oleh \textit{app tools} menjadi paket Android. \textit{File} tersebut ditandai dengan ekstensi .apk. \textit{File} inilah yang didistribusikan sebagai aplikasi dan dipasang pada perangkat \textit{mobile} \citep{nasution2018perancangan}.
 
-\par Menurut (Shaheen dkk., 2017). Ada 4 jenis komponen aplikasi. Setiap jenis memiliki tujuan yang berbeda dan memiliki siklus proses yang berbeda yang menentukan bagaimana komponen di create dan di destroy. Berikut adalah ke 4 jenis komponen tersebut:
+\par Menurut \citep{shaheen2017android}. Ada 4 jenis komponen aplikasi. Setiap jenis memiliki tujuan yang berbeda dan memiliki siklus proses yang berbeda yang menentukan bagaimana komponen di \textit{create} dan di \textit{destroy}. Berikut adalah ke 4 jenis komponen tersebut:
 
 \begin{enumerate}
-\item Activities, merupakan sebuah activity merepresentasikan tampilan aplikasi kepada pengguna (user interface).
-\item Service, merupakan komponen yang berjalan pada background untuk menjalankan operasi atau proses yang tidak memiliki user interface.
-\item Content Providers, merupakan komponen yang menangani data antar aplikasi.
-\item Broadcast Receivers, merupakan komponen yang bertanggung jawab atas menerima serta menyampaikan informasi atau notifikasi.
+\item \textit{Activities}, merupakan sebuah \textit{activity} merepresentasikan tampilan aplikasi kepada pengguna (\textit{user interface}).
+\item \textit{Service}, merupakan komponen yang berjalan pada \textit{background} untuk menjalankan operasi atau proses yang tidak memiliki \textit{user interface}.
+\item \textit{Content Providers}, merupakan komponen yang menangani data antar aplikasi.
+\item \textit{Broadcast Receivers}, merupakan komponen yang bertanggung jawab atas menerima serta menyampaikan informasi atau notifikasi.
 \end{enumerate}
+
 \section{Android Studio}
-Android Studio merupakan Integrated Development Environtment (IDE) untuk pengembangan platform Android. Android Studio diumumkan pada tanggal 16 Mei 2013 di Google I/O Conference. Android Studio dapat digunakan secara gratis di bawah pengawasan Apache License 2.0. Android Studio merupakan kolaborasi antara JetBrains dan Google. Android Studio mirip dengan Eclipse yang disertai dengan ADT Plugin (Android Development Tools)(Craig, 2015).
+Android Studio merupakan \textit{Integrated Development Environtment} (IDE) untuk pengembangan platform Android. Android Studio diumumkan pada tanggal 16 Mei 2013 di Google I/O \textit{Conference}. Android Studio dapat digunakan secara gratis di bawah pengawasan Apache \textit{License} 2.0. Android Studio merupakan kolaborasi antara JetBrains dan Google. Android Studio mirip dengan Eclipse yang disertai dengan ADT \textit{Plugin} (Android \textit{Development Tools})\citep{craig2015learn}.
 
-\par Fitur-fitur Android Studio menurut (Puspitasari, 2020) adalah sebagian berikut:
+\par Fitur-fitur Android Studio menurut \citep{puspitasari2020} adalah sebagian berikut:
 \begin{itemize}
-\item Proyek berbasis pada Gradle Build.
-\item Refactory dan perbaikan bug yang cepat.
-\item Tools baru yang bernama "Lint" diklaim dapat memonitor kecepatan, kegunaan, serta kompatibilitas aplikasi dengan cepat.
-\item Mendukung Proguard and App-signing untuk keamanan.
+\item Proyek berbasis pada Gradle \textit{Build}.
+\item \textit{Refactory} dan perbaikan bug yang cepat.
+\item \textit{Tools} baru yang bernama "Lint" diklaim dapat memonitor kecepatan, kegunaan, serta kompatibilitas aplikasi dengan cepat.
+\item Mendukung Proguard and \textit{App-signing} untuk keamanan.
 \item Memiliki GUI aplikasi Android lebih mudah.
-\item Didukung oleh Google Cloud Platform, sehingga lebih mudah mengintegrasi Google Cloud Messaging and Application Engine untuk setiap aplikasi yang dikembangkan.
-
+\item Didukung oleh Google \textit{Cloud Platform}, sehingga lebih mudah mengintegrasi Google \textit{Cloud Messaging and Application Engine} untuk setiap aplikasi yang dikembangkan.
 \end{itemize}
+
 \section{SCRUM}
+Scrum adalah \textit{development framework} di mana tim lintas-fungsi mengembangkan produk atau proyek secara berulang dan bertahap. Scrum menyusun siklus pengembangan yang disebut Sprint. Iterasi ini masing-masing tidak lebih dari empat minggu dan berlangsung satu demi satu tanpa jeda \citep{deemer2012lightweight}. Sprint memiliki durasi tetap atau sprint berakhir pada tanggal tertentu baik selesai atau belum, dan tidak pernah diperpanjang. Oleh karena itu Sprint dikatakan \textit{timeboxed} (Sutherland , 2010). Tahapan-tahapan metode Scrum menurut Schwab(2013) adalah sebagai berikut :
 
-\section{\textit{Black Box Testing}}
+\begin{enumerate}
+\item Dimulai dengan mengumpulkan user requirements, namun tidak harus semua requirements diharapkan harus keluar dari pemikiran pengguna di tahap awal proses pengembangan. Pengguna dapat mengubah pikiran mereka di setiap waktu selama proses pengembangan, pengguna dapat menambah fitur-fitur baru, menghapus atau memperbaharui beberapa fitur yang telah ada sebelumnya.
 
-\section{\textit{Usability Testing}}
+\item Tahapan selanjutnya adalah memprioritaskan requirements dan Product Backlog. Sebuah perencanaan yang tepat dalam Sprint harus dilakukan sesuai dengan jumlah Sprint yang dibutuhkan untuk mengembangkan perangkat lunak, yang terdiri dari durasi Sprint tersebut dan requirements apa saja yang terdapat di Product Backlog yang harus diimplementasikan di setiap Sprint (dikenal dengan Sprint Backlog).
 
-\section{\textit{System Usability Scale }(SUS)}
+\item Sprint diawali dengan Sprint Planning di mana Product Owner, satu orang uang telah diberikan wewenang dan bertanggung jawab untuk memaksimalkan nilai produk di pasar, bertemu dengan tim Scrum (tim dengan jumlah 2-9 orang), kemudian bekerja sama untuk memperkirakan requirements dari Product Backlog apa saja yang dikerjakan selama satu Sprint.
 
-\section{Ekstraksi Fitur}
-Salah satu bagian penting dalam proses pengenalan ucapan adalah ekstraksi fitur. Dengan adanya ekstraksi fitur, mesin pengenalan ucapan dapat membedakan antara satu ucapan dengan ucapan lainnya \citep{gupta2016}. Ekstraksi fitur memiliki fungsi untuk menghapus informasi yang berlebihan dan tidak diinginkan dengan cara mendeteksi sekumpulan variabel dari sinyal suara yang dikorelasikan secara akustik, variabel tersebut disebut dengan fitur \citep{dua2018}. Ekstraksi fitur yang paling sering digunakan untuk pengolahan suara adalah Metode \textit{Mel-Frequency Cepstral Coefficients} (MFCC), karena metode tersebut dapat mempresentasikan sinyal dengan baik \citep{umar2019}.
+\item Sprint Planning difasilitasi dengan Scrum Master. Scrum Master adalah seorang pemimpin yang melayani (Servant Leader). Sprint Planning memiliki batasan waktu selama 8 jam di dalam sebuah Sprint yang berdurasi selama 30 hari. Keluaran dari Sprint Planning adalah daftar pekerjaan dari hasil kesepakatan antara Product Owner dan tim Scrum di mana pekerjaan itu yang dikerjakan oleh tim Scrum nantinya selama satu Sprint beserta Sprint Goal yang dinamakan dengan Sprint Backlog.
 
-\subsection{\textit{Mel Frequency Cepstral Coefficient} (MFCC)}
-\par MFCC dapat berguna untuk mengoptimalkan sistem pengenalan suara dan menghasilkan hasil yang efisien, dengan dibangun suatu filter bank dari teknologi dan metode penelitian yang terus berubah. Dalam mengekstrak vektor fitur yang memiliki isi informasi tentang sinyal suara, MFCC menggunakan beberapa bagian dari produksi ucapan dan persepsi ucapan \citep{dua2018}. Berikut adalah langkah-langkah dan diagram alir pada ekstraksi fitur dengan MFCC:
+\item Setelah Sprint Planning berakhir, tim Scrum akan mengambil Sprint Backlog untuk diri mereka masing-masing dan mengerjakan Sprint Backlog setiap hari hingga akhir Sprint tanpa campur tangan dari pihak mana pun. Daily Scrum akan dikerjakan oleh tim Scrum yang tidak lebih dari 15 menit untuk menentukan apa saja yang akan mereka kerjakan selama 24 jam ke depan berdasarkan perkembangan 24 jam terakhir, serta menyampaikan permasalahan yang menghambat mereka untuk bisa mencapai Sprint Goal. Tim Scrum akan melakukan perbaikan-perbaikan item dari Product Backlog pada Sprint yang akan datang selama proses pengembangan berlangsung, dengan tujuan membuat Sprint Planning menjadi lebih efektif.
+
+\item Di akhir Sprint saat acara Sprint Review, Product Owner akan mempresentasikan hasil pekerjaan tim Scrum selama satu Sprint dan juga menjelaskan apa saja pencapaian tim Scrum menuju Sprint Goal di dalam Sprint tersebut kepada para pemegang kepentingan (stakeholder) agar mendapatkan feedback. Feedback ini akan dimasukkan ke dalam Product Backlog agar meningkatkan nilai dari sebuah produk. Sprint Review memiliki batasan waktu tidak lebih dari 4 jam untuk sprint yang memiliki durasi selama 30 hari.
+
+\item Setelah Sprint Review, Scrum Master memfasilitasi acara yang bernama Sprint Retrospectives agar tim Scrum, Product Owner bekerja sama menentukan apa saja peningkatan yang akan mereka implementasikan di Sprint berikutnya. Definition of Done adalah salah satu hal yang ditekankan oleh tim Scrum pada saat Sprint Retrospectives.
+
+\item Sprint Retrospectives merupakan acara yang paling penting dalam Scrum dikarenakan sifatnya yang menekankan continuous learning yang dapat meningkatkan tingkat agility perusahaan. Sprint Review memiliki batasan waktu tidak lebih dari 3 jam untuk Sprint yang memiliki durasi selama 30 hari. Setelah Sprint Retrospectives berakhir, maka Sprint berikutnya akan langsung dilakukan tanpa jeda antar Sprint. Pada setiap Sprint, Product Owner akan memastikan agar produk mencapai nilai setinggi mungkin saat pengembangan produk diakhiri. Product Owner, Scrum Master dan tim Scrum memegang komitmen, keberanian, saling menghargai satu sama lain, keterbukaan dan fokus. Ilustrasi tahapan-tahapan metode Scrum dapat dilihat pada Gambar x.x di bawah ini.
+\end{enumerate}
 
 \begin{figure}[H]
 \centering
 \shadowbox
 {\includegraphics [width = 14cm, height= 5cm]{gambar/alir_mfcc}}
-\caption{Diagram Alir \textit{Mel Frequency Cepstral Coefficient}}.
+\caption{gIlustrasi Metode Pengembangan Menggunakan Scrum (Schwab, 2013).}}.
 \label{alir_mfcc}
 \end{figure}
 
-\begin{enumerate}
-\item \textit{Pre-emphasis}
-\par Pada tahapan awal dalam menggunakan MFCC yaitu dengan \textit{pre-emphasis}. \textit{Pre-emphasis} dilakukan untuk mengurangi \textit{noise} karena sinyal suara yang didapat sering mengalami gangguan \textit{noise} \citep{heriyanto2018}. Dalam mengurangi efek samping saat mekanisme produksi suara, digunakanlah \textit{pre-emphasis} untuk menekan suara dengan frekuensi tinggi pada sinyal suara yang didapat. Fungsi lain \textit{pre-emphasis} dapat menguatkan puncak spektrum suara berfrekuensi tinggi \citep{efendi2019}. Secara matematis, \textit{pre-emphasis} dapat dirumuskan seperti pada persamaan berikut.
+\section{\textit{Black Box Testing}}
+Salah satu jenis pengujian fungsional adalah blackbox testing. Blackbox testing merupakan suatu pengujian yang tidak menggunakan pengetahuan tentang struktur interior aplikasi. Saat melakukan pengujian, penguji akan berinteraksi langsung dengan user interface, lalu penguji akan memberikan masukan dan memeriksa hasil dari aplikasi yang digunakan tanpa mengetahui bagaimana proses dari hasil tersebut (Xu, Chen, Wang, dan Rud, 2016). Pada blackbox testing mendapatkan pengujian dari deskripsi eksternal perangkat lunak, termasuk spesifikasi, persyaratan, dan desain (Ammann dan Offutt, 2017).
 
-\begin{equation}
-	y(n) = s(n) - as(n-1)
-	\label{eqn1}
-\end{equation}
+\par Blackbox testing memiliki beberapa keuntungan, di antaranya penguji tidak perlu mengetahui suatu bahasa pemrograman, pengujian dilakukan dari sudut pandang pengguna agar dapat mengetahui suatu inkonsisten pada spesifikasi kebutuhan serta yang terakhir programmer dan penguji dapat saling bergantung (Jaya, 2018). Blackbox testing juga memiliki beberapa kekurangan yaitu suatu pengujian sulit didesain tanpa spesifikasi yang jelas, memiliki kemungkinan untuk pengulangan testing dan tidak ada pengujian pada bagian back end (Jaya, 2018).
 
-\par Pada persamaan \ref{eqn1} dapat dijelaskan bahwa $y(n)$ adalah sinyal yang ditekan, $s(n)$ merupakan sinyal yang terdigitasi, serta $a$ adalah sebuah ketetapan filter \textit{pre-emhasis} atau sinyal yang diekstrak, dengan nilai 0.9 < $a$ < 1.0.
+\section{\textit{Usability Testing}}
+Usability Testing adalah kegiatan pengujian untuk mengumpulkan data mengenai sebuah produk dalam tahap pengembangan. Tujuan utama dari usability testing adalah untuk mengumpulkan data kuantitatif dengan mengukur waktu untuk mengidentifikasi dan memperbaiki kekurangan yang ada dalam produk serta bahan pendukung yang menyertainya sebelum produk dirilis (Rubin dkk., 2008). Dengan usability testing, didapati apa yang sebenarnya dilakukan pengguna, apa yang berhasil untuk mereka, dan apa yang tidak dipikirkan akan mereka lakukan atau bahkan apa yang mereka pikir akan mereka lakukan jika menggunakan produk (Barnum, 2020).
 
-\item \textit{Frame blocking} dan \textit{Windowing}
-\par Dalam menganalisis sinyal ucapan ke dalam bentuk \textit{frame} dibutuhkan tahap \textit{frame blocking} \citep{heriyanto2018}. Setelah sinyal ucapan melewati tahapan \textit{pre-emphasis} maka sinyal tersebut dibagi menjadi beberapa \textit{frame} dengan memuat N sampel sinyal pada masing-masing \textit{frame} dan \textit{frame} yang saling yang berdekatan akan dipisahkan sejauh M sampel \citep{laksono2018}. Setiap sampel dapat dibagi panjang \textit{frame} menjadi beberapa \textit{frame} berdasarkan waktu yang terletak di antara 20 ms hingga 40 ms \citep{laksono2018}. Di antara bagian-bagian \textit{frame} dengan \textit{frame} lainnya terdapat bagian yang bertumpang tindih atau yang disebut \textit{overlap}, hal ini berguna agar antar \textit{frame} saling berkesinambungan \citep{efendi2019}.
 
-\par Untuk mencegah ketidaksinambungan sinyal suara dari ujung awal sampai ujung akhir dari proses \textit{frame blocking}, maka dilakukanlah \textit{windowing} \citep{efendi2019}. Tujuan dari \textit{windowing} adalah untuk mengurangi efek diskontinu pada ujung tiap \textit{frame} \citep{heriyanto2018}. Ada dua fungsi yang biasa digunakan yaitu \textit{Rectangular Window} dan \textit{Hamming Window} \citep{laksono2018}. Fungsi \textit{Rectangular Window} di tulis dalam persamaan \ref{eqn2} sebagai berikut.
+\par Pengujian ini diharapkan akan mendapatkan kekuatan dan kelemahan dari setiap aspek yang ada pada aplikasi itu sendiri. Maka dari itu, perlu adanya dokumentasi pengalaman aktual para calon pengguna aplikasi atau produk saat dievaluasi (Wesfix, 2017). Tujuan lain dilakukannya pengujian ini adalah untuk mengumpilkan data kualitatif yang berhubungan dengan produk yang diuji. Data kualitatif tersebut terdiri dari komentar yang dibuat oleh partisipan, jawaban dari kuesioner pertanyaan dan tanggapan dari partisipan saat proses wawancara. Usability testing telah terbukti dapat mengurangi waktu pada tahap pengembangan, mengurangi jumlah bugs, dan menghasilkan produk yang lebih berkualitas untuk meningkatkan nilai jual (Wahl, 2000).
 
-\begin{equation}
-	W = 
-	\begin{cases}
-		1 & 0 \le n \le N\\
-		0 & L
-	\end{cases}
-	\label{eqn2}
-\end{equation}
 
-\par Fungsi di atas merupakan salah satu cara untuk menghindari diskontinu pada ujung \textit{window}, dengan cara meruncingkan sinyal menjadi nol atau dekat dengan nol, hal ini dapat mengurangi kesalahan yang terjadi \citep{laksono2018}. Lalu untuk Fungsi \textit{Hamming} sendiri dapat digambarkan seperti bentuk jendela dengan mempertimbangkan blok berikutnya di dalam rantai pemrosesan ekstraksi fitur serta menyatukan semua garis frekuensi yang terdekat \citep{laksono2018}. Fungsi \textit{Hamming} di tulis dalam persamaan \ref{eqn3} sebagai berikut.
+\section{\textit{System Usability Scale }(SUS)}
+Kuesioner standar yang paling sering digunakan untuk penilaian suatu kegunaan merupakan System Usability Scale (SUS). Dari awal kuesioner ini relatif tidak menguntungkan, namun dimasa depan kemungkinan besar SUS akan menjadi suatu ukuran yang populer dari persepsi kegunaan. Mendapatkan nilai pada SUS cukup rumit, karena pola pada item yang bergantian dan memiliki keputusan awal untuk memanipulasi skor berada di antara 0 sampai 100 (Lewis, 2018). John Brooke mengembangkan SUS pada tahun 1996 yang berisi 10 pertanyaan dasar dan sederhana tentang kegunaan suatu sistem, berikut adalah pertanyaannya  (Kaya, Ozturk, dan Gumussoy, 2019):
+\begin{center}
+\begin{tabular}{ |c|c| } 
+ \hline
+ R1 & Saya pikir saya ingin menggunakan sistem ini dengan sering.\\
+ R2 & Saya menemukan sistem yang tidak rumit.\\
+ R3 & Saya pikir sistemnya mudah digunakan.\\
+ R4 & Saya pikir saya akan membutuhkan bantuan dari orang teknis untuk dapat menggunakan sistem ini.\\
+ R5 & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik.\\
+ R6 & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.\\
+ R7 & Saya membayangkan bahwa kebanyakan orang akan belajar menggunakan sistem ini dengan sangat cepat.\\
+ R8 & Menurut saya sistem ini sangat rumit untuk digunakan.\\
+ R9 & Saya merasa sangat percaya diri menggunakan sistem ini.\\
+ R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.\\
+ \hline
+\end{tabular}
+\end{center}
 
-\begin{equation}
-	W(n) = 
-	\begin{cases}
-		0,54 - 0,46 \cos (\frac{2 \pi n}{N} - 1) & 0 \le n \le N-1\\
-		0 & Otherwise
-	\end{cases}
-	\label{eqn3}
-\end{equation}
-
-\par Pada persamaan \ref{eqn3} dapat dijelaskan bahwa $W(n)$ merupakan \textit{Hamming Window}, jumlah dari sampel diinisialkan dengan $N$ dan $n$ menginisialkan pada sampel saat ini \citep{dua2018}. Lalu hasil persamaan \textit{Hamming Window} dikalikan dengan sinyal masukan/ \textit{innput} yang telah ditetapkan, perhitungan tersebut dapat dijelaskan pada persamaan \ref{eqn4} berikut ini \citep{laksono2018}.
-
-\begin{equation}
-	Y(n) = y(n) \times w(n)
-	\label{eqn4}
-\end{equation}
-
-\par Pada persamaan \ref{eqn4} dapat dijelaskan bahwa $n$ merupakan banyaknya sampel tiap \textit{frame}, sinyal \textit{output} diwakilkan dengan $Y(n)$, sinyal \textit{input} diwakilkan dengan $y(n)$ dan $w(n)$ mewakilkan dari \textit{Hamming Window}.
-
-\item \textit{Fast Fourier Transform} (FFT)
-\par Untuk melakukan konversi sinyal dari domain waktu menjadi domain frekuensi dengan cepat digunakanlah \textit{Fast Fourier Transform} (FFT) \citep{efendi2019}. FFT berguna dalam mengubah konvolusi getaran celah suara dan respons yang didapat dari gelombang saluran suara dalam domain waktu \citep{laksono2018}. FFT sendiri dikembangkan karena suatu masalah dapat diselesaikan dengan mengubah atau memodelkan suatu permasalahan dalam representasi matematika dan mendapatkan keuntungan dalam segi efisiensi dibandingkan hal lainnya \citep{efendi2019}.
-
-\item \textit{Mel-frequency Wrapping} 
-\par Pada tahap ini spektrum yang dikeluarkan dari FFT di \textit{wrapping} sehingga menghasilkan \textit{mel-scale} agar resolusi frekuensi terhadap pendengaran manusia disesuaikan \citep{laksono2018}. Spektrum FFT memiliki nilai frekuensi yang sangat lebar, sehingga harus dipetakan ke dalam \textit{mel-scale} agar dapat mengetahui energi yang tersedia pada setiap titik dengan bantuan \textit{triangular} filter bank. Untuk mendapatkan batas-batas nilai tertinggi dan nilai terendah dari \textit{mel-scale} berdasarkan frekuensi suara dalam \textit{mel-frequency} pada setiap filter bank dihitung berdasarkan persamaan \ref{eqn5} berikut ini \citep{efendi2019}.
-
-\begin{equation}
-	mel = 2595 \log_{10} \Big(1 + \frac{f}{700}\Big)
-	\label{eqn5}
-\end{equation}
-
-\par Pada persamaan \ref{eqn5} dapat dijelaskan bahwa $mel$ merupakan skala \textit{mel-frequency} dan frekuensi linear diwakilkan dengan $f$.
-
-\item \textit{Discrete Cosine Transform} (DCT)
-\par Tahap \textit{Discrete Cosine Transform} (DCT) digunakan untuk mengubah nilai koefisien \textit{mel-spectrum} menjadi ke domain waktu \citep{dua2018}.
-
-\end{enumerate}
-
-\section{\textit{Acoustic Model}}
-\par Terdapat dua komponen utama pada sistem \textit{voice-to-text}, yang pertama adalah model akustik (\textit{acoustic model}) dan model bahasa (\textit{language model}). Model yang mengandung representasi statistik dari setiap suara yang berbeda dalam bentuk kata ataupun kalimat merupakan model akustik. Pada tiap-tiap representasi statistik tersebut dapat menentukan sebuah label yang disebut dengan suku kata (\textit{phonemes}) \citep{misbullah2020}. Model akustik memiliki dua tipe yang berbeda, yaitu \textit{phonemes} dan kata. Dua tipe tersebut diimplementasikan dengan berbagai metode seperti \textit{Hidden Markov Model} (HMM), \textit{Support Vector Machines} (SVM), \textit{Dynamic Bayesian Networks} (DBN) dan \textit{Artificial Neural Network} (ANN) \citep{gupta2016}. Sebagian besar sistem pengenalan suara saat ini menggunakan HMM untuk menangani variabilitas temporal ucapan lalu menggunakan \textit{Gaussian Mixture Models} (GMM) untuk menentukan seberapa baik status yang dihasilkan dari tiap HMM tersebut cocok dengan \textit{frame} atau \textit{short window of frames of coefficient} yang mewakili \textit{input} dari akustik \citep{hinton2012}. Cara alternatif yang terbaik untuk mengevaluasi kecocokan HMM dengan menggunakan \textit{Deep Neural Network} (DNN).
-
-\subsection{\textit{Deep Neural Network} (DNN)}
-\par DNN memiliki cara kerja dengan  mengambil beberapa koefisien dari frame sebagai masukannya dan menghasilkan keluaran berupa probabilitas posterior dari status HMM \citep{hinton2012}. \textit{Deep Neural Network} merupakan salah satu cabang dari \textit{machine learning} yang menggunakan konsep jaringan syaraf tiruan atau yang disebut dengan \textit{Neural Network} \citep{laksono2018}. DNN merupakan \textit{feed-forward}, \textit{feed-forward} itu sendiri adalah salah satu bagian di \textit{Artificial Neural Network} (ANN) yang memiliki lebih dari satu lapisan di \textit{hidden units} antara masukan atau keluarannya \citep{hinton2012}. Pada umumnya terdapat tiga struktur dari \textit{neural network}, yaitu \textit{input layer}, \textit{hidden layer} dan \textit{output layer}. Pada \textit{input layer} tiap \textit{node} merepresentasikan vektor untuk jumlah data \textit{input}, lalu pada \textit{hidden layer} memiliki fungsi untuk mengontrol apakah informasi dapat diketahui atau tidak dari \textit{input layer} yang akan diteruskan ke layer berikutnya dan yang terakhir setiap \textit{node} pada \textit{output layer} didefinisikan sebagai target dari kelas yang akan diprediksi \citep{misbullah2020}. DNN terbukti dapat mengungguli GMM dalam berbagai tolak ukur pengenalan ucapan serta terkadang dengan margin yang besar, karena DNN sendiri memiliki banyak \textit{hidden layer} dan dibuktikan dengan dilatih menggunakan metode baru \citep{hinton2012}. Penggambaran model umum dari DNN ditunjukkan seperti pada Gambar \ref{dnn_arsitektur}, di mana variasi proses, jumlah dan urutan \textit{hidden layer} tergantung pada arsitekturnya \citep{musiol2016}. 
-
-\begin{figure}[H]
-\centering
-\shadowbox
-{\includegraphics [width = 10cm, height= 5cm]{gambar/dnn_arsitektur}}
-\caption{Model Umum dari \textit{Deep Neural Network} \citep{musiol2016}}.
-\label{dnn_arsitektur}
-\end{figure}
-
-\par \textit{Neural Network} sendiri memiliki dua arsitektur, yaitu \textit{single layer perseptron} dan \textit{multi layer perseptron}. \textit{Single layer persepton} mempunyai satu \textit{hidden layer} yang digunakan, lalu pada \textit{multi layer perseptron} mempunyai lebih dari dua \textit{hidden layer} yang digunakan \citep{laksono2018}. Untuk mendapatkan hasil yang akurat, pada \textit{Deep Neural Network} atau \textit{Deep Learning} menggunakan jumlah \textit{hidden layer} yang sangat banyak \citep{laksono2018}.
-
-\section{Kaldi \textit{Toolkit}}
-Salah satu \textit{toolkit} untuk pengenalan suara yang \textit{open-source} adalah Kaldi, Kaldi sendiri ditulis dalam bahasa C++ dan di bawah lisensi Apache v2.0 \citep{povey2011}. Kaldi bergantung dengan dua \textit{library} dari luar yang tersedia secara bebas, \textit{library} yang pertama adalah OpenFst digunakan untuk \textit{finite-state framework} lalu untuk \textit{library} aljabar linear ekstensif menggunakan "\textit{Basic Linear Algebra Subrutin}" (BLAS) dan "\textit{Linear Algebra PACKage}" (LAPACK) \citep{povey2011}. Fitur pada Kaldi yang dapat digunakan adalah ekstraksi fitur yang paling umum digunakan, pemodelan akustik dengan beberapa model umum namun dapat diperluas dengan model jenis baru, \textit{phonetic decision tree} yang efisien untuk ukuran konteks arbitrer dan juga mendukung dengan berbagai pendekatan, pemodelan bahasa dapat menggunakan model bahasa apa pun yang dapat direpresentasikan sebagai \textit{finite-state transducer} (FST) serta dapat menggunakan \textit{toolkit} IRSTLM untuk membangun pemodelan Bahasa dari teks mentah, dan dapat membuat grafik decoding yang didasarkan pada \textit{Weighted Finite State Transducers} (WFSTs) \citep{povey2011}. Kaldi terus dikembangkan dan sedang mengerjakan model Bahasa yang besar dalam kerangka FST, pembuatan kisi dan pelatihan diskriminatif \citep{povey2011}.
-
-\section{\textit{Indoor Positioning System}}
-\textit{Indoor Positioning System} (IPS) dapat menemukan lokasi orang atau objek di dalam ruangan dengan menggunakan gelombang radio, medan magnet, sinyal akustik serta informasi sensoris yang dikumpulkan oleh alat teknologi berupa \textit{smartphone}, tablet, atau perangkat pintar lainnya \citep{atlas2016}. IPS memiliki beberapa pendekatan yaitu, \textit{positioning systems} berbasis WiFi (WPS), \textit{positioning systems} berbasis \textit{Bluetooth Low Energy} (BLE), sistem berbasis Identifikasi Frekuensi Radio (RFID) dan teknologi \textit{Ultra-Wide Band} (UWB) atau \textit{Visible Light Communication} (VLC) \citep{canton2017}.
-
-\par \textit{Bluetooth Low Energy} (BLE) \textit{Beacon} merupakan suatu perangkat yang berukuran kecil dan menggunakan baterai sebagai sumber tenaganya, BLE dapat mengirimkan sinyal di area yang terbatas sampai 20 meter / 70 kaki dan bereaksi terhadap lokasi seseorang yang berada dalam jangkauan \citep{atlas2016}. BLE memiliki kelebihan yang dapat mengalahkan WPS yang telah popular dimasa lalu. BLE menawarkan harga yang lebih murah dan memiliki daya yang rendah, sehingga untuk infrastruktur yang tidak memungkinkan adanya WiFi dapat menjadi pilihan terbaik \citep{canton2017}. BLE dikenal sebagai pilihan yang terbaik karena mampu menyiarkan data menggunakan daya yang minimal hal itu didasarkan karena teknologi \textit{Bluetooth} yang digunakannya, serta BLE ideal untuk perangkat yang dapat berfungsi tanpa gangguan untuk jangka waktu yang lama karena menggunakan baterai kecil. Dari hal yang sudah dijelaskan sebelumnya BLE dapat berfungsi dengan baik untuk keperluan navigasi di dalam ruangan \citep{herrera2016}. 
+\par Pertanyaan tersebut akan diberikan kepada peserta uji dan menjawab dengan skala antara 1 (Sangat tidak setuju) dan 5 (Sangat setuju). Menurut Brooke hasil dari jawaban akan dievaluasi dalam kisaran 0 sampai 4. Dapat dilihat pada pertanyaan yang memiliki nomor ganjil maka memiliki makna positif dan pertanyaan bernomor genap memiliki makna negatif. Pada pertanyaan positif dilakukan penilaian yang mana skor pengguna dikurangi 1 poin dan pada pertanyaan negatif dilakukan penilaian yang mana skor pengguna dikurangi 5 poin. Setelah itu jumlah skor yang didapat dikalikan 2,5 untuk membuat kisaran antar 0 sampai 100. Skor SUS rata-rata dan skala peringkat kata sifat dihitung untuk setiap aplikasi seluler di Android dan iOS (Kaya, Ozturk, dan Gumussoy, 2019).
 
 
 %-----------------------------------------------------------------------------%
