@@ -27,14 +27,14 @@ Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komp
 
 \par Transmiter untuk teknologi IPS yang ditunjukan untuk WLAN disebut dengan AP, sedangkan transmiter untuk teknologi IPS yang ditunjukan untuk \textit{Bluetooth Low Energy} disebut dengan \textit{Beacon } \cite{puspitasari2020}. Metode fingerprinting berbasis IPS ini terdiri dari 2 tahap. Tahap pertama adalah tahap pembelajaran (offline), di mana lokasi fingerprints itu sendiri diperoleh dengan cara mengumpulkan RSSI dalam satuan desibel (dB) yang dipancarkan dari masing-masing AP. Kemudian gelombang radio yang dipancarkan AP yang diletakkan pada posisi yang telah ditentukan sebelumnya ditangkap oleh smartphone yang terintegrasi dengan WLAN ataupun \textit{Bluetooth}.
 
-\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (\textit{online}), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya (\citep{subhan2011indoor}). Menurut \citep{yudha2018indoor}, metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada Gambar x.x.
+\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (\textit{online}), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya (\citep{subhan2011indoor}). Menurut \citep{yudha2018indoor}, metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada \ref{img:fingerprinting}.
 
 \begin{figure}[H]
 \centering
 \shadowbox
-{\includegraphics [width = 10cm, height= 5cm]{gambar/sr_arsitektur}}
-\caption{Ilustrasi Metode \textit{Fingerprinting} \citep{aggarwal2012}}.
-\label{sr_arsitektur}
+{\includegraphics [width = 10cm, height= 8cm]{gambar/bab2/Fingerprinting}}
+\caption{Ilustrasi Metode \textit{Fingerprinting} \citep{yudha2018indoor}}.
+\label{img:fingerprinting}
 \end{figure}
 
 \section{\textit{Received Signal Strength Indicator} (RSSI)}
@@ -67,7 +67,7 @@ Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan k
 BLE memancarkan sinyal dari alat transmiter yang beroperasi menggunakan baterai. Alat transmiter tersebut disebut dengan \textit{Beacon}. \textit{Beacon} merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan \citep{puspitasari2020}. Setiap perangkat \textit{smartphone} dan tablet yang mendeteksi sinyal dari \textit{Beacon}, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. \textit{Beacon Bluetooth} mengubah pengalaman menggunakan \textit{smartphone} untuk bepergian, berbelanja, bekerja, dan bermain \citep{kaluvza2017analysis}.
 
 \section{\textit{Speech Recognition}}
-\textit{Speech Recognition} adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai \textit{Automatic Speech Recognition} (ASR)\citep{jurafskyspeech2008}. \textit{Speech Recognition} merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti \textit{smart home appliances}, \textit{personal assistants}, atau \textit{smartphone}. ASR Juga berguna untuk \textit{general transcription}, contohnya untuk membuat \textit{captions} secara otomatis untuk audio atau video (mentranskripsikan film atau video atau \textit{live discussions}) (Daniel & James, 2020). Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang \textit{Automatic Speech Recognition}. serta \textit{speech synthesis} atau \textit{text-to-speech} (TTS) \citep{jurafskyspeech2008}.
+\textit{Speech Recognition} adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai \textit{Automatic Speech Recognition} (ASR)\citep{jurafskyspeech2008}. \textit{Speech Recognition} merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti \textit{smart home appliances}, \textit{personal assistants}, atau \textit{smartphone}. ASR Juga berguna untuk \textit{general transcription}, contohnya untuk membuat \textit{captions} secara otomatis untuk audio atau video (mentranskripsikan film atau video atau \textit{live discussions}) \citep{jurafskyspeech2008}. Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang \textit{Automatic Speech Recognition}. serta \textit{speech synthesis} atau \textit{text-to-speech} (TTS) \citep{jurafskyspeech2008}.
 
 \section{\textit{Text-to-Speech }(TTS)}
 Speech Syntesis atau text-to-speech merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS memilik berbagai macam aplikasi. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis, seperti mendiang Steven Hawking seorang ahli astrofisika berbicara dengan memanipulasi sistem TTS \citep{jurafskyspeech2008}.
@@ -139,8 +139,8 @@ Android Studio merupakan \textit{Integrated Development Environtment} (IDE) untu
 \begin{figure}[H]
 \centering
 \shadowbox
-{\includegraphics [width = 14cm, height= 5cm]{gambar/alir_mfcc}}
-\caption{Ilustrasi Metode Pengembangan Menggunakan Scrum \citep{schwaber2011scrum}.}}.
+{\includegraphics [width = 14cm, height= 5cm]{gambar/bab2/Scrum}}
+\caption{Ilustrasi Metode Pengembangan Menggunakan Scrum \citep{schwaber2011scrum}.}.
 \label{img:scrum}
 \end{figure}
 
@@ -159,22 +159,28 @@ Salah satu jenis pengujian fungsional adalah \textit{blackbox testing}. \textit{
 \section{\textit{System Usability Scale }(SUS)}
 Kuesioner standar yang paling sering digunakan untuk penilaian suatu kegunaan merupakan \textit{System Usability Scale} (SUS). Dari awal kuesioner ini relatif tidak menguntungkan, namun dimasa depan kemungkinan besar SUS akan menjadi suatu ukuran yang populer dari persepsi kegunaan. Mendapatkan nilai pada SUS cukup rumit, karena pola pada \textit{item} yang bergantian dan memiliki keputusan awal untuk memanipulasi skor berada di antara 0 sampai 100 \citep{lewis2018system}. John Brooke mengembangkan SUS pada tahun 1996 yang berisi 10 pertanyaan dasar dan sederhana tentang kegunaan suatu sistem, berikut adalah pertanyaannya \citep{kaya2019usability}:
 
-\begin{center}
-\begin{tabular}{ |c|c| } 
- \hline
- R1 & Saya pikir saya ingin menggunakan sistem ini dengan sering.\\
- R2 & Saya menemukan sistem yang tidak rumit.\\
- R3 & Saya pikir sistemnya mudah digunakan.\\
- R4 & Saya pikir saya akan membutuhkan bantuan dari orang teknis untuk dapat menggunakan sistem ini.\\
- R5 & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik.\\
- R6 & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.\\
- R7 & Saya membayangkan bahwa kebanyakan orang akan belajar menggunakan sistem ini dengan sangat cepat.\\
- R8 & Menurut saya sistem ini sangat rumit untuk digunakan.\\
- R9 & Saya merasa sangat percaya diri menggunakan sistem ini.\\
- R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.\\
- \hline
-\end{tabular}
-\end{center}
+\begin{enumerate}
+\item Saya pikir saya ingin menggunakan sistem ini dengan sering.
+
+\item Saya menemukan sistem yang tidak rumit.
+
+\item Saya pikir sistemnya mudah digunakan.
+
+\item Saya pikir saya akan membutuhkan bantuan dari orang teknis untuk dapat menggunakan sistem ini.
+
+\item Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik.
+
+\item Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.
+
+\item Saya membayangkan bahwa kebanyakan orang akan belajar menggunakan sistem ini dengan sangat cepat.
+
+\item Menurut saya sistem ini sangat rumit untuk digunakan.
+
+\item Saya merasa sangat percaya diri menggunakan sistem ini.
+
+\item Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.
+\end{enumerate}
+
 
 \par Pertanyaan tersebut akan diberikan kepada peserta uji dan menjawab dengan skala antara 1 (Sangat tidak setuju) dan 5 (Sangat setuju). Menurut Brooke hasil dari jawaban akan dievaluasi dalam kisaran 0 sampai 4. Dapat dilihat pada pertanyaan yang memiliki nomor ganjil maka memiliki makna positif dan pertanyaan bernomor genap memiliki makna negatif. Pada pertanyaan positif dilakukan penilaian yang mana skor pengguna dikurangi 1 poin dan pada pertanyaan negatif dilakukan penilaian yang mana skor pengguna dikurangi 5 poin. Setelah itu jumlah skor yang didapat dikalikan 2,5 untuk membuat kisaran antar 0 sampai 100. Skor SUS rata-rata dan skala peringkat kata sifat dihitung untuk setiap aplikasi seluler di Android dan iOS \citep{kaya2019usability}.
 

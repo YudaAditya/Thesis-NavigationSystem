@@ -17,31 +17,26 @@
 \contentsline {section}{\numberline {2.5}\textit {Received Signal Strength Indicator} (RSSI)}{6}{section.2.5}%
 \contentsline {section}{\numberline {2.6}\textit {Bluetooth Low Energy)} (BLE)}{7}{section.2.6}%
 \contentsline {section}{\numberline {2.7}\textit {Beacon}}{7}{section.2.7}%
-\contentsline {section}{\numberline {2.8}\textit {Speech Recognition}}{7}{section.2.8}%
+\contentsline {section}{\numberline {2.8}\textit {Speech Recognition}}{8}{section.2.8}%
 \contentsline {section}{\numberline {2.9}\textit {Text-to-Speech }(TTS)}{8}{section.2.9}%
 \contentsline {section}{\numberline {2.10}KALDI \textit {Toolkit}}{8}{section.2.10}%
 \contentsline {section}{\numberline {2.11}VOSK API}{8}{section.2.11}%
 \contentsline {section}{\numberline {2.12}Android}{9}{section.2.12}%
-\contentsline {section}{\numberline {2.13}Android Studio}{9}{section.2.13}%
+\contentsline {section}{\numberline {2.13}Android Studio}{10}{section.2.13}%
 \contentsline {section}{\numberline {2.14}SCRUM}{10}{section.2.14}%
 \contentsline {section}{\numberline {2.15}\textit {Black Box Testing}}{12}{section.2.15}%
 \contentsline {section}{\numberline {2.16}\textit {Usability Testing}}{13}{section.2.16}%
 \contentsline {section}{\numberline {2.17}\textit {System Usability Scale }(SUS)}{13}{section.2.17}%
-\contentsline {section}{\numberline {2.18}Ekstraksi Fitur}{13}{section.2.18}%
-\contentsline {subsection}{\numberline {2.18.1}\textit {Mel Frequency Cepstral Coefficient} (MFCC)}{14}{subsection.2.18.1}%
-\contentsline {section}{\numberline {2.19}\textit {Acoustic Model}}{17}{section.2.19}%
-\contentsline {subsection}{\numberline {2.19.1}\textit {Deep Neural Network} (DNN)}{17}{subsection.2.19.1}%
-\contentsline {section}{\numberline {2.20}Kaldi \textit {Toolkit}}{18}{section.2.20}%
-\contentsline {section}{\numberline {2.21}\textit {Indoor Positioning System}}{19}{section.2.21}%
-\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Waktu dan Lokasi Penelitian}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Alat dan Bahan}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\textit {Roadmap} Penelitian}{20}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metode Penelitian}{24}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Data Suara}{24}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}\textit {Pre-processing} Data Suara}{25}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Persiapan Data untuk Kaldi}{25}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Ekstraksi Fitur}{27}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Akustik Model}{27}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Model}{28}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Model Terlatih}{28}{subsection.3.4.7}%
+\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Waktu dan Lokasi Penelitian}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Alat dan Bahan}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}\textit {Roadmap} Penelitian}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Metode Penelitian}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Data Suara}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}\textit {Pre-processing} Data Suara}{20}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Persiapan Data untuk Kaldi}{20}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Ekstraksi Fitur}{22}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Akustik Model}{22}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Model}{23}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Model Terlatih}{23}{subsection.3.4.7}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{26}{chapter*.11}%
