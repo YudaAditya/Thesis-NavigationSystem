@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.27)  28 JUN 2022 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.29)  29 JUN 2022 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,7 +928,7 @@ BAB II.
 
 
 ] [5]
-<gambar/bab2/Fingerprinting.png, id=339, 758.835pt x 613.29124pt>
+<gambar/bab2/Fingerprinting.png, id=341, 758.835pt x 613.29124pt>
 File: gambar/bab2/Fingerprinting.png Graphic file (type png)
 <use gambar/bab2/Fingerprinting.png>
 Package pdftex.def Info: gambar/bab2/Fingerprinting.png  used on input line 35.
@@ -941,19 +941,19 @@ LaTeX Warning: No positions in optional float specifier.
 
 [7] [8] [9]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-10.
+11.
 
 (C:\Users\yudaa\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [10] [11]
-<gambar/bab2/Scrum.png, id=449, 1142.2675pt x 417.56pt>
+<gambar/bab2/Scrum.png, id=451, 1142.2675pt x 417.56pt>
 File: gambar/bab2/Scrum.png Graphic file (type png)
 <use gambar/bab2/Scrum.png>
-Package pdftex.def Info: gambar/bab2/Scrum.png  used on input line 142.
+Package pdftex.def Info: gambar/bab2/Scrum.png  used on input line 143.
 (pdftex.def)             Requested size: 398.33554pt x 142.2616pt.
 
-Overfull \hbox (2.26102pt too wide) in paragraph at lines 142--143
+Overfull \hbox (2.26102pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
@@ -968,19 +968,19 @@ BAB III.
 
 
 ]
-<gambar/rp_fase1.jpg, id=519, 2005.4925pt x 1033.8625pt>
+<gambar/rp_fase1.jpg, id=521, 2005.4925pt x 1033.8625pt>
 File: gambar/rp_fase1.jpg Graphic file (type jpg)
 <use gambar/rp_fase1.jpg>
 Package pdftex.def Info: gambar/rp_fase1.jpg  used on input line 36.
 (pdftex.def)             Requested size: 601.6524pt x 310.16115pt.
  [16]
-<gambar/rp_fase2.jpg, id=524, 2173.11874pt x 773.89125pt>
+<gambar/rp_fase2.jpg, id=526, 2173.11874pt x 773.89125pt>
 File: gambar/rp_fase2.jpg Graphic file (type jpg)
 <use gambar/rp_fase2.jpg>
 Package pdftex.def Info: gambar/rp_fase2.jpg  used on input line 47.
 (pdftex.def)             Requested size: 651.94066pt x 232.16916pt.
  [17 <./gambar/rp_fase1.jpg>]
-<gambar/sr_perancangan.png, id=530, 263.457pt x 308.79pt>
+<gambar/sr_perancangan.png, id=532, 263.457pt x 308.79pt>
 File: gambar/sr_perancangan.png Graphic file (type png)
 <use gambar/sr_perancangan.png>
 Package pdftex.def Info: gambar/sr_perancangan.png  used on input line 59.
@@ -1012,9 +1012,9 @@ Here is how much of TeX's memory you used:
 /Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C
 :/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (32 pages, 4036274 bytes).
+Output written on proposal.pdf (32 pages, 4036699 bytes).
 PDF statistics:
- 628 PDF objects out of 1000 (max. 8388607)
+ 630 PDF objects out of 1000 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
