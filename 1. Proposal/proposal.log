@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.29)  29 JUN 2022 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.27)  1 JUL 2022 07:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,7 +928,7 @@ BAB II.
 
 
 ] [5]
-<gambar/bab2/Fingerprinting.png, id=341, 758.835pt x 613.29124pt>
+<gambar/bab2/Fingerprinting.png, id=343, 758.835pt x 613.29124pt>
 File: gambar/bab2/Fingerprinting.png Graphic file (type png)
 <use gambar/bab2/Fingerprinting.png>
 Package pdftex.def Info: gambar/bab2/Fingerprinting.png  used on input line 35.
@@ -947,7 +947,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [10] [11]
-<gambar/bab2/Scrum.png, id=451, 1142.2675pt x 417.56pt>
+<gambar/bab2/Scrum.png, id=454, 1142.2675pt x 417.56pt>
 File: gambar/bab2/Scrum.png Graphic file (type png)
 <use gambar/bab2/Scrum.png>
 Package pdftex.def Info: gambar/bab2/Scrum.png  used on input line 143.
@@ -968,53 +968,60 @@ BAB III.
 
 
 ]
-<gambar/rp_fase1.jpg, id=521, 2005.4925pt x 1033.8625pt>
-File: gambar/rp_fase1.jpg Graphic file (type jpg)
-<use gambar/rp_fase1.jpg>
-Package pdftex.def Info: gambar/rp_fase1.jpg  used on input line 36.
+<gambar/bab3/rp_fase1.jpg, id=525, 2005.4925pt x 1033.8625pt>
+File: gambar/bab3/rp_fase1.jpg Graphic file (type jpg)
+<use gambar/bab3/rp_fase1.jpg>
+Package pdftex.def Info: gambar/bab3/rp_fase1.jpg  used on input line 45.
 (pdftex.def)             Requested size: 601.6524pt x 310.16115pt.
  [16]
-<gambar/rp_fase2.jpg, id=526, 2173.11874pt x 773.89125pt>
-File: gambar/rp_fase2.jpg Graphic file (type jpg)
-<use gambar/rp_fase2.jpg>
-Package pdftex.def Info: gambar/rp_fase2.jpg  used on input line 47.
+<gambar/bab3/rp_fase2.jpg, id=530, 2173.11874pt x 773.89125pt>
+File: gambar/bab3/rp_fase2.jpg Graphic file (type jpg)
+<use gambar/bab3/rp_fase2.jpg>
+Package pdftex.def Info: gambar/bab3/rp_fase2.jpg  used on input line 56.
 (pdftex.def)             Requested size: 651.94066pt x 232.16916pt.
- [17 <./gambar/rp_fase1.jpg>]
-<gambar/sr_perancangan.png, id=532, 263.457pt x 308.79pt>
-File: gambar/sr_perancangan.png Graphic file (type png)
-<use gambar/sr_perancangan.png>
-Package pdftex.def Info: gambar/sr_perancangan.png  used on input line 59.
-(pdftex.def)             Requested size: 398.36436pt x 455.25397pt.
- [18 <./gambar/rp_fase2.jpg>] [19 <./gambar/sr_perancangan.png>] [20] [21] [22]
-) [23] (proposal.bbl [24
+ [17 <./gambar/bab3/rp_fase1.jpg>]
+
+LaTeX Warning: Reference `sr_perancangan' on page 18 undefined on input line 64
+.
+
+<gambar/bab3/diagram_alir.png, id=535, 768.8725pt x 342.27875pt>
+File: gambar/bab3/diagram_alir.png Graphic file (type png)
+<use gambar/bab3/diagram_alir.png>
+Package pdftex.def Info: gambar/bab3/diagram_alir.png  used on input line 68.
+(pdftex.def)             Requested size: 398.3495pt x 227.62816pt.
+[18 <./gambar/bab3/rp_fase2.jpg>] [19 <./gambar/bab3/diagram_alir.png>]
+[20] [21] [22]) [23] (proposal.bbl [24
 
 
 
 ] [25]) [26]
 \openout2 = `lampiran.aux'.
 
+ (lampiran.tex) (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux) (bab1
+.aux) (bab2.aux) (bab3.aux)
+(lampiran.aux))
 
-(lampiran.tex) (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux)
-(bab1.aux) (bab2.aux) (bab3.aux) (lampiran.aux))
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: BAF72C4BA20A39ED54EAA1C4C4DF8396;5873.
  ) 
 Here is how much of TeX's memory you used:
- 17974 strings out of 478582
- 295865 string characters out of 2844344
- 607312 words of memory out of 3000000
- 35565 multiletter control sequences out of 15000+600000
+ 17978 strings out of 478582
+ 296049 string characters out of 2844344
+ 607291 words of memory out of 3000000
+ 35564 multiletter control sequences out of 15000+600000
  499275 words of font info for 63 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 70i,12n,117p,1630b,943s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 70i,12n,117p,1630b,941s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:
 /Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C
 :/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (32 pages, 4036699 bytes).
+Output written on proposal.pdf (32 pages, 4027801 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 159 named destinations out of 1000 (max. 500000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
