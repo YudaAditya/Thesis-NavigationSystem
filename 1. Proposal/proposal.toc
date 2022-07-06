@@ -32,11 +32,11 @@
 \contentsline {section}{\numberline {3.2}Alat dan Bahan}{15}{section.3.2}%
 \contentsline {section}{\numberline {3.3}\textit {Roadmap} Penelitian}{15}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Metode Penelitian}{19}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Data Suara}{19}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}\textit {Pre-processing} Data Suara}{19}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Persiapan Data untuk Kaldi}{20}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Ekstraksi Fitur}{22}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Akustik Model}{22}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Model}{22}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Model Terlatih}{22}{subsection.3.4.7}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{26}{chapter*.11}%
+\contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{20}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{20}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Alur Kerja Sistem}{22}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Akustik Model}{23}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Model}{23}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Model Terlatih}{24}{subsection.3.4.7}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{27}{chapter*.14}%

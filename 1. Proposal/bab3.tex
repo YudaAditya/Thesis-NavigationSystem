@@ -76,63 +76,79 @@ Metode penelitian yang dilakukan dalam penelitian ini ditunjukkan pada Gambar \r
 \subsection{Identifikasi Masalah}
 Tahapan ini merupakan tahapan yang dilakukan untuk mengidentifikasi masalah pada lingkungan yang berhubungan dengan aplikasi yang akan dibuat baik secara langsung maupun tidak langsung dan menjadi landasan mengapa aplikasi ini harus dibuat. Masalah-masalah yang berhasil di identifikasi adalah sebagai berikut:
 
-\begin{itemize}
-\item Belum ada teknologi Route Guidance System/Wayfinding System berbasis Indoor positioning dengan panduan rute menggunakan Speech Command Recognition di Universitas Syiah Kuala.
+\begin{enumerate}
+\item Kebutuhan Fungsional
+Kebutuhan fungsional mendefinisikan fungsionalitas sistem. Kebutuhan fungsional dari identifikasi masalah yang telah dilakukan adalah sebagai berikut:
 
-\item Membantu Tunanetra menemukan ruangan di Gedung A FMIPA Universitas Syiah Kuala dipandu dengan navigasi suara.
+\begin{itemize}
+\item Melakukan proses pemanduan kepada pengguna secara background process dengan bantuan \textit{speech command recognition} dan \textit{route guidance} dengan aplikasi berbasis Android.
+
+\item Menampilkan prediksi lokasi pengguna serta rute terbaik menuju ke lokasi tujuan pengguna.
 
 \end{itemize}
 
+\item Kebutuhan Non-Fungsional
+Kebutuhan non-fungsional memastikan batasan eksternal yang harus dipenuhi oleh sistem. Batasan-batasan tersebut antara lain:
+
+\begin{itemize}
+\item Proses pemanggilan aplikasi dimulai dengan memanggil \textit{hotword}.
+
+\item Proses pencatatan dan penentuan lokasi dilakukan secara berkala dalam interval yang sesingkat-singkatnya.
+
+\item Hanya dapat melakukan proses pemanduan rute apabila \textit{Bluetooth} pada perangkat hidup dan terhubung dengan \textit{Beacon}.
+
+\item Sistem hanya dapat mendeteksi lokasi pengguna di dalam gedung yang telah di petakan terlebih dahulu.
+
+\end{itemize}
+
+\end{enumerate}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Studi Literatur}
-Studi literatur digunakan sebagai bahan referensi selama proses penelitian. Studi literatur dilakukan dengan cara mencari situs website dan jurnal-jurnal terkait tentang penelitian, baik jurnal nasional maupun internasional, buku-buku yang telah diterbitkan, serta situs-situs internet yang berkaitan dengan permasalahan yang dikaji dalam penelitian. Studi literatur dapat dikembangkan untuk menyempurnakan kekurangan dari penelitian sebelumnya.
+Studi literatur digunakan sebagai bahan referensi selama proses penelitian. Studi literatur dilakukan dengan cara mencari situs \textit{website} dan jurnal-jurnal terkait tentang penelitian, baik jurnal nasional maupun internasional, buku-buku yang telah diterbitkan, serta situs-situs internet yang berkaitan dengan permasalahan yang dikaji dalam penelitian. Studi literatur dapat dikembangkan untuk menyempurnakan kekurangan dari penelitian sebelumnya.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Persiapan Data untuk Kaldi}
-Pada tahapan ini ada beberapa file yang harus disiapkan untuk membuat model \textit{speech recognition}, yaitu ada persiapan data akustik untuk membuat \textit{acoustic model} dan \textit{language data} untuk membuat \textit{language model}. Sebelum mempersiapkan beberapa \textit{file} yang dibutuhkan, data suara yang telah dikumpulkan di bagi menjadi 2 bagian, di mana 80\% \textit{speaker} untuk \textit{data training} dan 20\% speaker untuk \textit{data testing}. Berikut adalah penjelasan dari persiapan data akustik dan \textit{language data}:
+\subsection{Perancangan Sistem}
+Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfungsi untuk memastikan sistem yang dibangun dapat digunakan secara baik oleh pengguna. Tahap perancangan sistem ini terbagi menjadi beberapa bagian yaitu diagram Use Case , Diagram Deployment, alur kerja sistem, dan desain prototipe berdasarkan analisa kebutuhan yang telah dijabarkan. Berikut ini merupakan tahapan tersebut:
+
+
 
 \begin{enumerate}
-\item Persiapan data akustik
-\par Pada tahapan ini, ada 5 file yang harus dibuat agar Kaldi dapat memahami data audio yang akan diproses. Berikut adalah penjelasan file yang harus dibuat:
-	\begin{itemize}
-	\item Spk2gender
-	\par Pada file ini berisikan informasi tentang nama yang diasumsikan sebagai \textit{id} dari \textit{speaker} dan jenis kelamin \textit{speaker} tersebut. \textit{File} ini memiliki \textit{pattern} <\textit{speakerID}> <jenis kelamin>, di mana jenis kelamin diinisialkan f sebagai perempuan dan m sebagai pria.
-	
-	\item Wav.scp
-	\par Pada \textit{file} ini berisikan informasi \textit{utteranceID} dan lokasi audio tersebut ditambahkan dengan nama file tersebut, dalam hal ini penulisan \textit{utteranceID} merupakan \textit{speakerID} yang disambung dengan nama-nama ruangan yang diucapkan pada audio tersebut. Sehingga file ini memiliki \textit{pattern} <\textit{uterranceID}> <lokasi\_file\_audio>.	
-	
-	\item \textit{Text}
-	\par Pada \textit{file} ini berisikan informasi tentang \textit{utteranceID} dan transkrip dari nama--nama ruangan di Gedung A FMIPA Unsyiah yang diucapkan oleh \textit{speaker}. Sehingga file ini memiliki \textit{pattern} <\textit{uterranceID}> <\textit{text\_transcription}>.
-	
-	\item Utt2spk
-	\par Pada \textit{file} ini berisikan informasi berupa \textit{utteranceID} dan \textit{speakerID}, agar sistem pengenalan suara dapat mengetahui nama-nama ruangan yang diucapkan oleh \textit{speaker} tertentu. Sehingga file ini memiliki \textit{pattern} <\textit{uterranceID}> <\textit{speakerID}>.
-	
-	\item \textit{Corpus}
-	\par Pada \textit{file} ini berisikan informasi berupa transkrip dari nama-nama ruangan di Gedung A FMIPA Unsyiah yang diucapkan oleh \textit{speaker}, namun \textit{file} ini disimpan pada lokasi yang berbeda dari beberapa \textit{file} yang sudah disebutkan sebelumnya. \textit{File} ini memiliki \textit{pattern} <\textit{text\_transcription}> yang ditulis per baris, sehingga \textit{file} pada penelitian ini terdapat 56 baris.
-	\end{itemize}
+\item \textit{Use Case Diagram}
+\par \textit{Use Case Diagram} merupakan gambaran interaksi antara pengguna dan sistem. Pengguna dari sistem yang akan dibangun ini adalah Tunanetra dan pengunjung gedung FMIPA USK. \textit{Use Case Diagram} dari sistem ini dapat dilihat pada Gambar \ref{img:use_case_diagram}
 
-\item Persiapan \textit{language data}
-\par Pada tahapan ini, ada 4 \textit{file} berkaitan dengan \textit{language model}. Berikut adalah penjelasan \textit{file} yang harus dibuat:
-	\begin{itemize}
-	\item \textit{Lexicon}
-	\par Pertama membuat \textit{file} yang bernama \textit{lexicon}.txt. Pada \textit{file} ini berisikan setiap kata dari \textit{dictionary} dengan penambahan \textit{phone transcriptions} atau penyebutan dari kata tersebut. Seperti contoh, jika ada kata `satu` maka penyebutan dari kata tersebut adalah sa tu. Namun, jika ada suara yang diam akan dideteksi sebagai \textit{silence phone} dan penyebutannya akan ditandai dengan `sil`. Sehingga file ini memiliki \textit{pattern} <\textit{word}> <\textit{phone} 1> <\textit{phone} 2>.
-	
-	\item \textit{Nonsilence phones}
-	\par Lalu pada \textit{file} kedua diberi nama \textit{nonsilence\_phones}.txt. Pada \textit{file} ini berisikan \textit{list phone transcriptions} yang \textit{nonsilence phones}. Yang termasuk pada \textit{file} ini adalah semua \textit{phones} pada \textit{file lexicon} kecuali \textit{phones} seperti `sil` atau diam. \textit{File} ini memiliki \textit{pattern}: <\textit{phone}>.
-	
-	\item \textit{Silence phones}
-	\par Pada \textit{file} ketiga diberi nama \textit{silence\_phones}.txt. Pada \textit{file} ini berisikan \textit{list phone transcription} yang diam atau `sil` pada bagian \textit{phone}. \textit{File} ini memiliki \textit{attern}: <\textit{phone}>.
-	
-	\item \textit{Optional silence}
-	\par Pada \textit{file} keempat diberi nama \textit{optional\_silence}.txt. Pada \textit{file} ini berisikan \textit{list} pilihan lainnya dari \textit{silence phone transcription}. \textit{File} ini memiliki \textit{pattern}: <\textit{phone}>.
-	\end{itemize}
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 14cm, height= 12cm]{gambar/bab3/use_case_diagram}}
+\caption{\textit{Use Case Diagram}}
+\label{img:use_case_diagram}
+\end{figure}
+
+
+\item \textit{Deployment Diagram}
+\par \textit{Deployment Diagram} merupakan gambaran hubungan antara perangkat lunak dan perangkat keras yang digunakan dalam sebuah sistem. Seperti yang telah disebutkan sebelumnya, penelitian ini merupakan bagian dari penelitian lain yang saling terintegrasi sehingga tidak semua \textit{node} dalam diagram menjadi fokus dalam penelitian ini. Bagian dalam diagram yang menjadi jangkauan dari penelitian ini ditandai dengan warna biru seperti yang ditunjukkan pada Gambar \ref{img:use_case_diagram}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 14cm, height= 12cm]{gambar/bab3/use_case_diagram}}
+\caption{\textit{Use Case Diagram}}
+\label{img:use_case_diagram}
+\end{figure}
 
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Ekstraksi Fitur}
-Setelah tahapan sebelumnya selesai dilakukan, selanjutnya masuk dalam tahapan ekstraksi fitur. Ekstraksi fitur dilakukan dengan menggunakan metode \textit{Mel Frequency Ceptral Coefficient} (MFCC), agar dapat mengidentifikasi konten linguistik dan membuang suara latar belakang serta suara yang tidak dibutuhkan dalam proses ini. Ekstraksi fitur pada penelitian ini memanfaatkan \textit{open source toolkit} untuk pengolahan suara yang tersedia yaitu Kaldi Toolkit. Pada perhitungan MFCC untuk penelitian ini ada hal yang harus ditentukan, yaitu menentukan jumlah \textit{ceptral coeffient} sebanyak 13 \textit{ceptral coeffient} dan jumlah \textit{frame} dalam suatu \textit{file} sepanjang 25 \textit{millisecond} dan memiliki \textit{window step} sebesar 10 \textit{millisecond}.
+\subsection{Alur Kerja Sistem}
+Alur kerja sistem merupakan langkah-langkah yang dilalui sistem hingga fungsionalitas sistem dapat dimanfaatkan oleh pengguna. Alur kerja sistem ini dapat dilihat pada Gambar \ref{img:alur_kerja_sistem}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 14cm, height= 10cm]{gambar/bab3/alur_kerja_sistem}}
+\caption{Alur Kerja Sistem}
+\label{img:alur_kerja_sistem}
+\end{figure}
+
 
 \subsection{Akustik Model}
 Pada bagian ini merupakan tahapan untuk melakukan model akustik pada data training yang telah melewati proses ekstraksi fitur dengan MFCC. Tahapan ini menggunakan proses \textit{machine learning} dengan metode \textit{Deep Neural Network} (DNN) dan dilakukan juga pengambilan nilai \textit{CTC Loss} yang merepresentasikan akurasi dari \textit{training}. Pada tahap awal \textit{training} dimulai dengan menentukan jumlah \textit{file} yang masuk ke dalam perhitungan ke \textit{deep learning} sebagai bahan dari pembelajaran atau pembagi data. Setelah itu nilai dari MFCC \textit{feature} dimasukkan, lalu label untuk proses pembelajaran dimasukkan juga. Berikutnya dilakukan inisialisasi \textit{learning rate}, maksimal \textit{epoch} dan minimum \textit{loss} yang digunakan. Lalu pada proses perhitungan \textit{neural network} diinisialkan bobot yang dipakai. Selanjutnya metode \textit{deep learning} dengan \textit{input} nilai MFCC \textit{feature} dan target dihitung. Terakhir menampilkan nilai \textit{loss} dari hasil perhitungan yang didapat. Hal tersebut dilakukan sampai mendapatkan minimum nilai \textit{loss} dan maksimum nilai \textit{epoch}. Pada penelitian ini digunakan \textit{multilayer perseptron} sebagai layer pembelajarannya. 
