@@ -35,8 +35,9 @@
 \contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{19}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{20}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{20}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Alur Kerja Sistem}{22}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Akustik Model}{23}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Model}{23}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Model Terlatih}{24}{subsection.3.4.7}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{27}{chapter*.14}%
+\contentsline {subsection}{\numberline {3.4.4}Pengumpulan Data}{25}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Pembuatan Sistem Aplikasi}{25}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Pengujian Akurasi}{26}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{27}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}\textit {Usability Testing}}{27}{subsection.3.4.8}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{31}{chapter*.18}%

@@ -7,7 +7,7 @@
 \chapter{METODOLOGI PENELITIAN}
 
 \section{Waktu dan Lokasi Penelitian}
-Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 4 bulan terhitung dari Juni 2022 hingga September 2022.
+Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 3 bulan terhitung dari Juli 2022 hingga September 2022.
 
 \section{Alat dan Bahan}
 Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa perangkat keras (\textit{Hardware}) dan perangkat lunak (\textit{Software}) yang dijabarkan sebagai berikut:
@@ -109,7 +109,7 @@ Studi literatur digunakan sebagai bahan referensi selama proses penelitian. Stud
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Perancangan Sistem}
-Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfungsi untuk memastikan sistem yang dibangun dapat digunakan secara baik oleh pengguna. Tahap perancangan sistem ini terbagi menjadi beberapa bagian yaitu diagram Use Case , Diagram Deployment, alur kerja sistem, dan desain prototipe berdasarkan analisa kebutuhan yang telah dijabarkan. Berikut ini merupakan tahapan tersebut:
+Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfungsi untuk memastikan sistem yang dibangun dapat digunakan secara baik oleh pengguna. Tahap perancangan sistem ini terbagi menjadi beberapa bagian yaitu diagram Use Case , Diagram Deployment, alur kerja sistem, \textit{Flow Diagram} dan desain prototipe berdasarkan analisa kebutuhan yang telah dijabarkan. Berikut ini merupakan tahapan tersebut:
 
 
 
@@ -119,28 +119,25 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 14cm, height= 12cm]{gambar/bab3/use_case_diagram}}
+{\includegraphics [width = 12cm, height= 10cm]{gambar/bab3/use_case_diagram}}
 \caption{\textit{Use Case Diagram}}
 \label{img:use_case_diagram}
 \end{figure}
 
 
 \item \textit{Deployment Diagram}
-\par \textit{Deployment Diagram} merupakan gambaran hubungan antara perangkat lunak dan perangkat keras yang digunakan dalam sebuah sistem. Seperti yang telah disebutkan sebelumnya, penelitian ini merupakan bagian dari penelitian lain yang saling terintegrasi sehingga tidak semua \textit{node} dalam diagram menjadi fokus dalam penelitian ini. Bagian dalam diagram yang menjadi jangkauan dari penelitian ini ditandai dengan warna biru seperti yang ditunjukkan pada Gambar \ref{img:use_case_diagram}
+\par \textit{Deployment Diagram} merupakan gambaran hubungan antara perangkat lunak dan perangkat keras yang digunakan dalam sebuah sistem. Seperti yang telah disebutkan sebelumnya, penelitian ini merupakan bagian dari penelitian lain yang saling terintegrasi sehingga tidak semua \textit{node} dalam diagram menjadi fokus dalam penelitian ini. Bagian dalam diagram yang menjadi jangkauan dari penelitian ini ditandai dengan warna biru seperti yang ditunjukkan pada Gambar \ref{img:deployment_diagram}
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 14cm, height= 12cm]{gambar/bab3/use_case_diagram}}
-\caption{\textit{Use Case Diagram}}
-\label{img:use_case_diagram}
+{\includegraphics [width = 10cm, height= 8cm]{gambar/bab3/deployment_diagram}}
+\caption{\textit{Deployment Diagram}}
+\label{img:deployment_diagram}
 \end{figure}
 
-\end{enumerate}
+\item Alur Kerja Sistem
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Alur Kerja Sistem}
-Alur kerja sistem merupakan langkah-langkah yang dilalui sistem hingga fungsionalitas sistem dapat dimanfaatkan oleh pengguna. Alur kerja sistem ini dapat dilihat pada Gambar \ref{img:alur_kerja_sistem}
+\par Alur kerja sistem merupakan langkah-langkah yang dilalui sistem hingga fungsionalitas sistem dapat dimanfaatkan oleh pengguna. Alur kerja sistem ini dapat dilihat pada Gambar \ref{img:alur_kerja_sistem}
 
 \begin{figure}[H]
 \centering
@@ -149,15 +146,175 @@ Alur kerja sistem merupakan langkah-langkah yang dilalui sistem hingga fungsiona
 \label{img:alur_kerja_sistem}
 \end{figure}
 
+\begin{enumerate}
+\item \textit{Input} diterima dari pengguna setelah mengucapkan \textit{hotword}.
 
-\subsection{Akustik Model}
-Pada bagian ini merupakan tahapan untuk melakukan model akustik pada data training yang telah melewati proses ekstraksi fitur dengan MFCC. Tahapan ini menggunakan proses \textit{machine learning} dengan metode \textit{Deep Neural Network} (DNN) dan dilakukan juga pengambilan nilai \textit{CTC Loss} yang merepresentasikan akurasi dari \textit{training}. Pada tahap awal \textit{training} dimulai dengan menentukan jumlah \textit{file} yang masuk ke dalam perhitungan ke \textit{deep learning} sebagai bahan dari pembelajaran atau pembagi data. Setelah itu nilai dari MFCC \textit{feature} dimasukkan, lalu label untuk proses pembelajaran dimasukkan juga. Berikutnya dilakukan inisialisasi \textit{learning rate}, maksimal \textit{epoch} dan minimum \textit{loss} yang digunakan. Lalu pada proses perhitungan \textit{neural network} diinisialkan bobot yang dipakai. Selanjutnya metode \textit{deep learning} dengan \textit{input} nilai MFCC \textit{feature} dan target dihitung. Terakhir menampilkan nilai \textit{loss} dari hasil perhitungan yang didapat. Hal tersebut dilakukan sampai mendapatkan minimum nilai \textit{loss} dan maksimum nilai \textit{epoch}. Pada penelitian ini digunakan \textit{multilayer perseptron} sebagai layer pembelajarannya. 
+\item Pada proses 1 aplikasi dan perangkat akan memindai kekuatan sinyal BLE terdekat serta menentukan posisi pengguna.
 
-\subsection{Model}
-Setelah mendapatkan hasil dari \textit{acoustic modelling} dengan Kaldi, selanjutnya melakukan \textit{language modelling} dengan menggunakan SRILM (\textit{SRI Language Modeling Toolkit}). \textit{Language modelling} berguna agar dapat membedakan kata dan frasa yang terdengar serupa pada ucapannya sehingga didapatkan model pengenalan ucapan yang terlatih. 
+\item Pada proses 2, setelah posisi pengguna ditentukan, aplikasi akan melakukan pengecekan \textit{input} dari pengguna pada \textit{database} lokasi menggunakan model yang telah tersedia oleh penelitian lainnya.
 
-\subsection{Model Terlatih}
-Setelah model pengenalan ucapan sudah selesai dibangun, lalu model tersebut diletakan pada Vosk yang merupakan \textit{open source speech recognition toolkit}, Vosk dapat berjalan pada Android dengan API secara \textit{offline}. Data \textit{testing} yang sebelumnya sudah dipisahkan, diuji pada model tersebut sehingga mendapatkan keluaran berupa \textit{text}. Model ini akan dapat berjalan pada aplikasi Android \textit{route guidance} untuk tuna netra berbasis \textit{Indoor Positioning} yang akan dibangun.
+\item Pada proses 3, aplikasi akan memprediksi jarak tujuan serta rute terdekat menuju tujuan pengguna menggunakan algoritma kalman filter.
+
+\item Hasil yang dihasilkan dari proses-proses sebelumnya berupa notifikasi dan vibrasi serta \textit{text-to-speech} atau berupa ucapan dari rute yang akan di tempuh oleh pengguna, seperti "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika", dll.
+\end{enumerate}
+
+\item \textit{Flow Diagram}
+\par \textit{Flow Diagram} menunjukkan bagaimana proses tahapan melakukan navigasi pada sistem seperti pada gambar \ref{img:flow_diagram_app} berikut ini.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 10cm, height= 12cm]{gambar/bab3/flow_diagram_app}}
+\caption{\textit{Flow Diagram} Navigasi \textit{Indoor}}
+\label{img:flow_diagram_app}
+\end{figure}
+
+\item Desain Prototipe
+\par Desain prototipe menunjukkan perkiraan tampilan aplikasi yang akan dibuat. Desain ini dirancang berdasarkan beberapa skenario pada sisi pengguna baik tunanetra dan bukan tunanetra.
+
+\vspace{-0cm}
+	\begin{figure} [H]
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		% include first image
+  		\includegraphics[width=.5\linewidth]{gambar/bab3/1}  
+  		\caption{Pop up trigger by hotword}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		% include second image
+		\includegraphics[width=.5\linewidth]{gambar/bab3/2}  
+  		\caption{Input tujuan dan lokasi pengguna}
+	\end{subfigure}
+		\vspace{1cm}
+		\newline
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+		 % include third image
+	  	\includegraphics[width=.5\linewidth]{gambar/bab3/3}  
+  		\caption{Proses Navigasi ke Tujuan}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		% include fourth image
+  		\includegraphics[width=.5\linewidth]{gambar/bab3/4}  
+  		\caption{Histori Navigasi}
+	\end{subfigure}
+		\vspace{0.5cm}
+		\caption{Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra}
+	\label{aplikasimappingbagian1}
+	\end{figure}
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Pengumpulan Data}
+\begin{enumerate}
+\item Data Model \textit{Voice Recognition}
+\par Data yang digunakan dalam penelitian ini terdiri atas data \textit{pre-trained} model yang diperoleh dari penelitian yang berada dalam satu penelitian yang sama pada \textit{roadmap} pada gambar \ref{img:fase2}. \textit{Pre-trained} model dimanfaatkan sebagai titik awal untuk merespons perintah suara dari pengguna, kemudian perintah suara akan di terjemahkan ke dalam bentuk teks yang akan diterima oleh \textit{smartphone} pengguna. Teks yang diterima akan digunakan sebagai input yang akan menjadi lokasi tujuan serta pemilihan rute.
+
+\item Data Rute dan Denah Lokasi Penelitian
+\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan di petakan dengan menggunakan bantuan BLE. Data / titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. Dengan adanya RSSI atau kekuatan sinyal yang disimpan perangkat smartphone pengguna akan menangkap sinyal dan menyesuaikan dengan titik-titik yang telah dipetakan sehingga mendapatkan lokasi pengguna berada serta menjadikan titik lokasi pengguna sebagai pemilihan rute terdekat ke lokasi tujuan pengguna.
+
+\item Data \textit{Text-to-Speech}
+\par Data yang akan digunakan menggunakan \textit{text-to-speech} yang disediakan oleh library Google speech. Sehingga proses pemanduan menuju ruangan akan dipandu dengan suara seperti "Menuju Ruangan Jurusan Informatika", "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika".
+
+\item Data akurasi lokasi pengguna serta akurasi rute
+\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman filter.
+
+\end{enumerate}
+
+
+\subsection{Pembuatan Sistem Aplikasi}
+Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunakan adalah metode \textit{Scrum}, dikarenakan sistem ini dikembangkan bersama dengan tim dan membutuhkan fleksibilitas terhadap perubahan yang terjadi dalam proses pengembangannya, sehingga memerlukan iterasi secara berkala agar berjalan dengan baik. Salah satu tahap yang merupakan paling awal dari metode ini adalah \textit{product backlog}. Pada tahap ini, semua kebutuhan akan ditransformasikan menjadi rancangan pekerjaan untuk diselesaikan agar aplikasi dapat bekerja secara fungsional. Adapun \textit{product backlog} dari keseluruhan aplikasi ini adalah sebagai berikut.
+
+\begin{itemize}
+\item Menampilkan halaman beranda.
+
+\item Menampilkan \textit{Pop up} yang muncul dari \textit{input} suara.
+
+\item Meluncurkan aplikasi dengan proses pengenalan suara
+
+\item Menampilkan dan mengeluarkan suara daftar ruangan yang bisa di gunakan sebagai tujuan.
+
+\item Menampilkan rute terdekat ke ruangan yang di tuju oleh pengguna.
+
+\item Mengeluarkan suara navigasi ke ruangan yang di tuju.
+
+\end{itemize}
+
+\subsection{Pengujian Akurasi}
+\begin{enumerate}
+\item Pengujian akurasi Pengenalan suara dan \textit{Text-to-Speech}
+\par Akurasi pada model pengenalan suara sebagai input pengguna menggunakan data dari pre-trained model yang telah dibuat oleh penelitian yang berada pada roadmap yang sama.
+
+\item Pengujian akurasi posisi pengguna
+\par Akurasi posisi pengguna menggunakan titik-titik beacon atau BLE yang dikoneksikan dengan smartphone pengguna menggunakan algoritma.
+
+\item Pengujian akurasi pemilihan rute pengguna
+\par Pengujian akurasi pemilihan rute pengguna menggunakan gabungan titik beacon atau BLE sebagai titik awal, kemudian menggunakan letak dan posisi beacon yang telah di petakan sebelumnya, serta akan digunakan prediksi menggunakan algoritma Kalman \textit{filter} disertai dengan fase pembaharuan prediksi.
+
+\par 
+
+\end{enumerate}
+
+\subsection{Pengujian Fungsionalitas dengan Metode \textit{Black Box}}
+Metode yang digunakan untuk melakukan pengujian fungsionalitas adalah dengan \textit{black box testing}. Pengujian ini dilakukan untuk memeriksa fungsi-fungsi pada sistem yang dibangun pada penelitian ini apakah sudah bekerja sesuai dengan kebutuhan pengguna ataupun tidak. Pengujian ini dilakukan dengan cara menjalankan setiap fungsi yang ada pada sistem dan memastikan agar sistem dapat bekerja dengan semestinya sesuai alur yang telah dirancang. Pengujian ini juga dapat melibatkan target pengguna dan pengembang.
+
+\subsection{\textit{Usability Testing}}
+\textit{Usability Testing} merupakan pengujian aplikasi untuk melihat apakah pengguna dapat dengan mudah dan nyaman dalam menggunakan aplikasi tersebut serta melihat dan mengevaluasi keberhasilan dari sebuah produk atau jasa. Pengujian ini akan menggunakan metode SUS. SUS terdiri dari 10 pertanyaan dengan menggunakan skala 1-5. Berikut daftar pertanyaan-pertanyaan dengan metode SUS dapat dilihat pada Tabel \ref{tab:SUS}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\caption{Daftar Pertanyaan Metode SUS \citep{kaya2019usability}}
+\label{tab:SUS}
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+R1  & Saya pikir saya ingin menggunakan sistem ini dengan sering.               \\ \hline
+R2  & Saya menemukan sistem yang tidak rumit.                                   \\ \hline
+R3  & Saya pikir sistemnya mudah digunakan.                                     \\ \hline
+R4 & \begin{tabular}[c]{@{}l@{}}Saya pikir saya akan membutuhkan bantuan dari \\ orang teknis untuk dapat menggunakan sistem ini.\end{tabular}    \\ \hline
+R5  & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik. \\ \hline
+R6  & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.             \\ \hline
+R7 & \begin{tabular}[c]{@{}l@{}}Saya membayangkan bahwa kebanyakan orang akan \\ belajar menggunakan sistem ini dengan sangat cepat.\end{tabular} \\ \hline
+R8  & Menurut saya sistem ini sangat rumit untuk digunakan.                     \\ \hline
+R9  & Saya merasa sangat percaya diri menggunakan sistem ini.                   \\ \hline
+R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.   \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Rumus untuk menghitung skor akhir metode SUS \citep{brooke1996sus}, dapat dilihat dari persamaan berikut.
+
+\begin{equation}
+skorSUS = (\sum_{9}^{i} (Ri - 1) + \sum_{10}^{j} (5 - Rj)) * 2,5
+\end{equation}
+\newline
+Keterangan:\newline
+$R$ = daftar pertanyaan pada metode SUS. \newline
+$i$ = angka ganjil 1, 3, 5, 7, dan 9. \newline
+$j$ = angka genap 2, 4, 6, 8, dan 10.
+\newline 
+
+\par Tingkat nilai skala pengujian menentukan apakah sistem tersebut layak digunakan, bermanfaat, diterima oleh pengguna dan bertahan lama penggunaannya. Sebuah sistem dengan nilai pengujian yang tinggi membuat sistem tersebut menjadi populer dalam waktu yang lama dan penggunaannya yang luas, dikarenakan banyak individu akan merasakan manfaat dari kehadiran sistem tersebut. Sedangkan sistem dengan nilai pengujian yang rendah, sering kali diabaikan walaupun dibuat berdasarkan kebutuhan dan menghasilkan sumber daya yang banyak.
+Berdasarkan dari skor akhir SUS, dapat diketahui seberapa tinggi tingkat usability rancangan sistem yang dikembangkan. Tabel \ref{tab:skor_SUS} menunjukkan nilai interpretasi yang digunakan.
+
+\begin{table}[H]
+\caption{ Interpretasi skor sus}
+\label{tab:skor_SUS}
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Skor SUS         & Interpretasi         \\ \hline
+\textless{}50    & Tidak Dapat Diterima \\ \hline
+50-70            & Marginal             \\ \hline
+\textgreater{}70 & Dapat Diterima       \\ \hline
+\end{tabular}
+\end{table}
+
 
 %-----------------------------------------------------------------------------%
 

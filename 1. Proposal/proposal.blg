@@ -19,45 +19,45 @@ A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
 Warning--empty publisher in jurafskyspeech2008
 Warning--there's a number but no series in povey2011
-You've used 33 entries,
+You've used 34 entries,
             1935 wiz_defined-function locations,
-            655 strings with 9689 characters,
-and the built_in function-call counts, 13208 in all, are:
-= -- 1285
-> -- 554
-< -- 29
-+ -- 202
-- -- 186
-* -- 1085
-:= -- 2286
-add.period$ -- 104
-call.type$ -- 33
-change.case$ -- 249
-chr.to.int$ -- 33
-cite$ -- 35
-duplicate$ -- 530
-empty$ -- 917
-format.name$ -- 236
-if$ -- 2608
+            664 strings with 9816 characters,
+and the built_in function-call counts, 13571 in all, are:
+= -- 1323
+> -- 567
+< -- 30
++ -- 206
+- -- 190
+* -- 1116
+:= -- 2350
+add.period$ -- 107
+call.type$ -- 34
+change.case$ -- 255
+chr.to.int$ -- 34
+cite$ -- 36
+duplicate$ -- 544
+empty$ -- 943
+format.name$ -- 242
+if$ -- 2679
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 38
-newline$ -- 166
-num.names$ -- 99
-pop$ -- 244
+missing$ -- 39
+newline$ -- 171
+num.names$ -- 102
+pop$ -- 247
 preamble$ -- 1
-purify$ -- 256
+purify$ -- 262
 quote$ -- 0
-skip$ -- 403
+skip$ -- 415
 stack$ -- 0
-substring$ -- 814
-swap$ -- 85
+substring$ -- 839
+swap$ -- 86
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
+type$ -- 190
 warning$ -- 2
-while$ -- 107
+while$ -- 111
 width$ -- 0
-write$ -- 426
+write$ -- 439
 (There were 2 warnings)
