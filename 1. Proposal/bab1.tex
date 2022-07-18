@@ -4,42 +4,44 @@
 \chapter{PENDAHULUAN}
 
 \section{Latar Belakang}
-Manusia adalah makhluk sosial yang selalu berinteraksi dan berkomunikasi dengan manusia lainnya, berbagai cara penyampaian informasi dan komunikasi dilakukan untuk saling terhubung dengan lingkungan sekitar. Cara berkomunikasi yang paling sering dilakukan oleh manusia adalah berbicara atau menggunakan media suara, dan beberapa cara lain seperti tulisan, isyarat serta media visual seperti gambar.
+Manusia adalah makhluk sosial yang selalu berinteraksi dan berkomunikasi dengan manusia lainnya, berbagai cara penyampaian informasi dan komunikasi dilakukan untuk saling terhubung dengan lingkungan sekitar. Cara berkomunikasi yang paling sering dilakukan oleh manusia adalah berbicara atau menggunakan media suara, dan beberapa cara lain seperti tulisan, isyarat serta media visual seperti gambar. Dengan adanya suara juga dapat membantu manusia yang memiliki keterbatasan penglihatan, sebagai pengganti indra penglihatan mereka dengan mengandalkan serta mempertajam indra pendengaran mereka. Menurut \textit{World Health Organization} disebutkan dalam laporan \textit{World Report on Vision}, secara global setidaknya sekitar 2,2 Miliar orang di antaranya memiliki gangguan penglihatan atau kebutaan, di mana setidaknya 1 miliar di antaranya memiliki gangguan penglihatan yang dapat dicegah atau belum ditangani \citep{who2019}. 
 
-Dengan adanya suara juga dapat membantu manusia yang memiliki keterbatasan penglihatan, sebagai pengganti indra penglihatan mereka dengan mengandalkan serta mempertajam indra pendengaran mereka. Menurut \textit{World Health Organization} disebutkan dalam laporan \textit{World Report on Vision}, secara global setidaknya sekitar 2,2 Miliar orang di antaranya memiliki gangguan penglihatan atau kebutaan, di mana setidaknya 1 miliar di antaranya memiliki gangguan penglihatan yang dapat dicegah atau belum ditangani \citep{who2019}. 
-
-Seiring perkembangan zaman di mana kemudahan berkomunikasi dapat dibantu dengan teknologi yang berkaitan dengan suara telah banyak dikembangkan. Selain itu dengan adanya teknologi ini dapat membantu orang-orang dengan keterbatasan penglihatan dalam berbagai aspek kehidupan seperti berkomunikasi serta bekerja sebagai pemandu jalan atau arah. Selain berkomunikasi, pemandu arah juga menjadi salah satu kebutuhan penting bagi orang-orang dengan keterbatasan penglihatan bahkan tidak hanya mereka, hal simpel seperti menuju ke toilet, ke kamar tidur, dan dapur sebagai contoh.
-
-\par Untuk mengurangi kesulitan tunanetra dan membantu mereka melokalisasikan posisi mereka dan menemukan destinasi tujuan mereka. Penelitian dan teknologi terbaru berfokus pada \textit{Global Positioning Systems} (GPS). Namun, saat ini sistem yang menggunakan sensor GPS bekerja dengan baik sebagai alat pencari rute di lingkungan luar ruangan, sehingga tidak memadai untuk memandu orang di dalam ruangan \citep{ko2017vision} . Oleh karena itu tujuan dari penelitian ini adalah untuk membangun sistem pencarian rute yang efektif dengan menggunakan \textit{Indoor Positioning System}.
+Seiring perkembangan zaman di mana kemudahan berkomunikasi dapat dibantu dengan teknologi yang berkaitan dengan suara telah banyak dikembangkan. Selain itu dengan adanya teknologi ini dapat membantu orang-orang dengan keterbatasan penglihatan dalam berbagai aspek kehidupan seperti, berkomunikasi serta bekerja sebagai pemandu jalan atau arah. Selain berkomunikasi, pemandu arah juga menjadi salah satu kebutuhan penting bagi orang-orang dengan keterbatasan penglihatan bahkan tidak hanya mereka. 
+Untuk mengurangi kesulitan pengguna tunanetra dan untuk memastikan posisi pengguna
+serta menemukan destinasi tujuannya dibutuhkan teknolgi berupa \textit{Global Positioning
+Systems} (GPS). Namun, saat ini sistem yang menggunakan sensor GPS bekerja dengan baik sebagai alat pencari rute di luar ruangan, sehingga tidak memadai untuk memandu orang di dalam ruangan \citep{ko2017vision}. Oleh karena itu tujuan dari penelitian ini adalah untuk membangun sistem pencarian rute yang efektif dengan menggunakan \textit{Indoor Positioning System}.
 
 \par \textit{Indoor Positioning System} (IPS) merupakan teknologi untuk melacak suatu objek atau individu di area tertutup atau gedung merupakan bagian dari Location Based Service (LBS) \citep{brena2017evolution}. LBS adalah layanan yang menyediakan informasi bagi pengguna berdasarkan lokasi pengguna \citep{virrantaus2001developing}. Teknologi IPS ini nantinya akan di gunakan sebagai dasar dari \textit{Wayfinding System} atau \textit{Route Guidance System} dan akan dipadukan dengan \textit{Speech Command Recognition}.
 
-\par \textit{Speech Recognition} merupakan salah satu bentuk dari teknologi yang disebut \textit{Artificial Intelligence} (AI). \textit{Speech Recognition} sendiri merupakan teknologi pada perangkat komputer agar dapat mengenali dan memahami kata-kata yang diucapkan oleh manusia. Kata-kata yang diucapkan memiliki gelombang suara tertentu, gelombang tersebut akan diterima oleh perangkat akan diterjemahkan menjadi format yang dapat dimengerti oleh perangkat. 
-Dengan begitu perangkat dapat mengidentifikasi serta memahami kata yang dimasukkan yang merupakan konsep dasar dari \textit{Voice Command}. Pada sistem \textit{Speech Recognition} memiliki 2 sistem utama yaitu \textit{Speech-to-Text} (STT) dan \textit{Text-to-Speech} (TTS). \textit{Speech Recognition} juga dikenal sebagai sistem \textit{Speech-to-Text} dimana suara diterima dan diterjemahkan sebagai teks agar dapat dikenali. 
+\newpage
+
+\par \textit{Speech Recognition} merupakan salah satu bentuk dari teknologi yang disebut \textit{Artificial Intelligence} (AI). \textit{Speech Recognition} sendiri merupakan teknologi pada perangkat komputer agar dapat mengenali dan memahami kata-kata yang diucapkan oleh manusia. Pada sistem \textit{Speech Recognition} memiliki 2 sistem utama yaitu \textit{Speech-to-Text} (STT) dan \textit{Text-to-Speech} (TTS). \textit{Speech Recognition} juga dikenal sebagai sistem \textit{Speech-to-Text} dimana suara diterima dan diterjemahkan sebagai teks agar dapat dikenali. 
 Sedangkan \textit{Text-to-Speech} merupakan teks yang diterjemahkan oleh perangkat menjadi suara sebagai keluaran dari perangkat sehingga suara dapat didengar oleh pengguna. Seiring berjalannya waktu penerapan \textit{Speech Recognition} yang terkenal adalah Google Assistant oleh Google, Siri oleh Apple dan Alexa dari Amazon. Teknologi ini akan diimplementasikan pada \textit{smartphone} Android yang dimiliki tunanetra untuk memandu rute pada gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Syiah Kuala (USK).
 
-\par Android sendiri telah didukung fitur \textit{mobile GPS, Geolocation, Bluetooth, Voice Recorder, Speaker}, dsb. Fitur tersebut dapat mendukung teknologi yang akan dibangun dalam penelitian ini, yaitu IPS dengan menggunakan \textit{Bluetooth Low Energy} (BLE) dan \textit{Speech Command Recognition} sebagian penentu lokasi dan pemandu rute. BLE memiliki kelebihan-kelebihan dibandingkan protokol \textit{Internet of Things} (IoT) lainnya di antaranya konfigurasi yang mudah, metode pengiriman data yang mudah serta jangkauan konektivitas yang luas \citep{puspitasari2020}. Pada proses implementasi, Gedung Fakultas Matematika dan Ilmu Pengetahuan Alam USK akan dipasang beberapa alat transmisi BLE pada setiap ruang-ruang penting yang sering dijadikan tujuan, seperti ruangan Jurusan Informatika, Ruangan Akademik, Toilet dsb. BLE bertugas untuk memancarkan gelombang radio untuk mengirimkan informasi secara berkala ke \textit{smartphone} Android yang disebut \textit{Beacon} \citep{lin2018interactive}. Informasi yang diperoleh berupa kekuatan sinyal atau \textit{signal strength}. Kemudian, \textit{smartphone} pengguna akan menangkap indeks kekuatan sinyal atau \textit{Recieved Signal Strength Indicator} (RSSI) yang dipancarkan dari masing-masing \textit{Beacon} \citep{li2018indoor}. Dengan memanfaatkan RSSI dari \textit{Beacon} untuk menentukan lokasi dari pengguna serta sistem akan menggunakan masukkan berupa suara untuk menentukan ke mana tujuan pengguna dan keluaran berupa rute menuju tujuan pengguna yang dipandu menggunakan suara dari \textit{smartphone}.
+\par Android sendiri telah didukung fitur \textit{mobile GPS, Geolocation, Bluetooth, Voice Recorder, Speaker}, dsb. Fitur tersebut dapat mendukung teknologi yang akan dibangun dalam
+penelitian ini. Pada penelitian ini juga menggunakan IPS dengan menggunakan Bluetooth
+Low Energy (BLE) dan Speech Command Recognition akan diimplementasikan pada aplikasi android untuk penentu lokasi dan pemandu rute. BLE memiliki kelebihan-kelebihan dibandingkan protokol \textit{Internet of Things} (IoT) lainnya di antaranya konfigurasi yang mudah, metode pengiriman data yang mudah serta jangkauan konektivitas yang luas \citep{puspitasari2020}. Pada proses implementasi, Beberapa ruangan pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam USK akan dipasang alat transmisi BLE. BLE bertugas untuk memancarkan gelombang radio untuk mengirimkan informasi secara berkala ke \textit{smartphone} Android yang disebut \textit{Beacon} \citep{lin2018interactive}. Informasi yang diperoleh berupa kekuatan sinyal atau \textit{signal strength}. Kemudian, \textit{smartphone} pengguna akan menangkap indeks kekuatan sinyal atau \textit{Recieved Signal Strength Indicator} (RSSI) yang dipancarkan dari masing-masing \textit{Beacon} \citep{li2018indoor}. Dengan memanfaatkan RSSI dari \textit{Beacon} untuk menentukan lokasi dari pengguna serta sistem akan menggunakan masukkan berupa suara untuk menentukan ke mana tujuan pengguna dan keluaran berupa rute menuju tujuan pengguna yang dipandu menggunakan suara dari \textit{smartphone}.
 
+\newpage
 
-\fancyhf{} 
-\fancyfoot[R]{\thepage}
 
 \section{Rumusan Masalah}
 Berdasarkan latar belakang yang telah dijelaskan sebelumnya, maka masalah yang akan dikaji pada penelitian ini adalah sebagai berikut:
 \begin{enumerate}
-	\item Bagaimana membangun aplikasi \textit{Voice Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra.
-	\item Bagaimana aplikasi dapat membantu serta memandu tunanetra agar sampai ke tujuan berdasarkan lokasi dengan menggunakan teknologi \textit{Bluetooth Low Energy }(BLE) menggunakan metode \textit{Recieved Signal Strength Indicator} (RSSI).
-	\item Bagaimana proses pengimplementasian Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning}.
-	\item Bagaimana tingkat akurasi dari lokasi pengguna serta akurasi dari pemandu saat memandu pengguna dengan suara.
+	\item Bagaimana membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra ?
+	\item Bagaimana aplikasi dapat membantu serta memandu tunanetra agar sampai ke tujuan berdasarkan lokasi dengan menggunakan teknologi \textit{Bluetooth Low Energy }(BLE) menggunakan metode \textit{Recieved Signal Strength Indicator} (RSSI) ?
+	\item Bagaimana proses pengimplementasian Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning} ?
+	\item Bagaimana tingkat akurasi dari lokasi pengguna serta akurasi dari pemandu saat memandu pengguna dengan suara ?
 \end{enumerate}
 
 \section{Tujuan Penelitian}
 Berdasarkan rumusan masalah yang telah disebutkan sebelumnya, maka dapat dipaparkan tujuan dari penelitian ini adalah sebagai berikut: 
 \begin{enumerate}
 	\item Membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra.
-	\item Membangun aplikasi yang dapat terintegrasi dengan Bluetooth Low Energy (BLE) agar dapat menentukan lokasi pengguna.
+	\item Membangun aplikasi yang dapat dapat membantu serta memandu tunanetra agar sampai ke
+tujuan.
 	\item Mengimplementasi Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning}.
-	\item Mengetahui tingkat akurasi dari lokasi pengguna serta akurasi dari pemandu saat memandu pengguna dengan suara.
+	\item Menganalisis tingkat akurasi dari lokasi pengguna serta akurasi dari pemandu saat memandu pengguna dengan suara.
 \end{enumerate}
 
 
@@ -50,6 +52,9 @@ Adapun manfaat dari penelitian ini adalah sebagai berikut:
 	\item Memberikan aplikasi \textit{Route Guidance} dengan teknologi \textit{Indoor Positioning} serta \textit{Speech Command Recognition} dengan keakuratan yang baik sehingga pengguna dapat sampai ke tujuan.
 \end{enumerate}
 
+
+\fancyhf{} 
+\fancyfoot[R]{\thepage}
 % Baris ini digunakan untuk membantu dalam melakukan sitasi
 % Karena diapit dengan comment, maka baris ini akan diabaikan
 % oleh compiler LaTeX.

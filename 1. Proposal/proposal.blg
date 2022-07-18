@@ -18,46 +18,45 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
 Warning--empty publisher in jurafskyspeech2008
-Warning--there's a number but no series in povey2011
 You've used 34 entries,
             1935 wiz_defined-function locations,
-            664 strings with 9816 characters,
-and the built_in function-call counts, 13571 in all, are:
-= -- 1323
-> -- 567
-< -- 30
-+ -- 206
-- -- 190
-* -- 1116
-:= -- 2350
-add.period$ -- 107
+            662 strings with 9721 characters,
+and the built_in function-call counts, 13279 in all, are:
+= -- 1301
+> -- 527
+< -- 29
++ -- 190
+- -- 174
+* -- 1083
+:= -- 2299
+add.period$ -- 106
 call.type$ -- 34
-change.case$ -- 255
+change.case$ -- 248
 chr.to.int$ -- 34
-cite$ -- 36
-duplicate$ -- 544
-empty$ -- 943
-format.name$ -- 242
-if$ -- 2679
+cite$ -- 35
+duplicate$ -- 539
+empty$ -- 935
+format.name$ -- 226
+if$ -- 2624
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 39
 newline$ -- 171
 num.names$ -- 102
-pop$ -- 247
+pop$ -- 236
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 255
 quote$ -- 0
-skip$ -- 415
+skip$ -- 417
 stack$ -- 0
 substring$ -- 839
-swap$ -- 86
-text.length$ -- 10
+swap$ -- 85
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 190
-warning$ -- 2
+warning$ -- 1
 while$ -- 111
 width$ -- 0
-write$ -- 439
-(There were 2 warnings)
+write$ -- 438
+(There was 1 warning)

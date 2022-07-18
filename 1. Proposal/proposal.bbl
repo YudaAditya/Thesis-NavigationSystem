@@ -43,6 +43,12 @@ Deemer, P., Benefield, G., Larman, C., dan Vodde, B. (2012).
 \newblock A lightweight guide to the theory and practice of scrum.
 \newblock {\em Ver}, 2:2012.
 
+\bibitem[Ihsan dkk., 2018]{ihsan2018analisis}
+Ihsan, M., Suwastika, N.~A., dan Putrada, A.~G. (2018).
+\newblock Analisis implementasi kalman filter untuk peningkatan akurasi
+  pendeteksian pada sistem monitoring area terlarang sepeda motor berbasis m2m.
+\newblock {\em eProceedings of Engineering}, 5(1).
+
 \bibitem[Jaya, 2018]{jaya2018pengujian}
 Jaya, T.~S. (2018).
 \newblock Pengujian aplikasi dengan metode blackbox testing boundary value
@@ -107,13 +113,6 @@ Nasution, A. dkk. (2018).
 \newblock Perancangan aplikasi push notification berbasis android.
 \newblock {\em JURTEKSI (Jurnal Teknologi dan Sistem Informasi)},
   4(2):149--154.
-
-\bibitem[Povey dkk., 2011]{povey2011}
-Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N.,
-  Hannemann, M., Motlicek, P., Qian, Y., Schwarz, P., dkk. (2011).
-\newblock {The Kaldi speech recognition toolkit}.
-\newblock In {\em IEEE 2011 workshop on automatic speech recognition and
-  understanding}, number CONF. IEEE Signal Processing Society.
 
 \bibitem[Puspitasari, 2020]{puspitasari2020}
 Puspitasari, R. (2020).

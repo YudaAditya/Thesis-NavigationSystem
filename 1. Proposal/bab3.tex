@@ -34,6 +34,8 @@ Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa per
 	\end{itemize}
 \end{enumerate}
 
+
+\newpage
 \section{\textit{Roadmap} Penelitian}
 \textit{Roadmap} penelitian merupakan diagram yang menggambarkan rangkaian beberapa penelitian yang saling berkesinambungan dalam rentang waktu tertentu. \textit{Roadmap} penelitian biasa dibuat untuk memberikan batasan kepada peneliti agar menghindari pengamatan yang tidak perlu dan fokus terhadap bagian penelitiannya saja. Pada penelitian ini dibagi ke dalam 2 fase. Fase pertama pada tahun 2019 memiliki fokus penelitian pada \textit{indoor localization} dengan menggunakan \textit{Bluetooth Low Energy} (BLE) dan menggunakan \textit{Wireless Local Area Network} (WLAN) dapat dilihat gambar \ref{img:fase1}. Pada fase kedua pada tahun 2020 lebih berfokus pada penelitian \textit{Indoor Localization} dengan menggunakan BLE. Penelitian ini terletak pada fase 2 di tahun 2020 dengan topik utama yaitu Aplikasi Navigasi \textit{Indoor} dengan sub topik untuk pengguna Tunanetra. Penelitian ini memiliki batasan berupa pembangunan aplikasi \textit{mobile} untuk \textit{Route Guidance} untuk Tunanetra, seperti yang ditunjukkan pada gambar \ref{img:fase2} dengan kata yang dicetak tebal berwarna merah sebagai berikut.
 
@@ -53,7 +55,7 @@ Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa per
   \begin{adjustbox}{addcode={\begin{minipage}{\width}}{\caption{%
       \textit{Roadmap} Penelitian Fase 2
       }\label{img:fase2}\end{minipage}},rotate=90,center}
-      \includegraphics[scale=.3]{gambar/bab3/rp_fase2}%
+      \includegraphics[scale=.6]{gambar/bab3/rp_fase2}%
   \end{adjustbox}
 \end{figure}
 
@@ -81,12 +83,14 @@ Tahapan ini merupakan tahapan yang dilakukan untuk mengidentifikasi masalah pada
 Kebutuhan fungsional mendefinisikan fungsionalitas sistem. Kebutuhan fungsional dari identifikasi masalah yang telah dilakukan adalah sebagai berikut:
 
 \begin{itemize}
-\item Melakukan proses pemanduan kepada pengguna secara background process dengan bantuan \textit{speech command recognition} dan \textit{route guidance} dengan aplikasi berbasis Android.
+\item Melakukan proses pemanduan kepada pengguna secara \textit{background process} dengan bantuan \textit{speech command recognition} dan \textit{route guidance} dengan aplikasi berbasis Android.
 
 \item Menampilkan prediksi lokasi pengguna serta rute terbaik menuju ke lokasi tujuan pengguna.
 
 \end{itemize}
 
+
+\newpage
 \item Kebutuhan Non-Fungsional
 Kebutuhan non-fungsional memastikan batasan eksternal yang harus dipenuhi oleh sistem. Batasan-batasan tersebut antara lain:
 
@@ -146,17 +150,17 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 \label{img:alur_kerja_sistem}
 \end{figure}
 
-\begin{enumerate}
+\begin{itemize}
 \item \textit{Input} diterima dari pengguna setelah mengucapkan \textit{hotword}.
 
 \item Pada proses 1 aplikasi dan perangkat akan memindai kekuatan sinyal BLE terdekat serta menentukan posisi pengguna.
 
 \item Pada proses 2, setelah posisi pengguna ditentukan, aplikasi akan melakukan pengecekan \textit{input} dari pengguna pada \textit{database} lokasi menggunakan model yang telah tersedia oleh penelitian lainnya.
 
-\item Pada proses 3, aplikasi akan memprediksi jarak tujuan serta rute terdekat menuju tujuan pengguna menggunakan algoritma kalman filter.
+\item Pada proses 3, aplikasi akan memprediksi jarak tujuan serta rute terdekat menuju tujuan pengguna menggunakan algoritma Kalman Filter.
 
-\item Hasil yang dihasilkan dari proses-proses sebelumnya berupa notifikasi dan vibrasi serta \textit{text-to-speech} atau berupa ucapan dari rute yang akan di tempuh oleh pengguna, seperti "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika", dll.
-\end{enumerate}
+\item Hasil yang dihasilkan dari proses-proses sebelumnya berupa notifikasi dan vibrasi serta \textit{text-to-speech} atau berupa ucapan dari rute yang akan di tempuh oleh pengguna, seperti "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika", dsb.
+\end{itemize}
 
 \item \textit{Flow Diagram}
 \par \textit{Flow Diagram} menunjukkan bagaimana proses tahapan melakukan navigasi pada sistem seperti pada gambar \ref{img:flow_diagram_app} berikut ini.
@@ -220,11 +224,11 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 \par Data yang akan digunakan menggunakan \textit{text-to-speech} yang disediakan oleh library Google speech. Sehingga proses pemanduan menuju ruangan akan dipandu dengan suara seperti "Menuju Ruangan Jurusan Informatika", "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika".
 
 \item Data akurasi lokasi pengguna serta akurasi rute
-\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman filter.
+\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
 
 \end{enumerate}
 
-
+\newpage
 \subsection{Pembuatan Sistem Aplikasi}
 Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunakan adalah metode \textit{Scrum}, dikarenakan sistem ini dikembangkan bersama dengan tim dan membutuhkan fleksibilitas terhadap perubahan yang terjadi dalam proses pengembangannya, sehingga memerlukan iterasi secara berkala agar berjalan dengan baik. Salah satu tahap yang merupakan paling awal dari metode ini adalah \textit{product backlog}. Pada tahap ini, semua kebutuhan akan ditransformasikan menjadi rancangan pekerjaan untuk diselesaikan agar aplikasi dapat bekerja secara fungsional. Adapun \textit{product backlog} dari keseluruhan aplikasi ini adalah sebagai berikut.
 
@@ -233,7 +237,7 @@ Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunak
 
 \item Menampilkan \textit{Pop up} yang muncul dari \textit{input} suara.
 
-\item Meluncurkan aplikasi dengan proses pengenalan suara
+\item Meluncurkan aplikasi dengan proses pengenalan suara.
 
 \item Menampilkan dan mengeluarkan suara daftar ruangan yang bisa di gunakan sebagai tujuan.
 
@@ -244,19 +248,46 @@ Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunak
 \end{itemize}
 
 \subsection{Pengujian Akurasi}
-\begin{enumerate}
-\item Pengujian akurasi Pengenalan suara dan \textit{Text-to-Speech}
-\par Akurasi pada model pengenalan suara sebagai input pengguna menggunakan data dari pre-trained model yang telah dibuat oleh penelitian yang berada pada roadmap yang sama.
+Pengujian akurasi posisi pengguna dan pemilihan rute akan menggunakan gabungan titik BLE sebagai titik awal dengan mengukur kekuatan RSSI, kemudian menggunakan letak dan posisi BLE yang telah dipetakan sebelumnya untuk melakukan pemilihan rute serta proses navigasi yang akan diprediksi menggunakan algoritma Kalman Filter disertai dengan fase pembaharuan prediksi titik lokasi pengguna ke tujuan.
 
-\item Pengujian akurasi posisi pengguna
-\par Akurasi posisi pengguna menggunakan titik-titik beacon atau BLE yang dikoneksikan dengan smartphone pengguna menggunakan algoritma.
+\newpage
+Berikut perhitungan yang akan digunakan untuk menguji akurasi pengguna serta rute pengguna, rumus menurut \citep{ihsan2018analisis}:
+\begin{itemize}
+\item \textit{Time Update (Predict)}
 
-\item Pengujian akurasi pemilihan rute pengguna
-\par Pengujian akurasi pemilihan rute pengguna menggunakan gabungan titik beacon atau BLE sebagai titik awal, kemudian menggunakan letak dan posisi beacon yang telah di petakan sebelumnya, serta akan digunakan prediksi menggunakan algoritma Kalman \textit{filter} disertai dengan fase pembaharuan prediksi.
+\par \textit{Predict State}
+\begin{equation}
+x = x
+\end{equation}
 
-\par 
+\par \textit{Predict error covariance}
+\begin{equation}
+p = p + q
+\end{equation}
 
-\end{enumerate}
+\item \textit{Measurements update (Correct)}
+\par \textit{Update the estimate via} k 
+\begin{equation}
+x = x + k*(measurement – x)
+\end{equation}
+
+\par Kalman \textit{gain} 
+\begin{equation}
+k = p / ( p+r )
+\end{equation}
+
+\par \textit{Update the error covariance}
+\begin{equation}
+p = (1 – k )* p
+\end{equation}
+
+\end{itemize}
+\par Keterangan
+\par x: Nilai yang di filter
+\par p: Error estimasi
+\par q: Noise yang diakibatkan dari proses
+\par k: Kalman Gain
+\par r: Noise dari sensor\newline
 
 \subsection{Pengujian Fungsionalitas dengan Metode \textit{Black Box}}
 Metode yang digunakan untuk melakukan pengujian fungsionalitas adalah dengan \textit{black box testing}. Pengujian ini dilakukan untuk memeriksa fungsi-fungsi pada sistem yang dibangun pada penelitian ini apakah sudah bekerja sesuai dengan kebutuhan pengguna ataupun tidak. Pengujian ini dilakukan dengan cara menjalankan setiap fungsi yang ada pada sistem dan memastikan agar sistem dapat bekerja dengan semestinya sesuai alur yang telah dirancang. Pengujian ini juga dapat melibatkan target pengguna dan pengembang.
