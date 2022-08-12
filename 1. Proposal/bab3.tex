@@ -7,7 +7,7 @@
 \chapter{METODOLOGI PENELITIAN}
 
 \section{Waktu dan Lokasi Penelitian}
-Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 3 bulan terhitung dari Juli 2022 hingga September 2022.
+Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 5 bulan terhitung dari Agustus 2022 hingga Desember 2022.
 
 \section{Alat dan Bahan}
 Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa perangkat keras (\textit{Hardware}) dan perangkat lunak (\textit{Software}) yang dijabarkan sebagai berikut:
@@ -67,7 +67,7 @@ Metode penelitian yang dilakukan dalam penelitian ini ditunjukkan pada Gambar \r
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 14cm, height= 8cm]{gambar/bab3/diagram_alir}}
+{\includegraphics [scale= 0.7]{gambar/bab3/diagram_alir}}
 \caption{Diagram Alir Penelitian}
 \label{img:diagram_alir_penelitian}
 \end{figure}
@@ -89,8 +89,6 @@ Kebutuhan fungsional mendefinisikan fungsionalitas sistem. Kebutuhan fungsional 
 
 \end{itemize}
 
-
-\newpage
 \item Kebutuhan Non-Fungsional
 Kebutuhan non-fungsional memastikan batasan eksternal yang harus dipenuhi oleh sistem. Batasan-batasan tersebut antara lain:
 
@@ -128,7 +126,7 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 \label{img:use_case_diagram}
 \end{figure}
 
-
+\newpage
 \item \textit{Deployment Diagram}
 \par \textit{Deployment Diagram} merupakan gambaran hubungan antara perangkat lunak dan perangkat keras yang digunakan dalam sebuah sistem. Seperti yang telah disebutkan sebelumnya, penelitian ini merupakan bagian dari penelitian lain yang saling terintegrasi sehingga tidak semua \textit{node} dalam diagram menjadi fokus dalam penelitian ini. Bagian dalam diagram yang menjadi jangkauan dari penelitian ini ditandai dengan warna biru seperti yang ditunjukkan pada Gambar \ref{img:deployment_diagram}
 
@@ -139,13 +137,15 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 \label{img:deployment_diagram}
 \end{figure}
 
+
+\newpage
 \item Alur Kerja Sistem
 
 \par Alur kerja sistem merupakan langkah-langkah yang dilalui sistem hingga fungsionalitas sistem dapat dimanfaatkan oleh pengguna. Alur kerja sistem ini dapat dilihat pada Gambar \ref{img:alur_kerja_sistem}
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 14cm, height= 10cm]{gambar/bab3/alur_kerja_sistem}}
+{\includegraphics [scale = 0.5]{gambar/bab3/alur_kerja_sistem}}
 \caption{Alur Kerja Sistem}
 \label{img:alur_kerja_sistem}
 \end{figure}
@@ -167,7 +167,7 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 10cm, height= 12cm]{gambar/bab3/flow_diagram_app}}
+{\includegraphics [scale = 0.35]{gambar/bab3/flow_diagram_app}}
 \caption{\textit{Flow Diagram} Navigasi \textit{Indoor}}
 \label{img:flow_diagram_app}
 \end{figure}
@@ -293,58 +293,38 @@ p = (1 – k )* p
 Metode yang digunakan untuk melakukan pengujian fungsionalitas adalah dengan \textit{black box testing}. Pengujian ini dilakukan untuk memeriksa fungsi-fungsi pada sistem yang dibangun pada penelitian ini apakah sudah bekerja sesuai dengan kebutuhan pengguna ataupun tidak. Pengujian ini dilakukan dengan cara menjalankan setiap fungsi yang ada pada sistem dan memastikan agar sistem dapat bekerja dengan semestinya sesuai alur yang telah dirancang. Pengujian ini juga dapat melibatkan target pengguna dan pengembang.
 
 \subsection{\textit{Usability Testing}}
-\textit{Usability Testing} merupakan pengujian aplikasi untuk melihat apakah pengguna dapat dengan mudah dan nyaman dalam menggunakan aplikasi tersebut serta melihat dan mengevaluasi keberhasilan dari sebuah produk atau jasa. Pengujian ini akan menggunakan metode SUS. SUS terdiri dari 10 pertanyaan dengan menggunakan skala 1-5. Berikut daftar pertanyaan-pertanyaan dengan metode SUS dapat dilihat pada Tabel \ref{tab:SUS}.
+\textit{Usability Testing} merupakan pengujian aplikasi untuk melihat apakah pengguna dapat dengan mudah dan nyaman dalam menggunakan aplikasi tersebut serta melihat dan mengevaluasi keberhasilan dari sebuah produk atau jasa. Pengujian ini akan menggunakan metode UMUX. UMUX terdiri dari 4 pertanyaan dengan menggunakan skala 1-7. Berikut daftar pertanyaan-pertanyaan dengan metode UMUX dapat dilihat pada Tabel \ref{tab:UMUX}.
 
-% Please add the following required packages to your document preamble:
-% \usepackage{graphicx}
 \begin{table}[H]
-\caption{Daftar Pertanyaan Metode SUS \citep{kaya2019usability}}
-\label{tab:SUS}
-\centering
+\caption{Daftar Pertanyaan Metode UMUX.}
+\label{tab:UMUX}
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|l|l|}
 \hline
-R1  & Saya pikir saya ingin menggunakan sistem ini dengan sering.               \\ \hline
-R2  & Saya menemukan sistem yang tidak rumit.                                   \\ \hline
-R3  & Saya pikir sistemnya mudah digunakan.                                     \\ \hline
-R4 & \begin{tabular}[c]{@{}l@{}}Saya pikir saya akan membutuhkan bantuan dari \\ orang teknis untuk dapat menggunakan sistem ini.\end{tabular}    \\ \hline
-R5  & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik. \\ \hline
-R6  & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.             \\ \hline
-R7 & \begin{tabular}[c]{@{}l@{}}Saya membayangkan bahwa kebanyakan orang akan \\ belajar menggunakan sistem ini dengan sangat cepat.\end{tabular} \\ \hline
-R8  & Menurut saya sistem ini sangat rumit untuk digunakan.                     \\ \hline
-R9  & Saya merasa sangat percaya diri menggunakan sistem ini.                   \\ \hline
-R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.   \\ \hline
+1 & Kemampuan sistem ini memenuhi persyaratan saya.                  \\ \hline
+2 & Menggunakan sistem ini adalah
+pengalaman yang membuat frustrasi.  \\ \hline
+3 & Sistem ini mudah digunakan.                                       \\ \hline
+4 & Saya harus menghabiskan terlalu banyak waktu untuk
+memperbaiki hal-hal dengan sistem ini. \\ \hline
 \end{tabular}%
 }
 \end{table}
 
-Rumus untuk menghitung skor akhir metode SUS \citep{brooke1996sus}, dapat dilihat dari persamaan berikut.
+Untuk menghitung skor akhir metode UMUX \citep{brooke1996sus}, dapat dilihat dari cara berikut.
 
-\begin{equation}
-skorSUS = (\sum_{9}^{i} (Ri - 1) + \sum_{10}^{j} (5 - Rj)) * 2,5
-\end{equation}
-\newline
-Keterangan:\newline
-$R$ = daftar pertanyaan pada metode SUS. \newline
-$i$ = angka ganjil 1, 3, 5, 7, dan 9. \newline
-$j$ = angka genap 2, 4, 6, 8, dan 10.
-\newline 
+\begin{enumerate}
+\item Item ganjil diberi skor [ skor pengguna - 1]. Item genap diberi skor [7 - skor pengguna].
+
+\item Jumlahkan perbedaan ini dan bagi jumlahnya dengan 24 (skor tertinggi).
+
+\item Kalikan hasil dengan 100.
+
+\item Cari nilai rata-rata dari seluruh pengguna.
+\end{enumerate}
 
 \par Tingkat nilai skala pengujian menentukan apakah sistem tersebut layak digunakan, bermanfaat, diterima oleh pengguna dan bertahan lama penggunaannya. Sebuah sistem dengan nilai pengujian yang tinggi membuat sistem tersebut menjadi populer dalam waktu yang lama dan penggunaannya yang luas, dikarenakan banyak individu akan merasakan manfaat dari kehadiran sistem tersebut. Sedangkan sistem dengan nilai pengujian yang rendah, sering kali diabaikan walaupun dibuat berdasarkan kebutuhan dan menghasilkan sumber daya yang banyak.
-Berdasarkan dari skor akhir SUS, dapat diketahui seberapa tinggi tingkat usability rancangan sistem yang dikembangkan. Tabel \ref{tab:skor_SUS} menunjukkan nilai interpretasi yang digunakan.
 
-\begin{table}[H]
-\caption{ Interpretasi skor sus}
-\label{tab:skor_SUS}
-\centering
-\begin{tabular}{|l|l|}
-\hline
-Skor SUS         & Interpretasi         \\ \hline
-\textless{}50    & Tidak Dapat Diterima \\ \hline
-50-70            & Marginal             \\ \hline
-\textgreater{}70 & Dapat Diterima       \\ \hline
-\end{tabular}
-\end{table}
 
 
 %-----------------------------------------------------------------------------%

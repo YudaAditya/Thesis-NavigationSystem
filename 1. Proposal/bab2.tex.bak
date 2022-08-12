@@ -19,32 +19,44 @@
 \section{\textit{Route Guidance System / Wayfinding and Navigation System}}
 Menurut \citep{karimi2015indoor}, \textit{Wayfinding and navigation system} memiliki 2 makna, yaitu merupakan perangkat khusus yang menyediakan solusi pencarian jalan dan navigasi tanpa memerlukan tautan komunikasi atau koneksi ke sistem lain dan tanpa penyedia pihak ketiga. Makna ke dua adalah referensi layanan melalui \textit{smartphone} yang menyediakan solusi pencarian arah dan navigasi hanya melalui tautan komunikasi kabel-nirkabel ke sistem jarak jauh yang didukung oleh penyedia pihak ketiga. Dari perspektif komputasi, \textit{Wayfinding and navigation system} adalah platform terpusat, terdistribusi, dan didistribusikan melalui klien (pada \textit{smartphone}) dan server yang dikelola oleh penyedia layanan.
 
-\section{Kalman Filter}
-Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komputasi yang efisien untuk memperkirakan keadaan suatu proses, dengan cara meminimalkan rata-rata kesalahan kuadrat. Filter ini sangat berguna dalam beberapa aspek: mendukung estimasi-estimasi keadaan lampau, sekarang dan masa depan, dan dapat melakukannya bahkan ketika sifat pasti dari sistem yang dimodelkan tidak diketahui \cite{welch2020kalman}. Kalman Filter sendiri merupakan algoritma yang menggunakan serangkaian data yang diamati dari waktu ke waktu, yang mengandung \textit{noise} dan ketidakakuratan lainnya, untuk memperkirakan variabel yang tidak diketahui dengan lebih akurat. Ini diusulkan oleh R. E. Kalman pada tahun 1960, dan menjadi pendekatan standar untuk estimasi yang optimal. Karena memiliki keunggulan waktu secara \textit{realtime}, cepat, efisien, dan anti-interferensi yang kuat, Kalman filter telah banyak diterapkan di bidang perhitungan orbit, pelacakan target dan navigasi \cite{li2015kalman}.
+\section{\textit{Bluetooth Low Energy)} (BLE)}
+Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan kegunaan sebagai standar komunikasi nirkabel untuk bertukar data dalam jarak dekat \citep{kaluvza2017analysis}. Teknologi \textit{Bluetooth} memiliki fitur utama yaitu memiliki biaya yang rendah, konsumsi daya rendah, jangkauan kecil, memiliki ketahanan dan penggunaan secara global. Kecepatan transfer data yang diberikan oleh \textit{Bluetooth} sebesar 1 Mbit/s dan menggunakan pita frekuensi tanpa izin 2,4 hingga 2,485 GHz \citep{kaluvza2017analysis}.
 
-\section{\textit{Fingerprinting}}
-\textit{Fingerprinting} adalah teknik untuk menentukan lokasi dengan pemanfaatan \textit{Radio Signal Strength} (RSS) dari suatu \textit{Access Point }(AP). Menurut Yudha dkk. (2018) , metode ini memperhitungkan atenuasi karena kekuatan sinyal sering berubah-ubah. Setiap titik reverensi dikumpulkan yang mengintegrasikan adanya penghalang antara transmiter dan \textit{receiver}.
-
-\par Transmiter untuk teknologi IPS yang ditunjukan untuk WLAN disebut dengan AP, sedangkan transmiter untuk teknologi IPS yang ditunjukan untuk \textit{Bluetooth Low Energy} disebut dengan \textit{Beacon } \cite{puspitasari2020}. Metode fingerprinting berbasis IPS ini terdiri dari 2 tahap. Tahap pertama adalah tahap pembelajaran (offline), di mana lokasi fingerprints itu sendiri diperoleh dengan cara mengumpulkan RSSI dalam satuan desibel (dB) yang dipancarkan dari masing-masing AP. Kemudian gelombang radio yang dipancarkan AP yang diletakkan pada posisi yang telah ditentukan sebelumnya ditangkap oleh smartphone yang terintegrasi dengan WLAN ataupun \textit{Bluetooth}.
-
-\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (\textit{online}), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya (\citep{subhan2011indoor}). Menurut \citep{yudha2018indoor}, metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada Gambar x.x.
+\par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi \textit{Bluetooth} 4.0, dimana meliputi : \textit{Bluetooth} Klasik, \textit{Bluetooth} dengan kecepatan tinggi, dan protokol \textit{Bluetooth} hemat energi. Karakteristik dari \textit{Bluetooth Low Energy} (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer \citep{kaluvza2017analysis}.
 
 \begin{figure}[H]
 \centering
-\shadowbox
-{\includegraphics [width = 10cm, height= 5cm]{gambar/sr_arsitektur}}
-\caption{Ilustrasi Metode \textit{Fingerprinting} \citep{aggarwal2012}}.
-\label{sr_arsitektur}
+{\includegraphics [scale= .1]{gambar/bab2/BLE_Device}}
+\caption{Perangkat Bluetooth Low Energy}.
+\label{img:BLE_device}
 \end{figure}
 
-\section{\textit{Received Signal Strength Indicator} (RSSI)}
+\subsection{\textit{Beacon}}
+BLE memancarkan sinyal dari alat transmiter yang beroperasi menggunakan baterai. Alat transmiter tersebut disebut dengan \textit{Beacon}. \textit{Beacon} merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan \citep{puspitasari2020}. Setiap perangkat \textit{smartphone} dan tablet yang mendeteksi sinyal dari \textit{Beacon}, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. \textit{Beacon Bluetooth} mengubah pengalaman menggunakan \textit{smartphone} untuk bepergian, berbelanja, bekerja, dan bermain \citep{kaluvza2017analysis}.
+
+\section{\textit{Fingerprinting}}
+\textit{Fingerprinting} adalah teknik untuk menentukan lokasi dengan pemanfaatan \textit{Radio Signal Strength} (RSS) dari suatu \textit{Access Point }(AP). Menurut \citep{yudha2018indoor} , metode ini memperhitungkan atenuasi karena kekuatan sinyal sering berubah-ubah. Setiap titik reverensi dikumpulkan yang mengintegrasikan adanya penghalang antara transmiter dan \textit{receiver}.
+
+\par Transmiter untuk teknologi IPS yang ditunjukan untuk WLAN disebut dengan AP, sedangkan transmiter untuk teknologi IPS yang ditunjukan untuk \textit{Bluetooth Low Energy} disebut dengan \textit{Beacon } \cite{puspitasari2020}. Metode fingerprinting berbasis IPS ini terdiri dari 2 tahap. Tahap pertama adalah tahap pembelajaran (offline), di mana lokasi fingerprints itu sendiri diperoleh dengan cara mengumpulkan RSSI dalam satuan desibel (dB) yang dipancarkan dari masing-masing AP. Kemudian gelombang radio yang dipancarkan AP yang diletakkan pada posisi yang telah ditentukan sebelumnya ditangkap oleh smartphone yang terintegrasi dengan WLAN ataupun \textit{Bluetooth}.
+
+\par Selama tahap pembelajaran lokasi yang tidak diketahui data pembelajarannya kemudian dirujuk sebagai titik referensi estimasi lokasi. Tahap kedua adalah tahap pengujian (\textit{online}), di mana keakuratan yang dikumpulkan dalam data pembelajaran. Selama tahap pengujian sistem harus memberikan lokasi setiap objek berdasarkan data RSSI yang diamati. Namun, nilai RSSI bisa dipengaruh oleh keadaan lingkungan sekitar yang dapat mengganggu keakuratannya \citep{subhan2011indoor}. Menurut \citep{yudha2018indoor}, metode Fingerprinting berbasis IPS ini melibatkan 2 tahap yang dapat dilihat pada Gambar \ref{img:fingerprinting}.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale=.5]{gambar/bab2/Fingerprinting}}
+\caption{Ilustrasi Metode \textit{Fingerprinting} \citep{yudha2018indoor}}.
+\label{img:fingerprinting}
+\end{figure}
+
+\subsection{\textit{Received Signal Strength Indicator} (RSSI)}
 \textit{Received Signal Strength Indicator} atau RSSI adalah metode pengukuran jarak yang memperoleh sinyal dari transmiter seperti \textit{Bluetooth} untuk menentukan \textit{distance-loss} model, dan kemudian memperkirakan posisi pengguna melalui beberapa algoritma (\citep{li2018indoor}). Menurut \citep{puspitasari2020} \textit{Positioning System} menghasilkan data yang penting untuk menghitung lokasi pengguna. \textit{Time of Arrival} (TOA), \textit{Time Difference of Arrival} (TDOA), \textit{Angle of Arrival} (AOA). RSSI memperkirakan jarak \textit{node} yang belum diketahui ke referensi \textit{node} dari beberapa kumpulan unit perhitungan dengan menggunakan atenuasi kekuatan sinyal (\textit{signal strength}) yang dipancarkan oleh transmiter \citep{puspitasari2020}.
 
-\par Nilai RSSI didefinisikan dengan bilangan negatif. Semakin tinggi bilangan negatifnya, maka kekuatan sinyal tersebut tergolong lemah. Namun apabila nilainya mendekati 0, maka sinyal tersebut tergolong kuat. RSSI dapat digolongkan menjadi 5 kategori kekuatan sinyal seperti pada \ref{tab:sinyal_rssi}
+\par Nilai RSSI didefinisikan dengan bilangan negatif. Semakin tinggi bilangan negatifnya, maka kekuatan sinyal tersebut tergolong lemah. Namun apabila nilainya mendekati 0, maka sinyal tersebut tergolong kuat. RSSI dapat digolongkan menjadi 5 kategori kekuatan sinyal seperti Tabel \ref{tab:sinyal_rssi}
 
-\begin{table}[]
+\begin{table}[H]
 \caption{Kekuatan sinyal RSSI \citep{sideeq2016smart}}
 \label{tab:sinyal_rssi}
+\centering
 \begin{tabular}{|l|l|l|}
 \hline
 {\color[HTML]{000000} \textbf{No.}} & \textit{\textbf{Signal Noise Ratio }}(SNR) & \textbf{RSSI} \\ \hline
@@ -56,24 +68,70 @@ Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komp
 \end{tabular}
 \end{table}
 
-\section{\textit{Bluetooth Low Energy)} (BLE)}
-Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan kegunaan sebagai standar komunikasi nirkabel untuk bertukar data dalam jarak dekat \citep{kaluvza2017analysis}. Teknologi \textit{Bluetooth} memiliki fitur utama yaitu memiliki biaya yang rendah, konsumsi daya rendah, jangkauan kecil, memiliki ketahanan dan penggunaan secara global. Kecepatan transfer data yang diberikan oleh \textit{Bluetooth} sebesar 1 Mbit/s dan menggunakan pita frekuensi tanpa izin 2,4 hingga 2,485 GHz \citep{kaluvza2017analysis}.
 
-\par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi \textit{Bluetooth} 4.0, dimana meliputi : \textit{Bluetooth} Klasik, \textit{Bluetooth} dengan kecepatan tinggi, dan protokol \textit{Bluetooth} hemat energi. Karakteristik dari \textit{Bluetooth Low Energy} (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer \citep{kaluvza2017analysis}.
+\subsection{Kalman Filter}
+Kalman Filter adalah seperangkat persamaan matematika yang menyediakan cara komputasi yang efisien untuk memperkirakan keadaan suatu proses, dengan cara meminimalkan rata-rata kesalahan kuadrat. Filter ini sangat berguna dalam beberapa aspek: mendukung estimasi-estimasi keadaan lampau, sekarang dan masa depan, dan dapat melakukannya bahkan ketika sifat pasti dari sistem yang dimodelkan tidak diketahui \cite{welch2020kalman}. Kalman Filter sendiri merupakan algoritma yang menggunakan serangkaian data yang diamati dari waktu ke waktu, yang mengandung \textit{noise} dan ketidakakuratan lainnya, untuk memperkirakan variabel yang tidak diketahui dengan lebih akurat. Ini diusulkan oleh R. E. Kalman pada tahun 1960, dan menjadi pendekatan standar untuk estimasi yang optimal. Karena memiliki keunggulan waktu secara \textit{realtime}, cepat, efisien, dan anti-interferensi yang kuat, Kalman filter telah banyak diterapkan di bidang perhitungan orbit, pelacakan target dan navigasi \cite{li2015kalman}.
+
+\par Menurut \citep{ihsan2018analisis} berikut proses Kalman Filter dapat dilihat pada gambar dibawah ini:
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 10cm, height= 4cm]{gambar/bab2/kalman_filter}}
+\caption{Ilustrasi Kalman Filter \citep{ihsan2018analisis}}.
+\label{img:kalman_filter}
+\end{figure}
+
+Pada Kalman Filter dilakukan dengan dua tahapan yaitu tahap prediksi (\textit{time update}) dan tahap pembaruan (\textit{measurement update}) terhadap data-data pengukuran untuk memperbaiki hasil estimasi. Tahap prediksi adalah suatu tahapan untuk mengubah suatu keadaan menjadi keadaan berikutnya dengan mengabaikan error yang ada \citep{ihsan2018analisis}.
+
+Berikut rumus menurut \citep{ihsan2018analisis}:
+\begin{itemize}
+\item \textit{Time Update (Predict)}
+
+\par \textit{Predict State}
+\begin{equation}
+x = x
+\end{equation}
+
+\par \textit{Predict error covariance}
+\begin{equation}
+p = p + q
+\end{equation}
+
+\item \textit{Measurements update (Correct)}
+\par \textit{Update the estimate via} k 
+\begin{equation}
+x = x + k*(measurement – x)
+\end{equation}
+
+\par Kalman \textit{gain} 
+\begin{equation}
+k = p / ( p+r )
+\end{equation}
+
+\par \textit{Update the error covariance}
+\begin{equation}
+p = (1 – k )* p
+\end{equation}
+
+\end{itemize}
+\par Keterangan
+\par x: Nilai yang di filter
+\par p: Error estimasi
+\par q: Noise yang diakibatkan dari proses
+\par k: Kalman Gain
+\par r: Noise dari sensor\newline
 
 
+\par Kalman Filter menerima inputan \textit{gain} untuk meminimumkan kovariansi \textit{error}. Kalman gain berupa inputan \textit{high-gain} dan \textit{low-gain}, dimana \textit{high-gain} dapat mendekati posisi sebenarnya karena menghasilkan lintasan perkiraan lebih responsif sementara \textit{low-gain} dapat menghaluskan \textit{noise} namun mengurangi responsifnya. Oleh karena itu, semakin tinggi inputan nilai gain dari Kalman Filter maka semakin mendekati 
+posisi sebenarnya \citep{ihsan2018analisis}.
 
-\section{\textit{Beacon}}
-BLE memancarkan sinyal dari alat transmiter yang beroperasi menggunakan baterai. Alat transmiter tersebut disebut dengan \textit{Beacon}. \textit{Beacon} merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan \citep{puspitasari2020}. Setiap perangkat \textit{smartphone} dan tablet yang mendeteksi sinyal dari \textit{Beacon}, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. \textit{Beacon Bluetooth} mengubah pengalaman menggunakan \textit{smartphone} untuk bepergian, berbelanja, bekerja, dan bermain \citep{kaluvza2017analysis}.
 
+\newpage
 \section{\textit{Speech Recognition}}
-\textit{Speech Recognition} adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai \textit{Automatic Speech Recognition} (ASR)\citep{jurafskyspeech2008}. \textit{Speech Recognition} merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti \textit{smart home appliances}, \textit{personal assistants}, atau \textit{smartphone}. ASR Juga berguna untuk \textit{general transcription}, contohnya untuk membuat \textit{captions} secara otomatis untuk audio atau video (mentranskripsikan film atau video atau \textit{live discussions}) (Daniel & James, 2020). Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang \textit{Automatic Speech Recognition}. serta \textit{speech synthesis} atau \textit{text-to-speech} (TTS) \citep{jurafskyspeech2008}.
+\textit{Speech Recognition} adalah kemampuan suatu komputer agar dapat mengenali apa yang diucapkan oleh seseorang berdasarkan sinyal suara yang diucapkan oleh seseorang atau bisa disebut sebagai \textit{Automatic Speech Recognition} (ASR)\citep{jurafskyspeech2008}. \textit{Speech Recognition} merupakan antarmuka alami untuk berkomunikasi dengan peralatan komputer seperti \textit{smart home appliances}, \textit{personal assistants}, atau \textit{smartphone}. ASR Juga berguna untuk \textit{general transcription}, contohnya untuk membuat \textit{captions} secara otomatis untuk audio atau video (mentranskripsikan film atau video atau \textit{live discussions}) \citep{jurafskyspeech2008}. Menjadi suatu kemudahan bagi manusia jika komputer dapat memahami apa yang diucapkan oleh manusia dan karena hal itu juga manusia dapat dengan mudah mengoperasikan komputer karena adanya teknologi yang \textit{Automatic Speech Recognition}. serta \textit{speech synthesis} atau \textit{text-to-speech} (TTS) \citep{jurafskyspeech2008}.
 
-\section{\textit{Text-to-Speech }(TTS)}
+\subsection{\textit{Text-to-Speech }(TTS)}
 Speech Syntesis atau text-to-speech merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS memilik berbagai macam aplikasi. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis, seperti mendiang Steven Hawking seorang ahli astrofisika berbicara dengan memanipulasi sistem TTS \citep{jurafskyspeech2008}.
 
-\section{KALDI \textit{Toolkit}}
-Kaldi adalah toolkit open-source untuk speech recognition, Kaldi ditulis dalam bahasa C++ dan di bawah lisensi Apache v2.0, Kaldi bergantung dengan library finite-state transducers (menggunakan OpenFst) serta library aljabar linier ekstensif menggunakan "Basic Linear Algebra Subroutines" (BLAS) dan "Linear Algebra PACKage" (LAPACK) \citep{povey2011}. Pada penelitian ini akan digunakan model yang dihasilkan oleh Kaldi untuk membangun model yang akan digunakan pada VOSK API.
 
 
 \section{VOSK API}
@@ -116,66 +174,51 @@ Android Studio merupakan \textit{Integrated Development Environtment} (IDE) untu
 \end{itemize}
 
 \section{SCRUM}
-Scrum adalah \textit{development framework} di mana tim lintas-fungsi mengembangkan produk atau proyek secara berulang dan bertahap. Scrum menyusun siklus pengembangan yang disebut Sprint. Iterasi ini masing-masing tidak lebih dari empat minggu dan berlangsung satu demi satu tanpa jeda \citep{deemer2012lightweight}. Sprint memiliki durasi tetap atau sprint berakhir pada tanggal tertentu baik selesai atau belum, dan tidak pernah diperpanjang. Oleh karena itu Sprint dikatakan \textit{timeboxed} (Sutherland , 2010). Tahapan-tahapan metode Scrum menurut Schwab(2013) adalah sebagai berikut :
+\textit{Scrum} adalah \textit{development framework} di mana tim lintas-fungsi mengembangkan produk atau proyek secara berulang dan bertahap. \textit{Scrum} menyusun siklus pengembangan yang disebut \textit{Sprint}. Iterasi ini masing-masing tidak lebih dari empat minggu dan berlangsung satu demi satu tanpa jeda \citep{deemer2012lightweight}. \textit{Sprint} memiliki durasi tetap atau \textit{Sprint} berakhir pada tanggal tertentu baik selesai atau belum, dan tidak pernah diperpanjang. Oleh karena itu \textit{Sprint} dikatakan \textit{timeboxed} \citep{schwaber2011scrum}. Tahapan-tahapan metode \textit{Scrum} menurut \citep{schwaber2011scrum} adalah sebagai berikut :
 
 \begin{enumerate}
-\item Dimulai dengan mengumpulkan user requirements, namun tidak harus semua requirements diharapkan harus keluar dari pemikiran pengguna di tahap awal proses pengembangan. Pengguna dapat mengubah pikiran mereka di setiap waktu selama proses pengembangan, pengguna dapat menambah fitur-fitur baru, menghapus atau memperbaharui beberapa fitur yang telah ada sebelumnya.
+\item Dimulai dengan mengumpulkan \textit{user requirements}, namun tidak harus semua \textit{requirements} diharapkan harus keluar dari pemikiran pengguna di tahap awal proses pengembangan. Pengguna dapat mengubah pikiran mereka di setiap waktu selama proses pengembangan, pengguna dapat menambah fitur-fitur baru, menghapus atau memperbaharui beberapa fitur yang telah ada sebelumnya.
 
-\item Tahapan selanjutnya adalah memprioritaskan requirements dan Product Backlog. Sebuah perencanaan yang tepat dalam Sprint harus dilakukan sesuai dengan jumlah Sprint yang dibutuhkan untuk mengembangkan perangkat lunak, yang terdiri dari durasi Sprint tersebut dan requirements apa saja yang terdapat di Product Backlog yang harus diimplementasikan di setiap Sprint (dikenal dengan Sprint Backlog).
+\item Tahapan selanjutnya adalah memprioritaskan \textit{requirements} dan \textit{Product Backlog}. Sebuah perencanaan yang tepat dalam \textit{Sprint} harus dilakukan sesuai dengan jumlah Sprint yang dibutuhkan untuk mengembangkan perangkat lunak, yang terdiri dari durasi \textit{Sprint} tersebut dan \textit{requirements} apa saja yang terdapat di \textit{Product Backlog} yang harus diimplementasikan di setiap \textit{Sprint} (dikenal dengan \textit{Sprint Backlog}).
 
-\item Sprint diawali dengan Sprint Planning di mana Product Owner, satu orang uang telah diberikan wewenang dan bertanggung jawab untuk memaksimalkan nilai produk di pasar, bertemu dengan tim Scrum (tim dengan jumlah 2-9 orang), kemudian bekerja sama untuk memperkirakan requirements dari Product Backlog apa saja yang dikerjakan selama satu Sprint.
+\item \textit{Sprint} diawali dengan \textit{Sprint Planning} di mana \textit{Product Owner}, satu orang uang telah diberikan wewenang dan bertanggung jawab untuk memaksimalkan nilai produk di pasar, bertemu dengan tim \textit{Scrum} (tim dengan jumlah 2-9 orang), kemudian bekerja sama untuk memperkirakan \textit{requirements} dari \textit{Product Backlog} apa saja yang dikerjakan selama satu \textit{Sprint}.
 
-\item Sprint Planning difasilitasi dengan Scrum Master. Scrum Master adalah seorang pemimpin yang melayani (Servant Leader). Sprint Planning memiliki batasan waktu selama 8 jam di dalam sebuah Sprint yang berdurasi selama 30 hari. Keluaran dari Sprint Planning adalah daftar pekerjaan dari hasil kesepakatan antara Product Owner dan tim Scrum di mana pekerjaan itu yang dikerjakan oleh tim Scrum nantinya selama satu Sprint beserta Sprint Goal yang dinamakan dengan Sprint Backlog.
+\item \textit{Sprint Planning} difasilitasi dengan \textit{Scrum Master}. \textit{Scrum Master} adalah seorang pemimpin yang melayani (\textit{Servant Leader}). \textit{Sprint Planning} memiliki batasan waktu selama 8 jam di dalam sebuah \textit{Sprint} yang berdurasi selama 30 hari. Keluaran dari \textit{Sprint Planning} adalah daftar pekerjaan dari hasil kesepakatan antara \textit{Product Owner} dan tim \textit{Scrum} di mana pekerjaan itu yang dikerjakan oleh tim \textit{Scrum} nantinya selama satu \textit{Sprint} beserta \textit{Sprint Goal} yang dinamakan dengan \textit{Sprint Backlog}.
 
-\item Setelah Sprint Planning berakhir, tim Scrum akan mengambil Sprint Backlog untuk diri mereka masing-masing dan mengerjakan Sprint Backlog setiap hari hingga akhir Sprint tanpa campur tangan dari pihak mana pun. Daily Scrum akan dikerjakan oleh tim Scrum yang tidak lebih dari 15 menit untuk menentukan apa saja yang akan mereka kerjakan selama 24 jam ke depan berdasarkan perkembangan 24 jam terakhir, serta menyampaikan permasalahan yang menghambat mereka untuk bisa mencapai Sprint Goal. Tim Scrum akan melakukan perbaikan-perbaikan item dari Product Backlog pada Sprint yang akan datang selama proses pengembangan berlangsung, dengan tujuan membuat Sprint Planning menjadi lebih efektif.
+\item Setelah \textit{Sprint Planning} berakhir, tim \textit{Scrum} akan mengambil \textit{Sprint Backlog} untuk diri mereka masing-masing dan mengerjakan \textit{Sprint Backlog} setiap hari hingga akhir \textit{Sprint} tanpa campur tangan dari pihak mana pun. \textit{Daily Scrum} akan dikerjakan oleh tim \textit{Scrum} yang tidak lebih dari 15 menit untuk menentukan apa saja yang akan mereka kerjakan selama 24 jam ke depan berdasarkan perkembangan 24 jam terakhir, serta menyampaikan permasalahan yang menghambat mereka untuk bisa mencapai \textit{Sprint Goal}. Tim \textit{Scrum} akan melakukan perbaikan-perbaikan item dari \textit{Product Backlog} pada \textit{Sprint} yang akan datang selama proses pengembangan berlangsung, dengan tujuan membuat \textit{Sprint Planning} menjadi lebih efektif.
 
-\item Di akhir Sprint saat acara Sprint Review, Product Owner akan mempresentasikan hasil pekerjaan tim Scrum selama satu Sprint dan juga menjelaskan apa saja pencapaian tim Scrum menuju Sprint Goal di dalam Sprint tersebut kepada para pemegang kepentingan (stakeholder) agar mendapatkan feedback. Feedback ini akan dimasukkan ke dalam Product Backlog agar meningkatkan nilai dari sebuah produk. Sprint Review memiliki batasan waktu tidak lebih dari 4 jam untuk sprint yang memiliki durasi selama 30 hari.
+\item Di akhir Sprint saat acara \textit{Sprint Review}, \textit{Product Owner} akan mempresentasikan hasil pekerjaan tim \textit{Scrum} selama satu \textit{Sprint} dan juga menjelaskan apa saja pencapaian tim \textit{Scrum} menuju \textit{Sprint Goal} di dalam \textit{Sprint} tersebut kepada para pemegang kepentingan (\textit{stakeholder}) agar mendapatkan \textit{feedback}. \textit{Feedback} ini akan dimasukkan ke dalam \textit{Product Backlog} agar meningkatkan nilai dari sebuah produk. \textit{Sprint Review} memiliki batasan waktu tidak lebih dari 4 jam untuk \textit{sprint} yang memiliki durasi selama 30 hari.
 
-\item Setelah Sprint Review, Scrum Master memfasilitasi acara yang bernama Sprint Retrospectives agar tim Scrum, Product Owner bekerja sama menentukan apa saja peningkatan yang akan mereka implementasikan di Sprint berikutnya. Definition of Done adalah salah satu hal yang ditekankan oleh tim Scrum pada saat Sprint Retrospectives.
+\item Setelah \textit{Sprint Review}, \textit{Scrum Master} memfasilitasi acara yang bernama \textit{Sprint Retrospectives} agar tim \textit{Scrum}, \textit{Product Owner} bekerja sama menentukan apa saja peningkatan yang akan mereka implementasikan di \textit{Sprint} berikutnya. \textit{Definition of Done} adalah salah satu hal yang ditekankan oleh tim \textit{Scrum} pada saat \textit{Sprint Retrospectives}.
 
-\item Sprint Retrospectives merupakan acara yang paling penting dalam Scrum dikarenakan sifatnya yang menekankan continuous learning yang dapat meningkatkan tingkat agility perusahaan. Sprint Review memiliki batasan waktu tidak lebih dari 3 jam untuk Sprint yang memiliki durasi selama 30 hari. Setelah Sprint Retrospectives berakhir, maka Sprint berikutnya akan langsung dilakukan tanpa jeda antar Sprint. Pada setiap Sprint, Product Owner akan memastikan agar produk mencapai nilai setinggi mungkin saat pengembangan produk diakhiri. Product Owner, Scrum Master dan tim Scrum memegang komitmen, keberanian, saling menghargai satu sama lain, keterbukaan dan fokus. Ilustrasi tahapan-tahapan metode Scrum dapat dilihat pada Gambar x.x di bawah ini.
+
+\newpage
+\item \textit{Sprint Retrospectives} merupakan acara yang paling penting dalam \textit{Scrum} dikarenakan sifatnya yang menekankan \textit{continuous learning} yang dapat meningkatkan tingkat \textit{agility} perusahaan. \textit{Sprint Review} memiliki batasan waktu tidak lebih dari 3 jam untuk \textit{Sprint} yang memiliki durasi selama 30 hari. Setelah \textit{Sprint Retrospectives} berakhir, maka \textit{Sprint} berikutnya akan langsung dilakukan tanpa jeda antar \textit{Sprint}. Pada setiap \textit{Sprint}, \textit{Product Owner} akan memastikan agar produk mencapai nilai setinggi mungkin saat pengembangan produk diakhiri. \textit{Product Owner}, \textit{Scrum Master} dan tim \textit{Scrum} memegang komitmen, keberanian, saling menghargai satu sama lain, keterbukaan dan fokus. Ilustrasi tahapan-tahapan metode \textit{Scrum} dapat dilihat pada \ref{img:scrum} di bawah ini.
 \end{enumerate}
 
 \begin{figure}[H]
 \centering
-\shadowbox
-{\includegraphics [width = 14cm, height= 5cm]{gambar/alir_mfcc}}
-\caption{gIlustrasi Metode Pengembangan Menggunakan Scrum (Schwab, 2013).}}.
-\label{alir_mfcc}
+{\includegraphics [width = 14cm, height= 5cm]{gambar/bab2/Scrum}}
+\caption{Ilustrasi Metode Pengembangan Menggunakan Scrum \citep{schwaber2011scrum}.}.
+\label{img:scrum}
 \end{figure}
 
 \section{\textit{Black Box Testing}}
-Salah satu jenis pengujian fungsional adalah blackbox testing. Blackbox testing merupakan suatu pengujian yang tidak menggunakan pengetahuan tentang struktur interior aplikasi. Saat melakukan pengujian, penguji akan berinteraksi langsung dengan user interface, lalu penguji akan memberikan masukan dan memeriksa hasil dari aplikasi yang digunakan tanpa mengetahui bagaimana proses dari hasil tersebut (Xu, Chen, Wang, dan Rud, 2016). Pada blackbox testing mendapatkan pengujian dari deskripsi eksternal perangkat lunak, termasuk spesifikasi, persyaratan, dan desain (Ammann dan Offutt, 2017).
+Salah satu jenis pengujian fungsional adalah \textit{blackbox testing}. \textit{Blackbox} testing merupakan suatu pengujian yang tidak menggunakan pengetahuan tentang struktur interior aplikasi. Saat melakukan pengujian, penguji akan berinteraksi langsung dengan \textit{user interface}, lalu penguji akan memberikan masukan dan memeriksa hasil dari aplikasi yang digunakan tanpa mengetahui bagaimana proses dari hasil tersebut \citep{xu2016comparative}. Pada \textit{blackbox testing} mendapatkan pengujian dari deskripsi eksternal perangkat lunak, termasuk spesifikasi, persyaratan, dan desain \citep{ammann2016introduction}.
 
-\par Blackbox testing memiliki beberapa keuntungan, di antaranya penguji tidak perlu mengetahui suatu bahasa pemrograman, pengujian dilakukan dari sudut pandang pengguna agar dapat mengetahui suatu inkonsisten pada spesifikasi kebutuhan serta yang terakhir programmer dan penguji dapat saling bergantung (Jaya, 2018). Blackbox testing juga memiliki beberapa kekurangan yaitu suatu pengujian sulit didesain tanpa spesifikasi yang jelas, memiliki kemungkinan untuk pengulangan testing dan tidak ada pengujian pada bagian back end (Jaya, 2018).
+\par \textit{Blackbox testing} memiliki beberapa keuntungan, di antaranya penguji tidak perlu mengetahui suatu bahasa pemrograman, pengujian dilakukan dari sudut pandang pengguna agar dapat mengetahui suatu inkonsisten pada spesifikasi kebutuhan serta yang terakhir programmer dan penguji dapat saling bergantung \citep{jaya2018pengujian}. \textit{Blackbox testing} juga memiliki beberapa kekurangan yaitu suatu pengujian sulit didesain tanpa spesifikasi yang jelas, memiliki kemungkinan untuk pengulangan \textit{testing} dan tidak ada pengujian pada bagian \textit{back-end} \citep{jaya2018pengujian}.
 
 \section{\textit{Usability Testing}}
-Usability Testing adalah kegiatan pengujian untuk mengumpulkan data mengenai sebuah produk dalam tahap pengembangan. Tujuan utama dari usability testing adalah untuk mengumpulkan data kuantitatif dengan mengukur waktu untuk mengidentifikasi dan memperbaiki kekurangan yang ada dalam produk serta bahan pendukung yang menyertainya sebelum produk dirilis (Rubin dkk., 2008). Dengan usability testing, didapati apa yang sebenarnya dilakukan pengguna, apa yang berhasil untuk mereka, dan apa yang tidak dipikirkan akan mereka lakukan atau bahkan apa yang mereka pikir akan mereka lakukan jika menggunakan produk (Barnum, 2020).
+\textit{Usability Testing} adalah kegiatan pengujian untuk mengumpulkan data mengenai sebuah produk dalam tahap pengembangan. Tujuan utama dari \textit{usability testing} adalah untuk mengumpulkan data kuantitatif dengan mengukur waktu untuk mengidentifikasi dan memperbaiki kekurangan yang ada dalam produk serta bahan pendukung yang menyertainya sebelum produk dirilis \citep{rubin2008handbook}. Dengan \textit{usability testing}, didapati apa yang sebenarnya dilakukan pengguna, apa yang berhasil untuk mereka, dan apa yang tidak dipikirkan akan mereka lakukan atau bahkan apa yang mereka pikir akan mereka lakukan jika menggunakan produk \citep{barnum2020usability}.
 
 
-\par Pengujian ini diharapkan akan mendapatkan kekuatan dan kelemahan dari setiap aspek yang ada pada aplikasi itu sendiri. Maka dari itu, perlu adanya dokumentasi pengalaman aktual para calon pengguna aplikasi atau produk saat dievaluasi (Wesfix, 2017). Tujuan lain dilakukannya pengujian ini adalah untuk mengumpilkan data kualitatif yang berhubungan dengan produk yang diuji. Data kualitatif tersebut terdiri dari komentar yang dibuat oleh partisipan, jawaban dari kuesioner pertanyaan dan tanggapan dari partisipan saat proses wawancara. Usability testing telah terbukti dapat mengurangi waktu pada tahap pengembangan, mengurangi jumlah bugs, dan menghasilkan produk yang lebih berkualitas untuk meningkatkan nilai jual (Wahl, 2000).
+\par Pengujian ini diharapkan akan mendapatkan kekuatan dan kelemahan dari setiap aspek yang ada pada aplikasi itu sendiri. Maka dari itu, perlu adanya dokumentasi pengalaman aktual para calon pengguna aplikasi atau produk saat dievaluasi \citep{wesfix2017branding}. Tujuan lain dilakukannya pengujian ini adalah untuk mengumpilkan data kualitatif yang berhubungan dengan produk yang diuji. Data kualitatif tersebut terdiri dari komentar yang dibuat oleh partisipan, jawaban dari kuesioner pertanyaan dan tanggapan dari partisipan saat proses wawancara. \textit{Usability testing} telah terbukti dapat mengurangi waktu pada tahap pengembangan, mengurangi jumlah bugs, dan menghasilkan produk yang lebih berkualitas untuk meningkatkan nilai jual \citep{wahl2000student}.
 
 
-\section{\textit{System Usability Scale }(SUS)}
-Kuesioner standar yang paling sering digunakan untuk penilaian suatu kegunaan merupakan System Usability Scale (SUS). Dari awal kuesioner ini relatif tidak menguntungkan, namun dimasa depan kemungkinan besar SUS akan menjadi suatu ukuran yang populer dari persepsi kegunaan. Mendapatkan nilai pada SUS cukup rumit, karena pola pada item yang bergantian dan memiliki keputusan awal untuk memanipulasi skor berada di antara 0 sampai 100 (Lewis, 2018). John Brooke mengembangkan SUS pada tahun 1996 yang berisi 10 pertanyaan dasar dan sederhana tentang kegunaan suatu sistem, berikut adalah pertanyaannya  (Kaya, Ozturk, dan Gumussoy, 2019):
-\begin{center}
-\begin{tabular}{ |c|c| } 
- \hline
- R1 & Saya pikir saya ingin menggunakan sistem ini dengan sering.\\
- R2 & Saya menemukan sistem yang tidak rumit.\\
- R3 & Saya pikir sistemnya mudah digunakan.\\
- R4 & Saya pikir saya akan membutuhkan bantuan dari orang teknis untuk dapat menggunakan sistem ini.\\
- R5 & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik.\\
- R6 & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.\\
- R7 & Saya membayangkan bahwa kebanyakan orang akan belajar menggunakan sistem ini dengan sangat cepat.\\
- R8 & Menurut saya sistem ini sangat rumit untuk digunakan.\\
- R9 & Saya merasa sangat percaya diri menggunakan sistem ini.\\
- R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.\\
- \hline
-\end{tabular}
-\end{center}
 
-\par Pertanyaan tersebut akan diberikan kepada peserta uji dan menjawab dengan skala antara 1 (Sangat tidak setuju) dan 5 (Sangat setuju). Menurut Brooke hasil dari jawaban akan dievaluasi dalam kisaran 0 sampai 4. Dapat dilihat pada pertanyaan yang memiliki nomor ganjil maka memiliki makna positif dan pertanyaan bernomor genap memiliki makna negatif. Pada pertanyaan positif dilakukan penilaian yang mana skor pengguna dikurangi 1 poin dan pada pertanyaan negatif dilakukan penilaian yang mana skor pengguna dikurangi 5 poin. Setelah itu jumlah skor yang didapat dikalikan 2,5 untuk membuat kisaran antar 0 sampai 100. Skor SUS rata-rata dan skala peringkat kata sifat dihitung untuk setiap aplikasi seluler di Android dan iOS (Kaya, Ozturk, dan Gumussoy, 2019).
+
+\section{Penelitian Terkait}
+
 
 
 %-----------------------------------------------------------------------------%

@@ -24,6 +24,13 @@ Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan k
 
 \par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi \textit{Bluetooth} 4.0, dimana meliputi : \textit{Bluetooth} Klasik, \textit{Bluetooth} dengan kecepatan tinggi, dan protokol \textit{Bluetooth} hemat energi. Karakteristik dari \textit{Bluetooth Low Energy} (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer \citep{kaluvza2017analysis}.
 
+\begin{figure}[H]
+\centering
+{\includegraphics [scale= .1]{gambar/bab2/BLE_Device}}
+\caption{Perangkat Bluetooth Low Energy}.
+\label{img:BLE_device}
+\end{figure}
+
 \subsection{\textit{Beacon}}
 BLE memancarkan sinyal dari alat transmiter yang beroperasi menggunakan baterai. Alat transmiter tersebut disebut dengan \textit{Beacon}. \textit{Beacon} merupakan alat pendeteksi lokasi dengan harga yang terjangkau, ukurannya yang kecil, memiliki daya tahan baterai yang cukup lama, dan tidak membutuhkan energi listrik tambahan \citep{puspitasari2020}. Setiap perangkat \textit{smartphone} dan tablet yang mendeteksi sinyal dari \textit{Beacon}, dapat menghitung jarak dan memperkirakan keberadaan lokasi setiap perangkat sekaligus. \textit{Beacon Bluetooth} mengubah pengalaman menggunakan \textit{smartphone} untuk bepergian, berbelanja, bekerja, dan bermain \citep{kaluvza2017analysis}.
 
@@ -207,34 +214,52 @@ Salah satu jenis pengujian fungsional adalah \textit{blackbox testing}. \textit{
 
 \par Pengujian ini diharapkan akan mendapatkan kekuatan dan kelemahan dari setiap aspek yang ada pada aplikasi itu sendiri. Maka dari itu, perlu adanya dokumentasi pengalaman aktual para calon pengguna aplikasi atau produk saat dievaluasi \citep{wesfix2017branding}. Tujuan lain dilakukannya pengujian ini adalah untuk mengumpilkan data kualitatif yang berhubungan dengan produk yang diuji. Data kualitatif tersebut terdiri dari komentar yang dibuat oleh partisipan, jawaban dari kuesioner pertanyaan dan tanggapan dari partisipan saat proses wawancara. \textit{Usability testing} telah terbukti dapat mengurangi waktu pada tahap pengembangan, mengurangi jumlah bugs, dan menghasilkan produk yang lebih berkualitas untuk meningkatkan nilai jual \citep{wahl2000student}.
 
+\subsection{\textit{Usability Metric for User Experience} (UMUX)}
+UMUX merupakan salah satu instrumen kuesioner standar selain \textit{System Usability Scale} (SUS). Meskipun SUS merupakan kuesioner yang relatif singkat, ada beberapa situasi di mana instrumen yang lebih pendek lebih disukai (misalnya, ketika ada kebutuhan untuk mengukur lebih banyak atribut daripada hanya kegunaan yang dirasakan yang mengarah ke sesuatu yang tetap serta terbatas untuk atribut apa pun). UMUX dirancang di Intel untuk mendapatkan pengukuran yang dirasakan konsisten dengan SUS, tetapi hanya menggunakan empat (bukan 10) item (Lewis, 2018).
 
-\subsection{\textit{System Usability Scale }(SUS)}
-Kuesioner standar yang paling sering digunakan untuk penilaian suatu kegunaan merupakan \textit{System Usability Scale} (SUS). Dari awal kuesioner ini relatif tidak menguntungkan, namun dimasa depan kemungkinan besar SUS akan menjadi suatu ukuran yang populer dari persepsi kegunaan. Mendapatkan nilai pada SUS cukup rumit, karena pola pada \textit{item} yang bergantian dan memiliki keputusan awal untuk memanipulasi skor berada di antara 0 sampai 100 \citep{lewis2018system}. John Brooke mengembangkan SUS pada tahun 1996 yang berisi 10 pertanyaan dasar dan sederhana tentang kegunaan suatu sistem, berikut adalah pertanyaannya \citep{kaya2019usability}:
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\caption{Daftar Pertanyaan Metode UMUX.}
+\label{tab:UMUX}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+1 & Kemampuan sistem ini memenuhi persyaratan saya.                  \\ \hline
+2 & Menggunakan sistem ini adalah
+pengalaman yang membuat frustrasi.  \\ \hline
+3 & Sistem ini mudah digunakan.                                       \\ \hline
+4 & Saya harus menghabiskan terlalu banyak waktu untuk
+memperbaiki hal-hal dengan sistem ini. \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\par Menurut (Lewis , 2018 ) UMUX memiliki skala dari 1 ( sangat tidak setuju ) hingga 7 ( sangat setuju) dengan skor item dimanipulasi untuk mendapatkan skor keseluruhan berkisar dari 0 hingga 100. Berikut tingkat yang dapat diterima sebagai kelayakan skor UMUX:
+
+\begin{itemize}
+\item Reliability (Koefisien alfa lebih besar dari 0.80).
+
+\item Concurrent validity (korelasi dengan SUS lebih besar dari 0.55, korelasi CSUQ sama dengan 0.65).
+
+\item Sensitivitas terhadap tingkat yang berbeda dari berbagai variabel independen (misalnya, membedakan antara sistem yang dinilai secara independen dari tingkat kegunaan yang relatif baik dan buruk, mendeteksi perbedaan dalam kegunaan yang dirasakan sebagai fungsi dari pengalaman).
+
+\end{itemize}
+
+\par Menurut (Finstad, 2010) berikut cara menghitung skor UMUX :
 
 \begin{enumerate}
-\item Saya pikir saya ingin menggunakan sistem ini dengan sering.
+\item Item ganjil diberi skor [ skor pengguna - 1]. Item genap diberi skor [7 - skor pengguna].
 
-\item Saya menemukan sistem yang tidak rumit.
+\item Jumlahkan perbedaan ini dan bagi jumlahnya dengan 24 (skor tertinggi).
 
-\item Saya pikir sistemnya mudah digunakan.
+\item Kalikan hasil dengan 100.
 
-\item Saya pikir saya akan membutuhkan bantuan dari orang teknis untuk dapat menggunakan sistem ini.
-
-\item Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik.
-
-\item Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.
-
-\item Saya membayangkan bahwa kebanyakan orang akan belajar menggunakan sistem ini dengan sangat cepat.
-
-\item Menurut saya sistem ini sangat rumit untuk digunakan.
-
-\item Saya merasa sangat percaya diri menggunakan sistem ini.
-
-\item Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.
+\item Cari nilai rata-rata dari seluruh pengguna.
 \end{enumerate}
 
+\section{Penelitian Terkait}
 
-\par Pertanyaan tersebut akan diberikan kepada peserta uji dan menjawab dengan skala antara 1 (Sangat tidak setuju) dan 5 (Sangat setuju). Menurut Brooke hasil dari jawaban akan dievaluasi dalam kisaran 0 sampai 4. Dapat dilihat pada pertanyaan yang memiliki nomor ganjil maka memiliki makna positif dan pertanyaan bernomor genap memiliki makna negatif. Pada pertanyaan positif dilakukan penilaian yang mana skor pengguna dikurangi 1 poin dan pada pertanyaan negatif dilakukan penilaian yang mana skor pengguna dikurangi 5 poin. Setelah itu jumlah skor yang didapat dikalikan 2,5 untuk membuat kisaran antar 0 sampai 100. Skor SUS rata-rata dan skala peringkat kata sifat dihitung untuk setiap aplikasi seluler di Android dan iOS \citep{kaya2019usability}.
 
 
 %-----------------------------------------------------------------------------%

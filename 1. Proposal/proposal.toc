@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {2.1}\textit {Indoor Positioning System}}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}\textit {Route Guidance System / Wayfinding and Navigation System}}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3}\textit {Bluetooth Low Energy)} (BLE)}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}\textit {Beacon}}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}\textit {Beacon}}{6}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}\textit {Fingerprinting}}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}\textit {Received Signal Strength Indicator} (RSSI)}{7}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Kalman Filter}{8}{subsection.2.4.2}%
@@ -26,18 +26,19 @@
 \contentsline {section}{\numberline {2.9}SCRUM}{12}{section.2.9}%
 \contentsline {section}{\numberline {2.10}\textit {Black Box Testing}}{14}{section.2.10}%
 \contentsline {section}{\numberline {2.11}\textit {Usability Testing}}{15}{section.2.11}%
-\contentsline {subsection}{\numberline {2.11.1}\textit {System Usability Scale }(SUS)}{15}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.1}\textit {Usability Metric for User Experience} (UMUX)}{15}{subsection.2.11.1}%
+\contentsline {section}{\numberline {2.12}Penelitian Terkait}{16}{section.2.12}%
 \contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Waktu dan Lokasi Penelitian}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Alat dan Bahan}{17}{section.3.2}%
 \contentsline {section}{\numberline {3.3}\textit {Roadmap} Penelitian}{18}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Metode Penelitian}{21}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{22}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{22}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{22}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{23}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Pengumpulan Data}{27}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Pembuatan Sistem Aplikasi}{28}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Pengujian Akurasi}{28}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{29}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}\textit {Usability Testing}}{30}{subsection.3.4.8}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{34}{chapter*.20}%
+\contentsline {subsection}{\numberline {3.4.5}Pembuatan Sistem Aplikasi}{29}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Pengujian Akurasi}{29}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{30}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}\textit {Usability Testing}}{31}{subsection.3.4.8}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{35}{chapter*.22}%

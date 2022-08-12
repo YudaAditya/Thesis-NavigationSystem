@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.27)  19 JUL 2022 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.27)  11 AUG 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,7 +832,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
 (C:\Users\yudaa\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<gambar/logo_unsyiah.png, id=167, 264.99pt x 264.99pt>
+<gambar/logo_unsyiah.png, id=171, 264.99pt x 264.99pt>
 File: gambar/logo_unsyiah.png Graphic file (type png)
 <use gambar/logo_unsyiah.png>
 Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 182.
@@ -857,6 +857,11 @@ Overfull \hbox (0.50574pt too wide) detected at line 27
 
 Overfull \hbox (0.50574pt too wide) detected at line 28
 \T1/ptm/m/n/12 2.11. 
+ []
+
+
+Overfull \hbox (0.50574pt too wide) detected at line 30
+\T1/ptm/m/n/12 2.12. 
  []
 
 [4
@@ -903,37 +908,43 @@ BAB II.
 
 
 
-] [5]
-<gambar/bab2/Fingerprinting.png, id=384, 758.835pt x 613.29124pt>
+]
+<gambar/bab2/BLE_Device.png, id=374, 897.3525pt x 901.11656pt>
+File: gambar/bab2/BLE_Device.png Graphic file (type png)
+<use gambar/bab2/BLE_Device.png>
+Package pdftex.def Info: gambar/bab2/BLE_Device.png  used on input line 29.
+(pdftex.def)             Requested size: 89.7405pt x 90.11693pt.
+ [5 <./gambar/bab2/BLE_Device.png>]
+<gambar/bab2/Fingerprinting.png, id=395, 758.835pt x 613.29124pt>
 File: gambar/bab2/Fingerprinting.png Graphic file (type png)
 <use gambar/bab2/Fingerprinting.png>
-Package pdftex.def Info: gambar/bab2/Fingerprinting.png  used on input line 39.
+Package pdftex.def Info: gambar/bab2/Fingerprinting.png  used on input line 46.
 
 (pdftex.def)             Requested size: 379.41658pt x 306.64487pt.
  [6] [7 <./gambar/bab2/Fingerprinting.png>]
-<gambar/bab2/kalman_filter.png, id=418, 519.9425pt x 190.7125pt>
+<gambar/bab2/kalman_filter.png, id=429, 519.9425pt x 190.7125pt>
 File: gambar/bab2/kalman_filter.png Graphic file (type png)
 <use gambar/bab2/kalman_filter.png>
-Package pdftex.def Info: gambar/bab2/kalman_filter.png  used on input line 71.
+Package pdftex.def Info: gambar/bab2/kalman_filter.png  used on input line 78.
 (pdftex.def)             Requested size: 284.52533pt x 113.81145pt.
  [8 <./gambar/bab2/kalman_filter.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-0.
+7.
 
 (C:\Users\yudaa\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 95.
+LaTeX Warning: Command \textendash invalid in math mode on input line 102.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 105.
+LaTeX Warning: Command \textendash invalid in math mode on input line 112.
 
 [9] [10] [11] [12] [13]
-<gambar/bab2/Scrum.png, id=517, 1142.2675pt x 417.56pt>
+<gambar/bab2/Scrum.png, id=528, 1142.2675pt x 417.56pt>
 File: gambar/bab2/Scrum.png Graphic file (type png)
 <use gambar/bab2/Scrum.png>
-Package pdftex.def Info: gambar/bab2/Scrum.png  used on input line 194.
+Package pdftex.def Info: gambar/bab2/Scrum.png  used on input line 201.
 (pdftex.def)             Requested size: 398.33554pt x 142.2616pt.
  [14 <./gambar/bab2/Scrum.png>] [15]) [16]
 \openout2 = `bab3.aux'.
@@ -946,70 +957,83 @@ BAB III.
 
 
 ]
-<gambar/bab3/rp_fase1.jpg, id=585, 2005.4925pt x 1033.8625pt>
+<gambar/bab3/rp_fase1.jpg, id=583, 2005.4925pt x 1033.8625pt>
 File: gambar/bab3/rp_fase1.jpg Graphic file (type jpg)
 <use gambar/bab3/rp_fase1.jpg>
 Package pdftex.def Info: gambar/bab3/rp_fase1.jpg  used on input line 47.
 (pdftex.def)             Requested size: 601.6524pt x 310.16115pt.
  [18]
-<gambar/bab3/rp_fase2.jpg, id=591, 1027.84pt x 492.84125pt>
+<gambar/bab3/rp_fase2.jpg, id=589, 1027.84pt x 492.84125pt>
 File: gambar/bab3/rp_fase2.jpg Graphic file (type jpg)
 <use gambar/bab3/rp_fase2.jpg>
 Package pdftex.def Info: gambar/bab3/rp_fase2.jpg  used on input line 58.
 (pdftex.def)             Requested size: 616.70876pt x 295.70702pt.
  [19 <./gambar/bab3/rp_fase1.jpg>]
-<gambar/bab3/diagram_alir.png, id=597, 768.8725pt x 342.27875pt>
+<gambar/bab3/diagram_alir.png, id=595, 601.24625pt x 828.09375pt>
 File: gambar/bab3/diagram_alir.png Graphic file (type png)
 <use gambar/bab3/diagram_alir.png>
 Package pdftex.def Info: gambar/bab3/diagram_alir.png  used on input line 70.
-(pdftex.def)             Requested size: 398.3495pt x 227.62816pt.
- [20 <./gambar/bab3/rp_fase2.jpg>]
-[21 <./gambar/bab3/diagram_alir.png>]
-<gambar/bab3/use_case_diagram.png, id=610, 662.475pt x 553.06625pt>
+(pdftex.def)             Requested size: 420.86949pt x 579.66168pt.
+
+Overfull \hbox (13.99498pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+[20 <./gambar/bab3/rp_fase2.jpg>] [21 <./gambar/bab3/diagram_alir.png>]
+[22]
+<gambar/bab3/use_case_diagram.png, id=613, 662.475pt x 553.06625pt>
 File: gambar/bab3/use_case_diagram.png Graphic file (type png)
 <use gambar/bab3/use_case_diagram.png>
 Package pdftex.def Info: gambar/bab3/use_case_diagram.png  used on input line 1
-26.
+24.
 (pdftex.def)             Requested size: 341.4261pt x 284.52426pt.
- [22]
-<gambar/bab3/deployment_diagram.png, id=618, 610.28pt x 497.86pt>
+ [23 <./gambar/bab3/use_case_diagram.png>]
+<gambar/bab3/deployment_diagram.png, id=621, 610.28pt x 497.86pt>
 File: gambar/bab3/deployment_diagram.png Graphic file (type png)
 <use gambar/bab3/deployment_diagram.png>
 Package pdftex.def Info: gambar/bab3/deployment_diagram.png  used on input line
- 137.
+ 135.
 (pdftex.def)             Requested size: 284.53154pt x 227.62817pt.
- [23 <./gambar/bab3/use_case_diagram.png>]
-<gambar/bab3/alur_kerja_sistem.png, id=626, 845.1575pt x 597.23125pt>
+ [24 <./gambar/bab3/deployment_diagram.png>]
+<gambar/bab3/alur_kerja_sistem.png, id=630, 845.1575pt x 597.23125pt>
 File: gambar/bab3/alur_kerja_sistem.png Graphic file (type png)
 <use gambar/bab3/alur_kerja_sistem.png>
 Package pdftex.def Info: gambar/bab3/alur_kerja_sistem.png  used on input line 
 148.
-(pdftex.def)             Requested size: 398.34604pt x 284.52618pt.
- [24 <./gambar/bab3/deployment_diagram.png> <./gambar/bab3/alur_kerja_sistem.pn
-g>]
-<gambar/bab3/flow_diagram_app.png, id=636, 1174.3875pt x 1371.1225pt>
+(pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
+
+Overfull \hbox (15.7032pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
+
+[25 <./gambar/bab3/alur_kerja_sistem.png>]
+<gambar/bab3/flow_diagram_app.png, id=639, 1174.3875pt x 1371.1225pt>
 File: gambar/bab3/flow_diagram_app.png Graphic file (type png)
 <use gambar/bab3/flow_diagram_app.png>
 Package pdftex.def Info: gambar/bab3/flow_diagram_app.png  used on input line 1
 70.
-(pdftex.def)             Requested size: 284.5288pt x 341.41988pt.
- [25 <./gambar/bab3/flow_diagram_app.png>]
-<gambar/bab3/1.png, id=643, 369.38pt x 811.03pt>
+(pdftex.def)             Requested size: 411.04178pt x 479.90007pt.
+
+Overfull \hbox (4.16727pt too wide) in paragraph at lines 170--171
+ [][] 
+ []
+
+<gambar/bab3/1.png, id=640, 369.38pt x 811.03pt>
 File: gambar/bab3/1.png Graphic file (type png)
 <use gambar/bab3/1.png>
 Package pdftex.def Info: gambar/bab3/1.png  used on input line 183.
 (pdftex.def)             Requested size: 101.71863pt x 223.33713pt.
-<gambar/bab3/2.png, id=644, 361.35pt x 803.0pt>
+<gambar/bab3/2.png, id=641, 361.35pt x 803.0pt>
 File: gambar/bab3/2.png Graphic file (type png)
 <use gambar/bab3/2.png>
 Package pdftex.def Info: gambar/bab3/2.png  used on input line 189.
 (pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
-<gambar/bab3/3.png, id=645, 361.35pt x 803.0pt>
+<gambar/bab3/3.png, id=642, 361.35pt x 803.0pt>
 File: gambar/bab3/3.png Graphic file (type png)
 <use gambar/bab3/3.png>
 Package pdftex.def Info: gambar/bab3/3.png  used on input line 197.
 (pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
-<gambar/bab3/4.png, id=646, 361.35pt x 803.0pt>
+<gambar/bab3/4.png, id=643, 361.35pt x 803.0pt>
 File: gambar/bab3/4.png Graphic file (type png)
 <use gambar/bab3/4.png>
 Package pdftex.def Info: gambar/bab3/4.png  used on input line 203.
@@ -1024,35 +1048,35 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 180--207
 [] []
  []
 
-[26 <./gambar/bab3/1.png> <./gambar/bab3/2.png> <./gambar/bab3/3.png> <./gambar
-/bab3/4.png>] [27] [28]
+[26 <./gambar/bab3/flow_diagram_app.png>] [27 <./gambar/bab3/1.png> <./gambar/b
+ab3/2.png> <./gambar/bab3/3.png> <./gambar/bab3/4.png>] [28] [29]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 271.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 281.
 
-[29] [30]) [31] (proposal.bbl [32
+[30] [31]) [32] (proposal.bbl [33
 
 
 
-] [33]) [34]
+] [34]) [35]
 \openout2 = `lampiran.aux'.
 
  (lampiran.tex) (proposal.aux
 (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux)
 (lampiran.aux))
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 3606CA998E643AA332E719755255EC39;6303.
+(rerunfilecheck)             Checksum: 6045A598F47E3212CD8378A8E7689CCF;6533.
  ) 
 Here is how much of TeX's memory you used:
- 18145 strings out of 478582
- 299922 string characters out of 2844344
- 606927 words of memory out of 3000000
- 35678 multiletter control sequences out of 15000+600000
+ 18153 strings out of 478582
+ 300204 string characters out of 2844344
+ 607029 words of memory out of 3000000
+ 35688 multiletter control sequences out of 15000+600000
  504800 words of font info for 67 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 70i,17n,117p,1303b,1057s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 70i,17n,117p,1170b,1061s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/yudaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1065,9 +1089,9 @@ ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/yudaa/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/yudaa/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/yudaa/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (41 pages, 3067404 bytes).
+Output written on proposal.pdf (42 pages, 4778921 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 806 PDF objects out of 1000 (max. 8388607)
+ 199 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 

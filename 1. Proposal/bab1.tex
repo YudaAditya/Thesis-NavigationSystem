@@ -20,7 +20,9 @@ Sedangkan \textit{Text-to-Speech} merupakan teks yang diterjemahkan oleh perangk
 
 \par Android sendiri telah didukung fitur \textit{mobile GPS, Geolocation, Bluetooth, Voice Recorder, Speaker}, dsb. Fitur tersebut dapat mendukung teknologi yang akan dibangun dalam
 penelitian ini. Pada penelitian ini juga menggunakan IPS dengan menggunakan Bluetooth
-Low Energy (BLE) dan Speech Command Recognition akan diimplementasikan pada aplikasi android untuk penentu lokasi dan pemandu rute. BLE memiliki kelebihan-kelebihan dibandingkan protokol \textit{Internet of Things} (IoT) lainnya di antaranya konfigurasi yang mudah, metode pengiriman data yang mudah serta jangkauan konektivitas yang luas \citep{puspitasari2020}. Pada proses implementasi, Beberapa ruangan pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam USK akan dipasang alat transmisi BLE. BLE bertugas untuk memancarkan gelombang radio untuk mengirimkan informasi secara berkala ke \textit{smartphone} Android yang disebut \textit{Beacon} \citep{lin2018interactive}. Informasi yang diperoleh berupa kekuatan sinyal atau \textit{signal strength}. Kemudian, \textit{smartphone} pengguna akan menangkap indeks kekuatan sinyal atau \textit{Recieved Signal Strength Indicator} (RSSI) yang dipancarkan dari masing-masing \textit{Beacon} \citep{li2018indoor}. Dengan memanfaatkan RSSI dari \textit{Beacon} untuk menentukan lokasi dari pengguna serta sistem akan menggunakan masukkan berupa suara untuk menentukan ke mana tujuan pengguna dan keluaran berupa rute menuju tujuan pengguna yang dipandu menggunakan suara dari \textit{smartphone}.
+Low Energy (BLE) dan Speech Command Recognition akan diimplementasikan pada aplikasi android untuk penentu lokasi dan pemandu rute. BLE memiliki kelebihan-kelebihan dibandingkan protokol \textit{Internet of Things} (IoT) lainnya di antaranya konfigurasi yang mudah, metode pengiriman data yang mudah serta jangkauan konektivitas yang luas \citep{puspitasari2020}. 
+
+\par Pada proses implementasi, Beberapa ruangan pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam USK akan dipasang alat transmisi BLE. BLE bertugas untuk memancarkan gelombang radio untuk mengirimkan informasi secara berkala ke \textit{smartphone} Android yang disebut \textit{Beacon} \citep{lin2018interactive}. Informasi yang diperoleh berupa kekuatan sinyal atau \textit{signal strength}. Kemudian, \textit{smartphone} pengguna akan menangkap indeks kekuatan sinyal atau \textit{Recieved Signal Strength Indicator} (RSSI) yang dipancarkan dari masing-masing \textit{Beacon} \citep{li2018indoor}. Dengan memanfaatkan RSSI dari \textit{Beacon} untuk menentukan lokasi dari pengguna serta sistem akan menggunakan masukkan berupa suara untuk menentukan ke mana tujuan pengguna dan keluaran berupa rute menuju tujuan pengguna yang dipandu menggunakan suara dari \textit{smartphone}.
 
 \newpage
 
@@ -31,24 +33,23 @@ Berdasarkan latar belakang yang telah dijelaskan sebelumnya, maka masalah yang a
 	\item Bagaimana membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra ?
 	\item Bagaimana aplikasi dapat membantu serta memandu tunanetra agar sampai ke tujuan berdasarkan lokasi dengan menggunakan teknologi \textit{Bluetooth Low Energy }(BLE) menggunakan metode \textit{Recieved Signal Strength Indicator} (RSSI) ?
 	\item Bagaimana proses pengimplementasian Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning} ?
-	\item Bagaimana tingkat akurasi dari lokasi pengguna serta akurasi dari pemandu saat memandu pengguna dengan suara ?
+	\item Bagaimana tingkat akurasi dari lokasi pengguna serta akurasi dari aplikasi dalam memandu pengguna dengan suara ?
 \end{enumerate}
 
 \section{Tujuan Penelitian}
 Berdasarkan rumusan masalah yang telah disebutkan sebelumnya, maka dapat dipaparkan tujuan dari penelitian ini adalah sebagai berikut: 
 \begin{enumerate}
 	\item Membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra.
-	\item Membangun aplikasi yang dapat dapat membantu serta memandu tunanetra agar sampai ke
-tujuan.
+	\item Membangun aplikasi yang dapat memandu tunanetra agar sampai ke tujuan.
 	\item Mengimplementasi Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning}.
-	\item Menganalisis tingkat akurasi dari lokasi pengguna serta akurasi dari pemandu saat memandu pengguna dengan suara.
+	\item Menganalisis tingkat akurasi dari lokasi pengguna serta akurasi dari aplikasi dalam memandu pengguna dengan suara.
 \end{enumerate}
 
 
 \section{Manfaat Penelitian}
 Adapun manfaat dari penelitian ini adalah sebagai berikut:
 \begin{enumerate}
-	\item Memberikan kemudahan bagi pengguna terkhusus kepada tunanetra untuk menuju ke ruangan dipandu dengan navigasi suara.
+	\item Memberikan kemudahan bagi pengguna terkhusus kepada tunanetra untuk menuju ke ruangan dipandu dengan navigasi suara pada area Gedung A FMIPA Universitas Syiah Kuala.
 	\item Memberikan aplikasi \textit{Route Guidance} dengan teknologi \textit{Indoor Positioning} serta \textit{Speech Command Recognition} dengan keakuratan yang baik sehingga pengguna dapat sampai ke tujuan.
 \end{enumerate}
 

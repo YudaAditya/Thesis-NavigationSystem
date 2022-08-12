@@ -375,4 +375,121 @@ year={2019}}
   pages={2012},
   year={2012}
 }
+
+@article{schwaber2011scrum,
+  title={The scrum guide},
+  author={Schwaber, Ken and Sutherland, Jeff},
+  journal={Scrum Alliance},
+  volume={21},
+  number={19},
+  pages={1},
+  year={2011}
+}
+
+@article{jaya2018pengujian,
+  title={Pengujian aplikasi dengan metode blackbox testing boundary value analysis (studi kasus: kantor digital Politeknik Negeri Lampung)},
+  author={Jaya, Tri Sandhika},
+  journal={Jurnal Informatika: Jurnal Pengembangan IT},
+  volume={3},
+  number={1},
+  pages={45--48},
+  year={2018}
+}
+
+@book{ammann2016introduction,
+  title={Introduction to software testing},
+  author={Ammann, Paul and Offutt, Jeff},
+  year={2016},
+  publisher={Cambridge University Press}
+}
+
+@inproceedings{xu2016comparative,
+  title={A comparative study on black-box testing with open source applications},
+  author={Xu, Shaochun and Chen, Lichao and Wang, Chunning and Rud, Oleksandr},
+  booktitle={2016 17th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)},
+  pages={527--532},
+  year={2016},
+  organization={IEEE}
+}
+
+@book{rubin2008handbook,
+  title={Handbook of usability testing: how to plan, design and conduct effective tests},
+  author={Rubin, Jeffrey and Chisnell, Dana},
+  year={2008},
+  publisher={John Wiley \& Sons}
+}
+
+@book{barnum2020usability,
+  title={Usability testing essentials: ready, set... test!},
+  author={Barnum, Carol M},
+  year={2020},
+  publisher={Morgan Kaufmann}
+}
+
+@book{wesfix2017branding,
+  title={Branding itu Dipraktekin},
+  author={Wesfix, Tim},
+  year={2017},
+  publisher={Gramedia Widiasarana Indonesia}
+}
+
+
+@inproceedings{wahl2000student,
+  title={Student-run usability testing},
+  author={Wahl, Nancy J},
+  booktitle={Thirteenth Conference on Software Engineering Education and Training},
+  pages={123--131},
+  year={2000},
+  organization={IEEE}
+}
+
+@article{lewis2018system,
+  title={The system usability scale: past, present, and future},
+  author={Lewis, James R},
+  journal={International Journal of Human--Computer Interaction},
+  volume={34},
+  number={7},
+  pages={577--590},
+  year={2018},
+  publisher={Taylor \& Francis}
+}
+
+@incollection{kaya2019usability,
+  title={Usability measurement of mobile applications with system usability scale (SUS)},
+  author={Kaya, Aycan and Ozturk, Reha and Gumussoy, Cigdem Altin},
+  booktitle={Industrial engineering in the big data era},
+  pages={389--400},
+  year={2019},
+  publisher={Springer}
+}
+
+@article{brooke1996sus,
+  title={SUS-A quick and dirty usability scale},
+  author={Brooke, John and others},
+  journal={Usability evaluation in industry},
+  volume={189},
+  number={194},
+  pages={4--7},
+  year={1996},
+  publisher={London--}
+}
+
+@article{ihsan2018analisis,
+  title={Analisis Implementasi Kalman Filter Untuk Peningkatan Akurasi Pendeteksian Pada Sistem Monitoring Area Terlarang Sepeda Motor Berbasis M2m},
+  author={Ihsan, Muhammad and Suwastika, Novian Anggis and Putrada, Aji Gautama},
+  journal={eProceedings of Engineering},
+  volume={5},
+  number={1},
+  year={2018}
+}
+
+@inproceedings{misbullah2021customized,
+  title={Customized Acoustic Model using Low-Resource Indonesian Speech Dataset for Short Command Speech Recognition System},
+  author={Misbullah, Alim and Saputra, Kurnia and Nisa, Fauzy},
+  booktitle={2021 International Conference on Computer System, Information Technology, and Electrical Engineering (COSITE)},
+  pages={176--180},
+  year={2021},
+  organization={IEEE}
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

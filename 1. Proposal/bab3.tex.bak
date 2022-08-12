@@ -7,33 +7,44 @@
 \chapter{METODOLOGI PENELITIAN}
 
 \section{Waktu dan Lokasi Penelitian}
-Penelitian ini dilakukan di Fakultas Matematika dan Ilmu Pengetahuan Alam Gedung A Universitas Syiah Kuala. Waktu yang dibutuhkan untuk penelitian ini adalah 4 bulan terhitung dari bulan Maret 2021 hingga Juli 2021.
+Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 5 bulan terhitung dari Agustus 2022 hingga Desember 2022.
 
 \section{Alat dan Bahan}
-Alat dan bahan yang digunakan pada penelitian ini meliputi perangkat keras, perangkat lunak, dan data. Perangkat lunak yang digunakan dalam penelitian ini adalah sebagai berikut:
+Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa perangkat keras (\textit{Hardware}) dan perangkat lunak (\textit{Software}) yang dijabarkan sebagai berikut:
 
-\begin{itemize}
-	\item Windows 10 64 bit
-	\item Linux Ubuntu 20.04.1
-	\item Kaldi
-	\item Vosk-api
-	\item Python 
-	\item Visual Studio Code 1.50.1
-	\item Google Form
-	\item Freemake Audio Converter 1.1.9
-	\item SRILM 1.7.3
-\end{itemize}
+\begin{enumerate}
+\item Perangkat Keras
+	\begin{itemize}
+	\item Laptop Acer Aspire E5-475g dengan RAM 16GB, Intel Core i5-7200U 2.5GHz, Nvidia GeForce 940MX 2GB, \textit{Harddisk} (HDD) 1500Gb, \textit{Solid State Drive} (SSD) 250GB.
+	\item \textit{Smartphone} Xiaomi Poco F3 dengan RAM 6GB, \textit{Internal Storage} 128GB.
+	\item \textit{Personal Computer} dengan AMD Ryzen 7 2700x, RAM 16GB, Nvidia GeForce RTX 2080 8GB, \textit{Solid State Drive} (SSD) 500GB.
+	\item \textit{Beacon Bluetooth}.
+	\end{itemize}
 
-\par Sedangkan perangkat keras yang digunakan pada penelitian ini adalah 1 unit Laptop Acer Aspire A514-52G dengan RAM 12 GB, \textit{Processor} Intel® Core™ i5-10210U @ 1.60 GHz (8 CPUs), 2.1GHz, Kartu grafis NVIDIA GeForce MX250 dan Harddisk 1 TB. 
+\item Perangkat Lunak
+	\begin{itemize}
+	\item Windows 11 Pro
+	\item Linux Ubuntu 20.04.1 LTS
+	\item Android Studio 2021.2.1.15
+	\item Visual Studio Code
+	\item Figma
+	\item Notion
+	\item Vosk API
+	
+	\end{itemize}
+\end{enumerate}
 
+
+\newpage
 \section{\textit{Roadmap} Penelitian}
-\textit{Roadmap} pada penelitian ini merupakan diagram yang menggambarkan rangkaian beberapa penelitian yang memiliki kesinambungan dalam rentang waktu 2019 sampai dengan 2020 yang dibagi menjadi 2 fase. Fase pertama pada tahun 2019 memiliki dua fokus penelitian \textit{indoor localization} dengan menggunakan \textit{Bluetooth Low Energy} (BLE) dan menggunakan \textit{Wireless Local Area Network} (WLAN) dapat dilihat pada gambar \ref{fig:fase1}. Lalu pada fase kedua pada tahun 2020 lebih berfokus pada penelitian \textit{indoor localization} dengan menggunakan BLE dapat dilihat pada gambar \ref{fig:fase2}. Aplikasi Navigasi \textit{Indoor} dibangun untuk Fakultas MIPA, karena memiliki gedung yang cukup luas dan memiliki banyak sub Gedung yang dibagi menjadi 6 bagian dari Gedung A sampai Gedung F. Aplikasi ini dapat berjalan dan memberikan arahan pada pengguna di dalam ruangan. Salah satu bagian dari aplikasi Navigasi \textit{Indoor} ini adalah aplikasi \textit{route guidance} untuk pengguna tuna netra. Aplikasi \textit{route guidance} ini menggunakan \textit{voice recognition} sebagai penghubung untuk mempermudah bagi pengguna tuna netra agar dapat menjalankan aplikasi ini. Penelitian ini terletak pada fase 2 di tahun 2020 dengan topik utama yaitu Aplikasi Navigasi \textit{Indoor} dengan sub topik untuk pengguna tunanetra. Penelitian ini memiliki batasan berupa pembangunan model \textit{voice recognition} seperti yang ditunjukkan pada gambar \ref{fig:fase2} dengan kata dicetak tebal berwarna merah sebagai berikut.
+\textit{Roadmap} penelitian merupakan diagram yang menggambarkan rangkaian beberapa penelitian yang saling berkesinambungan dalam rentang waktu tertentu. \textit{Roadmap} penelitian biasa dibuat untuk memberikan batasan kepada peneliti agar menghindari pengamatan yang tidak perlu dan fokus terhadap bagian penelitiannya saja. Pada penelitian ini dibagi ke dalam 2 fase. Fase pertama pada tahun 2019 memiliki fokus penelitian pada \textit{indoor localization} dengan menggunakan \textit{Bluetooth Low Energy} (BLE) dan menggunakan \textit{Wireless Local Area Network} (WLAN) dapat dilihat gambar \ref{img:fase1}. Pada fase kedua pada tahun 2020 lebih berfokus pada penelitian \textit{Indoor Localization} dengan menggunakan BLE. Penelitian ini terletak pada fase 2 di tahun 2020 dengan topik utama yaitu Aplikasi Navigasi \textit{Indoor} dengan sub topik untuk pengguna Tunanetra. Penelitian ini memiliki batasan berupa pembangunan aplikasi \textit{mobile} untuk \textit{Route Guidance} untuk Tunanetra, seperti yang ditunjukkan pada gambar \ref{img:fase2} dengan kata yang dicetak tebal berwarna merah sebagai berikut.
+
 
 \begin{figure}[H]
   \begin{adjustbox}{addcode={\begin{minipage}{\width}}{\caption{%
       \textit{Roadmap} Penelitian Fase 1
-      }\label{fig:fase1}\end{minipage}},rotate=90,center} %label gambar simpen disetelah capt
-      \includegraphics[scale=.3]{gambar/rp_fase1}%
+      }\label{img:fase1}\end{minipage}},rotate=90,center} %label gambar simpen disetelah capt
+      \includegraphics[scale=.3]{gambar/bab3/rp_fase1}%
   \end{adjustbox}
 \end{figure}
 
@@ -43,8 +54,8 @@ Alat dan bahan yang digunakan pada penelitian ini meliputi perangkat keras, pera
 \begin{figure}[H]
   \begin{adjustbox}{addcode={\begin{minipage}{\width}}{\caption{%
       \textit{Roadmap} Penelitian Fase 2
-      }\label{fig:fase2}\end{minipage}},rotate=90,center}
-      \includegraphics[scale=.3]{gambar/rp_fase2}%
+      }\label{img:fase2}\end{minipage}},rotate=90,center}
+      \includegraphics[scale=.6]{gambar/bab3/rp_fase2}%
   \end{adjustbox}
 \end{figure}
 
@@ -52,81 +63,289 @@ Alat dan bahan yang digunakan pada penelitian ini meliputi perangkat keras, pera
 \fancyfoot[R]{\thepage}
 
 \section{Metode Penelitian}
-Metode penelitian yang dilakukan dalam penelitian ini ditunjukkan pada Gambar \ref{sr_perancangan}.
+Metode penelitian yang dilakukan dalam penelitian ini ditunjukkan pada Gambar \ref{img:diagram_alir_penelitian}.
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 14cm, height= 16cm]{gambar/sr_perancangan}}
-\caption{Diagram Perancangan Sistem Pengenalan Ucapan}
-\label{sr_perancangan}
+{\includegraphics [scale= 0.7]{gambar/bab3/diagram_alir}}
+\caption{Diagram Alir Penelitian}
+\label{img:diagram_alir_penelitian}
 \end{figure}
 
 \fancyhf{} 
 \fancyfoot[R]{\thepage}
 
-\subsection{Data Suara}
-Pada tahap ini memiliki 2 hal yang dilakukan, yang pertama pembuatan transkrip dari nama-nama ruangan pada Gedung A FMIPA Unsyiah dan pengambilan data suara dari narasumber. Pada penulisan transkrip dilakukan dengan menggali informasi nama-nama ruangan pada Gedung A FMIPA dari beberapa orang. Setelah itu dilakukan proses pengambilan data suara oleh beberapa narasumber yang berjumlah 20 orang, memiliki rentang umur 17 tahun sampai dengan 58 tahun, memiliki 10 orang yang memiliki jenis kelamin laki-laki dan 10 orang memiliki jenis kelamin perempuan. Pengambilan suara dilakukan dengan 2 cara. Pertama melalui proses perekaman suara masing-masing melalui \textit{smartphone} masing-masing lalu di \textit{input} melalui \textit{form} yang sudah dibuat dengan Google Form. Kedua dilakukan perekaman suara dengan narasumber secara langsung tanpa melalui Google Form. Sebelum proses perekaman suara, narasumber diberikan 56 daftar nama-nama ruangan pada gedung A FMIPA Unsyiah serta diberi pengarahan dalam pengucapan dari daftar yang telah diberikan.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{\textit{Pre-processing} Data Suara}
-Pada tahap ini dilakukan \textit{pre-processing} terhadap data suara yang sudah dimasukkan oleh narasumber. Tahap ini dilakukan karena narasumber melakukan proses perekaman suara secara mandiri dengan \textit{smartphone} masing-masing, jadi memiliki tipe \textit{file} audio yang berbeda-beda. \textit{File} audio diubah menjadi tipe \textit{file} *.wav dengan \textit{mono channel}, 16KHz \textit{sample rate} dan \textit{sample size} 16 bit. Aturan tersebut sesuai dengan yang diterima oleh Kaldi dan Vosk-api. Proses mengubah tipe file dengan menggunakan aplikasi Freemake Audio Converter, aplikasi ini dapat diinstalasi secara gratis dan dapat digunakan untuk sistem operasi Windows. 
-Selain mengubah tipe \textit{file}, pada tahapan ini juga dilakukan pencocokan data berdasarkan nama-nama ruangan yang dikumpulkan menjadi satu \textit{folder}. Sehingga pada penelitian ini memiliki 20 \textit{folder} berbeda yang berisikan 56 \textit{file}. 56 \textit{file} tersebut merupakan jumlah narasumber atau yang dapat kita sebut di sini adalah \textit{speaker}.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Persiapan Data untuk Kaldi}
-Pada tahapan ini ada beberapa file yang harus disiapkan untuk membuat model \textit{speech recognition}, yaitu ada persiapan data akustik untuk membuat \textit{acoustic model} dan \textit{language data} untuk membuat \textit{language model}. Sebelum mempersiapkan beberapa \textit{file} yang dibutuhkan, data suara yang telah dikumpulkan di bagi menjadi 2 bagian, di mana 80\% \textit{speaker} untuk \textit{data training} dan 20\% speaker untuk \textit{data testing}. Berikut adalah penjelasan dari persiapan data akustik dan \textit{language data}:
+\subsection{Identifikasi Masalah}
+Tahapan ini merupakan tahapan yang dilakukan untuk mengidentifikasi masalah pada lingkungan yang berhubungan dengan aplikasi yang akan dibuat baik secara langsung maupun tidak langsung dan menjadi landasan mengapa aplikasi ini harus dibuat. Masalah-masalah yang berhasil di identifikasi adalah sebagai berikut:
 
 \begin{enumerate}
-\item Persiapan data akustik
-\par Pada tahapan ini, ada 5 file yang harus dibuat agar Kaldi dapat memahami data audio yang akan diproses. Berikut adalah penjelasan file yang harus dibuat:
-	\begin{itemize}
-	\item Spk2gender
-	\par Pada file ini berisikan informasi tentang nama yang diasumsikan sebagai \textit{id} dari \textit{speaker} dan jenis kelamin \textit{speaker} tersebut. \textit{File} ini memiliki \textit{pattern} <\textit{speakerID}> <jenis kelamin>, di mana jenis kelamin diinisialkan f sebagai perempuan dan m sebagai pria.
-	
-	\item Wav.scp
-	\par Pada \textit{file} ini berisikan informasi \textit{utteranceID} dan lokasi audio tersebut ditambahkan dengan nama file tersebut, dalam hal ini penulisan \textit{utteranceID} merupakan \textit{speakerID} yang disambung dengan nama-nama ruangan yang diucapkan pada audio tersebut. Sehingga file ini memiliki \textit{pattern} <\textit{uterranceID}> <lokasi\_file\_audio>.	
-	
-	\item \textit{Text}
-	\par Pada \textit{file} ini berisikan informasi tentang \textit{utteranceID} dan transkrip dari nama--nama ruangan di Gedung A FMIPA Unsyiah yang diucapkan oleh \textit{speaker}. Sehingga file ini memiliki \textit{pattern} <\textit{uterranceID}> <\textit{text\_transcription}>.
-	
-	\item Utt2spk
-	\par Pada \textit{file} ini berisikan informasi berupa \textit{utteranceID} dan \textit{speakerID}, agar sistem pengenalan suara dapat mengetahui nama-nama ruangan yang diucapkan oleh \textit{speaker} tertentu. Sehingga file ini memiliki \textit{pattern} <\textit{uterranceID}> <\textit{speakerID}>.
-	
-	\item \textit{Corpus}
-	\par Pada \textit{file} ini berisikan informasi berupa transkrip dari nama-nama ruangan di Gedung A FMIPA Unsyiah yang diucapkan oleh \textit{speaker}, namun \textit{file} ini disimpan pada lokasi yang berbeda dari beberapa \textit{file} yang sudah disebutkan sebelumnya. \textit{File} ini memiliki \textit{pattern} <\textit{text\_transcription}> yang ditulis per baris, sehingga \textit{file} pada penelitian ini terdapat 56 baris.
-	\end{itemize}
+\item Kebutuhan Fungsional
+Kebutuhan fungsional mendefinisikan fungsionalitas sistem. Kebutuhan fungsional dari identifikasi masalah yang telah dilakukan adalah sebagai berikut:
 
-\item Persiapan \textit{language data}
-\par Pada tahapan ini, ada 4 \textit{file} berkaitan dengan \textit{language model}. Berikut adalah penjelasan \textit{file} yang harus dibuat:
-	\begin{itemize}
-	\item \textit{Lexicon}
-	\par Pertama membuat \textit{file} yang bernama \textit{lexicon}.txt. Pada \textit{file} ini berisikan setiap kata dari \textit{dictionary} dengan penambahan \textit{phone transcriptions} atau penyebutan dari kata tersebut. Seperti contoh, jika ada kata `satu` maka penyebutan dari kata tersebut adalah sa tu. Namun, jika ada suara yang diam akan dideteksi sebagai \textit{silence phone} dan penyebutannya akan ditandai dengan `sil`. Sehingga file ini memiliki \textit{pattern} <\textit{word}> <\textit{phone} 1> <\textit{phone} 2>.
-	
-	\item \textit{Nonsilence phones}
-	\par Lalu pada \textit{file} kedua diberi nama \textit{nonsilence\_phones}.txt. Pada \textit{file} ini berisikan \textit{list phone transcriptions} yang \textit{nonsilence phones}. Yang termasuk pada \textit{file} ini adalah semua \textit{phones} pada \textit{file lexicon} kecuali \textit{phones} seperti `sil` atau diam. \textit{File} ini memiliki \textit{pattern}: <\textit{phone}>.
-	
-	\item \textit{Silence phones}
-	\par Pada \textit{file} ketiga diberi nama \textit{silence\_phones}.txt. Pada \textit{file} ini berisikan \textit{list phone transcription} yang diam atau `sil` pada bagian \textit{phone}. \textit{File} ini memiliki \textit{attern}: <\textit{phone}>.
-	
-	\item \textit{Optional silence}
-	\par Pada \textit{file} keempat diberi nama \textit{optional\_silence}.txt. Pada \textit{file} ini berisikan \textit{list} pilihan lainnya dari \textit{silence phone transcription}. \textit{File} ini memiliki \textit{pattern}: <\textit{phone}>.
-	\end{itemize}
+\begin{itemize}
+\item Melakukan proses pemanduan kepada pengguna secara \textit{background process} dengan bantuan \textit{speech command recognition} dan \textit{route guidance} dengan aplikasi berbasis Android.
+
+\item Menampilkan prediksi lokasi pengguna serta rute terbaik menuju ke lokasi tujuan pengguna.
+
+\end{itemize}
+
+\item Kebutuhan Non-Fungsional
+Kebutuhan non-fungsional memastikan batasan eksternal yang harus dipenuhi oleh sistem. Batasan-batasan tersebut antara lain:
+
+\begin{itemize}
+\item Proses pemanggilan aplikasi dimulai dengan memanggil \textit{hotword}.
+
+\item Proses pencatatan dan penentuan lokasi dilakukan secara berkala dalam interval yang sesingkat-singkatnya.
+
+\item Hanya dapat melakukan proses pemanduan rute apabila \textit{Bluetooth} pada perangkat hidup dan terhubung dengan \textit{Beacon}.
+
+\item Sistem hanya dapat mendeteksi lokasi pengguna di dalam gedung yang telah di petakan terlebih dahulu.
+
+\end{itemize}
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Studi Literatur}
+Studi literatur digunakan sebagai bahan referensi selama proses penelitian. Studi literatur dilakukan dengan cara mencari situs \textit{website} dan jurnal-jurnal terkait tentang penelitian, baik jurnal nasional maupun internasional, buku-buku yang telah diterbitkan, serta situs-situs internet yang berkaitan dengan permasalahan yang dikaji dalam penelitian. Studi literatur dapat dikembangkan untuk menyempurnakan kekurangan dari penelitian sebelumnya.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Perancangan Sistem}
+Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfungsi untuk memastikan sistem yang dibangun dapat digunakan secara baik oleh pengguna. Tahap perancangan sistem ini terbagi menjadi beberapa bagian yaitu diagram Use Case , Diagram Deployment, alur kerja sistem, \textit{Flow Diagram} dan desain prototipe berdasarkan analisa kebutuhan yang telah dijabarkan. Berikut ini merupakan tahapan tersebut:
+
+
+
+\begin{enumerate}
+\item \textit{Use Case Diagram}
+\par \textit{Use Case Diagram} merupakan gambaran interaksi antara pengguna dan sistem. Pengguna dari sistem yang akan dibangun ini adalah Tunanetra dan pengunjung gedung FMIPA USK. \textit{Use Case Diagram} dari sistem ini dapat dilihat pada Gambar \ref{img:use_case_diagram}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 12cm, height= 10cm]{gambar/bab3/use_case_diagram}}
+\caption{\textit{Use Case Diagram}}
+\label{img:use_case_diagram}
+\end{figure}
+
+\newpage
+\item \textit{Deployment Diagram}
+\par \textit{Deployment Diagram} merupakan gambaran hubungan antara perangkat lunak dan perangkat keras yang digunakan dalam sebuah sistem. Seperti yang telah disebutkan sebelumnya, penelitian ini merupakan bagian dari penelitian lain yang saling terintegrasi sehingga tidak semua \textit{node} dalam diagram menjadi fokus dalam penelitian ini. Bagian dalam diagram yang menjadi jangkauan dari penelitian ini ditandai dengan warna biru seperti yang ditunjukkan pada Gambar \ref{img:deployment_diagram}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 10cm, height= 8cm]{gambar/bab3/deployment_diagram}}
+\caption{\textit{Deployment Diagram}}
+\label{img:deployment_diagram}
+\end{figure}
+
+
+\newpage
+\item Alur Kerja Sistem
+
+\par Alur kerja sistem merupakan langkah-langkah yang dilalui sistem hingga fungsionalitas sistem dapat dimanfaatkan oleh pengguna. Alur kerja sistem ini dapat dilihat pada Gambar \ref{img:alur_kerja_sistem}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.5]{gambar/bab3/alur_kerja_sistem}}
+\caption{Alur Kerja Sistem}
+\label{img:alur_kerja_sistem}
+\end{figure}
+
+\begin{itemize}
+\item \textit{Input} diterima dari pengguna setelah mengucapkan \textit{hotword}.
+
+\item Pada proses 1 aplikasi dan perangkat akan memindai kekuatan sinyal BLE terdekat serta menentukan posisi pengguna.
+
+\item Pada proses 2, setelah posisi pengguna ditentukan, aplikasi akan melakukan pengecekan \textit{input} dari pengguna pada \textit{database} lokasi menggunakan model yang telah tersedia oleh penelitian lainnya.
+
+\item Pada proses 3, aplikasi akan memprediksi jarak tujuan serta rute terdekat menuju tujuan pengguna menggunakan algoritma Kalman Filter.
+
+\item Hasil yang dihasilkan dari proses-proses sebelumnya berupa notifikasi dan vibrasi serta \textit{text-to-speech} atau berupa ucapan dari rute yang akan di tempuh oleh pengguna, seperti "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika", dsb.
+\end{itemize}
+
+\item \textit{Flow Diagram}
+\par \textit{Flow Diagram} menunjukkan bagaimana proses tahapan melakukan navigasi pada sistem seperti pada gambar \ref{img:flow_diagram_app} berikut ini.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.35]{gambar/bab3/flow_diagram_app}}
+\caption{\textit{Flow Diagram} Navigasi \textit{Indoor}}
+\label{img:flow_diagram_app}
+\end{figure}
+
+\item Desain Prototipe
+\par Desain prototipe menunjukkan perkiraan tampilan aplikasi yang akan dibuat. Desain ini dirancang berdasarkan beberapa skenario pada sisi pengguna baik tunanetra dan bukan tunanetra.
+
+\vspace{-0cm}
+	\begin{figure} [H]
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		% include first image
+  		\includegraphics[width=.5\linewidth]{gambar/bab3/1}  
+  		\caption{Pop up trigger by hotword}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		% include second image
+		\includegraphics[width=.5\linewidth]{gambar/bab3/2}  
+  		\caption{Input tujuan dan lokasi pengguna}
+	\end{subfigure}
+		\vspace{1cm}
+		\newline
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+		 % include third image
+	  	\includegraphics[width=.5\linewidth]{gambar/bab3/3}  
+  		\caption{Proses Navigasi ke Tujuan}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		% include fourth image
+  		\includegraphics[width=.5\linewidth]{gambar/bab3/4}  
+  		\caption{Histori Navigasi}
+	\end{subfigure}
+		\vspace{0.5cm}
+		\caption{Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra}
+	\label{aplikasimappingbagian1}
+	\end{figure}
 
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Ekstraksi Fitur}
-Setelah tahapan sebelumnya selesai dilakukan, selanjutnya masuk dalam tahapan ekstraksi fitur. Ekstraksi fitur dilakukan dengan menggunakan metode \textit{Mel Frequency Ceptral Coefficient} (MFCC), agar dapat mengidentifikasi konten linguistik dan membuang suara latar belakang serta suara yang tidak dibutuhkan dalam proses ini. Ekstraksi fitur pada penelitian ini memanfaatkan \textit{open source toolkit} untuk pengolahan suara yang tersedia yaitu Kaldi Toolkit. Pada perhitungan MFCC untuk penelitian ini ada hal yang harus ditentukan, yaitu menentukan jumlah \textit{ceptral coeffient} sebanyak 13 \textit{ceptral coeffient} dan jumlah \textit{frame} dalam suatu \textit{file} sepanjang 25 \textit{millisecond} dan memiliki \textit{window step} sebesar 10 \textit{millisecond}.
+\subsection{Pengumpulan Data}
+\begin{enumerate}
+\item Data Model \textit{Voice Recognition}
+\par Data yang digunakan dalam penelitian ini terdiri atas data \textit{pre-trained} model yang diperoleh dari penelitian yang berada dalam satu penelitian yang sama pada \textit{roadmap} pada gambar \ref{img:fase2}. \textit{Pre-trained} model dimanfaatkan sebagai titik awal untuk merespons perintah suara dari pengguna, kemudian perintah suara akan di terjemahkan ke dalam bentuk teks yang akan diterima oleh \textit{smartphone} pengguna. Teks yang diterima akan digunakan sebagai input yang akan menjadi lokasi tujuan serta pemilihan rute.
 
-\subsection{Akustik Model}
-Pada bagian ini merupakan tahapan untuk melakukan model akustik pada data training yang telah melewati proses ekstraksi fitur dengan MFCC. Tahapan ini menggunakan proses \textit{machine learning} dengan metode \textit{Deep Neural Network} (DNN) dan dilakukan juga pengambilan nilai \textit{CTC Loss} yang merepresentasikan akurasi dari \textit{training}. Pada tahap awal \textit{training} dimulai dengan menentukan jumlah \textit{file} yang masuk ke dalam perhitungan ke \textit{deep learning} sebagai bahan dari pembelajaran atau pembagi data. Setelah itu nilai dari MFCC \textit{feature} dimasukkan, lalu label untuk proses pembelajaran dimasukkan juga. Berikutnya dilakukan inisialisasi \textit{learning rate}, maksimal \textit{epoch} dan minimum \textit{loss} yang digunakan. Lalu pada proses perhitungan \textit{neural network} diinisialkan bobot yang dipakai. Selanjutnya metode \textit{deep learning} dengan \textit{input} nilai MFCC \textit{feature} dan target dihitung. Terakhir menampilkan nilai \textit{loss} dari hasil perhitungan yang didapat. Hal tersebut dilakukan sampai mendapatkan minimum nilai \textit{loss} dan maksimum nilai \textit{epoch}. Pada penelitian ini digunakan \textit{multilayer perseptron} sebagai layer pembelajarannya. 
+\item Data Rute dan Denah Lokasi Penelitian
+\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan di petakan dengan menggunakan bantuan BLE. Data / titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. Dengan adanya RSSI atau kekuatan sinyal yang disimpan perangkat smartphone pengguna akan menangkap sinyal dan menyesuaikan dengan titik-titik yang telah dipetakan sehingga mendapatkan lokasi pengguna berada serta menjadikan titik lokasi pengguna sebagai pemilihan rute terdekat ke lokasi tujuan pengguna.
 
-\subsection{Model}
-Setelah mendapatkan hasil dari \textit{acoustic modelling} dengan Kaldi, selanjutnya melakukan \textit{language modelling} dengan menggunakan SRILM (\textit{SRI Language Modeling Toolkit}). \textit{Language modelling} berguna agar dapat membedakan kata dan frasa yang terdengar serupa pada ucapannya sehingga didapatkan model pengenalan ucapan yang terlatih. 
+\item Data \textit{Text-to-Speech}
+\par Data yang akan digunakan menggunakan \textit{text-to-speech} yang disediakan oleh library Google speech. Sehingga proses pemanduan menuju ruangan akan dipandu dengan suara seperti "Menuju Ruangan Jurusan Informatika", "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika".
 
-\subsection{Model Terlatih}
-Setelah model pengenalan ucapan sudah selesai dibangun, lalu model tersebut diletakan pada Vosk yang merupakan \textit{open source speech recognition toolkit}, Vosk dapat berjalan pada Android dengan API secara \textit{offline}. Data \textit{testing} yang sebelumnya sudah dipisahkan, diuji pada model tersebut sehingga mendapatkan keluaran berupa \textit{text}. Model ini akan dapat berjalan pada aplikasi Android \textit{route guidance} untuk tuna netra berbasis \textit{Indoor Positioning} yang akan dibangun.
+\item Data akurasi lokasi pengguna serta akurasi rute
+\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
+
+\end{enumerate}
+
+\newpage
+\subsection{Pembuatan Sistem Aplikasi}
+Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunakan adalah metode \textit{Scrum}, dikarenakan sistem ini dikembangkan bersama dengan tim dan membutuhkan fleksibilitas terhadap perubahan yang terjadi dalam proses pengembangannya, sehingga memerlukan iterasi secara berkala agar berjalan dengan baik. Salah satu tahap yang merupakan paling awal dari metode ini adalah \textit{product backlog}. Pada tahap ini, semua kebutuhan akan ditransformasikan menjadi rancangan pekerjaan untuk diselesaikan agar aplikasi dapat bekerja secara fungsional. Adapun \textit{product backlog} dari keseluruhan aplikasi ini adalah sebagai berikut.
+
+\begin{itemize}
+\item Menampilkan halaman beranda.
+
+\item Menampilkan \textit{Pop up} yang muncul dari \textit{input} suara.
+
+\item Meluncurkan aplikasi dengan proses pengenalan suara.
+
+\item Menampilkan dan mengeluarkan suara daftar ruangan yang bisa di gunakan sebagai tujuan.
+
+\item Menampilkan rute terdekat ke ruangan yang di tuju oleh pengguna.
+
+\item Mengeluarkan suara navigasi ke ruangan yang di tuju.
+
+\end{itemize}
+
+\subsection{Pengujian Akurasi}
+Pengujian akurasi posisi pengguna dan pemilihan rute akan menggunakan gabungan titik BLE sebagai titik awal dengan mengukur kekuatan RSSI, kemudian menggunakan letak dan posisi BLE yang telah dipetakan sebelumnya untuk melakukan pemilihan rute serta proses navigasi yang akan diprediksi menggunakan algoritma Kalman Filter disertai dengan fase pembaharuan prediksi titik lokasi pengguna ke tujuan.
+
+\newpage
+Berikut perhitungan yang akan digunakan untuk menguji akurasi pengguna serta rute pengguna, rumus menurut \citep{ihsan2018analisis}:
+\begin{itemize}
+\item \textit{Time Update (Predict)}
+
+\par \textit{Predict State}
+\begin{equation}
+x = x
+\end{equation}
+
+\par \textit{Predict error covariance}
+\begin{equation}
+p = p + q
+\end{equation}
+
+\item \textit{Measurements update (Correct)}
+\par \textit{Update the estimate via} k 
+\begin{equation}
+x = x + k*(measurement – x)
+\end{equation}
+
+\par Kalman \textit{gain} 
+\begin{equation}
+k = p / ( p+r )
+\end{equation}
+
+\par \textit{Update the error covariance}
+\begin{equation}
+p = (1 – k )* p
+\end{equation}
+
+\end{itemize}
+\par Keterangan
+\par x: Nilai yang di filter
+\par p: Error estimasi
+\par q: Noise yang diakibatkan dari proses
+\par k: Kalman Gain
+\par r: Noise dari sensor\newline
+
+\subsection{Pengujian Fungsionalitas dengan Metode \textit{Black Box}}
+Metode yang digunakan untuk melakukan pengujian fungsionalitas adalah dengan \textit{black box testing}. Pengujian ini dilakukan untuk memeriksa fungsi-fungsi pada sistem yang dibangun pada penelitian ini apakah sudah bekerja sesuai dengan kebutuhan pengguna ataupun tidak. Pengujian ini dilakukan dengan cara menjalankan setiap fungsi yang ada pada sistem dan memastikan agar sistem dapat bekerja dengan semestinya sesuai alur yang telah dirancang. Pengujian ini juga dapat melibatkan target pengguna dan pengembang.
+
+\subsection{\textit{Usability Testing}}
+\textit{Usability Testing} merupakan pengujian aplikasi untuk melihat apakah pengguna dapat dengan mudah dan nyaman dalam menggunakan aplikasi tersebut serta melihat dan mengevaluasi keberhasilan dari sebuah produk atau jasa. Pengujian ini akan menggunakan metode SUS. SUS terdiri dari 10 pertanyaan dengan menggunakan skala 1-5. Berikut daftar pertanyaan-pertanyaan dengan metode SUS dapat dilihat pada Tabel \ref{tab:SUS}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\caption{Daftar Pertanyaan Metode SUS \citep{kaya2019usability}}
+\label{tab:SUS}
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+R1  & Saya pikir saya ingin menggunakan sistem ini dengan sering.               \\ \hline
+R2  & Saya menemukan sistem yang tidak rumit.                                   \\ \hline
+R3  & Saya pikir sistemnya mudah digunakan.                                     \\ \hline
+R4 & \begin{tabular}[c]{@{}l@{}}Saya pikir saya akan membutuhkan bantuan dari \\ orang teknis untuk dapat menggunakan sistem ini.\end{tabular}    \\ \hline
+R5  & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik. \\ \hline
+R6  & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.             \\ \hline
+R7 & \begin{tabular}[c]{@{}l@{}}Saya membayangkan bahwa kebanyakan orang akan \\ belajar menggunakan sistem ini dengan sangat cepat.\end{tabular} \\ \hline
+R8  & Menurut saya sistem ini sangat rumit untuk digunakan.                     \\ \hline
+R9  & Saya merasa sangat percaya diri menggunakan sistem ini.                   \\ \hline
+R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.   \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Rumus untuk menghitung skor akhir metode SUS \citep{brooke1996sus}, dapat dilihat dari persamaan berikut.
+
+\begin{equation}
+skorSUS = (\sum_{9}^{i} (Ri - 1) + \sum_{10}^{j} (5 - Rj)) * 2,5
+\end{equation}
+\newline
+Keterangan:\newline
+$R$ = daftar pertanyaan pada metode SUS. \newline
+$i$ = angka ganjil 1, 3, 5, 7, dan 9. \newline
+$j$ = angka genap 2, 4, 6, 8, dan 10.
+\newline 
+
+\par Tingkat nilai skala pengujian menentukan apakah sistem tersebut layak digunakan, bermanfaat, diterima oleh pengguna dan bertahan lama penggunaannya. Sebuah sistem dengan nilai pengujian yang tinggi membuat sistem tersebut menjadi populer dalam waktu yang lama dan penggunaannya yang luas, dikarenakan banyak individu akan merasakan manfaat dari kehadiran sistem tersebut. Sedangkan sistem dengan nilai pengujian yang rendah, sering kali diabaikan walaupun dibuat berdasarkan kebutuhan dan menghasilkan sumber daya yang banyak.
+Berdasarkan dari skor akhir SUS, dapat diketahui seberapa tinggi tingkat usability rancangan sistem yang dikembangkan. Tabel \ref{tab:skor_SUS} menunjukkan nilai interpretasi yang digunakan.
+
+\begin{table}[H]
+\caption{ Interpretasi skor sus}
+\label{tab:skor_SUS}
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Skor SUS         & Interpretasi         \\ \hline
+\textless{}50    & Tidak Dapat Diterima \\ \hline
+50-70            & Marginal             \\ \hline
+\textgreater{}70 & Dapat Diterima       \\ \hline
+\end{tabular}
+\end{table}
+
 
 %-----------------------------------------------------------------------------%
 

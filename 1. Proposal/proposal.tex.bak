@@ -203,8 +203,8 @@
 \end{singlespace}
 
 \addcontentsline{toc}{chapter}{DAFTAR ISI}
-%\listoftables
-%\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\listoftables
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
 \listoffigures
 \addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
 
