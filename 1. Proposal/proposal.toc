@@ -1,10 +1,10 @@
 \babel@toc {bahasa}{}\relax 
 \babel@toc {bahasa}{}\relax 
-\contentsline {chapter}{PENGESAHAN PROPOSAL}{ii}{chapter*.1}%
-\contentsline {chapter}{KATA PENGANTAR}{iii}{chapter*.2}%
-\contentsline {chapter}{DAFTAR ISI}{v}{chapter*.3}%
-\contentsline {chapter}{DAFTAR TABEL}{vi}{chapter*.4}%
-\contentsline {chapter}{DAFTAR GAMBAR}{vii}{chapter*.5}%
+\contentsline {chapter}{PENGESAHAN PROPOSAL}{iii}{chapter*.1}%
+\contentsline {chapter}{KATA PENGANTAR}{iv}{chapter*.2}%
+\contentsline {chapter}{DAFTAR ISI}{vi}{chapter*.3}%
+\contentsline {chapter}{DAFTAR TABEL}{vii}{chapter*.4}%
+\contentsline {chapter}{DAFTAR GAMBAR}{viii}{chapter*.5}%
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{3}{section.1.2}%
@@ -27,18 +27,18 @@
 \contentsline {section}{\numberline {2.10}\textit {Black Box Testing}}{14}{section.2.10}%
 \contentsline {section}{\numberline {2.11}\textit {Usability Testing}}{15}{section.2.11}%
 \contentsline {subsection}{\numberline {2.11.1}\textit {Usability Metric for User Experience} (UMUX)}{15}{subsection.2.11.1}%
-\contentsline {section}{\numberline {2.12}Penelitian Terkait}{16}{section.2.12}%
-\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Waktu dan Lokasi Penelitian}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Alat dan Bahan}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\textit {Roadmap} Penelitian}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metode Penelitian}{21}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{22}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{22}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{23}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Pengumpulan Data}{27}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Pembuatan Sistem Aplikasi}{29}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Pengujian Akurasi}{29}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{30}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}\textit {Usability Testing}}{31}{subsection.3.4.8}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{35}{chapter*.22}%
+\contentsline {section}{\numberline {2.12}Penelitian Terkait}{17}{section.2.12}%
+\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Waktu dan Lokasi Penelitian}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Alat dan Bahan}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}\textit {Roadmap} Penelitian}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Metode Penelitian}{24}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{25}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{25}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{26}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Pengumpulan Data}{30}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Pembuatan Sistem Aplikasi}{32}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Pengujian Akurasi}{32}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{33}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}\textit {Usability Testing}}{34}{subsection.3.4.8}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{37}{chapter*.21}%

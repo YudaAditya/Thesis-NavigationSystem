@@ -18,45 +18,45 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
 Warning--empty publisher in jurafskyspeech2008
-You've used 33 entries,
+You've used 37 entries,
             1935 wiz_defined-function locations,
-            655 strings with 9560 characters,
-and the built_in function-call counts, 12912 in all, are:
-= -- 1263
-> -- 520
+            676 strings with 10219 characters,
+and the built_in function-call counts, 14583 in all, are:
+= -- 1419
+> -- 595
 < -- 28
-+ -- 186
-- -- 172
-* -- 1052
-:= -- 2237
-add.period$ -- 103
-call.type$ -- 33
-change.case$ -- 242
-chr.to.int$ -- 33
-cite$ -- 34
-duplicate$ -- 525
-empty$ -- 905
-format.name$ -- 223
-if$ -- 2553
++ -- 218
+- -- 198
+* -- 1221
+:= -- 2537
+add.period$ -- 114
+call.type$ -- 37
+change.case$ -- 276
+chr.to.int$ -- 37
+cite$ -- 38
+duplicate$ -- 568
+empty$ -- 1019
+format.name$ -- 252
+if$ -- 2853
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 38
-newline$ -- 166
-num.names$ -- 99
-pop$ -- 233
+missing$ -- 42
+newline$ -- 186
+num.names$ -- 111
+pop$ -- 253
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 283
 quote$ -- 0
-skip$ -- 406
+skip$ -- 435
 stack$ -- 0
-substring$ -- 800
-swap$ -- 84
-text.length$ -- 9
+substring$ -- 969
+swap$ -- 79
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
+type$ -- 208
 warning$ -- 1
-while$ -- 107
+while$ -- 120
 width$ -- 0
-write$ -- 425
+write$ -- 476
 (There was 1 warning)

@@ -1,0 +1,43 @@
+%-----------------------------------------------------------------
+% Sampul Depan
+%-----------------------------------------------------------------
+\judul{RANCANG BANGUN SISTEM NAVIGASI PADA APLIKASI \textit{ROUTE GUIDANCE} UNTUK TUNANETRA BERBASIS \textit{INDOOR POSITIONING}}
+
+\judulinggris{\textit{DESIGN OF NAVIGATION SYSTEM FOR ROUTE GUIDANCE APPLICATION FOR VISUALLY IMPAIRED PERSON BASED ON INDOOR POSITIONING}}
+
+% nama lengkap
+\fullname{Yuda Aditya}
+
+% NPM (Nomor Pokok Mahasiswa)
+\idnum{1608107010030}
+
+\degree{Sarjana Komputer}
+
+\yearsubmit{Juli, 2022}
+
+\program{Informatika}
+
+\dept{Informatika}
+
+% Pembimbing Pertama
+\firstsupervisor{Kurnia Saputra, S.T., M.Sc.}
+\firstnip{198003262014041001}
+
+% Pembimbing Kedua
+\secondsupervisor{Dalila Husna Yunardi, B.Sc., M.Sc.}
+\secondnip{199006172015042001}
+
+% Ketua Jurusan
+\kajur{Dr. Muhammad Subianto, S.Si., M.Si}
+\kajurnip{196812111994031005}
+
+% Dekan Fakultas
+%\dekan{Dr. Teuku Mohamad Iqbalsyah, S.Si., M.Sc.}
+%\dekannip{197110101997031003}
+
+% tangal lulus proposal, seminar hasil atau sidang
+\approvaldate{                               }
+
+%-----------------------------------------------------------------
+% End of Sampul Depan
+%-----------------------------------------------------------------

@@ -5,6 +5,11 @@ Ammann, P. dan Offutt, J. (2016).
 \newblock {\em Introduction to software testing}.
 \newblock Cambridge University Press.
 
+\bibitem[Bai dkk., 2020]{bai2020low}
+Bai, L., Ciravegna, F., Bond, R., dan Mulvenna, M. (2020).
+\newblock A low cost indoor positioning system using bluetooth low energy.
+\newblock {\em Ieee Access}, 8:136858--136871.
+
 \bibitem[Barnum, 2020]{barnum2020usability}
 Barnum, C.~M. (2020).
 \newblock {\em Usability testing essentials: ready, set... test!}
@@ -15,11 +20,6 @@ Brena, R.~F., Garc{\'\i}a-V{\'a}zquez, J.~P., Galv{\'a}n-Tejada, C.~E.,
   Mu{\~n}oz-Rodriguez, D., Vargas-Rosales, C., dan Fangmeyer, J. (2017).
 \newblock Evolution of indoor positioning technologies: A survey.
 \newblock {\em Journal of Sensors}, 2017.
-
-\bibitem[Brooke dkk., 1996]{brooke1996sus}
-Brooke, J. dkk. (1996).
-\newblock Sus-a quick and dirty usability scale.
-\newblock {\em Usability evaluation in industry}, 189(194):4--7.
 
 \bibitem[Cant{\'o}n~Paterna dkk., 2017]{canton2017bluetooth}
 Cant{\'o}n~Paterna, V., Calveras~Auge, A., Paradells~Aspas, J., dan
@@ -42,6 +42,11 @@ Craig, C. dan Gerber, A. (2015).
 Deemer, P., Benefield, G., Larman, C., dan Vodde, B. (2012).
 \newblock A lightweight guide to the theory and practice of scrum.
 \newblock {\em Ver}, 2:2012.
+
+\bibitem[Finstad, 2010]{finstad2010usability}
+Finstad, K. (2010).
+\newblock The usability metric for user experience.
+\newblock {\em Interacting with Computers}, 22(5):323--327.
 
 \bibitem[Ihsan dkk., 2018]{ihsan2018analisis}
 Ihsan, M., Suwastika, N.~A., dan Putrada, A.~G. (2018).
@@ -71,18 +76,17 @@ Karimi, H.~A. (2015).
 \newblock {\em Indoor wayfinding and navigation}.
 \newblock CRC Press.
 
-\bibitem[Kaya dkk., 2019]{kaya2019usability}
-Kaya, A., Ozturk, R., dan Gumussoy, C.~A. (2019).
-\newblock Usability measurement of mobile applications with system usability
-  scale (sus).
-\newblock In {\em Industrial engineering in the big data era}, pages 389--400.
-  Springer.
-
 \bibitem[Ko dan Kim, 2017]{ko2017vision}
 Ko, E. dan Kim, E.~Y. (2017).
 \newblock A vision-based wayfinding system for visually impaired people using
   situation awareness and activity-based instructions.
 \newblock {\em Sensors}, 17(8):1882.
+
+\bibitem[Lewis, 2018]{lewis2018measuring}
+Lewis, J.~R. (2018).
+\newblock Measuring perceived usability: The csuq, sus, and umux.
+\newblock {\em International Journal of Human--Computer Interaction},
+  34(12):1148--1156.
 
 \bibitem[Li dkk., 2018]{li2018indoor}
 Li, G., Geng, E., Ye, Z., Xu, Y., Lin, J., dan Pang, Y. (2018).
@@ -114,6 +118,11 @@ Puspitasari, R. (2020).
   Indoor Positioning System Menggunakan Bluetooth Low Energy dan Metode
   Klasifikasi K-NN}.
 \newblock {\em ETD Unsyiah}.
+
+\bibitem[Qin dkk., 2021]{qin2021ccpos}
+Qin, F., Zuo, T., dan Wang, X. (2021).
+\newblock Ccpos: Wifi fingerprint indoor positioning system based on cdae-cnn.
+\newblock {\em Sensors}, 21(4):1114.
 
 \bibitem[Rubin dan Chisnell, 2008]{rubin2008handbook}
 Rubin, J. dan Chisnell, D. (2008).
@@ -174,6 +183,12 @@ WHO (accessed Oktober 23, 2020).
 \newblock
   \url{https://www.who.int/publications-detail-redirect/world-report-on-vision}.
 
+\bibitem[Xiao dkk., 2018]{xiao2018indoor}
+Xiao, A., Chen, R., Li, D., Chen, Y., dan Wu, D. (2018).
+\newblock An indoor positioning system based on static objects in large indoor
+  scenes by using smartphone cameras.
+\newblock {\em Sensors}, 18(7):2229.
+
 \bibitem[Xu dkk., 2016]{xu2016comparative}
 Xu, S., Chen, L., Wang, C., dan Rud, O. (2016).
 \newblock A comparative study on black-box testing with open source
@@ -181,6 +196,11 @@ Xu, S., Chen, L., Wang, C., dan Rud, O. (2016).
 \newblock In {\em 2016 17th IEEE/ACIS International Conference on Software
   Engineering, Artificial Intelligence, Networking and Parallel/Distributed
   Computing (SNPD)}, pages 527--532. IEEE.
+
+\bibitem[Yadav dkk., 2019]{yadav2019trusted}
+Yadav, R.~K., Bhattarai, B., Gang, H.-S., dan Pyun, J.-Y. (2019).
+\newblock Trusted k nearest bayesian estimation for indoor positioning system.
+\newblock {\em IEEE Access}, 7:51484--51498.
 
 \bibitem[Yudha dkk., 2018]{yudha2018indoor}
 Yudha, D.~P., Hasbi, B.~I., dan Sukarna, R.~H. (2018).

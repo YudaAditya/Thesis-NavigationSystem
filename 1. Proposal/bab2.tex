@@ -215,12 +215,12 @@ Salah satu jenis pengujian fungsional adalah \textit{blackbox testing}. \textit{
 \par Pengujian ini diharapkan akan mendapatkan kekuatan dan kelemahan dari setiap aspek yang ada pada aplikasi itu sendiri. Maka dari itu, perlu adanya dokumentasi pengalaman aktual para calon pengguna aplikasi atau produk saat dievaluasi \citep{wesfix2017branding}. Tujuan lain dilakukannya pengujian ini adalah untuk mengumpilkan data kualitatif yang berhubungan dengan produk yang diuji. Data kualitatif tersebut terdiri dari komentar yang dibuat oleh partisipan, jawaban dari kuesioner pertanyaan dan tanggapan dari partisipan saat proses wawancara. \textit{Usability testing} telah terbukti dapat mengurangi waktu pada tahap pengembangan, mengurangi jumlah bugs, dan menghasilkan produk yang lebih berkualitas untuk meningkatkan nilai jual \citep{wahl2000student}.
 
 \subsection{\textit{Usability Metric for User Experience} (UMUX)}
-UMUX merupakan salah satu instrumen kuesioner standar selain \textit{System Usability Scale} (SUS). Meskipun SUS merupakan kuesioner yang relatif singkat, ada beberapa situasi di mana instrumen yang lebih pendek lebih disukai (misalnya, ketika ada kebutuhan untuk mengukur lebih banyak atribut daripada hanya kegunaan yang dirasakan yang mengarah ke sesuatu yang tetap serta terbatas untuk atribut apa pun). UMUX dirancang di Intel untuk mendapatkan pengukuran yang dirasakan konsisten dengan SUS, tetapi hanya menggunakan empat (bukan 10) item (Lewis, 2018).
+UMUX merupakan salah satu instrumen kuesioner standar selain \textit{System Usability Scale} (SUS). Meskipun SUS merupakan kuesioner yang relatif singkat, ada beberapa situasi di mana instrumen yang lebih pendek lebih disukai (misalnya, ketika ada kebutuhan untuk mengukur lebih banyak atribut daripada hanya kegunaan yang dirasakan yang mengarah ke sesuatu yang tetap serta terbatas untuk atribut apa pun). UMUX dirancang di Intel untuk mendapatkan pengukuran yang dirasakan konsisten dengan SUS, tetapi hanya menggunakan empat (bukan 10) item \citep{lewis2018measuring}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[H]
-\caption{Daftar Pertanyaan Metode UMUX.}
+\caption{Daftar Pertanyaan Metode UMUX menurut \citep{lewis2018measuring}.}
 \label{tab:UMUX}
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|l|l|}
@@ -235,7 +235,7 @@ memperbaiki hal-hal dengan sistem ini. \\ \hline
 }
 \end{table}
 
-\par Menurut (Lewis , 2018 ) UMUX memiliki skala dari 1 ( sangat tidak setuju ) hingga 7 ( sangat setuju) dengan skor item dimanipulasi untuk mendapatkan skor keseluruhan berkisar dari 0 hingga 100. Berikut tingkat yang dapat diterima sebagai kelayakan skor UMUX:
+\par Menurut \citep{lewis2018measuring} UMUX memiliki skala dari 1 ( sangat tidak setuju ) hingga 7 ( sangat setuju) dengan skor item dimanipulasi untuk mendapatkan skor keseluruhan berkisar dari 0 hingga 100. Berikut tingkat yang dapat diterima sebagai kelayakan skor UMUX:
 
 \begin{itemize}
 \item Reliability (Koefisien alfa lebih besar dari 0.80).
@@ -246,7 +246,7 @@ memperbaiki hal-hal dengan sistem ini. \\ \hline
 
 \end{itemize}
 
-\par Menurut (Finstad, 2010) berikut cara menghitung skor UMUX :
+\par Menurut \citep{finstad2010usability} berikut cara menghitung skor UMUX :
 
 \begin{enumerate}
 \item Item ganjil diberi skor [ skor pengguna - 1]. Item genap diberi skor [7 - skor pengguna].
@@ -258,9 +258,62 @@ memperbaiki hal-hal dengan sistem ini. \\ \hline
 \item Cari nilai rata-rata dari seluruh pengguna.
 \end{enumerate}
 
+\newpage
 \section{Penelitian Terkait}
+Sampai saat ini terdapat banyak penelitian yang mengembangkan metode Indoor Positioning dengan menggunakan wireless devices. Selain mengembangkan metode, banyak juga yang menggunakan pendekatan dengan pengguna yang berbeda. Berikut adalah Tabel  \ref{tab:penelitian-terkait} yang menampilkan beberapa penelitian terkait dengan penelitian yang dilakukan.
 
-
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{longtable}{| m{1cm} | m{2cm} | m{5cm} | m{5cm} |}
+    \caption{Penelitian Terkait}
+    \label{t_penelitian} \\
+        \hline
+        No. & Peneliti & Metode & Keterangan \\
+        \hline
+        1. & \citet{bai2020low} & 
+        \begin{itemize}
+            \item Menggunakan BLE dengan menangkap RSSI.
+   			\item Memantau pola hidup sehari-hari pengguna seperti orang tua, disabilitas, dan dementia.
+   			\item Menggunakan metode Trilateration dan Fingerpinting.
+        \end{itemize} & 
+        \begin{itemize}
+            \item Pada hasil menunjukan bahwa sisterm mampu melacak lokasi pengguna secara akurat, serta kualitas dan posisi dari BLE tidak mempengaruhi akurasi.
+        \end{itemize} \\
+        \hline
+        2. & \citet{xiao2018indoor} & 
+        \begin{itemize}
+            \item Menggunakan kamera smartphone dengan menangkap objek statis secara umum seperti pintu dan jendela untuk menentukan lokasi pengguna.
+   			\item Menggunakan algoritma deep learning dan computer vision.
+    		\item Penerapan menggunakan monocular photography sehingga tidak memerlukan pengambilan foto dari berbagai arah atau video.
+        \end{itemize} & 
+        \begin{itemize}
+            \item Pada pengujian dilakukan di tempat terbuka dengan bidang pandang yang rumit seperti museum dan mendapat akurasi posisi dalam 1 meter dalam keadaan seperti itu.
+        \end{itemize} \\
+        \hline
+        3. & \citet{yadav2019trusted} & 
+        \begin{itemize}
+            \item Menggunakan BLE dengan menangkap RSSI.
+    		\item Menggunakan algoritma Trusted K nearest Bayesian estimation (TKBE) dengan Kalman Filter.
+    		\item Memantau lokasi pejalan kaki dengan menduga perhitungan pergerakannya.
+        \end{itemize} & 
+        \begin{itemize}
+            \item Pengujian menggunakan TKBE memiliki akurasi lebih baik sekitar 25 persen dibandingkan dengan KNN.
+    		\item Kalman filter berbasis fuzzy logic dapat meningkatkan akurasi hingga 15 persen.
+    		\item TKBE memiliki error rate <1 m di lingkungan pengetesan.
+        \end{itemize} \\
+        \hline
+        4. & \citet{qin2021ccpos} & 
+        \begin{itemize}
+            \item Mengunakan WiFi dengan menangkap RSSI.
+    		\item Menggunakan algoritma CCPos (CADE-CNN Posisitioning) yang berbasis Convolutional Autoencoder Denoising dan Convolutional Neuranl Network (CNN).
+    		\item Proses untuk membangun \textit{acoustic modelling} menggunakan TDNNF.
+        \end{itemize} & 
+        \begin{itemize}
+            \item Pada Hasil menunjukan kinerja algoritma memiliki error rate 1,05 m dan 12,4 untuk dataset Alcala dan UJIIndoorLoc.
+        \end{itemize} \\
+        \hline
+        
+\end{longtable}
 
 %-----------------------------------------------------------------------------%
 
