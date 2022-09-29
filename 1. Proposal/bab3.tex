@@ -7,7 +7,7 @@
 \chapter{METODOLOGI PENELITIAN}
 
 \section{Waktu dan Lokasi Penelitian}
-Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 5 bulan terhitung dari Agustus 2022 hingga Desember 2022.
+Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 5 bulan terhitung dari September 2022 hingga Januari 2023.
 
 \section{Alat dan Bahan}
 Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa perangkat keras (\textit{Hardware}) dan perangkat lunak (\textit{Software}) yang dijabarkan sebagai berikut:
@@ -218,17 +218,40 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 \par Data yang digunakan dalam penelitian ini terdiri atas data \textit{pre-trained} model yang diperoleh dari penelitian yang berada dalam satu penelitian yang sama pada \textit{roadmap} pada gambar \ref{img:fase2}. \textit{Pre-trained} model dimanfaatkan sebagai titik awal untuk merespons perintah suara dari pengguna, kemudian perintah suara akan di terjemahkan ke dalam bentuk teks yang akan diterima oleh \textit{smartphone} pengguna. Teks yang diterima akan digunakan sebagai input yang akan menjadi lokasi tujuan serta pemilihan rute.
 
 \item Data Rute dan Denah Lokasi Penelitian
-\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan di petakan dengan menggunakan bantuan BLE. Data / titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. Dengan adanya RSSI atau kekuatan sinyal yang disimpan perangkat smartphone pengguna akan menangkap sinyal dan menyesuaikan dengan titik-titik yang telah dipetakan sehingga mendapatkan lokasi pengguna berada serta menjadikan titik lokasi pengguna sebagai pemilihan rute terdekat ke lokasi tujuan pengguna.
+\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan di petakan dengan menggunakan bantuan BLE. Data / titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. Dengan adanya RSSI atau kekuatan sinyal yang disimpan perangkat smartphone pengguna akan menangkap sinyal dan menyesuaikan dengan titik-titik yang telah dipetakan sehingga mendapatkan lokasi pengguna berada serta menjadikan titik lokasi pengguna sebagai pemilihan rute terdekat ke lokasi tujuan pengguna. Denah lokasi penelitian dapat dilihat pada gambar berikut.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab3/Denah-1}}
+\caption{Denah lantai 1 Gedung A FMIPA}
+\label{img:denah_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab3/Denah-2}}
+\caption{Denah lantai 2 Gedung A FMIPA}
+\label{img:denah_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab3/Denah-3}}
+\caption{Denah lantai 3 Gedung A FMIPA}
+\label{img:denah_3}
+\end{figure}
+
 
 \item Data \textit{Text-to-Speech}
 \par Data yang akan digunakan menggunakan \textit{text-to-speech} yang disediakan oleh library Google speech. Sehingga proses pemanduan menuju ruangan akan dipandu dengan suara seperti "Menuju Ruangan Jurusan Informatika", "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika".
 
+\newpage
 \item Data akurasi lokasi pengguna serta akurasi rute
 \par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
 
 \end{enumerate}
 
-\newpage
+
 \subsection{Pembuatan Sistem Aplikasi}
 Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunakan adalah metode \textit{Scrum}, dikarenakan sistem ini dikembangkan bersama dengan tim dan membutuhkan fleksibilitas terhadap perubahan yang terjadi dalam proses pengembangannya, sehingga memerlukan iterasi secara berkala agar berjalan dengan baik. Salah satu tahap yang merupakan paling awal dari metode ini adalah \textit{product backlog}. Pada tahap ini, semua kebutuhan akan ditransformasikan menjadi rancangan pekerjaan untuk diselesaikan agar aplikasi dapat bekerja secara fungsional. Adapun \textit{product backlog} dari keseluruhan aplikasi ini adalah sebagai berikut.
 

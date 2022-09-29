@@ -7,7 +7,7 @@
 \chapter{METODOLOGI PENELITIAN}
 
 \section{Waktu dan Lokasi Penelitian}
-Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 5 bulan terhitung dari Agustus 2022 hingga Desember 2022.
+Penelitian ini akan bertempat pada Gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam. Waktu yang dibutuhkan agar penelitian ini dapat diimplementasikan adalah 5 bulan terhitung dari September 2022 hingga Januari 2023.
 
 \section{Alat dan Bahan}
 Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa perangkat keras (\textit{Hardware}) dan perangkat lunak (\textit{Software}) yang dijabarkan sebagai berikut:
@@ -218,17 +218,40 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 \par Data yang digunakan dalam penelitian ini terdiri atas data \textit{pre-trained} model yang diperoleh dari penelitian yang berada dalam satu penelitian yang sama pada \textit{roadmap} pada gambar \ref{img:fase2}. \textit{Pre-trained} model dimanfaatkan sebagai titik awal untuk merespons perintah suara dari pengguna, kemudian perintah suara akan di terjemahkan ke dalam bentuk teks yang akan diterima oleh \textit{smartphone} pengguna. Teks yang diterima akan digunakan sebagai input yang akan menjadi lokasi tujuan serta pemilihan rute.
 
 \item Data Rute dan Denah Lokasi Penelitian
-\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan di petakan dengan menggunakan bantuan BLE. Data / titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. Dengan adanya RSSI atau kekuatan sinyal yang disimpan perangkat smartphone pengguna akan menangkap sinyal dan menyesuaikan dengan titik-titik yang telah dipetakan sehingga mendapatkan lokasi pengguna berada serta menjadikan titik lokasi pengguna sebagai pemilihan rute terdekat ke lokasi tujuan pengguna.
+\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan di petakan dengan menggunakan bantuan BLE. Data / titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. Dengan adanya RSSI atau kekuatan sinyal yang disimpan perangkat smartphone pengguna akan menangkap sinyal dan menyesuaikan dengan titik-titik yang telah dipetakan sehingga mendapatkan lokasi pengguna berada serta menjadikan titik lokasi pengguna sebagai pemilihan rute terdekat ke lokasi tujuan pengguna. Denah lokasi penelitian dapat dilihat pada gambar berikut.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab3/Denah-1}}
+\caption{Denah lantai 1 Gedung A FMIPA}
+\label{img:denah_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab3/Denah-2}}
+\caption{Denah lantai 2 Gedung A FMIPA}
+\label{img:denah_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab3/Denah-3}}
+\caption{Denah lantai 3 Gedung A FMIPA}
+\label{img:denah_3}
+\end{figure}
+
 
 \item Data \textit{Text-to-Speech}
 \par Data yang akan digunakan menggunakan \textit{text-to-speech} yang disediakan oleh library Google speech. Sehingga proses pemanduan menuju ruangan akan dipandu dengan suara seperti "Menuju Ruangan Jurusan Informatika", "Belok ke kanan dalam 5 langkah", "Telah sampai di tujuan , Ruangan Jurusan Informatika".
 
+\newpage
 \item Data akurasi lokasi pengguna serta akurasi rute
 \par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
 
 \end{enumerate}
 
-\newpage
+
 \subsection{Pembuatan Sistem Aplikasi}
 Pada Proses pembuatan sistem aplikasi, metode pengembangan aplikasi yang digunakan adalah metode \textit{Scrum}, dikarenakan sistem ini dikembangkan bersama dengan tim dan membutuhkan fleksibilitas terhadap perubahan yang terjadi dalam proses pengembangannya, sehingga memerlukan iterasi secara berkala agar berjalan dengan baik. Salah satu tahap yang merupakan paling awal dari metode ini adalah \textit{product backlog}. Pada tahap ini, semua kebutuhan akan ditransformasikan menjadi rancangan pekerjaan untuk diselesaikan agar aplikasi dapat bekerja secara fungsional. Adapun \textit{product backlog} dari keseluruhan aplikasi ini adalah sebagai berikut.
 
@@ -293,58 +316,38 @@ p = (1 – k )* p
 Metode yang digunakan untuk melakukan pengujian fungsionalitas adalah dengan \textit{black box testing}. Pengujian ini dilakukan untuk memeriksa fungsi-fungsi pada sistem yang dibangun pada penelitian ini apakah sudah bekerja sesuai dengan kebutuhan pengguna ataupun tidak. Pengujian ini dilakukan dengan cara menjalankan setiap fungsi yang ada pada sistem dan memastikan agar sistem dapat bekerja dengan semestinya sesuai alur yang telah dirancang. Pengujian ini juga dapat melibatkan target pengguna dan pengembang.
 
 \subsection{\textit{Usability Testing}}
-\textit{Usability Testing} merupakan pengujian aplikasi untuk melihat apakah pengguna dapat dengan mudah dan nyaman dalam menggunakan aplikasi tersebut serta melihat dan mengevaluasi keberhasilan dari sebuah produk atau jasa. Pengujian ini akan menggunakan metode SUS. SUS terdiri dari 10 pertanyaan dengan menggunakan skala 1-5. Berikut daftar pertanyaan-pertanyaan dengan metode SUS dapat dilihat pada Tabel \ref{tab:SUS}.
+\textit{Usability Testing} merupakan pengujian aplikasi untuk melihat apakah pengguna dapat dengan mudah dan nyaman dalam menggunakan aplikasi tersebut serta melihat dan mengevaluasi keberhasilan dari sebuah produk atau jasa. Pengujian ini akan menggunakan metode UMUX. UMUX terdiri dari 4 pertanyaan dengan menggunakan skala 1-7. Berikut daftar pertanyaan-pertanyaan dengan metode UMUX dapat dilihat pada Tabel \ref{tab:UMUX}.
 
-% Please add the following required packages to your document preamble:
-% \usepackage{graphicx}
 \begin{table}[H]
-\caption{Daftar Pertanyaan Metode SUS \citep{kaya2019usability}}
-\label{tab:SUS}
-\centering
+\caption{Daftar Pertanyaan Metode UMUX.}
+\label{tab:UMUX}
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|l|l|}
 \hline
-R1  & Saya pikir saya ingin menggunakan sistem ini dengan sering.               \\ \hline
-R2  & Saya menemukan sistem yang tidak rumit.                                   \\ \hline
-R3  & Saya pikir sistemnya mudah digunakan.                                     \\ \hline
-R4 & \begin{tabular}[c]{@{}l@{}}Saya pikir saya akan membutuhkan bantuan dari \\ orang teknis untuk dapat menggunakan sistem ini.\end{tabular}    \\ \hline
-R5  & Saya menemukan berbagai fungsi dalam sistem ini terintegrasi dengan baik. \\ \hline
-R6  & Saya pikir ada terlalu banyak inkonsistensi dalam sistem ini.             \\ \hline
-R7 & \begin{tabular}[c]{@{}l@{}}Saya membayangkan bahwa kebanyakan orang akan \\ belajar menggunakan sistem ini dengan sangat cepat.\end{tabular} \\ \hline
-R8  & Menurut saya sistem ini sangat rumit untuk digunakan.                     \\ \hline
-R9  & Saya merasa sangat percaya diri menggunakan sistem ini.                   \\ \hline
-R10 & Saya perlu belajar banyak hal sebelum saya bisa menggunakan sistem ini.   \\ \hline
+1 & Kemampuan sistem ini memenuhi persyaratan saya.                  \\ \hline
+2 & Menggunakan sistem ini adalah
+pengalaman yang membuat frustrasi.  \\ \hline
+3 & Sistem ini mudah digunakan.                                       \\ \hline
+4 & Saya harus menghabiskan terlalu banyak waktu untuk
+memperbaiki hal-hal dengan sistem ini. \\ \hline
 \end{tabular}%
 }
 \end{table}
 
-Rumus untuk menghitung skor akhir metode SUS \citep{brooke1996sus}, dapat dilihat dari persamaan berikut.
+Untuk menghitung skor akhir metode UMUX \citep{finstad2010usability}, dapat dilihat dari cara berikut.
 
-\begin{equation}
-skorSUS = (\sum_{9}^{i} (Ri - 1) + \sum_{10}^{j} (5 - Rj)) * 2,5
-\end{equation}
-\newline
-Keterangan:\newline
-$R$ = daftar pertanyaan pada metode SUS. \newline
-$i$ = angka ganjil 1, 3, 5, 7, dan 9. \newline
-$j$ = angka genap 2, 4, 6, 8, dan 10.
-\newline 
+\begin{enumerate}
+\item Item ganjil diberi skor [ skor pengguna - 1]. Item genap diberi skor [7 - skor pengguna].
+
+\item Jumlahkan perbedaan ini dan bagi jumlahnya dengan 24 (skor tertinggi).
+
+\item Kalikan hasil dengan 100.
+
+\item Cari nilai rata-rata dari seluruh pengguna.
+\end{enumerate}
 
 \par Tingkat nilai skala pengujian menentukan apakah sistem tersebut layak digunakan, bermanfaat, diterima oleh pengguna dan bertahan lama penggunaannya. Sebuah sistem dengan nilai pengujian yang tinggi membuat sistem tersebut menjadi populer dalam waktu yang lama dan penggunaannya yang luas, dikarenakan banyak individu akan merasakan manfaat dari kehadiran sistem tersebut. Sedangkan sistem dengan nilai pengujian yang rendah, sering kali diabaikan walaupun dibuat berdasarkan kebutuhan dan menghasilkan sumber daya yang banyak.
-Berdasarkan dari skor akhir SUS, dapat diketahui seberapa tinggi tingkat usability rancangan sistem yang dikembangkan. Tabel \ref{tab:skor_SUS} menunjukkan nilai interpretasi yang digunakan.
 
-\begin{table}[H]
-\caption{ Interpretasi skor sus}
-\label{tab:skor_SUS}
-\centering
-\begin{tabular}{|l|l|}
-\hline
-Skor SUS         & Interpretasi         \\ \hline
-\textless{}50    & Tidak Dapat Diterima \\ \hline
-50-70            & Marginal             \\ \hline
-\textgreater{}70 & Dapat Diterima       \\ \hline
-\end{tabular}
-\end{table}
 
 
 %-----------------------------------------------------------------------------%

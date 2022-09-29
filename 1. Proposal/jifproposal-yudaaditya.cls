@@ -348,10 +348,10 @@
 	\begin{center}
 		\begin{doublespace}
 			\vspace{0.5cm}
-			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
+			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{{\bfseries\@judul}}\par\nobreak
 
 			\vspace{1cm}
-			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{\Large{\bfseries\@judull}}\par\nobreak
+			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{{\bfseries\@judull}}\par\nobreak
 
 			\vspace{1.0cm}
 			Oleh:
