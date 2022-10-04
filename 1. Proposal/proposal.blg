@@ -20,43 +20,43 @@ Database file #1: daftar-pustaka.bib
 Warning--empty publisher in jurafskyspeech2008
 You've used 37 entries,
             1935 wiz_defined-function locations,
-            676 strings with 10219 characters,
-and the built_in function-call counts, 14583 in all, are:
-= -- 1419
-> -- 595
-< -- 28
-+ -- 218
-- -- 198
-* -- 1221
-:= -- 2537
-add.period$ -- 114
+            674 strings with 10011 characters,
+and the built_in function-call counts, 14245 in all, are:
+= -- 1384
+> -- 570
+< -- 27
++ -- 208
+- -- 188
+* -- 1187
+:= -- 2489
+add.period$ -- 113
 call.type$ -- 37
-change.case$ -- 276
+change.case$ -- 270
 chr.to.int$ -- 37
 cite$ -- 38
-duplicate$ -- 568
-empty$ -- 1019
-format.name$ -- 252
-if$ -- 2853
+duplicate$ -- 557
+empty$ -- 1003
+format.name$ -- 244
+if$ -- 2780
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 42
+missing$ -- 43
 newline$ -- 186
 num.names$ -- 111
-pop$ -- 253
+pop$ -- 248
 preamble$ -- 1
-purify$ -- 283
+purify$ -- 278
 quote$ -- 0
-skip$ -- 435
+skip$ -- 426
 stack$ -- 0
-substring$ -- 969
-swap$ -- 79
-text.length$ -- 8
+substring$ -- 945
+swap$ -- 71
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
+type$ -- 206
 warning$ -- 1
-while$ -- 120
+while$ -- 117
 width$ -- 0
-write$ -- 476
+write$ -- 473
 (There was 1 warning)
