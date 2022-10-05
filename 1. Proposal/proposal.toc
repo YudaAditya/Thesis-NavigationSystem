@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2.4.1}\textit {Received Signal Strength Indicator} (RSSI)}{7}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Kalman Filter}{8}{subsection.2.4.2}%
 \contentsline {section}{\numberline {2.5}\textit {Speech Recognition}}{10}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}\textit {Text-to-Speech }(TTS)}{10}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.1}\textit {Text-to-Speech}(TTS)}{10}{subsection.2.5.1}%
 \contentsline {section}{\numberline {2.6}VOSK API}{10}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Android}{11}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Android Studio}{11}{section.2.8}%

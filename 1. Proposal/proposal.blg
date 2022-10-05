@@ -17,46 +17,46 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
-Warning--empty publisher in jurafskyspeech2008
-You've used 37 entries,
+Warning--I didn't find a database entry for "jonAathan2020sintesis"
+You've used 35 entries,
             1935 wiz_defined-function locations,
-            674 strings with 10011 characters,
-and the built_in function-call counts, 14245 in all, are:
-= -- 1384
-> -- 570
-< -- 27
-+ -- 208
-- -- 188
-* -- 1187
-:= -- 2489
-add.period$ -- 113
-call.type$ -- 37
-change.case$ -- 270
-chr.to.int$ -- 37
-cite$ -- 38
-duplicate$ -- 557
-empty$ -- 1003
-format.name$ -- 244
-if$ -- 2780
+            667 strings with 9839 characters,
+and the built_in function-call counts, 13526 in all, are:
+= -- 1313
+> -- 555
+< -- 22
++ -- 204
+- -- 184
+* -- 1144
+:= -- 2377
+add.period$ -- 107
+call.type$ -- 35
+change.case$ -- 260
+chr.to.int$ -- 35
+cite$ -- 35
+duplicate$ -- 516
+empty$ -- 943
+format.name$ -- 234
+if$ -- 2622
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 43
-newline$ -- 186
-num.names$ -- 111
-pop$ -- 248
+missing$ -- 39
+newline$ -- 177
+num.names$ -- 105
+pop$ -- 228
 preamble$ -- 1
-purify$ -- 278
+purify$ -- 266
 quote$ -- 0
-skip$ -- 426
+skip$ -- 393
 stack$ -- 0
-substring$ -- 945
-swap$ -- 71
-text.length$ -- 6
+substring$ -- 908
+swap$ -- 59
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 206
-warning$ -- 1
-while$ -- 117
+type$ -- 198
+warning$ -- 0
+while$ -- 112
 width$ -- 0
-write$ -- 473
+write$ -- 449
 (There was 1 warning)

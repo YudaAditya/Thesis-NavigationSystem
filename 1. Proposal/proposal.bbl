@@ -60,12 +60,6 @@ Jaya, T.~S. (2018).
   analysis (studi kasus: kantor digital politeknik negeri lampung).
 \newblock {\em Jurnal Informatika: Jurnal Pengembangan IT}, 3(1):45--48.
 
-\bibitem[Jurafsky dan Martin, 2008]{jurafskyspeech2008}
-Jurafsky, D. dan Martin, J. (2008).
-\newblock {\em Speech and Language Processing: An Introduction to Natural
-  Language Processing, Computational Linguistics, and Speech Recognition},
-  volume~2.
-
 \bibitem[Kalu{\v{z}}a dkk., 2017]{kaluvza2017analysis}
 Kalu{\v{z}}a, M., Beg, K., dan Vukeli{\'c}, B. (2017).
 \newblock Analysis of an indoor positioning systems.
@@ -106,6 +100,13 @@ Lin, Y.-W. dan Lin, C.-Y. (2018).
   low-energy beacon network.
 \newblock {\em Sensors}, 18(5):1637.
 
+\bibitem[Mustikarini dkk., 2019]{mustikarini2019real}
+Mustikarini, W., Hidayat, R., dan Bejo, A. (2019).
+\newblock Real-time indonesian language speech recognition with mfcc algorithms
+  and python-based svm.
+\newblock {\em IJITEE (International Journal of Information Technology and
+  Electrical Engineering)}, 3(2):55--60.
+
 \bibitem[Nasution dkk., 2018]{nasution2018perancangan}
 Nasution, A. dkk. (2018).
 \newblock Perancangan aplikasi push notification berbasis android.
@@ -128,12 +129,6 @@ Qin, F., Zuo, T., dan Wang, X. (2021).
 Rawat, D.~B. dan Ghafoor, K.~Z. (2018).
 \newblock {\em Smart cities cybersecurity and privacy}.
 \newblock Elsevier.
-
-\bibitem[Rubin dan Chisnell, 2008]{rubin2008handbook}
-Rubin, J. dan Chisnell, D. (2008).
-\newblock {\em Handbook of usability testing: how to plan, design and conduct
-  effective tests}.
-\newblock John Wiley \& Sons.
 
 \bibitem[Schwaber dan Sutherland, 2011]{schwaber2011scrum}
 Schwaber, K. dan Sutherland, J. (2011).
@@ -158,12 +153,6 @@ Subhan, F., Hasbullah, H., Rozyyev, A., dan Bakhsh, S.~T. (2011).
   lateration approach.
 \newblock In {\em 2011 International Conference on Information Science and
   Applications}, pages 1--9. IEEE.
-
-\bibitem[Wahl, 2000]{wahl2000student}
-Wahl, N.~J. (2000).
-\newblock Student-run usability testing.
-\newblock In {\em Thirteenth Conference on Software Engineering Education and
-  Training}, pages 123--131. IEEE.
 
 \bibitem[Welch, 2020]{welch2020kalman}
 Welch, G.~F. (2020).
