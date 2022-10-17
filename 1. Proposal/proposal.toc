@@ -13,8 +13,8 @@
 \contentsline {chapter}{\numberline {II}TINJAUAN KEPUSTAKAAN}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}\textit {Indoor Positioning System}}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}\textit {Route Guidance System / Wayfinding and Navigation System}}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}\textit {Bluetooth Low Energy)} (BLE)}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}\textit {Beacon}}{6}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}\textit {Bluetooth Low Energy} (BLE)}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}\textit {Beacon}}{5}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}\textit {Fingerprinting}}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}\textit {Received Signal Strength Indicator} (RSSI)}{7}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Kalman Filter}{8}{subsection.2.4.2}%
@@ -35,10 +35,11 @@
 \contentsline {section}{\numberline {3.4}Metode Penelitian}{24}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{25}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{25}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{26}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Pengumpulan Data}{30}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Pembuatan Sistem Aplikasi}{33}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Pengujian Akurasi}{33}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{34}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}\textit {Usability Testing}}{35}{subsection.3.4.8}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{38}{chapter*.24}%
+\contentsline {subsection}{\numberline {3.4.3}Analisa Kebutuhan}{25}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Perancangan Sistem}{26}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Pengumpulan Data}{31}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Pembuatan Sistem Aplikasi}{34}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Pengujian Akurasi}{34}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{35}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}\textit {Usability Testing}}{36}{subsection.3.4.9}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{39}{chapter*.24}%

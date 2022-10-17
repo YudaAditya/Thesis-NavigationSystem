@@ -19,7 +19,7 @@
 \section{\textit{Route Guidance System / Wayfinding and Navigation System}}
 Menurut \citep{karimi2015indoor}, \textit{Wayfinding and navigation system} memiliki 2 makna, yaitu merupakan perangkat khusus yang menyediakan solusi pencarian jalan dan navigasi tanpa memerlukan tautan komunikasi atau koneksi ke sistem lain dan tanpa penyedia pihak ketiga. Makna ke dua adalah referensi layanan melalui \textit{smartphone} yang menyediakan solusi pencarian arah dan navigasi hanya melalui tautan komunikasi kabel-nirkabel ke sistem jarak jauh yang didukung oleh penyedia pihak ketiga. Dari perspektif komputasi, \textit{Wayfinding and navigation system} adalah platform terpusat, terdistribusi, dan didistribusikan melalui klien (pada \textit{smartphone}) dan server yang dikelola oleh penyedia layanan.
 
-\section{\textit{Bluetooth Low Energy)} (BLE)}
+\section{\textit{Bluetooth Low Energy} (BLE)}
 Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan kegunaan sebagai standar komunikasi nirkabel untuk bertukar data dalam jarak dekat \citep{kaluvza2017analysis}. Teknologi \textit{Bluetooth} memiliki fitur utama yaitu memiliki biaya yang rendah, konsumsi daya rendah, jangkauan kecil, memiliki ketahanan dan penggunaan secara global. Kecepatan transfer data yang diberikan oleh \textit{Bluetooth} sebesar 1 Mbit/s dan menggunakan pita frekuensi tanpa izin 2,4 hingga 2,485 GHz \citep{kaluvza2017analysis}.
 
 \par Pertengahan tahun 2010 spesial otoritas kompeten yang bernama “Bluetooth Special Interest Group" (SIG) mengumumkan spesifikasi \textit{Bluetooth} 4.0, dimana meliputi : \textit{Bluetooth} Klasik, \textit{Bluetooth} dengan kecepatan tinggi, dan protokol \textit{Bluetooth} hemat energi. Karakteristik dari \textit{Bluetooth Low Energy} (BLE) adalah memiliki ukuran yang kecil, menggunakan biaya rendah, konsumsi penggunaan daya yang rendah dengan kemungkinan penggunaan sampai beberapa tahun bekerja dengan menggunakan baterai AAA dan memiliki kompatibilitas dengan perangkat seluler, tablet, dan komputer \citep{kaluvza2017analysis}.
@@ -27,7 +27,7 @@ Teknologi \textit{Bluetooth} dikembangkan oleh Ericsson pada tahun 1994 dengan k
 \begin{figure}[H]
 \centering
 {\includegraphics [scale= .1]{gambar/bab2/BLE_Device}}
-\caption{Perangkat Bluetooth Low Energy}.
+\caption{Perangkat Bluetooth Low Energy.}
 \label{img:BLE_device}
 \end{figure}
 
@@ -131,7 +131,7 @@ posisi sebenarnya \citep{ihsan2018analisis}.
 
 
 \subsection{\textit{Text-to-Speech}(TTS)}
-\textit{Speech Syntesis} atau \textit{text-to-speech} merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS adalah sistem yang mengonversi teks ke dalam bentuk ucapan. TTS dapat dipadukan dengan OCR (optical character recognition) atau komponen lainnya untuk menunjang suatu sistem yang menjalankan fungsi membaca untuk membantu pekerjaan manusia. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis \citep{jonAathan2020sintesis}
+\textit{Speech Syntesis} atau \textit{text-to-speech} merupakan kebalikan dari ASR dalam memetakan teks ke bentuk gelombang akustik. TTS adalah sistem yang mengonversi teks ke dalam bentuk ucapan. TTS dapat dipadukan dengan OCR (optical character recognition) atau komponen lainnya untuk menunjang suatu sistem yang menjalankan fungsi membaca untuk membantu pekerjaan manusia. TTS digunakan dalam agen percakapan yang berdialog dengan orang-orang, berperan dalam perangkat yang membacakan dengan keras untuk tunanetra atau dalam permainan, dan dapat digunakan untuk berbicara bagi penderita gangguan neurologis \citep{jonathan2020sintesis}
 
 
 
@@ -216,7 +216,7 @@ Salah satu jenis pengujian fungsional adalah \textit{blackbox testing}. \textit{
 \par Pengujian ini diharapkan akan mendapatkan kekuatan dan kelemahan dari setiap aspek yang ada pada aplikasi itu sendiri. Maka dari itu, perlu adanya dokumentasi pengalaman aktual para calon pengguna aplikasi atau produk saat dievaluasi \citep{wesfix2017branding}. Tujuan lain dilakukannya pengujian ini adalah untuk mengumpilkan data kualitatif yang berhubungan dengan produk yang diuji. Data kualitatif tersebut terdiri dari komentar yang dibuat oleh partisipan, jawaban dari kuesioner pertanyaan dan tanggapan dari partisipan saat proses wawancara. \textit{Usability testing} telah terbukti dapat mengurangi waktu pada tahap pengembangan, mengurangi jumlah bugs, dan menghasilkan produk yang lebih berkualitas untuk meningkatkan nilai jual \citep{wesfix2017branding}.
 
 \subsection{\textit{Usability Metric for User Experience} (UMUX)}
-UMUX merupakan salah satu instrumen kuesioner standar selain \textit{System Usability Scale} (SUS). Meskipun SUS merupakan kuesioner yang relatif singkat, ada beberapa situasi diSmana instrumen yang lebih pendek lebih disukai (misalnya, ketika ada kebutuhan untuk mengukur lebih banyak atribut daripada hanya kegunaan yang dirasakan yang mengarah ke sesuatu yang tetap serta terbatas untuk atribut apa pun). UMUX dirancang di Intel untuk mendapatkan pengukuran yang dirasakan konsisten dengan SUS, tetapi hanya menggunakan empat (bukan 10) item \citep{lewis2018measuring}.
+UMUX merupakan salah satu instrumen kuesioner standar selain \textit{System Usability Scale} (SUS). Meskipun SUS merupakan kuesioner yang relatif singkat, ada beberapa situasi dimana instrumen yang lebih pendek lebih disukai (misalnya, ketika ada kebutuhan untuk mengukur lebih banyak atribut daripada hanya kegunaan yang dirasakan yang mengarah ke sesuatu yang tetap serta terbatas untuk atribut apa pun). UMUX dirancang di Intel untuk mendapatkan pengukuran yang dirasakan konsisten dengan SUS, tetapi hanya menggunakan empat (bukan 10) item \citep{lewis2018measuring}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
