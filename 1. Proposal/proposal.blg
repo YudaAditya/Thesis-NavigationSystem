@@ -3,6 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: proposal.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 The style file: style/jifbibstyle.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: abstrak-indonesia.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: abstrak-english.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: kata-pengantar.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
@@ -13,13 +17,17 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: bab2.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: bab3.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: bab4.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: bab5.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
 You've used 36 entries,
             1935 wiz_defined-function locations,
-            670 strings with 10046 characters,
+            674 strings with 10102 characters,
 and the built_in function-call counts, 13903 in all, are:
 = -- 1352
 > -- 568

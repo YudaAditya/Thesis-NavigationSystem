@@ -17,6 +17,24 @@
 \hyphenpenalty=10000
 \hbadness=10000
 
+%Tabel
+\usepackage{geometry}
+\usepackage{array}
+
+\usepackage{paralist}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+\usepackage{multirow}
+\usepackage{longtable}
+
+\usepackage{graphicx}
+\usepackage{xcolor,colortbl}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+
+%\usepackage{showframe} % to visualize writing area and margins ...
+%\usepackage{blindtext} % to generate dummy text
+
 %\usepackage[a4paper,left=14cm,right=3cm,top=3cm,bottom=5cm]{geometry}
 
 % Daftar pemenggalan suku kata dan istilah dalam LaTeX
@@ -186,9 +204,9 @@
 %-----------------------------------------------------------------
 % Disini kata pengantar
 %-----------------------------------------------------------------
-%\include{abstrak-indonesia} %berikan comment jika proposal
+\include{abstrak-indonesia} %berikan comment jika proposal
 
-%\include{abstrak-english} %berikan comment jika proposal
+\include{abstrak-english} %berikan comment jika proposal
 
 \include{kata-pengantar}
 
@@ -240,9 +258,9 @@
 
 \include{bab3}
 
-%\include{bab4}
+\include{bab4}
 
-%\include{bab5}
+\include{bab5}
 
 \begin{spacing}{1}
 \bibliography{daftar-pustaka}

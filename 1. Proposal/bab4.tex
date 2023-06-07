@@ -1,0 +1,243 @@
+%-------------------------------------------------------------------------------
+%                            BAB IV
+%               		HASIL DAN PEMBAHASAN
+%-------------------------------------------------------------------------------
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+\chapter{HASIL DAN PEMBAHASAN}
+
+\section{Persiapan Sistem}
+\subsection{Dataset}
+	\begin{enumerate}
+	\item Data Model \textit{Voice Recognition}
+	\par Data yang digunakan dalam penelitian ini terdiri atas data \textit{pre-trained} model yang diperoleh dari penelitian yang berada dalam satu penelitian yang sama pada \textit{roadmap} pada gambar \ref{img:fase2}. \textit{Pre-trained} model dimanfaatkan sebagai titik awal untuk merespons perintah suara dari pengguna, kemudian perintah suara akan di terjemahkan ke dalam bentuk teks yang akan diterima oleh \textit{smartphone} pengguna. Teks yang diterima akan digunakan sebagai input yang akan menjadi lokasi tujuan serta pemilihan rute. Berikut adalah \textit{list} dari nama-nama ruangan yang ada pada data \textit{Pre-trained} model.
+	
+	
+	\begin{longtable}{| m{1cm} | m{6cm} | m{3cm} |}
+    \caption{Penelitian Terkait}
+    \label{t_data} \\
+        \hline
+        \textbf{No.}	& \textbf{Nama Ruangan}	& \textbf{keterangan}	\\
+        \hline
+		1.	& ruang cctv & \multirow{6}{*}{Lantai 1} \\ \cline{1-2}
+		2.  & ruang kepegawaian					& \\ \cline{1-2}
+		3.	& ruang tata usaha					& \\ \cline{1-2}
+		4.	& ruang tu							& \\ \cline{1-2}
+		5.	& ruang kemahasiswaan				& \\ \cline{1-2}
+		6.	& ruang akademik					& \\
+        \hline
+        7.	& ruang dekan & \multirow{7}{*}{Lantai 2} \\ \cline{1-2}
+		8.  & ruang wakil dekan satu			& \\ \cline{1-2}
+		9.	& ruang wd satu						& \\ \cline{1-2}
+		10.	& ruang wakil dekan dua				& \\ \cline{1-2}
+		11.	& ruang wd dua						& \\ \cline{1-2}
+		12.	& ruang wakil dekan tiga			& \\ \cline{1-2}
+		13.	& ruang wd tiga						& \\ 
+		\hline
+		14.	& jurusan informatika & \multirow{7}{*}{Lantai 3} \\ \cline{1-2}
+		15.	& jurusan d tiga mi					& \\ \cline{1-2}
+		16. & jurusan farmasi					& \\ \cline{1-2}
+		17.	& ruang seminar						& \\ \cline{1-2}
+		18.	& laboratorium jaringan komputer	& \\ \cline{1-2}
+		19.	& lab jaringan komputer				& \\ \cline{1-2}
+		20.	& laboratorium jaringan				& \\ \cline{1-2}
+		21. & lab jaringan						& \\ \cline{1-2}
+		22.	& laboratorium jarkom				& \\ \cline{1-2}
+		23.	& lab jarkom						& \\ \cline{1-2}
+		24.	& laboratorium basis data			& \\ \cline{1-2}
+		25.	& lab basis data					& \\ \cline{1-2}
+		26.	& laboratorium data mining			& \\ \cline{1-2}
+		27.	& lab data mining					& \\ \cline{1-2}
+		28. & laboratorium multimedia			& \\ \cline{1-2}
+		29.	& lab multimedia					& \\ \cline{1-2}
+		30.	& laboratorium gis					& \\ \cline{1-2}
+		31.	& lab gis							& \\ 
+		\hline
+		32.	& ruang wakil dekan tiga & \multirow{24}{*}{Ruangan Umum} \\ \cline{1-2}
+		33.  & ruang wakil dekan satu			& \\ \cline{1-2}
+		34.	& ruang wd satu						& \\ \cline{1-2}
+		35.	& ruang wakil dekan dua				& \\ \cline{1-2}
+		36.	& ruang wd dua						& \\ \cline{1-2}
+		37.	& ruang wakil dekan tiga			& \\ \cline{1-2}
+		38.	& ruang seminar						& \\ \cline{1-2}
+		39.	& laboratorium jaringan komputer	& \\ \cline{1-2}
+		40.	& lab jaringan komputer				& \\ \cline{1-2}
+		41. & lab jaringan						& \\ \cline{1-2}
+		42.	& laboratorium jarkom				& \\ \cline{1-2}
+		43.	& lab jarkom						& \\ \cline{1-2}
+		44.	& laboratorium basis data			& \\ \cline{1-2}
+		45.	& lab basis data					& \\ \cline{1-2}
+		46.	& laboratorium data mining			& \\ \cline{1-2}
+		47.	& lab data mining					& \\ \cline{1-2}
+		48. & laboratorium multimedia			& \\ \cline{1-2}
+		49.	& lab multimedia					& \\ \cline{1-2}
+		50.	& laboratorium gis					& \\ \cline{1-2}
+		51. & lab jaringan						& \\ \cline{1-2}
+		52.	& laboratorium jarkom				& \\ \cline{1-2}
+		53.	& lab jarkom						& \\ \cline{1-2}
+		54.	& laboratorium basis data			& \\ \cline{1-2}
+		55.	& lab basis data					& \\ \cline{1-2}
+		56.	& laboratorium data mining			& \\ 
+        \hline
+    \end{longtable}
+	
+	\item Data Rute dan Denah Lokasi Penelitian
+	\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan dipetakan dengan menggunakan bantuan BLE. Data titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. BLE berjumlah 40 unit dengan BLE untuk ruangan berjumlah 24 ditandai dengan titik berwarna hijau dan BLE untuk \textit{connector} berjumlah 16 ditandai dengan titik berwarna biru.Jarak masing-masing BLE berada di sekitar 5 s/d 8 meter dari masing-masing BLE. Denah lokasi penelitian dapat dilihat pada gambar berikut.
+	
+	\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab4/Denah-1-BLE}}
+\caption{Denah lantai 1 Gedung A FMIPA dengan BLE}
+\label{img:denah_1_ble}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab4/Denah-2-BLE}}
+\caption{Denah lantai 2 Gedung A FMIPA dengan BLE}
+\label{img:denah_2_ble}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab4/Denah-3-BLE}}
+\caption{Denah lantai 3 Gedung A FMIPA dengan BLE}
+\label{img:denah_3_ble}
+\end{figure}
+    
+	\end{enumerate}
+	
+	
+	
+	
+\subsection{Pembangunan Sistem}
+	\begin{enumerate}
+	
+	\item Konfigurasi Model \textit{Voice Recognition} dan \textit{Text-to-speech}
+	\par Pada tahapan ini model dipasangkan ke dalam aplikasi dengan menggunakan VOSK API dan Google \textit{text-to-speech} dengan menggunakan fungsi Talkback pada Android sehingga aplikasi dapat menerima input dari pengguna serta memberikan informasi \textit{feedback} ke pengguna saat dipandu.
+	
+	\item  Data akurasi lokasi pengguna serta akurasi rute
+\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
+
+	\item Pembuatan Aplikasi
+	\par Aplikasi dibuat dengan menggunakan bahasa pemrograman Kotlin dengan menggunakan \textit{jetpack compose} melalui IDE Android Studio. Media penyimpanan data BLE dan lokasi menggunakan basis data ROOM. Basis data disimpan secara lokal dan dapat diakses menggunakan query MySQL berbasis DAO ROOM. BLE dan data lokasi tersimpan berupa Id, RSSI, MAC Address, nama ruangan. Proses input pengguna dapat memanggil aplikasi secara langsung menggunakan suara dan memberi lokasi tujuan. Titik mulai pengguna diakses menggunakan Bluetooth dengan mencari BLE terdekat dengan lokasi pengguna.
+	
+	\vspace{-0cm}
+	\begin{figure} [H]
+	\begin{subfigure}{.5\textwidth}
+ 		\centering
+ 		% include first image
+ 		\includegraphics[width=.5\linewidth]{gambar/bab4/pandu-pop-up} 
+ 		\caption{Pop up trigger by hotword}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+ 		\centering
+ 		% include second image
+		\includegraphics[width=.5\linewidth]{gambar/bab4/memandu} 
+ 		\caption{Input tujuan dan lokasi pengguna}
+	\end{subfigure}
+		\vspace{1cm}
+		\newline
+	\begin{subfigure}{.5\textwidth}
+ 		\centering
+		 % include third image
+	  	\includegraphics[width=.5\linewidth]{gambar/bab4/daftar-ruangan} 
+ 		\caption{Daftar Ruangan}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+ 		\centering
+ 		% include fourth image
+ 		\includegraphics[width=.5\linewidth]{gambar/bab4/bantuan} 
+ 		\caption{Bantuan}
+	\end{subfigure}
+		\vspace{0.5cm}
+		\caption{Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra}
+	\label{aplikasimappingbagian1}
+	\end{figure}
+
+\end{enumerate}
+
+\section{Pengujian Sistem}
+\subsection{Akurasi rute}
+\par Pengujian akurasi posisi dan rute pengguna menggunakan gabungan titik BLE terdekat dengan mengukur kekuatan RSSI, kemudian menggunakan letak dan posisi BLE yang telah dipetakan dengan menghitung menggunakan Kalman Filter yang disertai dengan pembaharuan prediksi titik lokasi pengguna ke tujuan.
+Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra seperti pada Tabel \ref{tab:skema-pengujian} berikut
+
+
+
+
+\begin{table}[H]
+\caption{Skema Pengujian Akurasi Pengambilan Rute di Gedung A FMIPA Optimal dalam MSE \textit{(Mean Squared Error)}}
+\label{tab:skema-pengujian}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{No.} & \textbf{Titik Awal} & \textbf{Tujuan} & \textbf{Pengguna 1} & \textbf{Pengguna 2} & \textbf{Pengguna 3} & \textbf{Pengguna 4} & \textbf{Pengguna 5} & \textbf{Rute Optimal} \\ \hline
+1 & Pintu masuk utama   & Toilet lantai 1     & 1.252 & 10.254 & 3.325 & 2.902 & 0.873 & 0.577 \\ \hline
+2 & Pintu masuk utama   & Jurusan Informatika & 4.213 & 6.321  & 3.126 & 4.234 & 5.432 & 2.332 \\ \hline
+3 & Jurusan Informatika & Pintu Keluar Utama  & 5.432 & 4.213  & 6.783 & 5.126 & 4.786 & 2.213 \\ \hline
+\end{tabular}
+}
+\end{table}
+
+\par Rute optimal berupa pengujian dengan menggunakan perhitungan jarak BLE berdasarkan jarak antar BLE dan tujuan akhir secara langsung secara berurut mengikuti BLE terdekat, didapati MSE \textit{(Mean Squared Error)} seperti pada Tabel \ref{tab:skema-pengujian}. Terdapat pengguna mendapati rute yang mendekati rute optimal yang dipilih oleh aplikasi, sehingga pengguna yang mendekati rute optimal memiliki MSE rendah yang berarti mendekati akurat. Terdapat juga pengguna yang memiliki MSE tinggi dapat dipengaruhi oleh beberapa faktor seperti sinyal BLE, lokasi BLE, tembok, lokasi pengguna, dan saran rute yang diberikan melewati rute yang jauh dari rute optimal.
+
+
+\subsection{Pengujian Usabilitas UMUX}
+\par Pengujian usabilitas bertujuan untuk menguji kelayakan dan kegunaan dari sistem yang akan digunakan oleh pengguna. Sebelum pengujian ini dilakukan, adapun skema pengujian yang telah dibuat dapat dilihat pada Tabel \ref{tab:skema-pengujian}.
+
+\par Pengujian dengan metode UMUX dilakukan dengan menanyakan pertanyaan kepada responden. Kuesioner berisi 4 pertanyaan dengan menggunakan skala 1-7. Hasil pengujian UMUX aplikasi dapat dilihat pada Tabel \ref{tab:skor-umux} berikut.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[H]
+\caption{Hasil Pengujian UMUX Aplikasi Navigasi}
+\label{tab:skor-umux}
+\begin{tabular}{|ccccc|c|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Responden}}} & \multicolumn{4}{c|}{\textbf{Kode Pertanyaan}} & \multirow{2}{*}{\textbf{Skor UMUX}} \\ \cline{2-5}
+\multicolumn{1}{|c|}{}  & \multicolumn{1}{c|}{U1} & \multicolumn{1}{c|}{U2} & \multicolumn{1}{c|}{U3} & U4 &       \\ \hline
+\multicolumn{1}{|c|}{1} & \multicolumn{1}{c|}{6}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{7}  & 3  & 83,33 \\ \hline
+\multicolumn{1}{|c|}{2} & \multicolumn{1}{c|}{5}  & \multicolumn{1}{c|}{3}  & \multicolumn{1}{c|}{5}  & 2  & 70,83 \\ \hline
+\multicolumn{1}{|c|}{3} & \multicolumn{1}{c|}{7}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{6}  & 2  & 87,5  \\ \hline
+\multicolumn{1}{|c|}{4} & \multicolumn{1}{c|}{5}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{4}  & 2  & 70,83 \\ \hline
+\multicolumn{1}{|c|}{5} & \multicolumn{1}{c|}{5}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{6}  & 2  & 79,16 \\ \hline
+\multicolumn{5}{|c|}{Rata-Rata}                                                                            & 78,33       \\ \hline
+\end{tabular}
+\end{table}
+
+\par Berdasarkan hasil pengujian UMUX yang telah dilakukan diatas hasil rata-rata pengujian Aplikasi ini mendapatkan skor sebesar 78,33\%. Dapat dilihat bahwa aplikasi yang telah dibangun memiliki skor interpretasi \textbf{"dapat diterima"}.
+
+\subsection{Pengujian Fungsionalitas Menggunakan BlackBox}
+\par Pengujian \textit{Blackbox} dilakukan dengan tujuan untuk menguji fungsionalitas dari aplikasi dengan menjalankan aplikasi tersebut apakah sesuai dengan alur bisni yang diinginkan.  Pengujian ini melihat fungsi yang tidak sesuai pada aplikasi dan
+kesalahan-kesalahan aplikasi dalam mengerjakan suatu perintah. Fitur aplikasi yang diuji dapat dilihat pada Tabel \ref{tab:blackbox}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[H]
+\caption{Pengujian Black Box Aplikasi Navigasi}
+\label{tab:blackbox}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{No.} & \textbf{Nama Pengujian} & \textbf{Skenario}                             & \textbf{Tampilan}                   & \textbf{Hasil} \\ \hline
+1. & Menghidupkan Bluetooth & Klik tombol Allow pada notifikasi yang muncul & Bluetooth akan menyala & Berhasil \\ \hline
+2.           & Menghidupkan TalkBack   & Klik tombol Allow pada notifikasi yang muncul & TalkBack akan menyala               & Berhasil       \\ \hline
+3.           & Menghidupkan Mikrofon   & Klik tombol Allow pada notifikasi yang muncul & Mikrofon akan menyala               & Berhasil       \\ \hline
+4.           & Melihat daftar ruangan  & Klik icon gedung                              & Diarahkan ke halaman daftar ruangan & Berhasil       \\ \hline
+\end{tabular}
+}
+\end{table}
+
+\par Berdasarkan hasil Black Box Testing dari tabel diatas menunjukkan bahwa Aplikasi dapat berjalan dengan baik dibuktikan dengan "berhasil" pada kolom hasil pengujian masing-masing fitur yang dikerjakan.
+
+
+
+%-----------------------------------------------------------------------------%
+
+% Baris ini digunakan untuk membantu dalam melakukan sitasi
+% Karena diapit dengan comment, maka baris ini akan diabaikan
+% oleh compiler LaTeX.
+\begin{comment}
+\bibliography{daftar-pustaka}
+\end{comment}

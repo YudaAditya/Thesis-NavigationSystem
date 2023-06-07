@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.5)  9 MAR 2023 06:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.7)  7 JUN 2023 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./proposal.tex
 (proposal.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-07> (jifproposal-yudaaditya.cls
+L3 programming layer <2023-05-15> (jifproposal-yudaaditya.cls
 
 LaTeX Warning: You have requested document class `jifproposal-yudaaditya',
                but the document class provides `yudaaditya'.
 
 Document Class: yudaaditya 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
+Package: babel 2023/05/11 v3.89 The Babel package
 \babel@savecnt=\count185
 \U@D=\dimen140
 \l@unhyphenated=\language79
@@ -333,9 +333,49 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip71
 \f@nch@O@orf=\skip72
 ))
+(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count285
+\TX@ftn=\toks31
+)
+(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.
+sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip73
+\enit@outerparindent=\dimen182
+\enit@toks=\toks32
+\enit@inbox=\box57
+\enit@count@id=\count286
+\enitdp@description=\count287
+)
+(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.st
+y
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip74
+\LTright=\skip75
+\LTpre=\skip76
+\LTpost=\skip77
+\LTchunksize=\count288
+\LTcapwidth=\dimen183
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count289
+\LT@rows=\count290
+\c@LT@tables=\count291
+\c@LT@chunks=\count292
+\LT@p@ftn=\toks33
+)
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 23.
+e 41.
 
 (hype.indonesia.tex)
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbo
@@ -350,10 +390,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 tex
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils
 .tex
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count285
+\XKV@depth=\count293
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.
@@ -368,92 +408,92 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collect
 box.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box57
+\collectedbox=\box63
 )
-\tc@llx=\dimen177
-\tc@lly=\dimen178
-\tc@urx=\dimen179
-\tc@ury=\dimen180
+\tc@llx=\dimen184
+\tc@lly=\dimen185
+\tc@urx=\dimen186
+\tc@ury=\dimen187
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdfte
 x.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen181
-\adjbox@Height=\dimen182
-\adjbox@Depth=\dimen183
-\adjbox@Totalheight=\dimen184
-\adjbox@pwidth=\dimen185
-\adjbox@pheight=\dimen186
-\adjbox@pdepth=\dimen187
-\adjbox@ptotalheight=\dimen188
+\adjbox@Width=\dimen188
+\adjbox@Height=\dimen189
+\adjbox@Depth=\dimen190
+\adjbox@Totalheight=\dimen191
+\adjbox@pwidth=\dimen192
+\adjbox@pheight=\dimen193
+\adjbox@pdepth=\dimen194
+\adjbox@ptotalheight=\dimen195
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpag
 e.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count286
+\c@checkoddpage=\count294
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.
 sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box58
-\sift@deathcycles=\count287
-\@vwid@loff=\dimen189
-\@vwid@roff=\dimen190
+\@vwid@box=\box64
+\sift@deathcycles=\count295
+\@vwid@loff=\dimen196
+\@vwid@roff=\dimen197
 ))
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.st
 y
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip73
-\cftbeforetoctitleskip=\skip74
-\cftaftertoctitleskip=\skip75
-\cftbeforepartskip=\skip76
-\cftpartnumwidth=\skip77
-\cftpartindent=\skip78
-\cftbeforechapskip=\skip79
-\cftchapindent=\skip80
-\cftchapnumwidth=\skip81
-\cftbeforesecskip=\skip82
-\cftsecindent=\skip83
-\cftsecnumwidth=\skip84
-\cftbeforesubsecskip=\skip85
-\cftsubsecindent=\skip86
-\cftsubsecnumwidth=\skip87
-\cftbeforesubsubsecskip=\skip88
-\cftsubsubsecindent=\skip89
-\cftsubsubsecnumwidth=\skip90
-\cftbeforeparaskip=\skip91
-\cftparaindent=\skip92
-\cftparanumwidth=\skip93
-\cftbeforesubparaskip=\skip94
-\cftsubparaindent=\skip95
-\cftsubparanumwidth=\skip96
-\cftbeforeloftitleskip=\skip97
-\cftafterloftitleskip=\skip98
-\cftbeforefigskip=\skip99
-\cftfigindent=\skip100
-\cftfignumwidth=\skip101
-\c@lofdepth=\count288
-\c@lotdepth=\count289
-\cftbeforelottitleskip=\skip102
-\cftafterlottitleskip=\skip103
-\cftbeforetabskip=\skip104
-\cfttabindent=\skip105
-\cfttabnumwidth=\skip106
+\cftparskip=\skip78
+\cftbeforetoctitleskip=\skip79
+\cftaftertoctitleskip=\skip80
+\cftbeforepartskip=\skip81
+\cftpartnumwidth=\skip82
+\cftpartindent=\skip83
+\cftbeforechapskip=\skip84
+\cftchapindent=\skip85
+\cftchapnumwidth=\skip86
+\cftbeforesecskip=\skip87
+\cftsecindent=\skip88
+\cftsecnumwidth=\skip89
+\cftbeforesubsecskip=\skip90
+\cftsubsecindent=\skip91
+\cftsubsecnumwidth=\skip92
+\cftbeforesubsubsecskip=\skip93
+\cftsubsubsecindent=\skip94
+\cftsubsubsecnumwidth=\skip95
+\cftbeforeparaskip=\skip96
+\cftparaindent=\skip97
+\cftparanumwidth=\skip98
+\cftbeforesubparaskip=\skip99
+\cftsubparaindent=\skip100
+\cftsubparanumwidth=\skip101
+\cftbeforeloftitleskip=\skip102
+\cftafterloftitleskip=\skip103
+\cftbeforefigskip=\skip104
+\cftfigindent=\skip105
+\cftfignumwidth=\skip106
+\c@lofdepth=\count296
+\c@lotdepth=\count297
+\cftbeforelottitleskip=\skip107
+\cftafterlottitleskip=\skip108
+\cftbeforetabskip=\skip109
+\cfttabindent=\skip110
+\cfttabnumwidth=\skip111
 )
-\c@appendices=\count290
-\cftbeforeappendicesskip=\skip107
-\cftappendicesindent=\skip108
-\cftappendicesnumwidth=\skip109
-\c@apcdepth=\count291
-\cftbeforeapctitleskip=\skip110
-\cftafterapctitleskip=\skip111
+\c@appendices=\count298
+\cftbeforeappendicesskip=\skip112
+\cftappendicesindent=\skip113
+\cftappendicesnumwidth=\skip114
+\c@apcdepth=\count299
+\cftbeforeapctitleskip=\skip115
+\cftafterapctitleskip=\skip116
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.
 sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.
 sty
@@ -512,15 +552,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 s.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count292
+\c@section@level=\count300
 )
-\@linkdim=\dimen191
-\Hy@linkcounter=\count293
-\Hy@pagecounter=\count294
+(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.
+sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
+)
+\@linkdim=\dimen198
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.de
 f
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -528,31 +573,27 @@ Now handling font encoding PD1 ...
 sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmd
-s.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count295
+\Hy@SavedSpaceFactor=\count304
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Hyper figures OFF on input line 4182.
+Package hyperref Info: Link nesting OFF on input line 4187.
+Package hyperref Info: Hyper index ON on input line 4190.
+Package hyperref Info: Plain pages OFF on input line 4197.
+Package hyperref Info: Backreferencing OFF on input line 4202.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count296
+Package hyperref Info: Bookmarks ON on input line 4449.
+\c@Hy@tempcnt=\count305
  (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen192
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen199
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.st
 y
@@ -563,31 +604,31 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count297
-\Field@Width=\dimen193
-\Fld@charsize=\dimen194
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Fld@menulength=\count306
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring OFF on input line 6086.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.
 sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count298
-\c@Item=\count299
-\c@Hfootnote=\count300
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.d
 ef
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx
 .sty
@@ -595,8 +636,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count301
-\c@bookmark@seq@number=\count302
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rer
 unfilecheck.sty
@@ -609,22 +650,22 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip112
+\Hy@SectionHShift=\skip117
 )
-\mylenf=\skip113
+\mylenf=\skip118
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.
 sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box59
-\beforetitleunit=\skip114
-\aftertitleunit=\skip115
-\ttl@plus=\dimen195
-\ttl@minus=\dimen196
-\ttl@toksa=\toks33
-\titlewidth=\dimen197
-\titlewidthlast=\dimen198
-\titlewidthfirst=\dimen199
+\ttl@box=\box65
+\beforetitleunit=\skip119
+\aftertitleunit=\skip120
+\ttl@plus=\dimen258
+\ttl@minus=\dimen259
+\ttl@toksa=\toks36
+\titlewidth=\dimen260
+\titlewidthlast=\dimen261
+\titlewidthfirst=\dimen262
 
 
 Package titlesec Warning: Non standard sectioning command \paragraph
@@ -633,51 +674,38 @@ Package titlesec Warning: Non standard sectioning command \paragraph
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.st
 y
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.s
 ty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen256
-\captionmargin=\dimen257
-\caption@leftmargin=\dimen258
-\caption@rightmargin=\dimen259
-\caption@width=\dimen260
-\caption@indent=\dimen261
-\caption@parindent=\dimen262
-\caption@hangindent=\dimen263
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen263
+\captionmargin=\dimen264
+\caption@leftmargin=\dimen265
+\caption@rightmargin=\dimen266
+\caption@width=\dimen267
+\caption@indent=\dimen268
+\caption@parindent=\dimen269
+\caption@hangindent=\dimen270
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count303
-\c@continuedfloat=\count304
+\c@caption@flags=\count312
+\c@continuedfloat=\count313
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-)
+Package caption Info: longtable package is loaded.
+
+(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.
+sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption
 .sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count305
-\c@subtable=\count306
-)
-(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.st
-y
-Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip116
-\LTright=\skip117
-\LTpre=\skip118
-\LTpost=\skip119
-\LTchunksize=\count307
-\LTcapwidth=\dimen264
-\LT@head=\box60
-\LT@firsthead=\box61
-\LT@foot=\box62
-\LT@lastfoot=\box63
-\LT@gbox=\box64
-\LT@cols=\count308
-\LT@rows=\count309
-\c@LT@tables=\count310
-\c@LT@chunks=\count311
-\LT@p@ftn=\toks34
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count314
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count315
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscap
 e.sty
@@ -696,56 +724,56 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
 sty
-\lst@mode=\count312
-\lst@gtempboxa=\box65
-\lst@token=\toks35
-\lst@length=\count313
-\lst@currlwidth=\dimen265
-\lst@column=\count314
-\lst@pos=\count315
-\lst@lostspace=\dimen266
-\lst@width=\dimen267
-\lst@newlines=\count316
-\lst@lineno=\count317
-\lst@maxwidth=\dimen268
+\lst@mode=\count316
+\lst@gtempboxa=\box66
+\lst@token=\toks37
+\lst@length=\count317
+\lst@currlwidth=\dimen271
+\lst@column=\count318
+\lst@pos=\count319
+\lst@lostspace=\dimen272
+\lst@width=\dimen273
+\lst@newlines=\count320
+\lst@lineno=\count321
+\lst@maxwidth=\dimen274
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.s
 ty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count318
-\lst@skipnumbers=\count319
-\lst@framebox=\box66
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count322
+\lst@skipnumbers=\count323
+\lst@framebox=\box67
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
 cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/lstaddons\lstautog
 obble.sty
 Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
 ings'
-\lstag@spacecount=\count320
+\lstag@spacecount=\count324
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/fancybox\fancybox.
 sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box67
-\shadowsize=\dimen269
-\@Sbox=\box68
-\do@VerbBox=\toks36
-\the@fancyput=\toks37
-\this@fancyput=\toks38
-\EndVerbatimTokens=\toks39
+\@fancybox=\box68
+\shadowsize=\dimen275
+\@Sbox=\box69
+\do@VerbBox=\toks38
+\the@fancyput=\toks39
+\this@fancyput=\toks40
+\EndVerbatimTokens=\toks41
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read4
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 152.
+e 170.
 
 (sampul-depan.tex)
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.
@@ -755,69 +783,73 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count321
-\rotFPtop=\skip120
-\rotFPbot=\skip121
-\rot@float@box=\box69
-\rot@mess@toks=\toks40
+\c@r@tfl@t=\count325
+\rotFPtop=\skip121
+\rotFPbot=\skip122
+\rot@float@box=\box70
+\rot@mess@toks=\toks42
 )
-\cftbeforelistingsskip=\skip122
-\cftlistingsindent=\skip123
-\cftlistingsnumwidth=\skip124
-\cftbeforeloltitleskip=\skip125
-\cftafterloltitleskip=\skip126
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 17
-7.
+\cftbeforelistingsskip=\skip123
+\cftlistingsindent=\skip124
+\cftlistingsnumwidth=\skip125
+\cftbeforeloltitleskip=\skip126
+\cftafterloltitleskip=\skip127
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 19
+5.
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count322
-\l__pdf_internal_box=\box70
-) (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux)
-(bab1.aux) (bab2.aux) (bab3.aux
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count326
+\l__pdf_internal_box=\box71
+) (proposal.aux (abstrak-indonesia.aux) (abstrak-english.aux)
+(kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux
 
 LaTeX Warning: Label `tab:UMUX' multiply defined.
 
-) (lampiran.aux))
+) (bab4.aux
+
+LaTeX Warning: Label `aplikasimappingbagian1' multiply defined.
+
+) (bab5.aux) (lampiran.aux))
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
 
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
 df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
-\scratchdimen=\dimen270
-\scratchbox=\box71
-\nofMPsegments=\count324
-\nofMParguments=\count325
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count326
-\MPscratchDim=\dimen271
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count327
+\scratchdimen=\dimen276
+\scratchbox=\box72
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen277
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks44
 )
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty
@@ -863,22 +895,16 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 177.
+Package hyperref Info: Link coloring OFF on input line 195.
 (proposal.out) (proposal.out)
 \@outlinefile=\write4
 \openout4 = `proposal.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
-
-(C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.
-sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count329
+\c@lstlisting=\count333
 
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
@@ -915,45 +941,65 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
-2.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 20
+0.
 (C:\Users\YudaAditya\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<gambar/logo_unsyiah.png, id=175, 264.99pt x 264.99pt>
+<gambar/logo_unsyiah.png, id=227, 264.99pt x 264.99pt>
 File: gambar/logo_unsyiah.png Graphic file (type png)
 <use gambar/logo_unsyiah.png>
-Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 182.
+Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 200.
 (pdftex.def)             Requested size: 122.06358pt x 122.06265pt.
 
 [1
 
 
-{C:/Users/YudaAditya/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./gamba
+{C:/Users/YudaAditya/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users
+/YudaAditya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./gamba
 r/logo_unsyiah.png>] [2
+
+]
+\openout2 = `abstrak-indonesia.aux'.
+
+ (abstrak-indonesia.tex) [3
+
+
+
+]
+\openout2 = `abstrak-english.aux'.
+
+ (abstrak-english.tex)
+[4
+
+
+
+
 
 ]
 \openout2 = `kata-pengantar.aux'.
 
- (kata-pengantar.tex) [3
+ (kata-pengantar.tex) [5
+
+
 
 
 ] (proposal.toc
-Overfull \hbox (0.50574pt too wide) detected at line 27
+Overfull \hbox (0.50574pt too wide) detected at line 33
 \T1/ptm/m/n/12 2.10. 
  []
 
 
-Overfull \hbox (0.50574pt too wide) detected at line 28
+Overfull \hbox (0.50574pt too wide) detected at line 34
 \T1/ptm/m/n/12 2.11. 
  []
 
 
-Overfull \hbox (0.50574pt too wide) detected at line 30
+Overfull \hbox (0.50574pt too wide) detected at line 36
 \T1/ptm/m/n/12 2.12. 
  []
 
-[4
+[6
 
 
 
@@ -961,17 +1007,17 @@ Overfull \hbox (0.50574pt too wide) detected at line 30
 \tf@toc=\write5
 \openout5 = `proposal.toc'.
 
- [5] (proposal.lot)
+ [7] (proposal.lot)
 \tf@lot=\write6
 \openout6 = `proposal.lot'.
 
- [6
+ [8
 
 ] (proposal.lof)
 \tf@lof=\write7
 \openout7 = `proposal.lof'.
 
- [7
+ [9
 
 ]
 \openout2 = `daftar-singkatan.aux'.
@@ -998,20 +1044,20 @@ BAB II.
 
 
 ]
-<gambar/bab2/BLE_Device.png, id=386, 897.3525pt x 901.11656pt>
+<gambar/bab2/BLE_Device.png, id=477, 897.3525pt x 901.11656pt>
 File: gambar/bab2/BLE_Device.png Graphic file (type png)
 <use gambar/bab2/BLE_Device.png>
 Package pdftex.def Info: gambar/bab2/BLE_Device.png  used on input line 29.
 (pdftex.def)             Requested size: 89.7405pt x 90.11693pt.
  [5 <./gambar/bab2/BLE_Device.png>]
-<gambar/bab2/Fingerprinting.png, id=407, 758.835pt x 613.29124pt>
+<gambar/bab2/Fingerprinting.png, id=498, 758.835pt x 613.29124pt>
 File: gambar/bab2/Fingerprinting.png Graphic file (type png)
 <use gambar/bab2/Fingerprinting.png>
 Package pdftex.def Info: gambar/bab2/Fingerprinting.png  used on input line 46.
 
 (pdftex.def)             Requested size: 379.41658pt x 306.64487pt.
  [6] [7 <./gambar/bab2/Fingerprinting.png>]
-<gambar/bab2/kalman_filter.png, id=441, 519.9425pt x 190.7125pt>
+<gambar/bab2/kalman_filter.png, id=531, 519.9425pt x 190.7125pt>
 File: gambar/bab2/kalman_filter.png Graphic file (type png)
 <use gambar/bab2/kalman_filter.png>
 Package pdftex.def Info: gambar/bab2/kalman_filter.png  used on input line 78.
@@ -1030,7 +1076,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 102.
 LaTeX Warning: Command \textendash invalid in math mode on input line 112.
 
 [9] [10] [11] [12] [13]
-<gambar/bab2/Scrum.png, id=537, 1142.2675pt x 417.56pt>
+<gambar/bab2/Scrum.png, id=627, 1142.2675pt x 417.56pt>
 File: gambar/bab2/Scrum.png Graphic file (type png)
 <use gambar/bab2/Scrum.png>
 Package pdftex.def Info: gambar/bab2/Scrum.png  used on input line 202.
@@ -1056,32 +1102,32 @@ BAB III.
 
 
 ]
-<gambar/bab3/rp_fase1.jpg, id=626, 2005.4925pt x 1033.8625pt>
+<gambar/bab3/rp_fase1.jpg, id=716, 2005.4925pt x 1033.8625pt>
 File: gambar/bab3/rp_fase1.jpg Graphic file (type jpg)
 <use gambar/bab3/rp_fase1.jpg>
 Package pdftex.def Info: gambar/bab3/rp_fase1.jpg  used on input line 47.
 (pdftex.def)             Requested size: 601.6524pt x 310.16115pt.
  [21]
-<gambar/bab3/rp_fase2.jpg, id=631, 1027.84pt x 492.84125pt>
+<gambar/bab3/rp_fase2.jpg, id=721, 1027.84pt x 492.84125pt>
 File: gambar/bab3/rp_fase2.jpg Graphic file (type jpg)
 <use gambar/bab3/rp_fase2.jpg>
 Package pdftex.def Info: gambar/bab3/rp_fase2.jpg  used on input line 58.
 (pdftex.def)             Requested size: 616.70876pt x 295.70702pt.
  [22 <./gambar/bab3/rp_fase1.jpg>]
-<gambar/bab3/diagram_alir.png, id=637, 641.39626pt x 862.22125pt>
+<gambar/bab3/diagram_alir.png, id=728, 641.39626pt x 862.22125pt>
 File: gambar/bab3/diagram_alir.png Graphic file (type png)
 <use gambar/bab3/diagram_alir.png>
 Package pdftex.def Info: gambar/bab3/diagram_alir.png  used on input line 70.
 (pdftex.def)             Requested size: 384.84071pt x 517.33675pt.
  [23 <./gambar/bab3/rp_fase2.jpg>]
 [24 <./gambar/bab3/diagram_alir.png>] [25] [26]
-<gambar/bab3/use_case_diagram.png, id=660, 760.8425pt x 565.11125pt>
+<gambar/bab3/use_case_diagram.png, id=750, 760.8425pt x 565.11125pt>
 File: gambar/bab3/use_case_diagram.png Graphic file (type png)
 <use gambar/bab3/use_case_diagram.png>
 Package pdftex.def Info: gambar/bab3/use_case_diagram.png  used on input line 1
 39.
 (pdftex.def)             Requested size: 341.4356pt x 284.52957pt.
-<gambar/bab3/deployment_diagram.png, id=662, 665.48625pt x 520.94624pt>
+<gambar/bab3/deployment_diagram.png, id=752, 665.48625pt x 520.94624pt>
 File: gambar/bab3/deployment_diagram.png Graphic file (type png)
 <use gambar/bab3/deployment_diagram.png>
 Package pdftex.def Info: gambar/bab3/deployment_diagram.png  used on input line
@@ -1089,7 +1135,7 @@ Package pdftex.def Info: gambar/bab3/deployment_diagram.png  used on input line
 (pdftex.def)             Requested size: 284.5288pt x 227.61931pt.
  [27 <./gambar/bab3/use_case_diagram.png>] [28 <./gambar/bab3/deployment_diagra
 m.png>]
-<gambar/bab3/alur_kerja_sistem.png, id=676, 845.1575pt x 597.23125pt>
+<gambar/bab3/alur_kerja_sistem.png, id=767, 845.1575pt x 597.23125pt>
 File: gambar/bab3/alur_kerja_sistem.png Graphic file (type png)
 <use gambar/bab3/alur_kerja_sistem.png>
 Package pdftex.def Info: gambar/bab3/alur_kerja_sistem.png  used on input line 
@@ -1101,7 +1147,7 @@ Overfull \hbox (15.7032pt too wide) in paragraph at lines 163--164
  []
 
 [29 <./gambar/bab3/alur_kerja_sistem.png>]
-<gambar/bab3/flow_diagram_app.png, id=684, 1174.3875pt x 1371.1225pt>
+<gambar/bab3/flow_diagram_app.png, id=775, 1174.3875pt x 1371.1225pt>
 File: gambar/bab3/flow_diagram_app.png Graphic file (type png)
 <use gambar/bab3/flow_diagram_app.png>
 Package pdftex.def Info: gambar/bab3/flow_diagram_app.png  used on input line 1
@@ -1112,22 +1158,22 @@ Overfull \hbox (4.16727pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
-<gambar/bab3/1.png, id=685, 369.38pt x 811.03pt>
+<gambar/bab3/1.png, id=776, 369.38pt x 811.03pt>
 File: gambar/bab3/1.png Graphic file (type png)
 <use gambar/bab3/1.png>
 Package pdftex.def Info: gambar/bab3/1.png  used on input line 199.
 (pdftex.def)             Requested size: 101.71863pt x 223.33713pt.
-<gambar/bab3/2.png, id=686, 361.35pt x 803.0pt>
+<gambar/bab3/2.png, id=777, 361.35pt x 803.0pt>
 File: gambar/bab3/2.png Graphic file (type png)
 <use gambar/bab3/2.png>
 Package pdftex.def Info: gambar/bab3/2.png  used on input line 205.
 (pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
-<gambar/bab3/3.png, id=687, 361.35pt x 803.0pt>
+<gambar/bab3/3.png, id=778, 361.35pt x 803.0pt>
 File: gambar/bab3/3.png Graphic file (type png)
 <use gambar/bab3/3.png>
 Package pdftex.def Info: gambar/bab3/3.png  used on input line 213.
 (pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
-<gambar/bab3/4.png, id=688, 361.35pt x 803.0pt>
+<gambar/bab3/4.png, id=779, 361.35pt x 803.0pt>
 File: gambar/bab3/4.png Graphic file (type png)
 <use gambar/bab3/4.png>
 Package pdftex.def Info: gambar/bab3/4.png  used on input line 219.
@@ -1144,18 +1190,18 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 196--223
 
 [30 <./gambar/bab3/flow_diagram_app.png>] [31 <./gambar/bab3/1.png> <./gambar/b
 ab3/2.png> <./gambar/bab3/3.png> <./gambar/bab3/4.png>]
-<gambar/bab3/Denah-1.png, id=707, 1927.2pt x 1084.05pt>
+<gambar/bab3/Denah-1.png, id=797, 1927.2pt x 1084.05pt>
 File: gambar/bab3/Denah-1.png Graphic file (type png)
 <use gambar/bab3/Denah-1.png>
 Package pdftex.def Info: gambar/bab3/Denah-1.png  used on input line 241.
 (pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
-<gambar/bab3/Denah-2.png, id=708, 1927.2pt x 1084.05pt>
+<gambar/bab3/Denah-2.png, id=798, 1927.2pt x 1084.05pt>
 File: gambar/bab3/Denah-2.png Graphic file (type png)
 <use gambar/bab3/Denah-2.png>
 Package pdftex.def Info: gambar/bab3/Denah-2.png  used on input line 248.
 (pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
  [32 <./gambar/bab3/Denah-1.png>]
-<gambar/bab3/Denah-3.png, id=715, 1927.2pt x 1084.05pt>
+<gambar/bab3/Denah-3.png, id=805, 1927.2pt x 1084.05pt>
 File: gambar/bab3/Denah-3.png Graphic file (type png)
 <use gambar/bab3/Denah-3.png>
 Package pdftex.def Info: gambar/bab3/Denah-3.png  used on input line 255.
@@ -1167,15 +1213,99 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 310.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 320.
 
-[35]) [36] (proposal.bbl [37
+[35]) [36]
+\openout2 = `bab4.aux'.
+
+ (bab4.tex
+BAB IV.
+[37
 
 
 
-] [38]) [39]
+
+] [38]
+<gambar/bab4/Denah-1-BLE.png, id=852, 1927.2pt x 1084.05pt>
+File: gambar/bab4/Denah-1-BLE.png Graphic file (type png)
+<use gambar/bab4/Denah-1-BLE.png>
+Package pdftex.def Info: gambar/bab4/Denah-1-BLE.png  used on input line 89.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+<gambar/bab4/Denah-2-BLE.png, id=853, 1927.2pt x 1084.05pt>
+File: gambar/bab4/Denah-2-BLE.png Graphic file (type png)
+<use gambar/bab4/Denah-2-BLE.png>
+Package pdftex.def Info: gambar/bab4/Denah-2-BLE.png  used on input line 96.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+<gambar/bab4/Denah-3-BLE.png, id=854, 1927.2pt x 1084.05pt>
+File: gambar/bab4/Denah-3-BLE.png Graphic file (type png)
+<use gambar/bab4/Denah-3-BLE.png>
+Package pdftex.def Info: gambar/bab4/Denah-3-BLE.png  used on input line 103.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+ [39 <./gambar/bab4/Denah-1-BLE.png> <./gambar/bab4/Denah-2-BLE.png>]
+<gambar/bab4/pandu-pop-up.png, id=861, 361.35pt x 803.0pt>
+File: gambar/bab4/pandu-pop-up.png Graphic file (type png)
+<use gambar/bab4/pandu-pop-up.png>
+Package pdftex.def Info: gambar/bab4/pandu-pop-up.png  used on input line 130.
+(pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
+<gambar/bab4/memandu.png, id=862, 361.35pt x 803.0pt>
+File: gambar/bab4/memandu.png Graphic file (type png)
+<use gambar/bab4/memandu.png>
+Package pdftex.def Info: gambar/bab4/memandu.png  used on input line 136.
+(pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
+<gambar/bab4/daftar-ruangan.png, id=863, 361.35pt x 803.0pt>
+File: gambar/bab4/daftar-ruangan.png Graphic file (type png)
+<use gambar/bab4/daftar-ruangan.png>
+Package pdftex.def Info: gambar/bab4/daftar-ruangan.png  used on input line 144
+.
+(pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
+<gambar/bab4/bantuan.png, id=864, 361.35pt x 803.0pt>
+File: gambar/bab4/bantuan.png Graphic file (type png)
+<use gambar/bab4/bantuan.png>
+Package pdftex.def Info: gambar/bab4/bantuan.png  used on input line 150.
+(pdftex.def)             Requested size: 101.71863pt x 226.03923pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 127--154
+[][] []
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 127--154
+[] []
+ []
+
+[40 <./gambar/bab4/Denah-3-BLE.png>] [41 <./gambar/bab4/pandu-pop-up.png> <./ga
+mbar/bab4/memandu.png> <./gambar/bab4/daftar-ruangan.png> <./gambar/bab4/bantua
+n.png>] [42]) [43]
+\openout2 = `bab5.aux'.
+
+ (bab5.tex
+BAB V.
+[44
+
+
+
+
+]) [45] (proposal.bbl [46
+
+
+
+] [47]) [48]
 \openout2 = `lampiran.aux'.
 
- (lampiran.tex) (proposal.aux
-(kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux)
+ (lampiran.tex)
+
+! LaTeX Error: \begin{onehalfspace} on input line 248 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(proposal.aux (abstrak-indonesia.aux) (abstrak-english.aux) (kata-pengantar.aux
+) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux) (bab4.aux) (bab5.aux)
 (lampiran.aux))
 
 LaTeX Warning: There were undefined references.
@@ -1184,28 +1314,32 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: FA3ABD6968E7AC44D833A0C88F949A1F;6667.
- ) 
+(rerunfilecheck)             Checksum: 95399800A4771F8129CCAAFFC433FDD9;8459.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 248 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 18402 strings out of 476339
- 307833 string characters out of 5785760
- 1869340 words of memory out of 5000000
- 38145 multiletter control sequences out of 15000+600000
+ 19576 strings out of 476411
+ 330545 string characters out of 5786775
+ 1900845 words of memory out of 5000000
+ 39161 multiletter control sequences out of 15000+600000
  547828 words of font info for 71 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 75i,12n,117p,1170b,1131s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/YudaAditya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.en
-c}<C:/Users/YudaAditya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb><C:/Users/YudaAditya/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/YudaAditya/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/YudaAditya/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/YudaAditya/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/YudaAditya/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/YudaAditya
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (46 pages, 4872862 bytes).
+ 75i,12n,117p,2744b,1312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/YudaAditya/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><C:/Users/YudaAditya/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/YudaAditya/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/YudaAditya/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/YudaAdi
+tya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Y
+udaAditya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Us
+ers/YudaAditya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on proposal.pdf (57 pages, 5083203 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 

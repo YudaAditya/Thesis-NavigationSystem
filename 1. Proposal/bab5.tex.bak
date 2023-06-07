@@ -1,0 +1,53 @@
+%-------------------------------------------------------------------------------
+%                              BAB V
+%               		KESIMPULAN DAN SARAN
+%-------------------------------------------------------------------------------
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+\chapter{KESIMPULAN DAN SARAN}
+
+\section{Kesimpulan}
+Berdasarkan penelitian yang dilakukan, dapat ditarik beberapa kesimpulan sebagai berikut.
+\begin{enumerate}
+	\item Indoor Positioning System telah berhasil diimplementasikan dengan menggunakan metode Kalman Filter untuk memprediksi lokasi pengguna di dalam ruangan atau gedung (\textit{indoor}).
+
+   \item Model pengenalan suara dapat berhasil memprediksi kata yang disebutkan oleh keempat data uji tambahan pada perangkat \textit{smartphone}, serta dapat memandu pengguna ke tujuan.
+
+   \item Berdasarkan hasil pengujian akurasi Kalman Filter dengan MSE \textit{(Mean Squared Error)} Terdapat pengguna mendapati rute yang mendekati rute optimal yang dipilih oleh aplikasi, sehingga pengguna yang mendekati rute optimal memiliki MSE rendah yang berarti mendekati akurat. Terdapat juga pengguna yang memiliki MSE tinggi dapat dipengaruhi oleh beberapa faktor seperti sinyal BLE, lokasi BLE, tembok, lokasi pengguna, dan saran rute yang diberikan melewati rute yang jauh dari rute optimal.
+
+   \item Sistem pengenalan suara telah berhasil diimplementasikan pada aplikasi berbasis Android dengan menggunakan Vosk dan Talkback untuk memandu pengguna.
+
+   \item Berdasarkan hasil pengujian usabilitas menggunakan metode UMUX, Aplikasi Navigasi dapat diterima dan mudah digunakan dilihat dari tingkat pemahaman pengguna..
+
+  
+\pagebreak
+\section{Saran}
+Penelitian yang telah dilakukan masih memiliki banyak kekurangan sehingga perlu dikembangkan agar menjadi lebih baik. Berikut beberapa saran yang diberikan.
+
+\begin{enumerate}
+	\item	Pada penelitian berikutnya dapat menggunakan metode lain dalam membangun sistem aplikasi agar mendapatkan performa yang terbaik dari \textit{dataset} yang ada.
+
+   \item Pada penelitian berikutnya dapat menambahkan \textit{dataset} serta menambahkan \textit{speaker} yang ada untuk meningkatkan performa dari sistem pengenalan suara dan rute navigasi.
+
+   \item Pada penelitian selanjutnya dapat menambahkan jenis pengujian dengan cara yang lain seperti menguji sistem navigasi dengan menambahkan \textit{virtual assistant} seperti \textit{chatbot}.
+  
+   \item Sebaiknya ditambahkan lagi jumlah Beacon di setiap ruangan supaya meningkatkan keakuratan klasifikasi.
+  
+
+\item Pengoptimisasian algoritma perhitungan jarak juga dibutuhkan, guna mengurangi waktu komputasi saat melakukan proses absen apabila kelas yang digunakan sudah sangat banyak.
+
+\item  Tampilan dari aplikasi berbasis Android dibuat lebih user-friendly
+\end{enumerate}
+
+
+ 
+
+
+%-----------------------------------------------------------------------------%
+
+% Baris ini digunakan untuk membantu dalam melakukan sitasi
+% Karena diapit dengan comment, maka baris ini akan diabaikan
+% oleh compiler LaTeX.
+\begin{comment}
+\bibliography{daftar-pustaka}
+\end{comment}
