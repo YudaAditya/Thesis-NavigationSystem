@@ -7,7 +7,7 @@ Untuk meningkatkan pengalaman pengguna dan memberikan interaksi yang alami, API 
 
 Kalman filter digunakan untuk meningkatkan akurasi sistem pelacakan posisi. Filter ini menggabungkan pengukuran dari berbagai sensor, seperti akselerometer, giroskop, dan magnetometer, untuk memperkirakan posisi pengguna dengan tingkat kesalahan yang rendah dan stabilitas yang baik. Dengan memanfaatkan filter Kalman, aplikasi ini meminimalkan kesalahan dalam penentuan posisi dan memberikan pengalaman navigasi yang lebih mulus bagi individu dengan gangguan penglihatan.
 
-Terdapat 3 pengujian utama pada penelitian ini meliputi pengujian akurasi rute navigasi menggunakan Kalman Filter dan Speech Command Recognition, pengujian fungsionaliatas aplikasi dan pengujian usabilitas aplikasi. Berdasarkan pengujian rute navigasi menggunakan Kalman filter MSE \textit{(Mean Squared Error)} pemilihan rute dipengaruhi oleh kekuatan sinyal BLE, lokasi pengguna, tembok, dan saran rute uang di berikan. Semakin rendah MSE maka semakin akurat rute yang diberikan. Pengujian fungsionalitas aplikasi dilakukan dengan menggunakan Black Box Testing mendapatkan hasil bahwa aplkias yang dibangun berhasil berjalan dengan baik. Hasil yang didapatkan dari pengujian usabilitas menggunakan \textit{Usability Matrix for User Experience} (UMUX) mendapatkan skor 78,33\% sehingga aplikasi dapat diterima oleh pengguna.
+Terdapat 3 pengujian utama pada penelitian ini meliputi pengujian akurasi rute navigasi menggunakan Kalman Filter dan Speech Command Recognition, pengujian fungsionalitas aplikasi dan pengujian usabilitas aplikasi. Berdasarkan pengujian rute navigasi menggunakan Kalman filter MSE \textit{(Mean Squared Error)} pemilihan rute dipengaruhi oleh kekuatan sinyal BLE, lokasi pengguna, tembok, dan saran rute yang diberikan. Semakin rendah MSE maka semakin akurat rute yang diberikan. Pengujian fungsionalitas aplikasi dilakukan dengan menggunakan Black Box Testing mendapatkan hasil bahwa aplikasi yang dibangun berhasil berjalan dengan baik. Hasil yang didapatkan dari pengujian usabilitas menggunakan \textit{Usability Matrix for User Experience} (UMUX) mendapatkan skor 78,33\% sehingga aplikasi dapat diterima oleh pengguna.
 
 
 
@@ -16,3 +16,5 @@ Terdapat 3 pengujian utama pada penelitian ini meliputi pengujian akurasi rute n
 \noindent
 \textbf{Kata kunci :} \textit{Bluetooth Low Energy}, \textit{Indoor Positioning System}, \textit{Fingerprinting}, \textit{VOSK API}, \textit{Kalman Filter}, \textit{Black Box}, \textit{UMUX}.
 \end{abstractind}
+
+

@@ -52,11 +52,10 @@
 \contentsline {section}{\numberline {4.1}Persiapan Sistem}{37}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Dataset}{37}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Pembangunan Sistem}{40}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Pengujian Sistem}{41}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Akurasi rute}{41}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Pengujian Sistem}{42}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Akurasi rute}{42}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Pengujian Usabilitas UMUX}{42}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Pengujian Fungsionalitas Menggunakan BlackBox}{43}{subsection.4.2.3}%
 \contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{44}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{44}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{45}{section.5.2}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{48}{chapter*.33}%

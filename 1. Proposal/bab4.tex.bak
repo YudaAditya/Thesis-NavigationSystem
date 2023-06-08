@@ -157,9 +157,10 @@
 
 \end{enumerate}
 
+\newpage
 \section{Pengujian Sistem}
 \subsection{Akurasi rute}
-\par Pengujian akurasi posisi dan rute pengguna menggunakan gabungan titik BLE terdekat dengan mengukur kekuatan RSSI, kemudian menggunakan letak dan posisi BLE yang telah dipetakan dengan menghitung menggunakan Kalman Filter yang disertai dengan pembaharuan prediksi titik lokasi pengguna ke tujuan.
+\par Pengujian akurasi posisi dan rute pengguna menggunakan gabungan titik BLE terdekat dengan mengukur kekuatan RSSI, kemudian menggunakan letak dan posisi BLE yang telah dipetakan dengan menghitung menggunakan Kalman Filter yang disertai dengan pembaharuan prediksi titik lokasi pengguna ke tujuan dan menghingtung kesalahan prediksi dan estimasi dengan data aktual.
 Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra seperti pada Tabel \ref{tab:skema-pengujian} berikut
 
 
@@ -179,7 +180,7 @@ Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra se
 }
 \end{table}
 
-\par Rute optimal berupa pengujian dengan menggunakan perhitungan jarak BLE berdasarkan jarak antar BLE dan tujuan akhir secara langsung secara berurut mengikuti BLE terdekat, didapati MSE \textit{(Mean Squared Error)} seperti pada Tabel \ref{tab:skema-pengujian}. Terdapat pengguna mendapati rute yang mendekati rute optimal yang dipilih oleh aplikasi, sehingga pengguna yang mendekati rute optimal memiliki MSE rendah yang berarti mendekati akurat. Terdapat juga pengguna yang memiliki MSE tinggi dapat dipengaruhi oleh beberapa faktor seperti sinyal BLE, lokasi BLE, tembok, lokasi pengguna, dan saran rute yang diberikan melewati rute yang jauh dari rute optimal.
+\par Data Aktual berupa data pengembang dengan menggunakan perhitungan jarak BLE berdasarkan jarak antar BLE dan tujuan akhir secara langsung secara berurut mengikuti BLE terdekat, didapati MSE \textit{(Mean Squared Error)} seperti pada Tabel \ref{tab:skema-pengujian}. Terdapat pengguna mendapati rute yang mendekati rute optimal yang dipilih oleh aplikasi, sehingga pengguna yang mendekati rute optimal memiliki MSE rendah yang berarti mendekati akurat. Terdapat juga pengguna yang memiliki MSE tinggi dapat dipengaruhi oleh beberapa faktor seperti sinyal BLE, lokasi BLE, tembok, lokasi pengguna, dan saran rute yang diberikan melewati rute yang jauh dari rute optimal.
 
 
 \subsection{Pengujian Usabilitas UMUX}
@@ -192,6 +193,7 @@ Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra se
 \begin{table}[H]
 \caption{Hasil Pengujian UMUX Aplikasi Navigasi}
 \label{tab:skor-umux}
+\centering
 \begin{tabular}{|ccccc|c|}
 \hline
 \multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Responden}}} & \multicolumn{4}{c|}{\textbf{Kode Pertanyaan}} & \multirow{2}{*}{\textbf{Skor UMUX}} \\ \cline{2-5}
@@ -211,20 +213,47 @@ Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra se
 \par Pengujian \textit{Blackbox} dilakukan dengan tujuan untuk menguji fungsionalitas dari aplikasi dengan menjalankan aplikasi tersebut apakah sesuai dengan alur bisni yang diinginkan.  Pengujian ini melihat fungsi yang tidak sesuai pada aplikasi dan
 kesalahan-kesalahan aplikasi dalam mengerjakan suatu perintah. Fitur aplikasi yang diuji dapat dilihat pada Tabel \ref{tab:blackbox}.
 
-% Please add the following required packages to your document preamble:
-% \usepackage[normalem]{ulem}
-% \useunder{\uline}{\ul}{}
 \begin{table}[H]
-\caption{Pengujian Black Box Aplikasi Navigasi}
+\caption{Pengujian Blackbox Aplikasi Navigasi}
 \label{tab:blackbox}
 \resizebox{\columnwidth}{!}{
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{No.} & \textbf{Nama Pengujian} & \textbf{Skenario}                             & \textbf{Tampilan}                   & \textbf{Hasil} \\ \hline
-1. & Menghidupkan Bluetooth & Klik tombol Allow pada notifikasi yang muncul & Bluetooth akan menyala & Berhasil \\ \hline
-2.           & Menghidupkan TalkBack   & Klik tombol Allow pada notifikasi yang muncul & TalkBack akan menyala               & Berhasil       \\ \hline
-3.           & Menghidupkan Mikrofon   & Klik tombol Allow pada notifikasi yang muncul & Mikrofon akan menyala               & Berhasil       \\ \hline
-4.           & Melihat daftar ruangan  & Klik icon gedung                              & Diarahkan ke halaman daftar ruangan & Berhasil       \\ \hline
+\textbf{No.} &
+  \textbf{Nama Pengujian} &
+  \textbf{Skenario} &
+  \textbf{Tampilan} &
+  \textbf{Hasil} \\ \hline
+1. &
+  Menghidupkan Bluetooth &
+  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul\end{tabular} &
+  Bluetooth akan menyala &
+  Berhasil \\ \hline
+2. &
+  Menghidupkan TalkBack &
+  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul\end{tabular} &
+  TalkBack akan menyala &
+  Berhasil \\ \hline
+3. &
+  Menghidupkan Mikrofon &
+  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul\end{tabular} &
+  Mikrofon akan menyala &
+  Berhasil \\ \hline
+4. &
+  Melihat daftar ruangan &
+  Klik icon gedung &
+  Diarahkan ke halaman daftar ruangan &
+  Berhasil \\ \hline
+5. &
+  Melihat daftar bantuan &
+  Klik icon bantuan &
+  Diarahkan ke halaman Bantuan &
+  Berhasil \\ \hline
+5. &
+  \begin{tabular}[c]{@{}l@{}}Memanggil Aplikasi dengan\\  Hotword\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Mengucapkan "Hai Pandu" \\ pada layar mana saja.\end{tabular} &
+  Aplikasi terbuka dan siap memandu &
+  Berhasil \\ \hline
 \end{tabular}
 }
 \end{table}

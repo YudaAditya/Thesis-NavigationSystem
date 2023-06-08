@@ -278,7 +278,7 @@
       \begin{singlespace}
       \fontsize{14pt}{16pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
       \vspace{2.5cm}
-      \MakeUppercase{\large{\bfseries{Proposal}}}\\ %it's me!
+      \MakeUppercase{\large{\bfseries{Tugas Akhir}}}\\ %it's me!
       \vspace{1.0cm}
 	  \normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna pelaksanaan penelitian Tugas Akhir\\} %it's me!
        \vspace{1.0cm}
@@ -316,7 +316,7 @@
 		\begin{singlespace}
 			\fontsize{14pt}{16pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
 			\vspace{2.5cm}
-			\MakeUppercase{\large{\bfseries{Proposal}}}\\ %it's me!
+			\MakeUppercase{\large{\bfseries{Tugas Akhir}}}\\ %it's me!
 			\vspace{1.0cm}
 			\normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna pelaksanaan penelitian Tugas Akhir\\} %it's me!
 			\vspace{1.0cm}

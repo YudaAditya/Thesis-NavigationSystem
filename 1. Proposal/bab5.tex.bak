@@ -17,7 +17,7 @@ Berdasarkan penelitian yang dilakukan, dapat ditarik beberapa kesimpulan sebagai
 
    \item Sistem pengenalan suara telah berhasil diimplementasikan pada aplikasi berbasis Android dengan menggunakan Vosk dan Talkback untuk memandu pengguna.
 
-   \item Berdasarkan hasil pengujian usabilitas menggunakan metode UMUX, Aplikasi Navigasi dapat diterima dan mudah digunakan dilihat dari tingkat pemahaman pengguna..
+   \item Berdasarkan hasil pengujian usabilitas menggunakan metode UMUX, Aplikasi Navigasi dapat diterima dan mudah digunakan dilihat dari tingkat pemahaman pengguna.
 
   
 \pagebreak
@@ -34,9 +34,8 @@ Penelitian yang telah dilakukan masih memiliki banyak kekurangan sehingga perlu 
    \item Sebaiknya ditambahkan lagi jumlah Beacon di setiap ruangan supaya meningkatkan keakuratan klasifikasi.
   
 
-\item Pengoptimisasian algoritma perhitungan jarak juga dibutuhkan, guna mengurangi waktu komputasi saat melakukan proses absen apabila kelas yang digunakan sudah sangat banyak.
+\item Pengoptimisasian algoritma perhitungan jarak juga dibutuhkan, guna mengurangi waktu komputasi saat melakukan pencarian ruangan apabila ruangan sudah banyak.
 
-\item  Tampilan dari aplikasi berbasis Android dibuat lebih user-friendly
 \end{enumerate}
 
 
