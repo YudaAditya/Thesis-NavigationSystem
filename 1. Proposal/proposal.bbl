@@ -1,0 +1,210 @@
+\begin{thebibliography}{}
+
+\bibitem[Ammann dan Offutt, 2016]{ammann2016introduction}
+Ammann, P. dan Offutt, J. (2016).
+\newblock {\em Introduction to software testing}.
+\newblock Cambridge University Press.
+
+\bibitem[Bai dkk., 2020]{bai2020low}
+Bai, L., Ciravegna, F., Bond, R., dan Mulvenna, M. (2020).
+\newblock A low cost indoor positioning system using bluetooth low energy.
+\newblock {\em Ieee Access}, 8:136858--136871.
+
+\bibitem[Barnum, 2020]{barnum2020usability}
+Barnum, C.~M. (2020).
+\newblock {\em Usability testing essentials: ready, set... test!}
+\newblock Morgan Kaufmann.
+
+\bibitem[Brena dkk., 2017]{brena2017evolution}
+Brena, R.~F., Garc{\'\i}a-V{\'a}zquez, J.~P., Galv{\'a}n-Tejada, C.~E.,
+  Mu{\~n}oz-Rodriguez, D., Vargas-Rosales, C., dan Fangmeyer, J. (2017).
+\newblock Evolution of indoor positioning technologies: A survey.
+\newblock {\em Journal of Sensors}, 2017.
+
+\bibitem[Cant{\'o}n~Paterna dkk., 2017]{canton2017bluetooth}
+Cant{\'o}n~Paterna, V., Calveras~Auge, A., Paradells~Aspas, J., dan
+  Perez~Bullones, M.~A. (2017).
+\newblock A bluetooth low energy indoor positioning system with channel
+  diversity, weighted trilateration and kalman filtering.
+\newblock {\em Sensors}, 17(12):2927.
+
+\bibitem[Cephei, 2019]{cephei2019}
+Cephei, A. (2019).
+\newblock Introduction: Vosk.
+
+\bibitem[Craig dan Gerber, 2015]{craig2015learn}
+Craig, C. dan Gerber, A. (2015).
+\newblock {\em Learn Android Studio: Build Android Apps Quickly and
+  Effectively}.
+\newblock Apress.
+
+\bibitem[Deemer dkk., 2012]{deemer2012lightweight}
+Deemer, P., Benefield, G., Larman, C., dan Vodde, B. (2012).
+\newblock A lightweight guide to the theory and practice of scrum.
+\newblock {\em Ver}, 2:2012.
+
+\bibitem[Finstad, 2010]{finstad2010usability}
+Finstad, K. (2010).
+\newblock The usability metric for user experience.
+\newblock {\em Interacting with Computers}, 22(5):323--327.
+
+\bibitem[Ihsan dkk., 2018]{ihsan2018analisis}
+Ihsan, M., Suwastika, N.~A., dan Putrada, A.~G. (2018).
+\newblock Analisis implementasi kalman filter untuk peningkatan akurasi
+  pendeteksian pada sistem monitoring area terlarang sepeda motor berbasis m2m.
+\newblock {\em eProceedings of Engineering}, 5(1).
+
+\bibitem[Jaya, 2018]{jaya2018pengujian}
+Jaya, T.~S. (2018).
+\newblock Pengujian aplikasi dengan metode blackbox testing boundary value
+  analysis (studi kasus: kantor digital politeknik negeri lampung).
+\newblock {\em Jurnal Informatika: Jurnal Pengembangan IT}, 3(1):45--48.
+
+\bibitem[Jonathan dan Suyanto, 2020]{jonathan2020sintesis}
+Jonathan, J. dan Suyanto, Y. (2020).
+\newblock Sintesis suara bernyanyi dengan teknologi text-to-speech untuk notasi
+  musik angka dan lirik lagu berbahasa indonesia.
+\newblock {\em IJEIS (Indonesian Journal of Electronics and Instrumentation
+  Systems)}, 10(1):1--10.
+
+\bibitem[Kalu{\v{z}}a dkk., 2017]{kaluvza2017analysis}
+Kalu{\v{z}}a, M., Beg, K., dan Vukeli{\'c}, B. (2017).
+\newblock Analysis of an indoor positioning systems.
+\newblock {\em Zbornik Veleu{\v{c}}ili{\v{s}}ta u Rijeci}, 5(1):13--32.
+
+\bibitem[Karimi, 2015]{karimi2015indoor}
+Karimi, H.~A. (2015).
+\newblock {\em Indoor wayfinding and navigation}.
+\newblock CRC Press.
+
+\bibitem[Ko dan Kim, 2017]{ko2017vision}
+Ko, E. dan Kim, E.~Y. (2017).
+\newblock A vision-based wayfinding system for visually impaired people using
+  situation awareness and activity-based instructions.
+\newblock {\em Sensors}, 17(8):1882.
+
+\bibitem[Lewis, 2018]{lewis2018measuring}
+Lewis, J.~R. (2018).
+\newblock Measuring perceived usability: The csuq, sus, and umux.
+\newblock {\em International Journal of Human--Computer Interaction},
+  34(12):1148--1156.
+
+\bibitem[Li dkk., 2018]{li2018indoor}
+Li, G., Geng, E., Ye, Z., Xu, Y., Lin, J., dan Pang, Y. (2018).
+\newblock Indoor positioning algorithm based on the improved rssi distance
+  model.
+\newblock {\em Sensors}, 18(9):2820.
+
+\bibitem[Li dkk., 2015]{li2015kalman}
+Li, Q., Li, R., Ji, K., dan Dai, W. (2015).
+\newblock Kalman filter and its application.
+\newblock In {\em 2015 8th International Conference on Intelligent Networks and
+  Intelligent Systems (ICINIS)}, pages 74--77. IEEE.
+
+\bibitem[Lin dan Lin, 2018]{lin2018interactive}
+Lin, Y.-W. dan Lin, C.-Y. (2018).
+\newblock An interactive real-time locating system based on bluetooth
+  low-energy beacon network.
+\newblock {\em Sensors}, 18(5):1637.
+
+\bibitem[Mustikarini dkk., 2019]{mustikarini2019real}
+Mustikarini, W., Hidayat, R., dan Bejo, A. (2019).
+\newblock Real-time indonesian language speech recognition with mfcc algorithms
+  and python-based svm.
+\newblock {\em IJITEE (International Journal of Information Technology and
+  Electrical Engineering)}, 3(2):55--60.
+
+\bibitem[Nasution dkk., 2018]{nasution2018perancangan}
+Nasution, A. dkk. (2018).
+\newblock Perancangan aplikasi push notification berbasis android.
+\newblock {\em JURTEKSI (Jurnal Teknologi dan Sistem Informasi)},
+  4(2):149--154.
+
+\bibitem[Puspitasari, 2020]{puspitasari2020}
+Puspitasari, R. (2020).
+\newblock {Rancang Bangun Aplikasi Kehadiran Perkuliahan Berbasis Teknologi
+  Indoor Positioning System Menggunakan Bluetooth Low Energy dan Metode
+  Klasifikasi K-NN}.
+\newblock {\em ETD Unsyiah}.
+
+\bibitem[Qin dkk., 2021]{qin2021ccpos}
+Qin, F., Zuo, T., dan Wang, X. (2021).
+\newblock Ccpos: Wifi fingerprint indoor positioning system based on cdae-cnn.
+\newblock {\em Sensors}, 21(4):1114.
+
+\bibitem[Rawat dan Ghafoor, 2018]{rawat2018smart}
+Rawat, D.~B. dan Ghafoor, K.~Z. (2018).
+\newblock {\em Smart cities cybersecurity and privacy}.
+\newblock Elsevier.
+
+\bibitem[Schwaber dan Sutherland, 2011]{schwaber2011scrum}
+Schwaber, K. dan Sutherland, J. (2011).
+\newblock The scrum guide.
+\newblock {\em Scrum Alliance}, 21(19):1.
+
+\bibitem[Shaheen dkk., 2017]{shaheen2017android}
+Shaheen, J.~A., Asghar, M.~A., dan Hussain, A. (2017).
+\newblock Android os with its architecture and android application with dalvik
+  virtual machine review.
+\newblock {\em International Journal of Multimedia and Ubiquitous Engineering},
+  12(7):19--30.
+
+\bibitem[Sideeq dan Qasem, 2016]{sideeq2016smart}
+Sideeq, M.~M. dan Qasem, N. (2016).
+\newblock Smart wall based on active frequency selective wallpaper.
+\newblock {\em ZANCO Journal of Pure and Applied Sciences}, 28(2).
+
+\bibitem[Subhan dkk., 2011]{subhan2011indoor}
+Subhan, F., Hasbullah, H., Rozyyev, A., dan Bakhsh, S.~T. (2011).
+\newblock Indoor positioning in bluetooth networks using fingerprinting and
+  lateration approach.
+\newblock In {\em 2011 International Conference on Information Science and
+  Applications}, pages 1--9. IEEE.
+
+\bibitem[Welch, 2020]{welch2020kalman}
+Welch, G.~F. (2020).
+\newblock Kalman filter.
+\newblock {\em Computer Vision: A Reference Guide}, pages 1--3.
+
+\bibitem[Wesfix, 2017]{wesfix2017branding}
+Wesfix, T. (2017).
+\newblock {\em Branding itu Dipraktekin}.
+\newblock Gramedia Widiasarana Indonesia.
+
+\bibitem[WHO, 2020]{who2019}
+WHO (accessed Oktober 23, 2020).
+\newblock World report on vision.
+\newblock
+  \url{https://www.who.int/publications-detail-redirect/world-report-on-vision}.
+
+\bibitem[Xiao dkk., 2018]{xiao2018indoor}
+Xiao, A., Chen, R., Li, D., Chen, Y., dan Wu, D. (2018).
+\newblock An indoor positioning system based on static objects in large indoor
+  scenes by using smartphone cameras.
+\newblock {\em Sensors}, 18(7):2229.
+
+\bibitem[Xu dkk., 2016]{xu2016comparative}
+Xu, S., Chen, L., Wang, C., dan Rud, O. (2016).
+\newblock A comparative study on black-box testing with open source
+  applications.
+\newblock In {\em 2016 17th IEEE/ACIS International Conference on Software
+  Engineering, Artificial Intelligence, Networking and Parallel/Distributed
+  Computing (SNPD)}, pages 527--532. IEEE.
+
+\bibitem[Yadav dkk., 2019]{yadav2019trusted}
+Yadav, R.~K., Bhattarai, B., Gang, H.-S., dan Pyun, J.-Y. (2019).
+\newblock Trusted k nearest bayesian estimation for indoor positioning system.
+\newblock {\em IEEE Access}, 7:51484--51498.
+
+\bibitem[Yudha dkk., 2018]{yudha2018indoor}
+Yudha, D.~P., Hasbi, B.~I., dan Sukarna, R.~H. (2018).
+\newblock Indoor positioning system berdasarkan fingerprinting received signal
+  strength (rss) wifi dengan algoritma k-nearest neighbor (k-nn).
+\newblock {\em ILKOM Jurnal Ilmiah}, 10(3):274--283.
+
+\bibitem[Zafari dkk., 2019]{zafari2019survey}
+Zafari, F., Gkelias, A., dan Leung, K.~K. (2019).
+\newblock A survey of indoor localization systems and technologies.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 21(3):2568--2599.
+
+\end{thebibliography}

@@ -130,7 +130,6 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 
 
 \begin{enumerate}
-\newpage
 \item \textit{Use Case Diagram}
 \par \textit{Use Case Diagram} merupakan gambaran interaksi antara pengguna dan sistem. Pengguna dari sistem yang akan dibangun ini adalah Tunanetra dan pengunjung gedung FMIPA USK. \textit{Use Case Diagram} dari sistem ini dapat dilihat pada Gambar \ref{img:use_case_diagram}
 
@@ -147,7 +146,7 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 10cm, height= 8cm]{gambar/bab3/deployment_diagram}}
+{\includegraphics [width = 8cm, height= 6cm]{gambar/bab3/deployment_diagram}}
 \caption{\textit{Deployment Diagram}}
 \label{img:deployment_diagram}
 \end{figure}

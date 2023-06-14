@@ -9,7 +9,7 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{yudaaditya}
+\ProvidesClass{jifproposal-yudaaditya}
 
 \RequirePackage[english,bahasa]{babel}
 \RequirePackage{indentfirst}

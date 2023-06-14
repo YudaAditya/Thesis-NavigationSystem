@@ -14,7 +14,7 @@
 	
 	
 	\begin{longtable}{| m{1cm} | m{6cm} | m{3cm} |}
-    \caption{Penelitian Terkait}
+    \caption{Data Ruangan}
     \label{t_data} \\
         \hline
         \textbf{No.}	& \textbf{Nama Ruangan}	& \textbf{keterangan}	\\
@@ -81,6 +81,8 @@
         \hline
     \end{longtable}
 	
+	\newpage
+	
 	\item Data Rute dan Denah Lokasi Penelitian
 	\par Rute yang akan digunakan berlokasi di gedung A FMIPA lantai 1 sampai dengan lantai 3. Data rute yang digunakan akan dipetakan dengan menggunakan bantuan BLE. Data titik-titik BLE disimpan dalam \textit{database} lokal berupa MAC \textit{Address}, nilai RSSI, dan nama perangkat BLE. BLE berjumlah 40 unit dengan BLE untuk ruangan berjumlah 24 ditandai dengan titik berwarna hijau dan BLE untuk \textit{connector} berjumlah 16 ditandai dengan titik berwarna biru.Jarak masing-masing BLE berada di sekitar 5 s/d 8 meter dari masing-masing BLE. Denah lokasi penelitian dapat dilihat pada gambar berikut.
 	
@@ -116,6 +118,7 @@
 	\item Konfigurasi Model \textit{Voice Recognition} dan \textit{Text-to-speech}
 	\par Pada tahapan ini model dipasangkan ke dalam aplikasi dengan menggunakan VOSK API dan Google \textit{text-to-speech} dengan menggunakan fungsi Talkback pada Android sehingga aplikasi dapat menerima input dari pengguna serta memberikan informasi \textit{feedback} ke pengguna saat dipandu.
 	
+	\newpage
 	\item  Data akurasi lokasi pengguna serta akurasi rute
 \par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
 
@@ -182,7 +185,7 @@ Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra se
 
 \par Data Aktual berupa data pengembang dengan menggunakan perhitungan jarak BLE berdasarkan jarak antar BLE dan tujuan akhir secara langsung secara berurut mengikuti BLE terdekat, didapati MSE \textit{(Mean Squared Error)} seperti pada Tabel \ref{tab:skema-pengujian}. Terdapat pengguna mendapati rute yang mendekati rute optimal yang dipilih oleh aplikasi, sehingga pengguna yang mendekati rute optimal memiliki MSE rendah yang berarti mendekati akurat. Terdapat juga pengguna yang memiliki MSE tinggi dapat dipengaruhi oleh beberapa faktor seperti sinyal BLE, lokasi BLE, tembok, lokasi pengguna, dan saran rute yang diberikan melewati rute yang jauh dari rute optimal.
 
-
+\newpage
 \subsection{Pengujian Usabilitas UMUX}
 \par Pengujian usabilitas bertujuan untuk menguji kelayakan dan kegunaan dari sistem yang akan digunakan oleh pengguna. Sebelum pengujian ini dilakukan, adapun skema pengujian yang telah dibuat dapat dilihat pada Tabel \ref{tab:skema-pengujian}.
 
@@ -209,6 +212,8 @@ Pengujian menggunakan 3 skema pengujian yang di uji pada 5 pengguna tunanetra se
 
 \par Berdasarkan hasil pengujian UMUX yang telah dilakukan diatas hasil rata-rata pengujian Aplikasi ini mendapatkan skor sebesar 78,33\%. Dapat dilihat bahwa aplikasi yang telah dibangun memiliki skor interpretasi \textbf{"dapat diterima"}.
 
+
+\newpage
 \subsection{Pengujian Fungsionalitas Menggunakan BlackBox}
 \par Pengujian \textit{Blackbox} dilakukan dengan tujuan untuk menguji fungsionalitas dari aplikasi dengan menjalankan aplikasi tersebut apakah sesuai dengan alur bisni yang diinginkan.  Pengujian ini melihat fungsi yang tidak sesuai pada aplikasi dan
 kesalahan-kesalahan aplikasi dalam mengerjakan suatu perintah. Fitur aplikasi yang diuji dapat dilihat pada Tabel \ref{tab:blackbox}.
@@ -225,34 +230,64 @@ kesalahan-kesalahan aplikasi dalam mengerjakan suatu perintah. Fitur aplikasi ya
   \textbf{Tampilan} &
   \textbf{Hasil} \\ \hline
 1. &
-  Menghidupkan Bluetooth &
-  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul\end{tabular} &
-  Bluetooth akan menyala &
+  Menghidupkan Bluetooth. &
+  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul.\end{tabular} &
+  Bluetooth akan menyala. &
   Berhasil \\ \hline
 2. &
-  Menghidupkan TalkBack &
-  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul\end{tabular} &
-  TalkBack akan menyala &
+  Menghidupkan TalkBack. &
+  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul.\end{tabular} &
+  TalkBack akan menyala. &
   Berhasil \\ \hline
 3. &
-  Menghidupkan Mikrofon &
-  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul\end{tabular} &
-  Mikrofon akan menyala &
+  Menghidupkan Mikrofon. &
+  \begin{tabular}[c]{@{}l@{}}Klik tombol Allow pada \\ notifikasi yang muncul.\end{tabular} &
+  Mikrofon akan menyala. &
   Berhasil \\ \hline
 4. &
-  Melihat daftar ruangan &
-  Klik icon gedung &
-  Diarahkan ke halaman daftar ruangan &
+  Melihat daftar ruangan. &
+  Klik icon gedung. &
+  Diarahkan ke halaman daftar ruangan. &
   Berhasil \\ \hline
 5. &
-  Melihat daftar bantuan &
-  Klik icon bantuan &
-  Diarahkan ke halaman Bantuan &
+  Melihat daftar bantuan. &
+  Klik icon bantuan. &
+  Diarahkan ke halaman Bantuan. &
   Berhasil \\ \hline
-5. &
-  \begin{tabular}[c]{@{}l@{}}Memanggil Aplikasi dengan\\  Hotword\end{tabular} &
+6. &
+  \begin{tabular}[c]{@{}l@{}}Memanggil Aplikasi dengan\\  Hotword.\end{tabular} &
   \begin{tabular}[c]{@{}l@{}}Mengucapkan "Hai Pandu" \\ pada layar mana saja.\end{tabular} &
-  Aplikasi terbuka dan siap memandu &
+  Aplikasi terbuka dan siap memandu. &
+  Berhasil \\ \hline
+7. &
+  Memeriksa lokasi pengguna. &
+  \begin{tabular}[c]{@{}l@{}}Proses berjalan di belakang \\ layar.\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Notifikasi pengguna berada atau tidak\\ di lokasi.\end{tabular} &
+  Berhasil \\ \hline
+8. &
+  Melihat Detail Ruangan. &
+  \begin{tabular}[c]{@{}l@{}}Klik item pada halaman \\ ruangan.\end{tabular} &
+  Diarahkan ke halaman detail ruangan. &
+  Berhasil \\ \hline
+9. &
+  Proses memandu. &
+  \begin{tabular}[c]{@{}l@{}}Klik icon mikrofon atau \\ mengucapkan "Hai Pandu"\\ lalu memasukkan tujuan.\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Dipandu menuju tujuan dengan navigasi\\ suara.\end{tabular} &
+  Berhasil \\ \hline
+10. &
+  Melihat detail bantuan. &
+  Klik item pada bantuan. &
+  Diarahkan ke halaman detail ruangan. &
+  Berhasil \\ \hline
+11. &
+  \begin{tabular}[c]{@{}l@{}}Pengecekan Lokasi yang\\ tersedia.\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Pengguna memasukkan\\ tujuan, proses pengecekkan\\ lokasi dan ruangan berjalan\\ di belakang layar.\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Notifikasi ruangan tersedia atau tidak,\\ pengguna berada pada lokasi penelitian\\ atau tidak.\end{tabular} &
+  Berhasil \\ \hline
+12. &
+  \begin{tabular}[c]{@{}l@{}}Proses intrupsi untuk \\ pembatalan atau pergantian\\ tujuan lokasi ditengah proses\\ pemanduan.\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Pengguna memasukkan \\ tujuan, proses pengecekan\\ lokasi dan ruangan berjalan\\ di belakang layar.\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}Aplikasi terbuka dan meminta masukkan\\ pengguna serta proses pemanduan akan\\ berjalan.\end{tabular} &
   Berhasil \\ \hline
 \end{tabular}
 }
