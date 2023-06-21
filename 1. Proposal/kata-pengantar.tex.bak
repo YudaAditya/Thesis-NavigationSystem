@@ -3,20 +3,20 @@
 
 Segala puji dan syukur kepada Allah SWT yang telah melimpahkan rahmat serta hidayah-Nya kepada kita semua dan juga atas izin-Nya penulis dapat menyelesaikan penulisan proposal ini. Tak lupa Shalawat dan Salam penulis sanjung sajikan kepada Nabi Besar Muhammad SAW, karena beliau telah membawa kita semua dari alam jahiliah ke alam yang penuh ilmu pengetahuan.
 
-Proposal yang berjudul \textbf{“RANCANG BANGUN SISTEM NAVIGASI PADA APLIKASI ANDROID DENGAN \textit{ROUTE GUIDANCE} UNTUK TUNANETRA BERBASIS \textit{INDOOR POSITIONING}”} ini telah dapat diselesaikan atas bantuan banyak pihak. Oleh karena itu, melalui tulisan ini penulis ingin mengucapkan terima kasih dan penghargaan sebesar-besarnya kepada:
+Tugas Akhir yang berjudul \textbf{“RANCANG BANGUN SISTEM NAVIGASI PADA APLIKASI ANDROID DENGAN \textit{ROUTE GUIDANCE} UNTUK TUNANETRA BERBASIS \textit{INDOOR POSITIONING}”} ini telah dapat diselesaikan atas bantuan banyak pihak. Oleh karena itu, melalui tulisan ini penulis ingin mengucapkan terima kasih dan penghargaan sebesar-besarnya kepada:
 
 \begin{enumerate}
-	\item {Orang tua serta keluarga penulis yang senantiasa selalu mendukung aktivitas dan kegiatan penulis lakukan baik secara moral maupun material serta menjadi motivasi terbesar bagi penulis untuk menyelesaikan Proposal ini.}
-	\item {Bapak Kurnia Saputra, S.T., M.Sc., selaku Dosen Pembimbing I dan Ibu Dalila Husna Yunardi, B.Sc., M.Sc., selaku Dosen Pembimbing II yang telah banyak memberikan bimbingan dan arahan kepada penulis, sehingga penulis dapat menyelesaikan Proposal ini.}
+	\item {Orang tua serta keluarga penulis yang senantiasa selalu mendukung aktivitas dan kegiatan penulis lakukan baik secara moral maupun material serta menjadi motivasi terbesar bagi penulis untuk menyelesaikan Tugas Akhir ini.}
+	\item {Bapak Kurnia Saputra, S.T., M.Sc., selaku Dosen Pembimbing I dan Ibu Dalila Husna Yunardi, B.Sc., M.Sc., selaku Dosen Pembimbing II yang telah banyak memberikan bimbingan dan arahan kepada penulis, sehingga penulis dapat menyelesaikan TUgas Akhir ini.}
 	\item {Bapak Dr. Muhammad Subianto, S.Si., M.Si., selaku Ketua Jurusan Informatika.}
 	\item {Bapak Kurnia Saputra, S.T., M.Sc., selaku Dosen Wali penulis.}
 	\item {Seluruh Dosen di Jurusan Informatika Fakultas MIPA atas ilmu dan didikannya selam perkuliahan.}
-	\item {Andika Pratama, Budi Gunawan, Fauzy Nisa, dan Muammar Zikri Aksana selaku teman yang telah banyak memberikan dukungan, masukan serta ilmu yang cukup besar dan bermanfaat dalam penulisan Proposal ini. }
+	\item {Andika Pratama, Budi Gunawan, Fauzy Nisa, dan Muammar Zikri Aksana selaku teman yang telah banyak memberikan dukungan, masukan serta ilmu yang cukup besar dan bermanfaat dalam penulisan Tugas Akhir ini. }
 	\item{Seluruh teman-teman seperjuangan Jurusan Informatika Unsyiah 2016 lainnya.}
 \end{enumerate}
 
 
-Penulis juga menyadari segala ketidaksempurnaan yang terdapat didalamnya baik dari segi materi, cara, ataupun bahasa yang disajikan. Seiring dengan ini penulis mengharapkan kritik dan saran dari pembaca yang sifatnya dapat berguna untuk kesempurnaan Proposal ini. Harapan penulis semoga tulisan ini dapat bermanfaat bagi banyak pihak dan untuk perkembangan ilmu pengetahuan.
+Penulis juga menyadari segala ketidaksempurnaan yang terdapat didalamnya baik dari segi materi, cara, ataupun bahasa yang disajikan. Seiring dengan ini penulis mengharapkan kritik dan saran dari pembaca yang sifatnya dapat berguna untuk kesempurnaan Tugas Akhir ini. Harapan penulis semoga tulisan ini dapat bermanfaat bagi banyak pihak dan untuk perkembangan ilmu pengetahuan.
 
 \vspace{1cm}
 

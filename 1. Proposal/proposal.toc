@@ -1,6 +1,6 @@
 \babel@toc {bahasa}{}\relax 
 \babel@toc {bahasa}{}\relax 
-\contentsline {chapter}{PENGESAHAN PROPOSAL}{ii}{chapter*.1}%
+\contentsline {chapter}{PENGESAHAN TUGAS AKHIR}{ii}{chapter*.1}%
 \contentsline {chapter}{ABSTRAK}{iii}{chapter*.2}%
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{ABSTRACT}{iv}{chapter*.3}%
@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {2.1}\textit {Indoor Positioning System}}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}\textit {Route Guidance System / Wayfinding and Navigation System}}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3}\textit {Bluetooth Low Energy} (BLE)}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}\textit {Beacon}}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}\textit {Beacon}}{6}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}\textit {Fingerprinting}}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}\textit {Received Signal Strength Indicator} (RSSI)}{7}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Kalman Filter}{8}{subsection.2.4.2}%
@@ -43,20 +43,21 @@
 \contentsline {subsection}{\numberline {3.4.2}Studi Literatur}{23}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Analisa Kebutuhan}{23}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Perancangan Sistem}{24}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Pengumpulan Data}{28}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Pembuatan Sistem Aplikasi}{31}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Pengujian Akurasi}{31}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{32}{subsection.3.4.8}%
-\contentsline {subsection}{\numberline {3.4.9}\textit {Usability Testing}}{33}{subsection.3.4.9}%
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Persiapan Sistem}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Dataset}{34}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Pembangunan Sistem}{37}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Pengujian Sistem}{40}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Akurasi rute}{40}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Pengujian Usabilitas UMUX}{41}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Pengujian Fungsionalitas Menggunakan BlackBox}{42}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{43}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{43}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{44}{section.5.2}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{47}{chapter*.33}%
+\contentsline {subsection}{\numberline {3.4.5}Pengumpulan Data}{24}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Pembuatan Sistem Aplikasi}{27}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Pengujian Akurasi}{27}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Pengujian Fungsionalitas dengan Metode \textit {Black Box}}{28}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}\textit {Usability Testing}}{29}{subsection.3.4.9}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Perancangan Sistem}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Pembuatan Sistem}{36}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Persiapan data}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pembuatan Aplikasi}{39}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Pengujian Sistem}{42}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Akurasi rute}{42}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Pengujian Usabilitas UMUX}{43}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Pengujian Fungsionalitas Menggunakan BlackBox}{44}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{45}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{45}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{46}{section.5.2}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{49}{chapter*.35}%

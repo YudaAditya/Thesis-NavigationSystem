@@ -188,7 +188,7 @@
 \def\nomenclaturename{DAFTAR SINGKATAN}%
 \def\abstractname{ABSTRAK}%
 \def\acknowledgmentname{HALAMAN PERSEMBAHAN}%
-\def\approvalname{PENGESAHAN PROPOSAL}%
+\def\approvalname{PENGESAHAN TUGAS AKHIR}%
 \def\partname{BAGIAN}%
 \def\chaptername{BAB}%
 \def\appendixname{LAMPIRAN}%
