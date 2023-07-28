@@ -6,27 +6,30 @@
 \babel@toc {bahasa}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Perangkat Bluetooth Low Energy.\relax }}{5}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ilustrasi Metode \textit {Fingerprinting} \citep {yudha2018indoor}\relax }}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Ilustrasi Kalman Filter \citep {ihsan2018analisis}\relax }}{8}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Ilustrasi Metode Pengembangan Menggunakan Scrum \citep {schwaber2011scrum}.\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Perangkat Bluetooth Low Energy.\relax }}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ilustrasi Metode \textit {Fingerprinting} \citep {yudha2018indoor}\relax }}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ilustrasi Kalman Filter \citep {ihsan2018analisis}\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Ilustrasi Metode Pengembangan Menggunakan Scrum \citep {schwaber2011scrum}.\relax }}{15}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Roadmap} Penelitian Fase 1 \relax }}{20}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Roadmap} Penelitian Fase 2 \relax }}{21}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram Alir Penelitian\relax }}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Denah lantai 1 Gedung A FMIPA\relax }}{25}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Denah lantai 2 Gedung A FMIPA\relax }}{25}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Denah lantai 3 Gedung A FMIPA\relax }}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Roadmap} Penelitian Fase 1 \relax }}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Roadmap} Penelitian Fase 2 \relax }}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram Alir Penelitian\relax }}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Denah lantai 1 Gedung A FMIPA\relax }}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Denah lantai 2 Gedung A FMIPA\relax }}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Denah lantai 3 Gedung A FMIPA\relax }}{27}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Use Case Diagram}\relax }}{30}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Deployment Diagram}\relax }}{31}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Class Diagram}\relax }}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Alur Kerja Sistem\relax }}{33}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Flow Diagram} Navigasi \textit {Indoor}\relax }}{34}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra\relax }}{35}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Denah lantai 1 Gedung A FMIPA dengan BLE\relax }}{38}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Denah lantai 2 Gedung A FMIPA dengan BLE\relax }}{39}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Denah lantai 3 Gedung A FMIPA dengan BLE\relax }}{39}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra\relax }}{41}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Skor UMUX ke SUS\relax }}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Use Case Diagram}\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Deployment Diagram}\relax }}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Class Diagram}\relax }}{33}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Alur Kerja Sistem\relax }}{34}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Flow Diagram} Navigasi \textit {Indoor}\relax }}{35}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra\relax }}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Denah lantai 1 Gedung A FMIPA dengan BLE\relax }}{39}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Denah lantai 2 Gedung A FMIPA dengan BLE\relax }}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Denah lantai 3 Gedung A FMIPA dengan BLE\relax }}{40}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Potongan Code untuk Implementasi Talkback\relax }}{41}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Potongan Code untuk perhitungan Kalman Filter\relax }}{42}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Potongan Code untuk perhitungan Akurasi Rute\relax }}{43}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Tampilan Halaman Aplikasi Navigasi Indoor untuk Tunanetra\relax }}{44}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Skor UMUX ke SUS\relax }}{46}{figure.caption.36}%
 \addvspace {10\p@ }

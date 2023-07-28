@@ -13,8 +13,8 @@ Untuk mengurangi kesulitan pengguna tunanetra dan untuk memastikan posisi penggu
 
 \newpage
 
-\par \textit{Speech Recognition} merupakan salah satu bentuk dari teknologi yang disebut \textit{Artificial Intelligence} (AI). \textit{Speech Recognition} sendiri merupakan teknologi pada perangkat komputer agar dapat mengenali dan memahami kata-kata yang diucapkan oleh manusia. Pada sistem \textit{Speech Recognition} memiliki 2 sistem utama yaitu \textit{Speech-to-Text} (STT) dan \textit{Text-to-Speech} (TTS). \textit{Speech Recognition} juga dikenal sebagai sistem \textit{Speech-to-Text} dimana suara diterima dan diterjemahkan sebagai teks agar dapat dikenali. 
-Sedangkan \textit{Text-to-Speech} merupakan teks yang diterjemahkan oleh perangkat menjadi suara sebagai keluaran dari perangkat sehingga suara dapat didengar oleh pengguna. Seiring berjalannya waktu penerapan \textit{Speech Recognition} yang terkenal adalah Google Assistant oleh Google, Siri oleh Apple dan Alexa dari Amazon. Teknologi ini akan diimplementasikan pada \textit{smartphone} Android yang dimiliki tunanetra untuk memandu rute pada gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Syiah Kuala (USK).
+\par \textit{Speech Recognition} atau \textit{Automatic Speech Recognition (ASR)} merupakan salah satu bentuk dari teknologi yang disebut \textit{Artificial Intelligence} (AI). ASR sendiri merupakan teknologi pada perangkat komputer agar dapat mengenali dan memahami kata-kata yang diucapkan oleh manusia. Pada sistem \textit{Speech Recognition} memiliki 2 sistem utama yaitu \textit{Speech-to-Text} (STT) dan \textit{Text-to-Speech} (TTS). \textit{Speech Recognition} juga dikenal sebagai sistem \textit{Speech-to-Text} dimana suara diterima dan diterjemahkan sebagai teks agar dapat dikenali \citep{mustikarini2019real}. 
+Sedangkan \textit{Text-to-Speech} merupakan teks yang diterjemahkan oleh perangkat menjadi suara sebagai keluaran dari perangkat sehingga suara dapat didengar oleh pengguna \citep{mustikarini2019real}. Seiring berjalannya waktu penerapan \textit{Speech Recognition} yang terkenal adalah Google Assistant oleh Google, Siri oleh Apple dan Alexa dari Amazon. Teknologi ini akan diimplementasikan pada \textit{smartphone} Android yang dimiliki tunanetra untuk memandu rute pada gedung A Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Syiah Kuala (USK).
 
 \par Android sendiri telah didukung fitur \textit{mobile GPS, Geolocation, Bluetooth, Voice Recorder, Speaker}, dsb. Fitur tersebut dapat mendukung teknologi yang akan dibangun dalam penelitian ini. Pada penelitian ini juga menggunakan IPS dengan menggunakan Bluetooth Low Energy (BLE) dan Speech Command Recognition akan diimplementasikan pada aplikasi android untuk penentu lokasi dan pemandu rute. BLE memiliki kelebihan-kelebihan dibandingkan protokol \textit{Internet of Things} (IoT) lainnya di antaranya konfigurasi yang mudah, metode pengiriman data yang mudah serta jangkauan konektivitas yang luas \citep{puspitasari2020}. 
 
@@ -26,19 +26,19 @@ Sedangkan \textit{Text-to-Speech} merupakan teks yang diterjemahkan oleh perangk
 \section{Rumusan Masalah}
 Berdasarkan latar belakang yang telah dijelaskan sebelumnya, maka masalah yang akan dikaji pada penelitian ini adalah sebagai berikut:
 \begin{enumerate}
-	\item Bagaimana membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra ?
-	\item Bagaimana aplikasi dapat membantu serta memandu tunanetra agar sampai ke tujuan berdasarkan lokasi dengan menggunakan teknologi \textit{Bluetooth Low Energy }(BLE) menggunakan metode \textit{Recieved Signal Strength Indicator} (RSSI) ?
-	\item Bagaimana proses pengimplementasian Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning} ?
-	\item Bagaimana menghitung akurasi penetapan rute pada aplikasi dengan mengambil posisi pertama sampai ke tujuan ?
+	\item Bagaimana membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra pada area gedung A FMIPA USK?
+	\item Bagaimana aplikasi dapat membantu serta memandu tunanetra agar sampai ke tujuan pada area gedung A FMIPA USK dengan menggunakan teknologi \textit{Bluetooth Low Energy }(BLE) menggunakan metode \textit{Recieved Signal Strength Indicator} (RSSI)?
+	\item Bagaimana proses pengimplementasian Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning}?
+	\item Bagaimana menghitung akurasi penetapan rute pada aplikasi dengan mengambil posisi pertama sampai ke tujuan pada area gedung A FMIPA USK?
 \end{enumerate}
 
 \section{Tujuan Penelitian}
 Berdasarkan rumusan masalah yang telah disebutkan sebelumnya, maka dapat dipaparkan tujuan dari penelitian ini adalah sebagai berikut: 
 \begin{enumerate}
-	\item Membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra.
-	\item Membangun aplikasi yang dapat memandu tunanetra agar sampai ke tujuan.
+	\item Membangun aplikasi \textit{Speech Command Recognition} untuk \textit{Route Guidance} berbasis \textit{Indoor Positioning} untuk tunanetra pada area gedung A FMIPA USK.
+	\item Membangun aplikasi yang dapat memandu tunanetra agar sampai ke tujuan pada area gedung A FMIPA USK.
 	\item Mengimplementasi Model \textit{Speech Command Recognition} ke dalam aplikasi \textit{Route Guidance} berbasis \textit{Indoor Positioning}.
-	\item Menghitung akurasi penetapan rute pada aplikasi dengan mengambil posisi pertama sampai ke tujuan.
+	\item Menghitung akurasi penetapan rute pada aplikasi dengan mengambil posisi pertama sampai ke tujuan pada area gedung A FMIPA USK.
 \end{enumerate}
 
 

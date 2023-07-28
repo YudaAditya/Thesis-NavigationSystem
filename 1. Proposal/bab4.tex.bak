@@ -242,13 +242,43 @@ Tahap perancangan sistem ini meliputi perancangan alur kerja sistem yang berfung
 	
 	\item Konfigurasi Model \textit{Voice Recognition} dan \textit{Text-to-speech}
 	\par Pada tahapan ini model dipasangkan ke dalam aplikasi dengan menggunakan VOSK API dan Google \textit{text-to-speech} dengan menggunakan fungsi Talkback pada Android sehingga aplikasi dapat menerima input dari pengguna serta memberikan informasi \textit{feedback} ke pengguna saat dipandu.
+	\par Implementasi model dipanggil ke dalam bagian build.gralde diikuti dengan implementasi \textit{path} dari model yang ada. Untuk Talkback diimplementasi dengan memanggil permission seperti pada gambar \ref{img:talkbackcode}.
+	
+	\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab4/talkback}}
+\caption{Potongan Code untuk Implementasi Talkback}
+\label{img:talkbackcode}
+\end{figure}
+	
+	\par Implementasi Talkback dilakukan agar pengguna dapat menerima respon dari smartphone. VOSK API diimplementasikan agar pengguna dapat memberikan input tujuan.
 	
 	\newpage
 	\item  Data akurasi lokasi pengguna serta akurasi rute
-\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter.
+\par Data yang akan diperoleh dari proses koneksi BLE terdekat dengan RSSI sebagai tolak ukur akurasi lokasi pengguna, sedangkan untuk akurasi rute menggunakan data pemetaan rute dan lokasi tujuan yang telah dipetakan pada aplikasi dengan memanfaatkan RSSI dari beberapa koneksi BLE terdekat yang saling terhubung menggunakan Kalman Filter. Implementasi perhitungan Kalman Filter dapat dilihat pada gambar \ref{img:kalmanfiltercode} berikut. 
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab4/kalmanfilter}}
+\caption{Potongan Code untuk perhitungan Kalman Filter}
+\label{img:kalmanfiltercode}
+\end{figure}
+
+\par Implementasi Kalman Filter dengan menghitung titik lokasi pengguna secara \textit{real-time} dengan mengambil nilai RSSI dari BLE, kemudian nilai yang diperoleh diteruskan untuk menghitung akurasi rute tujuan pengguna. Implementasi perhitungan akurasi rute dapat dilihat pada gambar \ref{aplikasimappingbagian1} berikut.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [scale = 0.2]{gambar/bab4/path}}
+\caption{Potongan Code untuk perhitungan Akurasi Rute}
+\label{img:rutecode}
+\end{figure}
+
+\par Implementasi akurasi rute menggunakan algoritma A* dengan mencari jalur terpendek dengan memanfaatkan nilai yang diperoleh oleh Kalman Filter.
 
 	\item Pembuatan Aplikasi
-	\par Aplikasi dibuat dengan menggunakan bahasa pemrograman Kotlin dengan menggunakan \textit{jetpack compose} melalui IDE Android Studio. Media penyimpanan data BLE dan lokasi menggunakan basis data ROOM. Basis data disimpan secara lokal dan dapat diakses menggunakan query MySQL berbasis DAO ROOM. BLE dan data lokasi tersimpan berupa Id, RSSI, MAC Address, nama ruangan. Proses input pengguna dapat memanggil aplikasi secara langsung menggunakan suara dan memberi lokasi tujuan. Titik mulai pengguna diakses menggunakan Bluetooth dengan mencari BLE terdekat dengan lokasi pengguna.
+	\par Aplikasi dibuat dengan menggunakan bahasa pemrograman Kotlin dengan menggunakan \textit{jetpack compose} melalui IDE Android Studio. Media penyimpanan data BLE dan lokasi menggunakan basis data SQLite. Basis data disimpan secara lokal dan dapat diakses menggunakan query SQL berbasis DAO ROOM. BLE dan data lokasi tersimpan berupa Id, RSSI, MAC Address, nama ruangan, alias, dan lokasi lantai. 
+	
+	\par Proses input pengguna dapat memanggil aplikasi secara langsung menggunakan suara dan memberi lokasi tujuan. Titik mulai pengguna diakses menggunakan Bluetooth dengan mencari BLE terdekat dengan lokasi pengguna. Proses output berupa suara yang berupa text yang dibacakan menggunakan fitur Talkback pada smartphone saat permintaan inputan, proses pemanduan, serta sampai ke tujuan.
 	
 	\vspace{-0cm}
 	\begin{figure} [H]
