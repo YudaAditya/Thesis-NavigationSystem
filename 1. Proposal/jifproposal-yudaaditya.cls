@@ -188,7 +188,7 @@
 \def\nomenclaturename{DAFTAR SINGKATAN}%
 \def\abstractname{ABSTRAK}%
 \def\acknowledgmentname{HALAMAN PERSEMBAHAN}%
-\def\approvalname{PENGESAHAN TUGAS AKHIR}%
+\def\approvalname{PENGESAHAN}%
 \def\partname{BAGIAN}%
 \def\chaptername{BAB}%
 \def\appendixname{LAMPIRAN}%
@@ -198,6 +198,8 @@
 \def\figurename{Gambar}%
 \def\tablename{Tabel}%
 \def\pagename{Halaman}%
+\def\bebasplagiasiname{PERNYATAAN BEBAS PLAGIASI}%
+\def\suratpernyataanname{SURAT PERNYATAAN}%
 }
 
 %English
@@ -225,7 +227,7 @@
 %------------------------------------------------------------
 \gdef\@university{Universitas Syiah Kuala}
 \gdef\@faculty{Fakultas Matematika dan Ilmu Pengetahuan Alam}
-\gdef\@city{Darussalam, Banda Aceh}
+\gdef\@city{Universitas Syiah Kuala, Banda Aceh}
 \newcommand{\judul}[1]{\gdef\@judul{#1}}
 \newcommand{\@judul}{}
 \newcommand{\judulinggris}[1]{\gdef\@judull{#1}}
@@ -256,12 +258,16 @@
 \newcommand{\@secondsupervisor}{}
 \newcommand{\kajur}[1]{\gdef\@kajur{#1}}
 \newcommand{\@kajur}{}
+\newcommand{\dekan}[1]{\gdef\@dekan{#1}}
+\newcommand{\@dekan}{}
 \newcommand{\firstnip}[1]{\gdef\@firstnip{#1}}
 \newcommand{\@firstnip}{}
 \newcommand{\secondnip}[1]{\gdef\@secondnip{#1}}
 \newcommand{\@secondnip}{}
 \newcommand{\kajurnip}[1]{\gdef\@kajurnip{#1}}
 \newcommand{\@kajurnip}{}
+\newcommand{\dekannip}[1]{\gdef\@dekannip{#1}}
+\newcommand{\@dekannip}{}
 
 
 %------------------------------------------------------------
@@ -280,7 +286,7 @@
       \vspace{2.5cm}
       \MakeUppercase{\large{\bfseries{Tugas Akhir}}}\\ %it's me!
       \vspace{1.0cm}
-	  \normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna pelaksanaan penelitian Tugas Akhir\\} %it's me!
+	  \normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna memperoleh gelar Sarjana Komputer \\} %it's me!
        \vspace{1.0cm}
        {\normalfont
         Oleh:\\
@@ -294,7 +300,8 @@
 		\vspace{2cm}
        {\normalfont
          \MakeUppercase{\normalfont\bfseries Jurusan \@dept}\\
-         \MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+        %  \MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+		 \MakeUppercase{\normalfont\bfseries\@faculty}\\
          \MakeUppercase{\normalfont\bfseries\@city}\\
          %\vspace{0.5cm}
          \MakeUppercase{\normalfont\bfseries\@yearsubmit}}\\
@@ -318,7 +325,7 @@
 			\vspace{2.5cm}
 			\MakeUppercase{\large{\bfseries{Tugas Akhir}}}\\ %it's me!
 			\vspace{1.0cm}
-			\normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna pelaksanaan penelitian Tugas Akhir\\} %it's me!
+			\normalsize{Diajukan untuk melengkapi tugas-tugas dan\\memenuhi syarat-syarat guna memperoleh gelar Sarjana Komputer\\} %it's me!
 			\vspace{1.0cm}
 			{\normalfont
 				Oleh:\\
@@ -332,7 +339,8 @@
 			\vspace{2cm}
 			{\normalfont
 				\MakeUppercase{\normalfont\bfseries Jurusan \@dept}\\
-				\MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+				% \MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+				\MakeUppercase{\normalfont\bfseries\@faculty}\\
 				\MakeUppercase{\normalfont\bfseries\@city}\\
 				%\vspace{0.5cm}
 				\MakeUppercase{\normalfont\bfseries\@yearsubmit}}\\
@@ -341,7 +349,7 @@
 }
 
 %------------------------------------------------------------
-%Approval Page
+%Approval Page tanpa dekan
 %------------------------------------------------------------
 \def\approvalpage{%
 	\chapter*{\approvalname}%
@@ -384,22 +392,125 @@
 
 			% Mengetahui dekan dan kajur informatika
 			% Tanpa mengetahui dekan
+			% Mengetahui:\\
+			% \begin{singlespace}
+			% Ketua Jurusan Informatika FMIPA\\ Universitas Syiah Kuala,\\
+			% \vspace{2.0cm}
+			%  \underline{\@kajur}\\
+		    %   NIP. \@kajurnip 
+			% \end{singlespace}
+			% %\end{singlespace}
+
 			Mengetahui:\\
-			\begin{singlespace}
-			Ketua Jurusan Informatika FMIPA\\ Universitas Syiah Kuala,\\
-			\vspace{2.0cm}
-			 \underline{\@kajur}\\
-		      NIP. \@kajurnip 
-			\end{singlespace}
+			\onehalfspacing
+				\begin{tabular}{lll}
+					Dekan Fakultas MIPA & &
+					Ketua Jurusan Informatika FMIPA \\
+					\vspace{0.3cm} Universitas Syiah Kuala, & \vspace{0.3cm} & \vspace{0.3cm} Universitas Syiah Kuala,\\
+					\underline{\@dekan}& &
+					\underline{\@kajur} \\
+					NIP. \@dekannip & &  NIP. \@kajurnip
+				\end{tabular}
 			%\end{singlespace}
 
 		\end{doublespace}
 
 		\vspace{1.0cm}
+		Lulus Sidang Sarjana pada hari \@approvaldate
 	\end{center}
 
 	\addcontentsline{toc}{chapter}{\approvalname}
 }
+
+%------------------------------------------------------------
+% Redefine Bebas Plagiasi
+%------------------------------------------------------------
+
+\def\plagiasipage{%
+  \chapter*{\bebasplagiasiname}%
+\addcontentsline{toc}{chapter}{\bebasplagiasiname}
+}
+
+%------------------------------------------------------------
+% Redefine Surat Pernyataan
+%------------------------------------------------------------
+\def\suratpernyataanpage{%
+  \chapter*{\suratpernyataanname}%
+\addcontentsline{toc}{chapter}{\suratpernyataanname}
+}
+
+%------------------------------------------------------------
+% Redefine Lampiran
+%------------------------------------------------------------
+
+\def\lampiranpage{%
+  \chapter*{\appendixname}%
+\addcontentsline{toc}{chapter}{\appendixname}
+}
+%------------------------------------------------------------
+%Approval Page dengan dekan
+%------------------------------------------------------------
+% \def\approvalpage{%
+
+% 	\chapter*{\approvalname}%
+% 	\begin{center}
+% 		\begin{doublespace}
+% 			\vspace{0.5cm}
+% 			\fontsize{12pt}{8pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
+
+% 			\vspace{1cm}
+% 			\fontsize{12pt}{8pt}\selectfont\MakeUppercase{\Large{\bfseries\@judull}}\par\nobreak
+
+% 			\vspace{1.0cm}
+% 			Oleh:
+% 			\vspace{-0.5cm}
+% 			\begin{singlespace}
+% 				\begin{compactitem}
+% 					\addtolength{\itemindent}{3cm}
+% 					\setlength{\parsep}{0pt}
+% 					\item[]{\makebox[2cm]{Nama\hfill} : \@fullname}
+% 					\item[]{\makebox[2cm]{NPM\hfill} : \@idnum}
+% 					\item[]{\makebox[2cm]{Jurusan\hfill} : \@dept}
+% 				\end{compactitem}
+% 			\end{singlespace}
+% 			\vspace{1.0cm}
+% 			%Telah disetujui dan disahkan\\
+% 			%pada tanggal \@approvaldate
+% 			%\vspace{1.0cm}
+
+% 			Menyetujui:
+% 			\onehalfspacing
+% 				\begin{tabular}{lll}
+% 					Pembimbing I & \hspace{0.5cm}  & Pembimbing II \\
+% 					\vspace{0.3cm} & \vspace{0.3cm} & \vspace{0.3cm}\\
+% 					\underline{\@firstsupervisor}& &
+% 					\underline{\@secondsupervisor} \\
+% 					NIP. \@firstnip & &  NIP. \@secondnip
+% 				\end{tabular}
+% 			%\end{singlespace}
+% 			\vspace{1cm}
+
+% 			% Mengetahui dekan dan kajur informatika
+% 			Mengetahui:\\
+% 			\onehalfspacing
+% 				\begin{tabular}{lll}
+% 					Dekan Fakultas MIPA & &
+% 					Ketua Jurusan Informatika FMIPA \\
+% 					\vspace{0.3cm} Universitas Syiah Kuala, & \vspace{0.3cm} & \vspace{0.3cm} Universitas Syiah Kuala,\\
+% 					\underline{\@dekan}& &
+% 					\underline{\@kajur} \\
+% 					NIP. \@dekannip & &  NIP. \@kajurnip
+% 				\end{tabular}
+% 			%\end{singlespace}
+
+% 		\end{doublespace}
+
+% 		\vspace{1.0cm}
+% 		Lulus Sidang Sarjana pada hari \@approvaldate
+% 	\end{center}
+
+% 	\addcontentsline{toc}{chapter}{\approvalname}
+% }
 %------------------------------------------------------------
 % Acknowlegment
 %------------------------------------------------------------
@@ -443,6 +554,8 @@
   \addcontentsline{toc}{chapter}{\abstractname}
 }
 \def\endabstractind{\par\vfil\null\end{singlespacing}}
+
+
 
 %------------------------------------------------------------
 % Redefine Abstract in English

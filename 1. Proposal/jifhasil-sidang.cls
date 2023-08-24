@@ -257,12 +257,16 @@
 \newcommand{\@secondsupervisor}{}
 \newcommand{\kajur}[1]{\gdef\@kajur{#1}}
 \newcommand{\@kajur}{}
+\newcommand{\dekan}[1]{\gdef\@dekan{#1}}
+\newcommand{\@dekan}{}
 \newcommand{\firstnip}[1]{\gdef\@firstnip{#1}}
 \newcommand{\@firstnip}{}
 \newcommand{\secondnip}[1]{\gdef\@secondnip{#1}}
 \newcommand{\@secondnip}{}
 \newcommand{\kajurnip}[1]{\gdef\@kajurnip{#1}}
 \newcommand{\@kajurnip}{}
+\newcommand{\dekannip}[1]{\gdef\@kdekannip{#1}}
+\newcommand{\@dekannip}{}
 
 
 %------------------------------------------------------------
@@ -295,7 +299,8 @@
 		\vspace{2cm}
        {\normalfont
          \MakeUppercase{\normalfont\bfseries Jurusan \@dept}\\
-         \MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+        %  \MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+		\MakeUppercase{\normalfont\bfseries\@faculty}\\
          \MakeUppercase{\normalfont\bfseries\@city}\\
          %\vspace{0.5cm}
          \MakeUppercase{\normalfont\bfseries\@yearsubmit}}\\
@@ -407,7 +412,7 @@
 %------------------------------------------------------------
 % Acknowlegment
 %------------------------------------------------------------
-\def\acknowledgment{%
+\def\	{%
   \chapter*{\acknowledgmentname}%
 \null\vfill%Force the content of acknowledment to bottom page
 \addcontentsline{toc}{chapter}{\acknowledgmentname}
